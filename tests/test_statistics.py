@@ -118,6 +118,42 @@ class StatisticsTests(unittest.TestCase):
         result = summarize([row("m", "f", "adaptive", 0.0, 1)], 20)[0]
         self.assertIn("no between-family", result["uncertainty_warning"])
 
+    def test_all_success_non_ceiling_warns_about_bootstrap_boundary(self):
+        rows = [row("a", "fa", "sequential", 0.1, 1), row("b", "fb", "sequential", 0.2, 1)]
+        result = summarize(rows, 30)[0]
+        self.assertEqual(result["success_rate_ci_low"], 1.0)
+        self.assertIn("does not bound unobserved failure risk", result["uncertainty_warning"])
+
+    def test_identical_pairs_have_explicit_zero_variance_warning(self):
+        result = next(r for r in paired_comparisons(self.rows, 30)
+                      if r["policy"] == "adaptive" and r["comparator"] == "fixed_top_k")
+        self.assertIn("zero observed variance", result["uncertainty_warning"])
+        self.assertIn("not unseen-family equivalence", result["uncertainty_warning"])
+
+    def test_custom_paid_comparator_supports_cv_role(self):
+        rows = [dict(r, policy="matched_simple" if r["policy"] == "fixed_top_k" else r["policy"])
+                for r in self.rows]
+        result = paired_comparisons(rows, 20, comparators=("matched_simple",))
+        self.assertTrue(any(r["policy"] == "adaptive" and r["comparator"] == "matched_simple" for r in result))
+        self.assertTrue(all(r["comparator"] == "matched_simple" for r in result))
+        with self.assertRaisesRegex(ValueError, "never a denominator"):
+            paired_comparisons(rows, 20, comparators=("cheap_only",))
+
+    def test_cv_bootstrap_keeps_family_draw_count_within_each_fold(self):
+        rows = [dict(row(f"m{i}", f"f{i}", "sequential", 0.1, 1), fold_id=i // 2)
+                for i in range(6)]
+        weights = _family_weights(rows, 60, 18, stratify_by="fold_id")
+        for start in (0, 2, 4):
+            np.testing.assert_array_equal(weights[:, start:start + 2].sum(axis=1), np.full(60, 2))
+        result = summarize(rows, 60, stratify_by="fold_id")[0]
+        self.assertIn("within fixed fold_id strata", result["interval_method"])
+
+    def test_cv_bootstrap_rejects_family_crossing_folds(self):
+        rows = [dict(row("m1", "same", "sequential", .1, 1), fold_id=0),
+                dict(row("m2", "same", "sequential", .1, 1), fold_id=1)]
+        with self.assertRaisesRegex(ValueError, "crosses bootstrap strata"):
+            summarize(rows, 20, stratify_by="fold_id")
+
     def test_plot_creates_exportable_png(self):
         with tempfile.TemporaryDirectory() as directory:
             path = Path(directory) / "risk.png"

@@ -103,15 +103,33 @@ def _arrays(rows: list[dict[str, Any]]) -> dict[str, np.ndarray]:
     }
 
 
-def _family_weights(rows: list[dict[str, Any]], bootstrap: int, seed: int) -> np.ndarray:
+def _family_weights(
+    rows: list[dict[str, Any]], bootstrap: int, seed: int, stratify_by: str | None = None
+) -> np.ndarray:
     """Multiplicity of each molecule under bootstrap draws of whole families."""
     families = sorted({row["family_id"] for row in rows})
     family_index = {family: i for i, family in enumerate(families)}
     indexes = np.asarray([family_index[row["family_id"]] for row in rows], dtype=int)
     generator = np.random.default_rng(seed)
-    family_multiplicities = generator.multinomial(
-        len(families), np.repeat(1.0 / len(families), len(families)), size=bootstrap
-    )
+    if stratify_by is None:
+        family_multiplicities = generator.multinomial(
+            len(families), np.repeat(1.0 / len(families), len(families)), size=bootstrap
+        )
+    else:
+        family_strata: dict[str, str] = {}
+        for row in rows:
+            if stratify_by not in row or row[stratify_by] is None:
+                raise ValueError(f"missing bootstrap stratum {stratify_by}")
+            stratum = str(row[stratify_by])
+            previous = family_strata.setdefault(row["family_id"], stratum)
+            if stratum != previous:
+                raise ValueError("one chemical family crosses bootstrap strata")
+        family_multiplicities = np.zeros((bootstrap, len(families)), dtype=int)
+        for stratum in sorted(set(family_strata.values())):
+            columns = [family_index[family] for family in families if family_strata[family] == stratum]
+            family_multiplicities[:, columns] = generator.multinomial(
+                len(columns), np.repeat(1.0 / len(columns), len(columns)), size=bootstrap
+            )
     return family_multiplicities[:, indexes]
 
 
@@ -141,7 +159,8 @@ def _set_interval(result: dict[str, Any], metric: str, samples: np.ndarray | Non
 
 
 def summarize(
-    rows: Iterable[dict[str, Any]], bootstrap: int = 2000, seed: int = 1729
+    rows: Iterable[dict[str, Any]], bootstrap: int = 2000, seed: int = 1729,
+    stratify_by: str | None = None,
 ) -> list[dict[str, Any]]:
     """Return one decision-table record per policy.
 
@@ -169,12 +188,18 @@ def summarize(
             "fallback_rate": float(np.mean(arrays["fallback"])),
             "bootstrap_replicates": bootstrap,
             "interval_method": "family-cluster percentile bootstrap; molecule-weighted",
-            "uncertainty_warning": (
-                "one family: no between-family uncertainty can be estimated" if n_families == 1 else ""
-            ),
+            "uncertainty_warning": "; ".join(filter(None, [
+                "one family: no between-family uncertainty can be estimated" if n_families == 1 else "",
+                ("no observed failures: a degenerate empirical interval does not bound unobserved failure risk"
+                 if policy != "full_rerank" and bool(np.all(arrays["success"] == 1)) else ""),
+                ("no observed successes: empirical resampling cannot represent unseen successes"
+                 if bool(np.all(arrays["success"] == 0)) else ""),
+            ])),
         }
+        if stratify_by:
+            result["interval_method"] += f"; family resampling within fixed {stratify_by} strata"
         if bootstrap:
-            weights = _family_weights(group, bootstrap, seed)
+            weights = _family_weights(group, bootstrap, seed, stratify_by)
             denominators = np.sum(weights, axis=1)
             samples = {
                 "success_rate": (weights @ arrays["success"]) / denominators,
@@ -191,9 +216,11 @@ def summarize(
 
 
 def paired_comparisons(
-    rows: Iterable[dict[str, Any]], bootstrap: int = 2000, seed: int = 1729
+    rows: Iterable[dict[str, Any]], bootstrap: int = 2000, seed: int = 1729,
+    comparators: tuple[str, ...] = ("fixed_top_k", "full_rerank"),
+    stratify_by: str | None = None,
 ) -> list[dict[str, Any]]:
-    """Compare every paid policy with fixed_top_k and full_rerank.
+    """Compare every paid policy with the specified paid comparators.
 
     Deltas are policy minus comparator; a positive ``relative_call_savings`` is
     a reduction in calls.  Self comparisons and the unverified diagnostic are
@@ -201,6 +228,10 @@ def paired_comparisons(
     with the same family assignments and fixed candidate-pool sizes.
     """
     bootstrap = _integer(bootstrap, "bootstrap", 0)
+    if not comparators or len(set(comparators)) != len(comparators):
+        raise ValueError("comparators must be a nonempty sequence of unique policy names")
+    if any(not isinstance(name, str) or not name or name == "cheap_only" for name in comparators):
+        raise ValueError("comparators must name paid policies; cheap_only is never a denominator")
     grouped = _validated_groups(rows)
     paid = {name: group for name, group in grouped.items() if name != "cheap_only"}
     if not paid:
@@ -210,12 +241,14 @@ def paired_comparisons(
     for name, group in paid.items():
         if [row["molecule_id"] for row in group] != expected:
             raise ValueError(f"paired comparison requires identical molecule pools: {name}")
+        if stratify_by and [row.get(stratify_by) for row in group] != [row.get(stratify_by) for row in first]:
+            raise ValueError("paired policies disagree on bootstrap strata")
     arrays = {name: _arrays(group) for name, group in paid.items()}
-    weights = _family_weights(first, bootstrap, seed) if bootstrap else None
+    weights = _family_weights(first, bootstrap, seed, stratify_by) if bootstrap else None
     denominators = np.sum(weights, axis=1) if bootstrap else None
     comparisons: list[dict[str, Any]] = []
     for policy in paid:
-        for comparator in ("fixed_top_k", "full_rerank"):
+        for comparator in comparators:
             if comparator not in paid or comparator == policy:
                 continue
             left, right = arrays[policy], arrays[comparator]
@@ -232,8 +265,11 @@ def paired_comparisons(
                 "n_families": len({row["family_id"] for row in first}),
                 "bootstrap_replicates": bootstrap,
                 "interval_method": "paired family-cluster percentile bootstrap; molecule-weighted",
+                "uncertainty_warning": "",
                 "relative_call_savings": float(1.0 - np.sum(left["calls"]) / np.sum(right["calls"])),
             }
+            if stratify_by:
+                result["interval_method"] += f"; family resampling within fixed {stratify_by} strata"
             for metric, values in differences.items():
                 result[metric] = float(np.mean(values))
                 samples = (weights @ values) / denominators if bootstrap else None
@@ -243,6 +279,13 @@ def paired_comparisons(
                 if bootstrap else None
             )
             _set_interval(result, "relative_call_savings", savings)
+            constant_differences = [name for name, values in differences.items()
+                                    if bool(np.all(values == values[0]))]
+            if constant_differences:
+                result["uncertainty_warning"] = (
+                    "zero observed variance in " + ", ".join(constant_differences)
+                    + "; degenerate intervals describe these paired observations, not unseen-family equivalence"
+                )
             comparisons.append(result)
     return comparisons
 
@@ -252,6 +295,7 @@ def plot_risk_calls(
     output_path: str | Path,
     title: str,
     heldout_families: int,
+    scope_label: str = "Held-out chemical families",
 ) -> str:
     """Save an exact two-panel scientific plot of evaluator summaries.
 
@@ -290,6 +334,8 @@ def plot_risk_calls(
         "full_rerank": ("#222831", "s", "Full reference rerank"),
         "fixed_top_k": ("#2176ae", "o", "Fixed top-k"),
         "adaptive": ("#b44d20", "D", "Adaptive cheap-gap rule"),
+        "sequential": ("#7b459a", "^", "Sequential reference-feedback rule"),
+        "matched_simple": ("#177a68", "P", "Matched simple comparator"),
     }
     with plt.rc_context({
         "font.size": 10, "axes.titlesize": 12, "axes.labelsize": 11,
@@ -328,8 +374,9 @@ def plot_risk_calls(
             axis.set_xlim(left=-0.15)
             axis.set_ylim(bottom=-0.02 if axis is axes[1] else -0.5)
         handles, labels = axes[0].get_legend_handles_labels()
-        figure.legend(handles, labels, loc="lower center", ncol=2, frameon=False, bbox_to_anchor=(0.5, -0.005))
-        figure.suptitle(f"{title}\nHeld-out chemical families: {heldout_families}", y=0.99, fontsize=13)
+        figure.legend(handles, labels, loc="lower center", ncol=3 if len(handles) > 5 else 2,
+                      frameon=False, bbox_to_anchor=(0.5, -0.005))
+        figure.suptitle(f"{title}\n{scope_label}: {heldout_families}", y=0.99, fontsize=13)
         figure.text(
             0.5, 0.135,
             "Intervals: 95% family-cluster bootstrap. Offline call counts are not wall-clock savings.",

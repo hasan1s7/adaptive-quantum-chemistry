@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import shutil
 import subprocess
 import sys
@@ -59,9 +60,29 @@ def pipeline(kind, out, source, bootstrap):
 def reproduce(run: Path, out: Path):
     """Use the already-frozen choices; never retune a run whose holdout is observed."""
     from .benchmark import evaluate
+    from .integrity import verify_artifact_seal
+    run, out = run.resolve(), out.resolve()
     if out.exists() and any(out.iterdir()):
         raise ValueError("Reproduction output must be empty")
+    verify_artifact_seal(run)
     original = json.loads((run / "evaluation_seal.json").read_text())
+    if original.get("schema_version", 1) == 1:
+        release = ROOT / "releases" / "v0.1.0"
+        manifest = json.loads((release / "manifest.json").read_text(encoding="utf-8"))
+        for name, sha in manifest["source_sha256"].items():
+            if sha256_file(release / name) != sha:
+                raise ValueError(f"Immutable historical engine changed: {name}")
+        frozen = json.loads((run / "frozen_config.json").read_text(encoding="utf-8"))
+        for name, sha in frozen["source_code_sha256"].items():
+            if manifest["source_sha256"].get(f"aqc/{name}") != sha:
+                raise ValueError("No verified historical engine matches this frozen run")
+        env = dict(os.environ)
+        env.pop("PYTHONPATH", None)
+        subprocess.run([sys.executable, "-m", "aqc", "reproduce", "--run", str(run),
+                        "--out", str(out)], cwd=release, env=env, check=True)
+        verify_artifact_seal(out)
+        print("Historical v0.1 engine preserved: original five sealed outputs reproduced exactly.")
+        return
     for name, sha in original["artifact_sha256"].items():
         if sha256_file(run / name) != sha:
             raise ValueError(f"Sealed run artifact altered: {name}")
@@ -70,11 +91,13 @@ def reproduce(run: Path, out: Path):
     env = json.loads((run / "environment.json").read_text())
     evaluate(run / "prepared", out, env["bootstrap"], env["bootstrap_seed"])
     actual = json.loads((out / "evaluation_seal.json").read_text())
-    if actual != original:
-        raise ValueError("Reproduction failed: output checksums differ")
+    deterministic = {"per_molecule.csv", "aggregate.csv", "paired_comparisons.csv", "decision.json", "traces.jsonl", "heldout_frontier.csv", "heldout_frontier_traces.jsonl.gz"}
+    for name in deterministic:
+        if actual["artifact_sha256"].get(name) != original["artifact_sha256"].get(name):
+            raise ValueError(f"Reproduction failed: scientific output differs: {name}")
     from .dashboard import build_dashboard
     build_dashboard(out)
-    print("Reproduction passed: all sealed evaluation artifacts match byte for byte.")
+    print("Reproduction passed: seven deterministic scientific outputs match byte for byte; environment and views are recorded separately.")
 
 
 def main(argv=None):
@@ -101,6 +124,24 @@ def main(argv=None):
     p = commands.add_parser("reproduce", help="Replay sealed frozen choices without retuning; compare exact result hashes")
     p.add_argument("--run", required=True)
     p.add_argument("--out", required=True)
+    p = commands.add_parser("verify", help="Verify a saved run's seal and internal consistency")
+    p.add_argument("--run", required=True)
+    p.add_argument("--complete", action="store_true")
+    p = commands.add_parser("experiments", help="Run the 1,020-configuration DEVELOPMENT-only experiment suite and five family folds")
+    p.add_argument("--prepared", default="results/real/prepared")
+    p.add_argument("--out", default="runs/lab")
+    p.add_argument("--bootstrap", type=int, default=5000)
+    p.add_argument("--seed", type=int, default=271828)
+    p.add_argument("--historical", default="results/real")
+    p = commands.add_parser("lab", help="Build the interactive development lab from a verified experiment run")
+    p.add_argument("--results", default="results/lab")
+    p.add_argument("--historical", default="results/real")
+    p.add_argument("--prepared", default="results/real/prepared")
+    p.add_argument("--output")
+    p = commands.add_parser("verify-experiments", help="Audit every experimental decision and optionally independently replay selected policies")
+    p.add_argument("--results", default="results/lab")
+    p.add_argument("--prepared", default="results/real/prepared")
+    p.add_argument("--replay-selected", action="store_true")
     args = parser.parse_args(argv)
     try:
         if args.command in {"fixture", "real"}:
@@ -121,6 +162,24 @@ def main(argv=None):
             print(build_dashboard(Path(args.results)))
         elif args.command == "reproduce":
             reproduce(Path(args.run), Path(args.out))
+        elif args.command == "verify":
+            from .integrity import verify_artifact_seal
+            print(json.dumps(verify_artifact_seal(Path(args.run), require_complete=args.complete), indent=2))
+        elif args.command == "experiments":
+            from .experiments import run_experiments
+            from .lab import build_lab
+            run_experiments(Path(args.prepared), Path(args.out), bootstrap=args.bootstrap, seed=args.seed)
+            print(build_lab(Path(args.out), Path(args.historical), Path(args.prepared)))
+        elif args.command == "lab":
+            from .lab import build_lab
+            print(build_lab(Path(args.results), Path(args.historical), Path(args.prepared),
+                            Path(args.output) if args.output else None))
+        elif args.command == "verify-experiments":
+            from .experiments import verify_experiment_run
+            from .integrity import verify_artifact_seal
+            verify_artifact_seal(Path(args.results), require_complete=True)
+            print(json.dumps(verify_experiment_run(Path(args.prepared), Path(args.results),
+                                                   replay_selected=args.replay_selected), indent=2))
     except (ValueError, FileNotFoundError, subprocess.CalledProcessError) as error:
         parser.exit(2, f"ERROR: {error}\n")
 

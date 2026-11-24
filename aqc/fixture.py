@@ -31,7 +31,7 @@ def prepare_fixture(out: Path) -> dict:
     assignment = {a["molecule_id"]: a["split"] for a in manifest["assignments"]}
     for split in ("development", "evaluation"):
         selected = [m for m in molecules if assignment[m["molecule_id"]] == split]
-        with (out / f"{split}_features.jsonl").open("w") as f, (out / f"{split}_references.jsonl").open("w") as r:
+        with (out / f"{split}_features.jsonl").open("w", encoding="utf-8", newline="\n") as f, (out / f"{split}_references.jsonl").open("w", encoding="utf-8", newline="\n") as r:
             for m in selected:
                 f.write(canonical_json({k: m[k] for k in ("molecule_id", "family_id", "candidates")}) + "\n")
                 r.write(canonical_json({"molecule_id": m["molecule_id"], "references": m["references"]}) + "\n")

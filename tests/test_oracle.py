@@ -68,7 +68,8 @@ class PolicyTests(unittest.TestCase):
         self.assertEqual(result["selected_candidate"], "b")
         self.assertEqual(result["expensive_calls"], 2)
         self.assertFalse(result["fallback"])
-        self.assertEqual(result["policy_events"][0]["event"], "escalation")
+        escalation = [event for event in result["policy_events"] if event["event"] == "escalation"]
+        self.assertEqual([event["candidate_id"] for event in escalation], ["b"])
 
     def test_escalation_wastes_calls(self):
         result = run_policy(candidates(0.0, 0.1, 4.0), {"a": 0.0, "b": 0.5, "c": 5.0},

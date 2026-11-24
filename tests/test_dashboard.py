@@ -91,12 +91,13 @@ def run_display_logic(path, use_full_as_matched=False):
 class DashboardTests(unittest.TestCase):
     def test_missing_outputs_remain_unavailable(self):
         with tempfile.TemporaryDirectory() as directory:
-            output = build_dashboard(Path(directory))
+            output = build_dashboard(Path(directory), allow_incomplete=True)
             payload = embedded_payload(output)
             self.assertEqual(payload["aggregate"], [])
             self.assertEqual(payload["molecules"], [])
             self.assertIn("aggregate.csv", payload["missing_files"])
             self.assertEqual(payload["source_files"], [])
+            self.assertFalse(payload["integrity"]["verified"])
             html = output.read_text()
             self.assertNotIn("fetch(", html)
             self.assertNotIn("<script src=", html)
@@ -107,7 +108,7 @@ class DashboardTests(unittest.TestCase):
             root = Path(directory)
             content = {"dataset_kind": "synthetic", "note": "</script><script>alert(1)</script>"}
             (root / "audit.json").write_text(json.dumps(content))
-            output = build_dashboard(root)
+            output = build_dashboard(root, allow_incomplete=True)
             self.assertNotIn("</script><script>alert", output.read_text())
             self.assertEqual(embedded_payload(output)["audit"], content)
 
@@ -116,7 +117,7 @@ class DashboardTests(unittest.TestCase):
             root = Path(directory)
             (root / "audit.json").write_text("not valid JSON")
             with self.assertRaises(json.JSONDecodeError):
-                build_dashboard(root)
+                build_dashboard(root, allow_incomplete=True)
 
     @unittest.skipUnless(FIXTURE_AVAILABLE, "run the fixture command to create saved dashboard inputs")
     def test_actual_fixture_is_embedded_without_changing_results(self):

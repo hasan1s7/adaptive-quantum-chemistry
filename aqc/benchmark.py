@@ -8,9 +8,10 @@ import platform
 import shutil
 from pathlib import Path
 
-from .data import canonical_json, digest, load_pools, sha256_file, validate_split, write_csv, write_json
+from .data import canonical_json, digest, load_pools, sha256_file, validate_split, write_csv, write_json, gzip_text_writer
 from .oracle import PolicySession, PolicyExecutionError
 from .statistics import paired_comparisons, plot_risk_calls, summarize
+from .integrity import write_artifact_seal
 
 TARGET_SUCCESS = .95
 TARGET_SAVINGS = .30
@@ -80,6 +81,9 @@ def evaluate_logged(pool, policy, config, session, split, stream):
                  "result": {"selected_candidate": None, "queries": error.queries,
                             "expensive_calls": error.expensive_calls, "stop_reason": "policy_execution_failure",
                             "error": str(error)}}
+        for name in ("failure_stage", "cause_type", "cleanup_errors", "worker_stderr", "policy_events", "observations"):
+            if hasattr(error, name):
+                trace["result"][name] = getattr(error, name)
         stream.write(canonical_json(trace) + "\n")
         stream.flush()
         raise
@@ -117,7 +121,7 @@ def tune(prepared: Path, out: Path) -> dict:
     configs["cheap_only"] = {"kind": "diagnostic"}
     all_rows = []
     # Gzip captures every hypothetical paid job even in the methods-development grid.
-    with PolicySession() as session, gzip.open(out / "development_traces.jsonl.gz", "wt", encoding="utf-8") as traces:
+    with PolicySession() as session, gzip_text_writer(out / "development_traces.jsonl.gz") as traces:
         for i, (name, config) in enumerate(configs.items()):
             for pool in pools:
                 row = evaluate_logged(pool, name, config, session, "development", traces)
@@ -127,7 +131,7 @@ def tune(prepared: Path, out: Path) -> dict:
     frontier = summarize(all_rows, bootstrap=0)
     write_csv(out / "development_frontier.csv", frontier)
     # Keep all actual decisions in compressed form, not merely aggregate performance.
-    with gzip.open(out / "development_per_molecule.jsonl.gz", "wt", encoding="utf-8") as f:
+    with gzip_text_writer(out / "development_per_molecule.jsonl.gz") as f:
         for row in all_rows:
             f.write(canonical_json(row) + "\n")
     fixed_points = [r for r in frontier if r["policy"].startswith("fixed_k_")]
@@ -168,7 +172,7 @@ def tune(prepared: Path, out: Path) -> dict:
               "search_grid": {"fixed_k": list(range(1, max_n+1)), "initial_k": INITIAL_K, "gaps_kcal": GAPS, "caps": CAPS,
                               "config_count": len(configs)},
               "source_code_sha256": {p.name: sha256_file(p) for p in sorted(Path(__file__).parent.glob("*.py"))
-                                     if p.name != "dashboard.py"},
+                                     if p.name not in {"dashboard.py", "lab.py"}},
               "limitations": ["Development selection is empirical and optimistically biased by grid search; final evaluation uses held-out families.",
                               "A >=95% observed success rate is not a population guarantee."]}
     frozen["config_sha256"] = digest(frozen)
@@ -187,7 +191,7 @@ def validate_frozen(prepared: Path, frozen: dict) -> None:
         raise ValueError("Frozen config does not match this data/split")
     if audit["dataset_kind"] != frozen["dataset_kind"] or sha256_file(prepared / "audit.json") != frozen["audit_sha256"]:
         raise ValueError("Dataset provenance changed after freeze")
-    current_modules = {p.name for p in Path(__file__).parent.glob("*.py") if p.name != "dashboard.py"}
+    current_modules = {p.name for p in Path(__file__).parent.glob("*.py") if p.name not in {"dashboard.py", "lab.py"}}
     if current_modules != set(frozen["source_code_sha256"]):
         raise ValueError("Benchmark module set changed after freeze")
     for filename, sha in frozen["source_code_sha256"].items():
@@ -205,13 +209,13 @@ def evaluate(prepared: Path, out: Path, bootstrap: int = 5000, seed: int = 1729)
     # The first evaluation-label load happens AFTER the config has been written and verified.
     pools = load_pools(prepared, "evaluation")
     rows, curve_rows = [], []
-    with PolicySession() as session, (out / "traces.jsonl").open("w") as f:
+    with PolicySession() as session, (out / "traces.jsonl").open("w", encoding="utf-8", newline="\n") as f:
         for name, config in frozen["policies"].items():
             for pool in pools:
                 row = evaluate_logged(pool, name, config, session, "evaluation", f)
                 rows.append(row)
     # A fresh session for the frozen descriptive curve, all jobs charged independently.
-    with PolicySession() as session, gzip.open(out / "heldout_frontier_traces.jsonl.gz", "wt", encoding="utf-8") as f:
+    with PolicySession() as session, gzip_text_writer(out / "heldout_frontier_traces.jsonl.gz") as f:
         for name, config in frozen["holdout_curve_configs"].items():
             for pool in pools:
                 row = evaluate_logged(pool, name, config, session, "evaluation", f)
@@ -251,7 +255,7 @@ def evaluate(prepared: Path, out: Path, bootstrap: int = 5000, seed: int = 1729)
                 "observed_risk_no_worse_than_frozen_comparator": observed_match,
                 "observed_30pct_call_savings_met": observed_saving,
                 "observed_joint_target_met": observed_risk_ok and comparator_risk_ok and observed_match and observed_saving,
-                "bootstrap_joint_evidence": bool(adaptive["success_rate_ci_low"] is not None
+                "all_marginal_interval_checks_pass": bool(adaptive["success_rate_ci_low"] is not None
                     and adaptive["success_rate_ci_low"] >= TARGET_SUCCESS
                     and comparator["success_rate_ci_low"] >= TARGET_SUCCESS
                     and pair["delta_success_rate_ci_low"] >= 0
@@ -268,12 +272,10 @@ def evaluate(prepared: Path, out: Path, bootstrap: int = 5000, seed: int = 1729)
                    "bootstrap_unit": "chemical family; paired, all molecules retained; molecule-weighted metrics; 95% percentile CIs"}
     write_json(out / "environment.json", environment)
     report = report_markdown(audit, split, frozen, aggregate, decision, environment)
-    (out / "REPORT.md").write_text(report)
+    (out / "REPORT.md").write_text(report, encoding="utf-8", newline="\n")
     if audit["dataset_kind"] == "synthetic":
         fixture_checks(prepared, out)
-    seal = {"config_sha256": frozen["config_sha256"], "split_sha256": split["split_sha256"],
-            "artifact_sha256": {name: sha256_file(out / name) for name in ["per_molecule.csv", "aggregate.csv", "paired_comparisons.csv", "decision.json", "traces.jsonl"]}}
-    write_json(out / "evaluation_seal.json", seal)
+    write_artifact_seal(out, config_sha256=frozen["config_sha256"], split_sha256=split["split_sha256"])
     print(canonical_json(decision), flush=True)
     return decision
 
@@ -310,7 +312,7 @@ def report_markdown(audit, split, frozen, aggregate, decision, environment):
               "## Decision", "", f"Frozen matched-risk comparator: **{decision['primary_comparator']}**.", "",
               f"Adaptive call savings: **{pct(decision['relative_call_savings'])}**, 95% paired-family CI {pct(pair['relative_call_savings_ci_low'])} to {pct(pair['relative_call_savings_ci_high'])}.", "",
               f"Adaptive minus comparator success: {100*pair['delta_success_rate']:.2f} percentage points (95% CI {100*pair['delta_success_rate_ci_low']:.2f} to {100*pair['delta_success_rate_ci_high']:.2f}).",
-              f"Observed joint target met: **{decision['observed_joint_target_met']}**. Conservative bootstrap evidence for all three conditions: **{decision['bootstrap_joint_evidence']}**.", "",
+              f"Observed joint target met: **{decision['observed_joint_target_met']}**. All marginal interval checks pass: **{decision['all_marginal_interval_checks_pass']}**. This is not a simultaneous 95% confidence statement or a calibrated risk guarantee.", "",
               f"Both frozen policies meet the observed 95% target: **{decision['target_risk_comparison_available']}**. If false, call differences are descriptive and do not establish savings at the target risk.", "",
               "Risk matching is selected on development data. A holdout risk mismatch is reported, never repaired by choosing a different test-set point.", "",
               f"A reduced-call fixed baseline met the development 95% target: **{frozen['reduced_call_fixed_meets_dev_target']}**.", "",

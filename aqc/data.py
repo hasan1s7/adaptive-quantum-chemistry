@@ -2,7 +2,10 @@
 from __future__ import annotations
 
 import csv
+from contextlib import contextmanager
+import gzip
 import hashlib
+import io
 import json
 import math
 import re
@@ -31,17 +34,28 @@ def digest(value) -> str:
 
 def write_json(path: Path, value) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(json.dumps(value, indent=2, sort_keys=True, allow_nan=False) + "\n")
+    path.write_text(json.dumps(value, indent=2, sort_keys=True, allow_nan=False) + "\n",
+                    encoding="utf-8", newline="\n")
 
 
 def write_csv(path: Path, rows: list[dict], fields: list[str] | None = None) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    with path.open("w", newline="") as f:
+    with path.open("w", newline="", encoding="utf-8") as f:
         if not rows and not fields:
             return
         writer = csv.DictWriter(f, fieldnames=fields or list(rows[0]), extrasaction="raise")
         writer.writeheader()
         writer.writerows(rows)
+
+
+@contextmanager
+def gzip_text_writer(path: Path):
+    """Canonical UTF-8/LF gzip output with no clock or path in its header."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("wb") as raw:
+        with gzip.GzipFile(filename="", mode="wb", fileobj=raw, mtime=0) as zipped:
+            with io.TextIOWrapper(zipped, encoding="utf-8", newline="\n") as stream:
+                yield stream
 
 
 def to_kcal(value: float, unit: str, *, atomization: bool = False) -> float:
@@ -305,7 +319,7 @@ def prepare_real(source: Path, out: Path) -> dict:
     # Physical separation makes it possible to load development labels without reading test labels.
     for part in ("development", "evaluation"):
         selected = [m for m in molecules if assignments[m["molecule_id"]] == part]
-        with (out / f"{part}_features.jsonl").open("w") as f, (out / f"{part}_references.jsonl").open("w") as r:
+        with (out / f"{part}_features.jsonl").open("w", encoding="utf-8", newline="\n") as f, (out / f"{part}_references.jsonl").open("w", encoding="utf-8", newline="\n") as r:
             for m in selected:
                 f.write(canonical_json({k: m[k] for k in ("molecule_id", "family_id", "candidates")}) + "\n")
                 r.write(canonical_json({"molecule_id": m["molecule_id"], "references": m["references"]}) + "\n")

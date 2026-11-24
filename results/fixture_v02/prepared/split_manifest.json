@@ -1,0 +1,862 @@
+{
+  "assignments": [
+    {
+      "family_id": "synthetic_family_00",
+      "molecule_id": "synthetic_00_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_00",
+      "molecule_id": "synthetic_00_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_00",
+      "molecule_id": "synthetic_00_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_00",
+      "molecule_id": "synthetic_00_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_01",
+      "molecule_id": "synthetic_01_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_01",
+      "molecule_id": "synthetic_01_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_01",
+      "molecule_id": "synthetic_01_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_01",
+      "molecule_id": "synthetic_01_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_02",
+      "molecule_id": "synthetic_02_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_02",
+      "molecule_id": "synthetic_02_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_02",
+      "molecule_id": "synthetic_02_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_02",
+      "molecule_id": "synthetic_02_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_03",
+      "molecule_id": "synthetic_03_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_03",
+      "molecule_id": "synthetic_03_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_03",
+      "molecule_id": "synthetic_03_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_03",
+      "molecule_id": "synthetic_03_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_04",
+      "molecule_id": "synthetic_04_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_04",
+      "molecule_id": "synthetic_04_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_04",
+      "molecule_id": "synthetic_04_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_04",
+      "molecule_id": "synthetic_04_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_05",
+      "molecule_id": "synthetic_05_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_05",
+      "molecule_id": "synthetic_05_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_05",
+      "molecule_id": "synthetic_05_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_05",
+      "molecule_id": "synthetic_05_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_06",
+      "molecule_id": "synthetic_06_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_06",
+      "molecule_id": "synthetic_06_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_06",
+      "molecule_id": "synthetic_06_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_06",
+      "molecule_id": "synthetic_06_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_07",
+      "molecule_id": "synthetic_07_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_07",
+      "molecule_id": "synthetic_07_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_07",
+      "molecule_id": "synthetic_07_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_07",
+      "molecule_id": "synthetic_07_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_08",
+      "molecule_id": "synthetic_08_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_08",
+      "molecule_id": "synthetic_08_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_08",
+      "molecule_id": "synthetic_08_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_08",
+      "molecule_id": "synthetic_08_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_09",
+      "molecule_id": "synthetic_09_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_09",
+      "molecule_id": "synthetic_09_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_09",
+      "molecule_id": "synthetic_09_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_09",
+      "molecule_id": "synthetic_09_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_10",
+      "molecule_id": "synthetic_10_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_10",
+      "molecule_id": "synthetic_10_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_10",
+      "molecule_id": "synthetic_10_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_10",
+      "molecule_id": "synthetic_10_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_11",
+      "molecule_id": "synthetic_11_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_11",
+      "molecule_id": "synthetic_11_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_11",
+      "molecule_id": "synthetic_11_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_11",
+      "molecule_id": "synthetic_11_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_12",
+      "molecule_id": "synthetic_12_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_12",
+      "molecule_id": "synthetic_12_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_12",
+      "molecule_id": "synthetic_12_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_12",
+      "molecule_id": "synthetic_12_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_13",
+      "molecule_id": "synthetic_13_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_13",
+      "molecule_id": "synthetic_13_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_13",
+      "molecule_id": "synthetic_13_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_13",
+      "molecule_id": "synthetic_13_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_14",
+      "molecule_id": "synthetic_14_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_14",
+      "molecule_id": "synthetic_14_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_14",
+      "molecule_id": "synthetic_14_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_14",
+      "molecule_id": "synthetic_14_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_15",
+      "molecule_id": "synthetic_15_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_15",
+      "molecule_id": "synthetic_15_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_15",
+      "molecule_id": "synthetic_15_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_15",
+      "molecule_id": "synthetic_15_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_16",
+      "molecule_id": "synthetic_16_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_16",
+      "molecule_id": "synthetic_16_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_16",
+      "molecule_id": "synthetic_16_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_16",
+      "molecule_id": "synthetic_16_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_17",
+      "molecule_id": "synthetic_17_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_17",
+      "molecule_id": "synthetic_17_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_17",
+      "molecule_id": "synthetic_17_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_17",
+      "molecule_id": "synthetic_17_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_18",
+      "molecule_id": "synthetic_18_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_18",
+      "molecule_id": "synthetic_18_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_18",
+      "molecule_id": "synthetic_18_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_18",
+      "molecule_id": "synthetic_18_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_19",
+      "molecule_id": "synthetic_19_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_19",
+      "molecule_id": "synthetic_19_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_19",
+      "molecule_id": "synthetic_19_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_19",
+      "molecule_id": "synthetic_19_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_20",
+      "molecule_id": "synthetic_20_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_20",
+      "molecule_id": "synthetic_20_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_20",
+      "molecule_id": "synthetic_20_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_20",
+      "molecule_id": "synthetic_20_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_21",
+      "molecule_id": "synthetic_21_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_21",
+      "molecule_id": "synthetic_21_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_21",
+      "molecule_id": "synthetic_21_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_21",
+      "molecule_id": "synthetic_21_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_22",
+      "molecule_id": "synthetic_22_confidently_wrong",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_22",
+      "molecule_id": "synthetic_22_easy",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_22",
+      "molecule_id": "synthetic_22_escalation_helps",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_22",
+      "molecule_id": "synthetic_22_escalation_wastes",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_23",
+      "molecule_id": "synthetic_23_confidently_wrong",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_23",
+      "molecule_id": "synthetic_23_easy",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_23",
+      "molecule_id": "synthetic_23_escalation_helps",
+      "n_candidates": 6,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_23",
+      "molecule_id": "synthetic_23_escalation_wastes",
+      "n_candidates": 6,
+      "split": "evaluation"
+    }
+  ],
+  "counts": {
+    "development": {
+      "candidates": 384,
+      "families": 16,
+      "molecules": 64
+    },
+    "evaluation": {
+      "candidates": 192,
+      "families": 8,
+      "molecules": 32
+    }
+  },
+  "families": [
+    {
+      "family_id": "synthetic_family_00",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_00_confidently_wrong",
+        "synthetic_00_easy",
+        "synthetic_00_escalation_helps",
+        "synthetic_00_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_01",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_01_confidently_wrong",
+        "synthetic_01_easy",
+        "synthetic_01_escalation_helps",
+        "synthetic_01_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_02",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_02_confidently_wrong",
+        "synthetic_02_easy",
+        "synthetic_02_escalation_helps",
+        "synthetic_02_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_03",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_03_confidently_wrong",
+        "synthetic_03_easy",
+        "synthetic_03_escalation_helps",
+        "synthetic_03_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_04",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_04_confidently_wrong",
+        "synthetic_04_easy",
+        "synthetic_04_escalation_helps",
+        "synthetic_04_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_05",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_05_confidently_wrong",
+        "synthetic_05_easy",
+        "synthetic_05_escalation_helps",
+        "synthetic_05_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_06",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_06_confidently_wrong",
+        "synthetic_06_easy",
+        "synthetic_06_escalation_helps",
+        "synthetic_06_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_07",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_07_confidently_wrong",
+        "synthetic_07_easy",
+        "synthetic_07_escalation_helps",
+        "synthetic_07_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_08",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_08_confidently_wrong",
+        "synthetic_08_easy",
+        "synthetic_08_escalation_helps",
+        "synthetic_08_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_09",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_09_confidently_wrong",
+        "synthetic_09_easy",
+        "synthetic_09_escalation_helps",
+        "synthetic_09_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_10",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_10_confidently_wrong",
+        "synthetic_10_easy",
+        "synthetic_10_escalation_helps",
+        "synthetic_10_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_11",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_11_confidently_wrong",
+        "synthetic_11_easy",
+        "synthetic_11_escalation_helps",
+        "synthetic_11_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_12",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_12_confidently_wrong",
+        "synthetic_12_easy",
+        "synthetic_12_escalation_helps",
+        "synthetic_12_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_13",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_13_confidently_wrong",
+        "synthetic_13_easy",
+        "synthetic_13_escalation_helps",
+        "synthetic_13_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_14",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_14_confidently_wrong",
+        "synthetic_14_easy",
+        "synthetic_14_escalation_helps",
+        "synthetic_14_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_15",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_15_confidently_wrong",
+        "synthetic_15_easy",
+        "synthetic_15_escalation_helps",
+        "synthetic_15_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_16",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_16_confidently_wrong",
+        "synthetic_16_easy",
+        "synthetic_16_escalation_helps",
+        "synthetic_16_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_17",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_17_confidently_wrong",
+        "synthetic_17_easy",
+        "synthetic_17_escalation_helps",
+        "synthetic_17_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_18",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_18_confidently_wrong",
+        "synthetic_18_easy",
+        "synthetic_18_escalation_helps",
+        "synthetic_18_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_19",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_19_confidently_wrong",
+        "synthetic_19_easy",
+        "synthetic_19_escalation_helps",
+        "synthetic_19_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_20",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_20_confidently_wrong",
+        "synthetic_20_easy",
+        "synthetic_20_escalation_helps",
+        "synthetic_20_escalation_wastes"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "synthetic_family_21",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_21_confidently_wrong",
+        "synthetic_21_easy",
+        "synthetic_21_escalation_helps",
+        "synthetic_21_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_22",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_22_confidently_wrong",
+        "synthetic_22_easy",
+        "synthetic_22_escalation_helps",
+        "synthetic_22_escalation_wastes"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "synthetic_family_23",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "synthetic_23_confidently_wrong",
+        "synthetic_23_easy",
+        "synthetic_23_escalation_helps",
+        "synthetic_23_escalation_wastes"
+      ],
+      "split": "evaluation"
+    }
+  ],
+  "family_rule": "24 explicitly invented synthetic groups, four engineering scenarios per group",
+  "rule": "sort families by SHA256(seed|family_id); first floor(0.70*n_families) development",
+  "seed": 1729,
+  "split_sha256": "fa0fd94e332dff847f7c2bb1fe60ecd34340e95dbe8e1e77532e99756f0c98ca"
+}

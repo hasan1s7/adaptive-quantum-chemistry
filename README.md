@@ -1,34 +1,97 @@
-# Adaptive Quantum Chemistry
+# Adaptive Quantum Chemistry · v0.2
 
-A reproducible CLI benchmark for choosing which conformers deserve expensive
-reference single-point calculations. This repository contains a working
-hidden-label oracle, baseline policies, a verified Folmsbee–Hutchison replay,
-an explicitly synthetic fixture, and a portable results dashboard.
+**Start with the [interactive acquisition lab](results/lab/dashboard.html) in
+a real browser tab.** If a live tab has been opened for you, use that tab first.
+The file-preview pane is not the running application: download the HTML and
+open it in Chrome, Firefox, Edge, or Safari if the preview is blank or only
+shows text. Explore recorded risk-versus-calls results, rotate molecular
+geometries, step through paid reference queries, compare policies on the same
+pool, and inspect the evidence checks. The self-contained HTML embeds its
+JavaScript and coordinates; it needs no external assets, API requests, or
+quantum executable.
 
-**Executed result:** on 162 held-out molecules from 124 chemical families,
-fixed top-2 and the development-selected adaptive policy both achieved
-**96.30% within 1 kcal/mol with 2.00 calls per molecule**. The adaptive policy
-saved **0.00% additional calls** against the matched-risk fixed baseline.
-The requested 30% incremental saving was **not met**. Their success interval
-is 93.29–98.77%, so the observed success rate is not a certified ≥95% population
-guarantee.
+This repository implements a reproducible CLI benchmark for deciding which
+conformers deserve expensive reference single points. Version 0.2 registers
+**1,020 parameter configurations: 204 original configurations plus 816 new
+reference-feedback rules**, applied to **478 original development molecules
+in 287 chemical families**, with **five family-blocked validation folds**.
+That is **487,560 configuration–molecule replays**, not 487,560 independent
+scientific replications. Different configurations can produce identical
+behavior; the output reports that separately.
 
-## Start here
+The original 162-molecule, 124-family evaluation remains **historical v0.1
+evidence**. Version 0.2 does not reuse those labels to select new policies and
+does not claim a fresh external holdout. See the
+[registered protocol](docs/EXPERIMENT_PROTOCOL_V02.md),
+[data provenance](docs/PROVENANCE.md), and
+[independent prefreeze review](verification/v02/independent-review.md).
 
-Open `results/real/dashboard.html` directly in your browser. It is a single,
-self-contained local file, with no server, external assets, API requests,
-quantum jobs, or deployment. Use the outcome filter and molecule rows to
-inspect the six failures and their exact paid-query traces. Development and
-held-out plots are labelled separately. The dashboard has no tuning controls.
+<!-- V02_EXECUTED_RESULT_START -->
+## Executed v0.2 result: the new feedback rule did not earn its extra calls
 
-`results/real/REPORT.md` is the executed report. The full source audit is in
-[`docs/PROVENANCE.md`](docs/PROVENANCE.md). The synthetic dashboard is
-`results/fixture/dashboard.html`.
+**Sequential reference feedback succeeded on 455/478 molecules (95.19%) using
+973 calls. The frozen matched simple comparator succeeded on 457/478 (95.61%)
+using 964 calls.** The sequential policy used nine more calls and had two
+additional failures. Its observed call saving was **−0.934%**, so the target
+of at least 95% success with at least 30% fewer calls at matched risk was
+**not met**.
+
+These are out-of-fold results on the **287 original development families**,
+each validated once across five folds. The validation folds contained
+58, 58, 57, 57, and 57 families, respectively, and 96, 92, 88, 96, and 106
+molecules. This is internal development validation; **no fresh external
+holdout was used**.
+
+| Out-of-fold policy role | Success ≤1 kcal/mol | Median regret | P95 regret | Worst regret | Mean calls | Total calls | Fallback |
+|---|---:|---:|---:|---:|---:|---:|---:|
+| Full reference rerank | 100.00% (478/478) | 0.000 | 0.000 | 0.000 | 9.960 | 4,761 | 0% |
+| Fixed top-2 | 95.61% (457/478) | 0.000 | 0.778 | 5.147 | 2.000 | 956 | 0% |
+| Adaptive cheap-window | 95.61% (457/478) | 0.000 | 0.778 | 5.147 | 2.017 | 964 | 0.21% |
+| Frozen matched simple comparator | 95.61% (457/478) | 0.000 | 0.778 | 5.147 | 2.017 | 964 | 0.21% |
+| Sequential reference-feedback | 95.19% (455/478) | 0.000 | 0.898 | 5.147 | 2.036 | 973 | 0% |
+| Cheap-only, unverified diagnostic | 91.63% (438/478) | 0.054 | 1.793 | 5.228 | 0.000 | 0 | 0% |
+
+Regrets are kcal/mol relative to the best reference in the same candidate
+pool. Operating points were selected separately on the other four folds.
+The fixed rule selected k=2 in every fold. Its lower observed cost is useful
+context; the primary comparison retains the matched simple comparator chosen
+by the registered training-only rule.
+
+With seed **271828** and **5,000** paired family-bootstrap draws, sequential
+versus matched simple call savings were **−0.934% [−5.824%, +3.444%]**. The
+success difference was **−0.418 percentage points [−1.237, +0.426]**. These
+descriptive 95% intervals condition on the chosen folds and policies and
+include no difference; they do not establish that sequential feedback is
+intrinsically worse. Sequential success had interval **93.20%–97.01%**, so
+the point estimate also does not certify a ≥95% population guarantee.
+
+![Out-of-fold risk versus expensive calls on original development families](results/lab/risk_vs_calls.png)
+
+All **487,560** registered configuration–molecule replays completed and were
+audited, accounting for **1,803,309 offline charged-job equivalents**. The
+1,020 parameter configurations produced **659 distinct acquisition/selection
+behaviors** across the development pools. Trace storage contains **5,239
+distinct query histories**; deduplication did not waive any calls.
+An additional **2,390 selected configuration–molecule replays**, accounting
+for **7,654 additional charged-job equivalents**, independently reproduced
+their recorded outcomes. The complete evidence seal passed verification.
+These counts describe offline replay, not actual quantum jobs or compute
+expenditure.
+
+See the [executed report](results/lab/REPORT.md),
+[decision record](results/lab/decision.json),
+[per-molecule table](results/lab/per_molecule.csv), and
+[paired comparisons](results/lab/paired_comparisons.csv). The new measurement
+system has not demonstrated a shape probe's value. Any next shape-aware
+experiment must earn an improvement over these simple paid baselines; the
+larger heuristic search alone did not do so.
+<!-- V02_EXECUTED_RESULT_END -->
 
 ## Install
 
-Use Python 3.12 (executed with 3.12.14). Dependencies and all numerical/plotting
-transitive dependencies are pinned in `requirements.txt`.
+Use Python **3.12**; the recorded runtime is **3.12.14**. All numerical,
+chemistry, plotting, and transitive dependencies are pinned in
+[`requirements.txt`](requirements.txt).
 
 ```bash
 python3 -m venv .venv
@@ -37,86 +100,317 @@ python -m pip install -r requirements.txt
 python -m pip check
 ```
 
-On Windows, create the environment with `py -3.12 -m venv .venv` and activate
-it using `.venv\Scripts\Activate.ps1`. The remaining commands use `python`.
+The executed environment is Linux. Native Windows execution is not claimed.
+For PowerShell, the corresponding environment commands are
+`py -3.12 -m venv .venv` and `.venv\Scripts\Activate.ps1`; the remaining
+commands use `python`. Node.js is needed to execute the JavaScript/Python
+policy-parity tests. Those tests explicitly skip if Node is unavailable;
+the Python CLI does not need Node.
 
-### One command for the fixture
+## Run and verify
+
+Run commands from the repository root. Use a new output directory for a new
+run: registered, frozen, and sealed runs refuse silent overwriting.
+
+**After a Git clone**, restore the large saved decision ledger from its
+checksummed transport chunks before verifying or rebuilding the delivered
+experiment:
 
 ```bash
-python -m aqc fixture --out runs/fixture --bootstrap 5000
+python scripts/archive_evidence.py restore
 ```
 
-### One command for the real replay
+This reconstructs the exact original gzip bytes without recompressing or
+changing the evidence seal. The complete downloadable archive already
+contains the restored ledger and does not need this step.
+
+### One command for the synthetic fixture
 
 ```bash
-python -m aqc real --out runs/real --bootstrap 5000
+python -m aqc fixture --out runs/fixture-v02 --bootstrap 5000
 ```
 
-The distribution includes a checksummed, 8.6 MB compressed snapshot of the
-required upstream files, so the real replay needs **no data download** after
-dependency installation. It extracts into `.cache/`, verifies every included
-file, reconstructs the geometry audit, prepares the same family split, tunes
-on development data, writes and verifies frozen choices, then evaluates in a
-separate process and produces all outputs plus the dashboard.
+This exercises the baseline preparation, development selection, frozen
+reference evaluation, accounting, and dashboard pipeline on explicitly
+synthetic labels. Its cases include useful escalation, wasted escalation,
+and confidently wrong cheap rankings. Synthetic outcomes are never presented
+as molecular performance.
 
-If the snapshot is absent, the same command clones the public repository and
-checks out the pinned commit. No quantum executable is installed or invoked.
-For your own clean checkout of that exact revision:
+### One command for the real baseline replay
+
+```bash
+python -m aqc real --out runs/real-v02 --bootstrap 5000
+```
+
+The distribution includes a checksummed compressed snapshot of the required
+upstream files. After dependency installation, this command needs **no data
+download**. It verifies the snapshot, reconstructs geometry and energy
+pairing, prepares the original family split, tunes the original simple rules,
+freezes their choices, and evaluates them in a separate process.
+
+This command retains the original fixed/window/full benchmark and split;
+it is not a fresh validation cohort. The expanded sequential-policy experiment
+is the separate `experiments` command below. If the bundled snapshot is absent,
+the CLI clones the public source and checks out the pinned revision. A clean
+checkout can also be supplied explicitly:
 
 ```bash
 python -m aqc real --source /path/to/conformer-benchmark --out runs/real-checkout
 ```
 
-For an exact replay of the **already sealed** delivered evaluation without
-retuning:
+### Reproduce the historical sealed evaluation without retuning
 
 ```bash
-python -m aqc reproduce --run results/real --out runs/reproduced-real
+python -m aqc reproduce --run results/real --out runs/reproduced-v01
 ```
 
-This reuses the frozen choices and verifies byte-for-byte equality of the
-per-molecule results, aggregate table, paired comparisons, decision JSON,
-and complete primary evaluation query trace. It does not use observed
-holdout outcomes to select a new operating point. Existing frozen/sealed
-output directories refuse silent retuning or overwriting.
+For this historical v0.1 run, the CLI verifies the retained source in
+`releases/v0.1.0`, matches its module hashes to the original frozen record,
+and dispatches reproduction to that engine. It compares the original five
+sealed scientific outputs byte for byte. The original source-hash guard is
+preserved; v0.2 code is not substituted into the historical experiment.
+
+The retained release manifest also records the checksums of **58 historical
+result artifacts** across `results/real` and `results/fixture`. Those records
+remain unchanged. The historical engine retains its documented v0.1 failure
+and integrity limitations and is used for reproduction, not new development.
+
+### Run the 1,020-configuration development experiment
 
 ```bash
+python -m aqc experiments --prepared results/real/prepared --out runs/lab --historical results/real --seed 271828 --bootstrap 5000
+```
+
+This freezes the registry, source/data hashes, fold assignments, and selection
+rule before executing the grid. It uses only the **original development
+cohort**, writes every configuration–pool decision, selects operating points
+using four folds, and scores each selected rule on the remaining fold. It
+then audits the ledger, independently replays selected decisions, seals the
+outputs, and builds the interactive lab.
+
+The delivered run uses `results/lab`. Independently verify its complete
+ledger and rerun its selected policies with:
+
+```bash
+python -m aqc verify-experiments --results results/lab --prepared results/real/prepared --replay-selected
+```
+
+The selected-policy verification replays are additional executions with their
+own query accounting; they are not included in the 487,560 grid decisions.
+To rebuild the lab from verified saved evidence:
+
+```bash
+python -m aqc lab --results results/lab --historical results/real --prepared results/real/prepared
+```
+
+Open the resulting file in an actual browser. If local HTML opening is
+restricted, serve the repository locally and visit
+<http://127.0.0.1:8765/results/lab/dashboard.html>:
+
+```bash
+python -m http.server 8765 --bind 127.0.0.1
+```
+
+The bundled 3D display asset can be independently verified and rebuilt from
+the pinned source snapshot without reading a reference-energy table:
+
+```bash
+python scripts/build_viewer_geometry.py
+```
+
+To check the artifact seal or run the test suite:
+
+```bash
+python -m aqc verify --run results/lab --complete
 python -m unittest discover -s tests -v
-python -m aqc dashboard --results results/real
 ```
 
-Node is optional and only used by dashboard JavaScript logic tests. Those
-checks skip if Node is unavailable; the benchmark and dashboard generation
-use Python alone. Browser interaction checks were also performed on the
-rendered real dashboard.
+`reproduce` serves frozen baseline runs. `verify-experiments` serves the
+registered development experiment; it does not retune or replace its saved
+choices.
 
-## Data verification and eligibility
+## What the interactive lab shows
 
-Upstream: [ghutchis/conformer-benchmark](https://github.com/ghutchis/conformer-benchmark).
-Pinned commit:
+The lab opens to the **Query simulator and 3D molecular view**. Select a
+development molecule and step through a policy or play its queries slowly;
+the explorer and evidence views are available from the navigation.
+
+The explorer separates **pooled development results**, **out-of-fold family
+cross-validation**, and **immutable historical evaluation**. Filters and
+plots inspect saved results; changing a filter does not promote an operating
+point into validated evidence.
+
+The query simulator supports stepping, slow playback, full policy execution,
+and manual paid queries. It shows the cheap ranking, charged query order,
+reference observations, the current best verified candidate, stopping reason,
+and final regret. Each comparison starts with an empty cache. Reference
+energy differences are displayed relative to the first successful paid
+observation, never an unqueried reference minimum.
+
+The simulator contains **development molecules only**. Its downloaded HTML
+necessarily contains evaluator labels, which a technically knowledgeable user
+can inspect. It is an educational replay with a charged-query interface,
+not a secure browser sandbox for hostile users. The isolated CLI worker is
+the actual experiment boundary. Local simulator trials are exploratory and
+do not alter the registered results.
+
+Failure anatomy compares the first and second reference query on development
+molecules, distinguishing threshold rescues from calls that do not change
+success. Evidence and integrity panels distinguish a computed file hash from
+one checked against a saved seal. No shape descriptors or new quantum results
+are generated by the interface.
+
+### Real molecular geometries in JavaScript
+
+The JavaScript renderer uses WebGL. If WebGL is unavailable, the interface
+explicitly labels its projected-3D canvas fallback.
+
+The 3D view uses the published optimized XYZ coordinates for all **478
+development molecules and 4,761 conformers**, containing **186,905 atom
+records**. Its compressed 2.21 MB coordinate asset is included at
+`data/development_geometry.json.gz`. The builder checks each source file's
+bytes against the pinned upstream lock and checks its ordered atom/coordinate
+identity against the original geometry audit. The companion
+`data/development_geometry_manifest.json` records the asset, source, split,
+and geometry-manifest hashes.
+
+Drag to rotate, Shift-drag to pan, and scroll or pinch to zoom; keyboard arrows
+rotate the focused view. Choose a conformer, change between ball-and-stick,
+wireframe, and space-filling views, show or hide hydrogens, turn on slow
+rotation, or reset the camera. “Follow acquisition” connects the geometry to
+the current query; the simulator also supports slow query playback. Looking
+at a conformer does not reveal its reference energy. A manual reveal is a
+charged query, and any displayed reference difference uses only a successful
+paid observation.
+
+Distance-inferred bonds are **display guides, not verified chemical bond
+orders**. Coordinates, inferred bonds, and rendering choices never enter the
+policy's feature payload, grid tuning, or recorded scientific outcomes. This
+viewer adds an inspectable representation of the existing candidate pools;
+it does not add a shape-aware acquisition method.
+
+## Policies
+
+| Policy | Acquisition and selection |
+|---|---|
+| Full reference rerank | Query the complete fixed pool and return its best reference. |
+| Fixed top-k | Query the k lowest cheap-energy candidates; return their best reference. A failed output triggers full fallback. |
+| Adaptive cheap-window | Query an initial k, then expand within a cheap-energy window. An unresolved crowded window at the cap triggers full fallback. Successful reference values affect the final choice, not its query budget. |
+| Sequential reference-feedback | Try a calibrated cheap-separation one-query exit; otherwise buy a second reference and update an empirical error envelope after each observation. Stop according to that envelope or fall back to the complete pool when unresolved at the cap. |
+| Cheap-only diagnostic | Select the cheapest candidate without reference verification. Zero paid queries; excluded from paid comparisons. |
+
+Every paid rule starts with at least one charged query and must return the
+lowest reference energy among successfully queried candidates. Energy ties
+break deterministically by candidate ID. Policies use identical candidate
+pools.
+
+### Reference-feedback stopping
+
+The sequential rule first queries the cheapest conformer. A one-query exit
+requires a strictly positive first-to-second cheap gap that meets both an
+absolute threshold and a threshold relative to the pool's full cheap-energy
+span. A tied cheap minimum cannot use this exit.
+
+Otherwise it queries the second conformer. For queried candidates `Q`, cheap
+energies `c`, and paid references `r`, it computes
+
+```text
+E = error_scale * max_j_in_Q |(r_j - r_first) - (c_j - c_first)| + slack
+b = best observed reference - r_first
+d_next = next cheap energy - c_first
+```
+
+It stops when `b <= d_next - E + 1 kcal/mol`, using numerical tolerance
+`1e-9`. Otherwise it queries the next candidate. If still unresolved at the
+cap, it buys the entire remainder. Failed outputs also cause full fallback.
+Only within-pool differences enter the stopping rule, making it invariant to
+additive cheap/reference offsets within floating-point precision.
+
+**The envelope is an empirical heuristic, not a proven bound on unseen
+reference errors.** Its query decisions do change when paid reference values
+change. It can still stop confidently on the wrong candidate, and the tests
+exercise that possibility. A successful training threshold is not a risk
+guarantee.
+
+## Count the expanded experiment correctly
+
+| Registered configurations | Count |
+|---|---:|
+| Fixed top-k, k = 1 through 10 | 10 |
+| Original adaptive cheap-window grid | 192 |
+| Full rerank | 1 |
+| Unverified cheap-only diagnostic | 1 |
+| New sequential grid | 816 |
+| **Total** | **1,020** |
+
+The sequential grid is `17 one_gap × 4 one_ratio × 3 error_scale × 4 cap`,
+with `slack = 0.25 kcal/mol`. Its exact values are recorded in
+[`docs/EXPERIMENT_PROTOCOL_V02.md`](docs/EXPERIMENT_PROTOCOL_V02.md) and the
+run's `experiment_registry.json`. The complete grid has five times the
+original 204 configurations. It does not have five times as many independent
+molecules, families, datasets, or scientific replications.
+
+Each configuration runs independently on all 478 development molecules.
+Completed outcomes can be reused for fold selection because these fixed
+configurations fit no cross-molecule model. Content-addressed trace storage
+removes duplicate bytes, not paid calls. The report counts parameter-distinct
+configurations, distinct observed acquisition/selection behaviors, total
+configuration–molecule decisions, and separate verification replays.
+
+### Selection, comparison, and uncertainty
+
+The 287 development families are sorted by `SHA256(271828|family_id)` and
+assigned round-robin to five folds. For each validation fold, choose each
+operating point using only the other four folds: require at least 95%
+observed training success, minimize total calls, then minimize p95 regret,
+maximize success, and break remaining ties by configuration ID.
+
+The sequential rule's primary comparator is the cheapest qualifying original
+**fixed/window/full** rule whose training success also meets or exceeds the
+selected sequential rule's training success. It is selected before scoring
+that validation fold. A validation risk mismatch is reported, never repaired
+by choosing a convenient comparator after the fact.
+
+The aggregate table combines out-of-fold decisions. It reports success within
+1 kcal/mol, median/p95/worst reference regret, expensive calls, fallback rate,
+and paired policy differences. Point estimates weight molecules equally.
+The 5,000 bootstrap draws resample whole families **within fixed fold strata**,
+using the same family multiplicities for both policies in a paired comparison.
+
+These intervals are conditional on the fixed folds and selected policies.
+They do not reselect configurations, account for dependence from overlapping
+training folds, provide a simultaneous confidence guarantee, or establish
+performance on new external chemistry. Degenerate intervals carry explicit
+scope warnings. This is internal development cross-validation, not a new
+untouched evaluation set.
+
+## Verified data and provenance
+
+Upstream is the public
+[Folmsbee–Hutchison conformer benchmark](https://github.com/ghutchis/conformer-benchmark),
+pinned to:
 
 ```text
 0109c8ec7cff3c10d3617ed65392fffc81492755
 ```
 
-The upstream repository carries the MIT license, copyright 2020 Geoff
-Hutchison. Its original license is retained inside the source snapshot and
-in `data/UPSTREAM_LICENSE`. The source snapshot is a documented subset of
-the repository, not a substitute dataset. `data/upstream_lock.json` records
-the Git blob SHA-1, SHA-256, byte count and path of all 13,999 included files.
-No upstream executable scripts are run.
+The upstream MIT license, copyright 2020 Geoff Hutchison, is retained in
+`data/UPSTREAM_LICENSE` and the source snapshot. `data/upstream_lock.json`
+records the Git blob SHA-1, SHA-256, byte count, and path of all **13,999**
+included source files. No upstream executable scripts are run.
 
-The paper describes single-point energies on the same B3LYP-D3BJ/def2-SVP
-geometries: GFN2 using xTB 6.2 and DLPNO-CCSD(T)/cc-pVTZ with TightPNO using
-ORCA 4.0.1. See [Folmsbee and Hutchison, DOI 10.1002/qua.26381](https://doi.org/10.1002/qua.26381).
+The authors describe single points on the same B3LYP-D3BJ/def2-SVP geometries:
+GFN2-xTB using xTB 6.2, and DLPNO-CCSD(T)/cc-pVTZ with TightPNO using
+ORCA 4.0.1. See [Folmsbee and Hutchison, DOI 10.1002/qua.26381](https://doi.org/10.1002/qua.26381)
+and the detailed [provenance record](docs/PROVENANCE.md).
 
-The join key is exactly `(molecule_id, rmsdN-opt)`. A filename stem retains
-its geometry suffix; `-mmff`, `-pm7`, and `-opt` are never treated as the same
-geometry. Every candidate has an ordered-elements-and-coordinates hash.
-All 6,995 published MOL/XYZ pairs agree in atom counts, ordering and
-coordinates within 0.000051 Å. Explicit compositions also agree with the
-author-supplied molecular SMILES. Molecular identities use those SMILES,
-because the MOL files contain unreliable perceived bonding/charge metadata.
+Pairing uses exactly `(molecule_id, rmsdN-opt)`. Row number is never a join
+key; `-mmff`, `-pm7`, and `-opt` are not interchangeable geometries. All
+6,995 published MOL/XYZ pairs agree in atom counts, ordering, and coordinates
+within **0.000051 Å**. Ordered geometry hashes and source file digests are
+retained. Explicit compositions agree with the author-supplied SMILES, which
+supply molecular identity because perceived MOL bond/charge annotations are
+not independently reliable.
 
 | Inventory or exclusion | Count |
 |---|---:|
@@ -124,213 +418,147 @@ because the MOL files contain unreliable perceived bonding/charge metadata.
 | Non-opt GFN2 rows excluded | 21,486 |
 | Published optimized geometries | 6,995 |
 | Molecules before exclusions | 708 |
-| Raw paired DLPNO outputs | 6,755 |
+| Exact paired DLPNO outputs | 6,755 |
 | Optimized geometries missing DLPNO outputs | 240 |
 | DLPNO rows without corresponding GFN2 | 0 |
-| Molecules with partial references, excluded wholesale | 55 |
-| Molecules with no references, excluded wholesale | 6 |
-| Complete singleton molecules, excluded as no ranking decision | 7 |
+| Partial-reference molecules excluded wholesale | 55 |
+| Molecules with no references excluded wholesale | 6 |
+| Complete singletons excluded as trivial ranking tasks | 7 |
 | **Eligible complete nontrivial pools** | **640 molecules / 6,378 candidates** |
 
-A missing output is never converted to zero or removed from only one
-policy's pool. Entire incomplete molecules are excluded. Exact candidate,
-molecule and raw-row exclusion manifests preserve every reason.
+Missing reference outputs are not zero energies. Entire incomplete molecular
+pools are excluded, with candidate, molecule, and raw-row manifests recording
+the reasons. Results are conditional on complete-case coverage.
 
-**Energy sign matters.** Raw GFN2 kcal/mol values are positive atomization
-energies, so the benchmark negates them before ranking low to high. It uses
-the published rounded kcal/mol column, retaining its 0.01 kcal/mol precision,
-and cross-checks the accompanying Hartree field. Reference labels are raw
-CCSD(T) total Hartree multiplied by **627.509469**, the original compilation
-constant. Their relative differences agree with the negated published
-atomization-energy differences within 1e-6 kcal/mol. Cheap features are
-centered only on the minimum **cheap** energy within a molecule.
+Raw GFN2 kcal/mol values are positive atomization energies, so they are
+**negated** for lower-is-better ranking. The published rounded kcal/mol field
+retains its 0.01 kcal/mol precision and is cross-checked against its Hartree
+field. Raw reference total Hartree values use the original conversion factor
+**627.509469**. Their within-molecule differences agree with the sign-reversed
+published atomization-energy differences within `1e-6 kcal/mol`. Cheap
+features are centered only on the minimum cheap energy in their pool.
 
-No original per-conformer molecular input files or full output/convergence
-logs are supplied by upstream. Pairing is supported by the authors'
-same-geometry methodology, exact keys, published coordinate files, and
-independently cross-checked energy extracts. This does not claim an audit
-of original per-job convergence or original input coordinate checksums.
+Upstream does not provide the full original per-conformer quantum input and
+convergence logs. This is a source-keyed replay of the authors' documented
+same-geometry comparison, not an independent regeneration or complete audit
+of every original quantum job.
 
-## Chemical families and untouched evaluation
+### Original family split, preserved
 
-Families are inferred, not supplied by the authors. With RDKit 2025.09.6:
+RDKit **2025.09.6** generates generic Bemis–Murcko scaffolds from the supplied
+SMILES, ignoring stereochemistry; all acyclic molecules share one conservative
+family. Identical canonical structures must have consistent family assignments.
+This produces **411 inferred families**. The grouping does not claim to
+separate every possible chemical analogue.
 
-1. Parse the supplied molecular SMILES.
-2. Obtain a Bemis–Murcko scaffold.
-3. Make it generic: atoms become carbon and bonds become single; use
-   canonical nonstereochemical scaffold SMILES.
-4. Put all acyclic molecules in one conservative `ACYCLIC` family.
-5. Require identical canonical molecules to have identical families;
-   conflicting assignments fail validation.
+The original split sorts families by `SHA256(1729|family_id)` and assigns the
+first `floor(0.7*411)` families to development. All conformers of every molecule
+stay together.
 
-This produces **411 families**. It is an operational grouping, not a claim
-that every chemically related analogue is isolated by these scaffolds.
-All conformers of a molecule always travel together.
+| Original split | Families | Molecules | Candidates | Use in v0.2 |
+|---|---:|---:|---:|---|
+| Development | 287 | 478 | 4,761 | Expanded experiments and interactive simulator |
+| Evaluation | 124 | 162 | 1,617 | Historical results only |
 
-Sort families by SHA-256 of `1729|family_id`. Put the first `floor(0.7*411)`
-families into development and the rest into evaluation. The rule and seed
-were fixed before inspecting policy performance.
+The historical evaluation was untouched during v0.1 operating-point tuning;
+it is now observed. Expanded experiments never parse its reference rows for
+new selection or scoring. Integrity checks still hash those file bytes.
 
-| Split | Families | Molecules | Candidates |
-|---|---:|---:|---:|
-| Development | 287 | 478 | 4,761 |
-| Evaluation | 124 | 162 | 1,617 |
+## Historical v0.1 result — unchanged
 
-`split_manifest.json` contains every assignment, family size and split hash.
-The evaluation set was untouched for tuning; it is now reported and must not
-be treated as fresh validation for future probe development.
+The original development-selected fixed top-2 and cheap-window adaptive rule
+both succeeded on **156 of 162 evaluation molecules: 96.30% within 1 kcal/mol**.
+Each used **2.00 calls per molecule**. The adaptive policy's extra saving
+against the matched-risk fixed baseline was **0.00%**, so the incremental
+30% target was not met. Its selected parameters were `k=2, gap=0, cap=4`;
+it made exactly the same held-out queries and selections as fixed top-2.
 
-## Hidden-label oracle
-
-`aqc/policy_worker.py` runs in a separately launched `python -I -B` interpreter,
-with an empty temporary working directory and a restricted environment. It
-imports only `json` and `sys`. Its strict input contract accepts exactly
-candidate IDs and cheap energies plus a frozen policy configuration. It
-receives no family IDs, molecular structures, dataframe, reference summary,
-reference-based scaling, reference table, or inherited evaluator object.
-
-The evaluator owns all labels. A valid first query charges one job and
-returns only that candidate's reference energy. A failed output is charged;
-a duplicate is a logged cache hit without a second charge; an unknown ID is
-rejected. Failure-triggered fallbacks and unsuccessful runs retain their
-query accounting. A run without a successfully verified candidate fails.
-
-The evaluator independently enforces selection of the lowest reference
-energy among successfully queried candidates. Cheap and reference ties
-break deterministically by candidate ID. Each paid policy must make at
-least one paid query. Separate policy sessions serve development and final
-evaluation; caches and observations are reset for every molecule/policy.
-
-This is a strong boundary against **accidental** reference access. It is not
-an OS security sandbox against deliberately malicious policy code running
-as the same user. Only the built-in audited policies run in this milestone.
-
-## Policies and operating-point selection
-
-| Policy | Behavior |
-|---|---|
-| Full reference rerank | Query all candidates and return the best observed reference. |
-| Fixed top-k | Query the k lowest cheap-energy candidates; choose the best reference among those. Failed outputs trigger a full fallback. |
-| Adaptive cheap-gap | Query initial k; continue while the next candidate lies within a cheap-energy window of the cheap minimum. If the window remains crowded at the cap, query the whole remaining pool. Failed outputs also trigger full fallback. |
-| Cheap-only diagnostic | Pick the cheapest conformer without reference verification; zero paid calls. It is excluded from paid comparisons. |
-
-The adaptive policy is deliberately simple: it allocates calls based on
-cheap-energy crowding. Observed references choose the returned conformer;
-they do not train a hidden surrogate or tune stopping thresholds online.
-
-The prespecified development grid is fixed k=1…10; adaptive initial
-k in `{1,2,3,4,6,8,10}`, windows in `{0,0.1,0.25,0.5,1,2,4,8}` kcal/mol, and
-caps in `{2,4,6,8,10}` subject to cap≥k. There are 204 real development
-configurations including the ceiling and diagnostic. Every development
-query and decision is recorded in compressed traces.
-
-For fixed and adaptive rules separately, require observed development
-success≥95%, then minimize total calls, then p95 regret, then maximize
-success, with deterministic lexical configuration tie breaking. If no
-reduced-call point qualifies, the report says so; full reranking remains
-available. The primary simple comparator is the least costly fixed point
-whose development success also matches or exceeds the selected adaptive
-success. If that differs from the fixed 95% point, both are retained.
-
-Freeze configurations, source-module hashes, provenance hashes and split
-hashes before a separate evaluation process opens the final label table.
-The holdout risk curve contains only configurations selected in advance:
-all fixed k and adaptive points selected at predefined development success
-targets. The curve is descriptive; no test-set point replaces the frozen
-primary comparator.
-
-## Executed real result
-
-Development fixed top-1 success was **91.63%**; fixed top-2 reached **95.61%**.
-The selected adaptive configuration was `k=2, gap=0.0 kcal/mol, cap=4`.
-It made one extra tie-triggered query in development without improving
-success. On evaluation it made exactly the same queries and decisions as
-fixed top-2. The fallback implementation was exercised by tests/fixtures,
-but the selected real operating point triggered no fallback.
-
-| Held-out policy | Within 1 kcal/mol | Median regret | P95 regret | Worst regret | Mean calls | Total calls | Fallback |
+| Historical held-out policy | Success ≤1 kcal/mol | Median regret | P95 regret | Worst regret | Mean calls | Total calls | Fallback |
 |---|---:|---:|---:|---:|---:|---:|---:|
 | Full rerank | 100.00% | 0.000 | 0.000 | 0.000 | 9.981 | 1,617 | 0% |
 | Fixed top-2 | 96.30% | 0.000 | 0.853 | 4.570 | 2.000 | 324 | 0% |
-| Adaptive | 96.30% | 0.000 | 0.853 | 4.570 | 2.000 | 324 | 0% |
+| Cheap-window adaptive | 96.30% | 0.000 | 0.853 | 4.570 | 2.000 | 324 | 0% |
 | Cheap-only, unverified | 95.06% | 0.047 | 0.952 | 4.578 | 0.000 | 0 | 0% |
 
 Regrets are kcal/mol relative to the best reference in the same fixed pool.
-Fixed top-2 and adaptive succeed on **156/162 molecules**. The paired
-adaptive-minus-fixed differences are zero for calls, regret, success, and
-fallback; the measured extra saving is **0% (95% paired-family CI 0–0%)**.
-Their reduction against full reranking is **79.96%**, but that is not the
-requested incremental gain over the strongest simple comparator.
+Top-2 and adaptive had a **93.29%–98.77%** family-bootstrap success interval;
+the observed 96.30% is not a certified ≥95% population guarantee. Their
+79.96% call reduction against full reranking does not establish incremental
+value over the simpler paid baseline.
 
-There are 5,000 bootstrap resamples of entire chemical families with
-replacement, retaining every molecule and using the same family
-multiplicities for both sides of each paired difference. Point estimates
-weight molecules equally. The 95% percentile success interval for top-2
-and adaptive is **93.29–98.77%**; the p95-regret interval is **0.457–1.399**.
-These are descriptive sampling intervals, not a learned risk guarantee.
-Degenerate 100% intervals for full reranking reflect its deterministic
-ceiling in an entirely labelled fixed pool. The legacy output field
-`bootstrap_joint_evidence` means that all specified **marginal** interval
-checks pass; it is **not** a simultaneous 95% joint confidence statement.
+The historical `bootstrap_joint_evidence` field refers to the conjunction
+of specified marginal interval checks, not a simultaneous 95% confidence
+statement. Full reranking is an exact ceiling only within its labelled pool.
+Cheap-only's observed historical performance must not be used to retune
+k=1 and relabel this already-observed cohort as untouched.
 
-Cheap-only's evaluation percentage must not be used to tune k=1 after the
-fact. The paid k=1 point is visible in the descriptive curve; the original
-development-selected primary comparison remains unchanged.
+## Oracle, audit, and evidence integrity
 
-## Synthetic fixture
+The CLI launches `aqc/policy_worker.py` in a separate `python -I -B` interpreter,
+with an empty temporary working directory and restricted environment. The
+worker imports only `json` and `sys`. Its strict input contains candidate IDs,
+cheap energies, and a policy configuration—no family identifiers, structures,
+reference summaries, reference-based normalization, or evaluator objects.
 
-The fixture contains 24 invented families and four explicit scenarios per
-family: easy, escalation helps, escalation wastes, and confidently wrong
-cheap rankings. No synthetic outcome is presented as a molecular result.
+The evaluator owns reference labels. A first valid query charges one job;
+a failed output is charged; duplicate queries are logged cache hits without
+another charge. Invalid IDs are rejected. A run with no successfully verified
+candidate fails. Observations and caches reset for every configuration–pool
+run. This protects against accidental label sharing, not malicious code with
+filesystem access under the same operating-system account.
 
-`fixture_case_checks.json` executes a diagnostic fixed top-1 versus
-adaptive `k=1, gap=0.5, cap=2` on two named cases:
+Protocol v2 streams decision events before completion. Malformed JSON,
+unknown/wrongly typed IDs, broken pipes, worker exit, blocked writes, timeouts,
+and cleanup failures retain charged jobs and their failure context. Tests
+exercise real child-process faults through the evaluator's logging path.
 
-| Case | Fixed top-1 | Adaptive with full fallback |
-|---|---|---|
-| Escalation helps | 1 call; 2.1 kcal/mol regret | 6 calls; 0 regret |
-| Escalation wastes | 1 call; 0 regret | 6 calls; 0 regret |
+New **v2 evidence seals** cover every generated evidence file other than the
+derived HTML view and the seal itself. Tables, registries, manifests, logs,
+and reports are hashed. Verification also recomputes numerical summaries,
+query accounting, best verified selection, regret, coverage, training-only
+fold choices, and decision target flags. The lab fails closed when required
+saved evidence or its seal is absent or inconsistent. Hashes protect against
+accidental changes and mixed runs; they are not external attestations.
 
-These explicit behavior checks are separate from the fixture's tuned
-operating point, which chooses three paid queries and does not establish
-scientific performance.
+Historical v0.1 seals have narrower coverage: five primary outputs. The
+retained release manifest separately records all 58 historical artifact
+checksums. The new verifier reports that scope instead of presenting a v0.1
+seal as complete v0.2 coverage.
 
-## Outputs
+## Main outputs
 
-Each completed run contains:
+| Location | Contents |
+|---|---|
+| `results/lab/dashboard.html` | Self-contained interactive lab |
+| `results/lab/experiment_registry.json`, `folds.json` | Frozen configuration grid, source/data hashes, and development-family folds |
+| `results/lab/experiments.csv` | All configuration results, explicitly labelled pooled apparent development performance; behavior signatures |
+| `results/lab/fold_choices.json`, `fold_aggregates.csv` | Training-selected policies and separate validation-fold summaries |
+| `results/lab/per_molecule.csv` | Out-of-fold decisions for all reported policy roles |
+| `results/lab/aggregate.csv`, `paired_comparisons.csv`, `decision.json` | Decision table, conditional intervals, paired effects, and target flags |
+| `results/lab/decision_ledger.jsonl.gz`, `trace_catalog.jsonl.gz` | Every registered configuration–pool decision and reconstructable query/event history |
+| `results/lab/verification_replays.jsonl.gz`, `execution_accounting.json` | Independent selected-policy replays and separate query totals |
+| `results/lab/verification_manifest.json`, `evaluation_seal.json` | Exhaustive ledger audit and complete artifact coverage |
+| `results/lab/REPORT.md`, `risk_vs_calls.png`, `environment.json` | Executed report, standalone figure, and runtime record |
+| `data/development_geometry.json.gz`, `development_geometry_manifest.json` | Verified development coordinates and display-asset provenance |
+| `results/real`, `results/fixture`, `releases/v0.1.0` | Preserved historical results, synthetic fixture evidence, and original reproduction engine |
+| `verification/v02` | Current verification logs and independent review |
 
-- `dashboard.html`: portable interactive decision table, uncertainty plot,
-  search, outcome/fallback filters, molecule traces, and provenance details.
-- `per_molecule.csv`: selection, reference regret, success, calls, query
-  order, fallback, and stop reason for every held-out pool and policy.
-- `aggregate.csv` and `paired_comparisons.csv`: point estimates and
-  family-cluster intervals.
-- `traces.jsonl`: every primary held-out oracle event; unqueried references
-  are absent from policy traces.
-- `development_frontier.csv`, compressed development decision/query logs,
-  and `heldout_frontier.csv` plus its compressed query log.
-- `frozen_config.json`, `evaluation_seal.json`, `environment.json`,
-  `split_manifest.json`, `audit.json`, and `REPORT.md`.
-- `risk_vs_calls.png`: standalone scientific figure.
-- `prepared/`: separate cheap-feature and evaluator-only reference tables
-  for development/evaluation; geometry, family, missing-output and exclusion
-  manifests. These are evaluator inputs, never policy features.
+New text evidence uses UTF-8 and explicit line endings. Compressed logs use
+zero gzip timestamps and omit filename-dependent headers. Environment and
+rendered views are recorded separately from deterministic scientific outputs.
 
-## What this milestone decides
+## What the evidence can decide
 
-The measurement system is working and reproducible. The cheap-gap adaptive
-rule offers **no incremental efficiency** at the selected risk level.
-This is not evidence that shape probes help or that every adaptive rule
-must fail. A future shape acquisition experiment has a concrete bar:
-approximately **≤1.4 paid calls per molecule** instead of two, while retaining
-the target accuracy and demonstrating matched risk on fresh evaluation
-families. The current evidence supports a narrowly scoped probe experiment,
-not a claim of shape-aware advantage or a large implementation sprint.
+The operational target remains **at least 95% within 1 kcal/mol and at least
+30% fewer expensive calls than the strongest selected simple comparator at
+matched risk**. If no operating point qualifies, the report states that
+outcome. A future shape-probe proposal must demonstrate incremental value over
+these measured simple rules on fresh evaluation families.
 
-Complete-case selection, one inferred-family split, finite held-out size,
-the source's limited low-energy conformer pools, and absent original full
-quantum logs limit generalization. Calls saved in offline replay are never
-equated with actual elapsed time or quantum-compute cost.
+This milestone does not measure a shape probe's value. Complete-case selection,
+inferred scaffold families, limited published conformer pools, and absent
+original full quantum logs constrain generalization. Offline query counts
+are not wall-clock or monetary savings.
 
 No neural networks, new shape probes, live quantum jobs, paid compute,
-deployment, or outreach were performed.
+deployment, or outreach are part of these experiments.

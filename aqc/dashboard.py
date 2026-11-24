@@ -16,6 +16,7 @@ import math
 from pathlib import Path
 import re
 from typing import Any
+from .integrity import verify_artifact_seal
 
 
 OUTPUT_FILES = {
@@ -66,7 +67,7 @@ def _safe_json(value: Any) -> Any:
     return value
 
 
-def build_dashboard(results_dir: Path, output_path: Path | None = None) -> Path:
+def build_dashboard(results_dir: Path, output_path: Path | None = None, *, allow_incomplete: bool = False) -> Path:
     """Embed saved results in one HTML file, reporting absent optional outputs.
 
     Existing malformed outputs are rejected, rather than silently replaced by
@@ -75,7 +76,14 @@ def build_dashboard(results_dir: Path, output_path: Path | None = None) -> Path:
     results_dir = Path(results_dir).resolve()
     if not results_dir.is_dir():
         raise ValueError(f"results directory does not exist: {results_dir}")
-    payload: dict[str, Any] = {"source_files": [], "missing_files": []}
+    if allow_incomplete:
+        if (results_dir / "evaluation_seal.json").exists():
+            integrity = verify_artifact_seal(results_dir)
+        else:
+            integrity = {"verified": False, "warnings": ["INCOMPLETE PREVIEW: no evaluation seal; not verified evidence."]}
+    else:
+        integrity = verify_artifact_seal(results_dir)
+    payload: dict[str, Any] = {"source_files": [], "missing_files": [], "integrity": integrity}
     for key, filename in OUTPUT_FILES.items():
         path = results_dir / filename
         if not path.is_file():
@@ -105,7 +113,10 @@ def build_dashboard(results_dir: Path, output_path: Path | None = None) -> Path:
     encoded = encoded.replace("\u2028", "\\u2028").replace("\u2029", "\\u2029")
     destination = Path(output_path) if output_path is not None else results_dir / "dashboard.html"
     destination.parent.mkdir(parents=True, exist_ok=True)
-    destination.write_text(_HTML.replace("__BENCHMARK_JSON__", encoded), encoding="utf-8")
+    html = _HTML.replace("__BENCHMARK_JSON__", encoded)
+    if not integrity["verified"]:
+        html = html.replace('<main class="shell">', '<main class="shell"><p role="alert" style="padding:18px;background:#fff0d8;color:#633b00;font-weight:700">INCOMPLETE PREVIEW — saved results have not been verified against an evaluation seal.</p>')
+    destination.write_text(html, encoding="utf-8", newline="\n")
     return destination.resolve()
 
 

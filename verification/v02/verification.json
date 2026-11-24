@@ -1,0 +1,67 @@
+{
+  "release": "0.2.0",
+  "python_tests_passed": 171,
+  "python_tests_skipped": 0,
+  "javascript_python_policy_parity_cases": 2190,
+  "viewer_javascript_interaction_harness": "passed",
+  "completed_experiment_audit": {
+    "verified": true,
+    "analysis_scope": "development_family_cv",
+    "registered_configurations": 1020,
+    "development_molecules": 478,
+    "development_families": 287,
+    "ledger_decisions_verified": 487560,
+    "charged_jobs_verified": 1803309,
+    "unique_query_traces_verified": 5239,
+    "unique_behavior_signatures": 659,
+    "outer_folds_verified": 5,
+    "oof_role_results_verified": 2868,
+    "selected_unique_replays_verified": 2390,
+    "verification_charged_jobs": 7654,
+    "fresh_selected_policy_replay": true,
+    "historical_evaluation_labels_loaded": false
+  },
+  "historical_preservation": {
+    "historical_files_checked": 58,
+    "changed_files": [],
+    "all_unchanged": true
+  },
+  "fixture_v02_seal_verified": true,
+  "fixture_v02_reproduction": "Seven deterministic scientific outputs match byte for byte",
+  "historical_v01_reproduction": "Original five sealed evaluation outputs match byte for byte using retained engine",
+  "geometry_display": {
+    "molecules": 478,
+    "conformers": 4761,
+    "atom_records": 186905,
+    "all_xyz_bytes_and_ordered_geometries_verified": true,
+    "policy_geometry_features": false
+  },
+  "browser_qa": {
+    "status": "passed",
+    "actual_renderer": "Software Canvas perspective 3D fallback",
+    "live_webgl_gpu_validation": false,
+    "webgl_resource_path": "Dependency-free interaction harness passed",
+    "actions": [
+      "pointer drag rotation",
+      "wheel zoom",
+      "conformer switching without query charge",
+      "spacefill and ball-stick styles",
+      "hydrogen visibility",
+      "manual paid reveal from 3D viewer",
+      "manual finish reveals evaluator regret",
+      "sequential step and full completion",
+      "independent comparison retains active trial",
+      "development risk and call filtering",
+      "CV/history tuning controls disabled",
+      "section navigation resets scroll position"
+    ],
+    "application_error_observed": false
+  },
+  "windows_native_execution": "not performed",
+  "quantum_jobs_run": 0,
+  "paid_compute": false,
+  "new_shape_probes": false,
+  "deployment": false,
+  "nabu_modified": false,
+  "dashboard_sha256": "248e66439d6ce32bb78015067284ce5338e4eeb210efc90dc297b471db824ec0"
+}

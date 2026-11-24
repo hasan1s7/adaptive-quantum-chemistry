@@ -1,0 +1,10 @@
+.venv/bin/python -m aqc experiments --prepared results/real/prepared --out results/lab --bootstrap 5000 --seed 271828 --historical results/real
+.venv/bin/python -m aqc verify-experiments --results results/lab --prepared results/real/prepared --replay-selected
+.venv/bin/python -m aqc fixture --out results/fixture_v02 --bootstrap 5000
+.venv/bin/python -m aqc verify --run results/fixture_v02 --complete
+.venv/bin/python -m aqc reproduce --run results/fixture_v02 --out runs/reproduced-fixture-v02
+.venv/bin/python -m aqc reproduce --run results/real --out runs/v02-preservation-check
+.venv/bin/python scripts/build_viewer_geometry.py --source /workspace/scratch/ab91b74f520d/upstream-conformer-benchmark
+.venv/bin/python -m unittest discover -s tests -v
+node tests/test_molecule_viewer.js
+.venv/bin/python -m pip check

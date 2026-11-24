@@ -1,0 +1,13 @@
+{
+  "behavior_definition": "Same ordered query IDs/statuses/charges and selected candidate for every development molecule; stopping explanations may differ",
+  "charged_jobs": 1803309,
+  "configuration_count": 1020,
+  "decision_count": 487560,
+  "deduplication_scope": "Storage only: each configuration/pool was independently executed and charged",
+  "molecule_count": 478,
+  "replay_scope": "Selected out-of-fold configurations rerun independently; no retuning",
+  "selected_unique_replays": 2390,
+  "unique_behavior_signature_count": 659,
+  "unique_query_trace_count": 5239,
+  "verification_charged_jobs": 7654
+}

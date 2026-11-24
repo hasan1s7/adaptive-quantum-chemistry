@@ -1,0 +1,7 @@
+{
+  "status": "restored_verified",
+  "target_size_bytes": 75200465,
+  "target_sha256": "845a2c1846f8a1b5887134775c80c3f77f9efe4df3ef3fd18fd34fde4e8ccb07",
+  "matches_original_scientific_seal": true,
+  "parts_verified": 4
+}

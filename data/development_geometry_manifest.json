@@ -1,0 +1,22 @@
+{
+  "asset_filename": "development_geometry.json.gz",
+  "asset_sha256": "05949303658ab98af392c79a6b9f63cfd8ca310f3faf1bfcf57d38106308df7a",
+  "asset_size_bytes": 2208642,
+  "atom_records": 186905,
+  "bond_display": "Optional distance-inferred bonds are visual guides, not verified chemical bond orders",
+  "builder_sha256": "bc9d5a9136dcd8dd4887a051a76345e6f3af62dc9777e09bb2869d6397217a47",
+  "candidate_count": 4761,
+  "coordinate_unit": "angstrom",
+  "development_features_sha256": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+  "energy_labels_included": false,
+  "geometry_manifest_sha256": "d62cde6b97c529e25e85ea902695595c05ccb48cbea69a6dd9d6f5184608ef60",
+  "molecule_count": 478,
+  "payload_sha256": "b71b1ba95dcf94a2f87b9fd44bbb2a1ac8d2dffc6c4b6fc0591c2eebbb5311d7",
+  "purpose": "3D display only; never an acquisition feature or reference label",
+  "schema_version": 1,
+  "scope": "original_development_only",
+  "source_audit_sha256": "5ff6d92cd54277a30d1c67a8b79152984268e60e30e18cdd706af6aad44ef7c2",
+  "source_lock_sha256": "0179e4d278bbe0cccdc640461187771a17fe59f6456896eb6d5575c3eb2c384b",
+  "source_revision": "0109c8ec7cff3c10d3617ed65392fffc81492755",
+  "source_split_sha256": "29607bec2250e2116e9e16b7d23b91ff941764c495e0fdef09d7b2e4b86431bd"
+}

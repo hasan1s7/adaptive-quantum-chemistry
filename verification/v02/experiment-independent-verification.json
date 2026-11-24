@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "analysis_scope": "development_family_cv",
+  "registered_configurations": 1020,
+  "development_molecules": 478,
+  "development_families": 287,
+  "ledger_decisions_verified": 487560,
+  "charged_jobs_verified": 1803309,
+  "unique_query_traces_verified": 5239,
+  "unique_behavior_signatures": 659,
+  "outer_folds_verified": 5,
+  "oof_role_results_verified": 2868,
+  "selected_unique_replays_verified": 2390,
+  "verification_charged_jobs": 7654,
+  "fresh_selected_policy_replay": true,
+  "historical_evaluation_labels_loaded": false
+}

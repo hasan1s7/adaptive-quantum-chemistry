@@ -1,0 +1,4369 @@
+{
+  "analysis_scope": "development_family_cv",
+  "assignments": [
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "fold_id": 2,
+      "molecule_id": "astex_1g9v",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "astex_1gkc",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d5722012ab374b4e",
+      "fold_id": 4,
+      "molecule_id": "astex_1gm8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "fold_id": 4,
+      "molecule_id": "astex_1hp0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e3f062da86b64d64",
+      "fold_id": 2,
+      "molecule_id": "astex_1hvy",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_b9888ea90aa782a2",
+      "fold_id": 3,
+      "molecule_id": "astex_1ia1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "astex_1ig3",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "astex_1j3j",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "astex_1jd0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6e48449dbd90a853",
+      "fold_id": 1,
+      "molecule_id": "astex_1jje",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8b041d2430934781",
+      "fold_id": 2,
+      "molecule_id": "astex_1jla",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "fold_id": 2,
+      "molecule_id": "astex_1k3u",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3e29c31888ec6ef3",
+      "fold_id": 2,
+      "molecule_id": "astex_1ke5",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_873f79c8929f43fe",
+      "fold_id": 0,
+      "molecule_id": "astex_1l2s",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_09673c2a400987bc",
+      "fold_id": 2,
+      "molecule_id": "astex_1m2z",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "astex_1mmv",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "astex_1n1m",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "astex_1n2j",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_674c6f0b1372731f",
+      "fold_id": 0,
+      "molecule_id": "astex_1n2v",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3b5ac2e268a80b65",
+      "fold_id": 0,
+      "molecule_id": "astex_1n46",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "astex_1nav",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_58ed390b47f17e65",
+      "fold_id": 0,
+      "molecule_id": "astex_1of1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "astex_1of6",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_28095386b0fb4537",
+      "fold_id": 3,
+      "molecule_id": "astex_1opk",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "astex_1oq5",
+      "n_candidates": 8
+    },
+    {
+      "family_id": "family_2098d873e99d0abe",
+      "fold_id": 4,
+      "molecule_id": "astex_1owe",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7343e5d26b9cfb64",
+      "fold_id": 4,
+      "molecule_id": "astex_1q1g",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "astex_1q4g",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "astex_1r55",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "astex_1r58",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "astex_1r9o",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "astex_1sg0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "astex_1sq5",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e44d8091d2c1870f",
+      "fold_id": 4,
+      "molecule_id": "astex_1t40",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cb4d20ea3f4b8f9e",
+      "fold_id": 4,
+      "molecule_id": "astex_1t9b",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0142e032ff88e955",
+      "fold_id": 3,
+      "molecule_id": "astex_1tow",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "astex_1tz8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "fold_id": 4,
+      "molecule_id": "astex_1unl",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_12a9bb7c7758a562",
+      "fold_id": 3,
+      "molecule_id": "astex_1v0p",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f3fba29ae937c54f",
+      "fold_id": 0,
+      "molecule_id": "astex_1v48",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cdf455e44ee3fb05",
+      "fold_id": 2,
+      "molecule_id": "astex_1v4s",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ff425c8f05e8b50c",
+      "fold_id": 0,
+      "molecule_id": "astex_1w2g",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_75009fab91863de9",
+      "fold_id": 2,
+      "molecule_id": "astex_1xoq",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_10cd1edc55212d21",
+      "fold_id": 3,
+      "molecule_id": "astex_1xoz",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c618baaa49b0e1ca",
+      "fold_id": 4,
+      "molecule_id": "astex_1yqy",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_becb1e38e9821757",
+      "fold_id": 1,
+      "molecule_id": "astex_1z95",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f64b6a438c5e9d11",
+      "fold_id": 2,
+      "molecule_id": "astex_2br1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "astex_2bsm",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6cd14c5b51f8842b",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_ABHYTZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_ABIMAZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c4b94b354fe5b49d",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_ABVPRO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_ABZNPS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_ACPIXZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_ACTHBZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_AMOCMS10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_AMPDAM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_195c97dd2e2f9e89",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_ANOPPS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_ANTZOA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1dbbf90fc982f11b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_ANTZOB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_303c1ae9488e2984",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_AOPCHY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_886efbd4bfa0bb06",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_APRTAM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_AURMIN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bd13661808833377",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_AZLNPR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ea78c4352157b38b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BAFJEX10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BAFREF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9a017170f5259ac2",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BAJZOB10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_758db664716d4572",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_BATROD",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_08d0bb49e552ac84",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_BATXID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BAXOZO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9a142eead479ff33",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_BBSPRT10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BEDLUR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_95046468a5bc2f6a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_BEKDIE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_BELWOE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_62c3cbb8fdf639ce",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_BENPRL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_041961ff19920ccf",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BESCEH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BETFAH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_520b7dbb471d2d66",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_BEWLIY10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7d842002d99af2da",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BEWLOE10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BEXVOP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BHMPET",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0a0298f40f571bf0",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BIBHID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BIBSEK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ef0aa9bff0d6934e",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_BTHYDX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BUDCUY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bff4522e4bcff6d4",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_BUNFUL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_BUSNIM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_BUTDID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_50b772f11ab10ea5",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_BUVYIA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d0cd378c13ee9ec0",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CAFGIZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CAGXEN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_856bd6657da6db6c",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CALLEG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4186605160fb77a9",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_CANPUC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CARNID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_73c88bf04a99aae5",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CATXIE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_CAVNUI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e060d928a6c7940d",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CBMHZP",
+      "n_candidates": 6
+    },
+    {
+      "family_id": "family_ef0aa9bff0d6934e",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_CBZHYX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ee830212d3e57ff2",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CEJTIU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CEKNOV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CELDEC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a7db6cef32a431df",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CELXOG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4c692b95ec0e0881",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CENNIS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4aa201d9298554c5",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CETZOQ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_42c97e7a3c085fb3",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CEWFUF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_CIBPOS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_eb34981a71f67e23",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CIDSIR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_CIHFAA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_CIHJAE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_92370cefbdda6d4e",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CIJFEG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5c66a1976331bbb0",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CIJVAS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CIPXEE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CIXFIY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CLPHAC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c69d1b6aded39159",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_CLPNXA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CLPSAM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d834c73ca7b33691",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CLPTBU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CMPEPI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CMSMOC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CMXPMB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ee3240f50d9c4821",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CMXPYO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c4d676730499110e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CNINDO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fa08e2f93bf0d80b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CODYUP10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_COFHIO10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_60bc44663a14f216",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_COKSUQ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_eb05dc1d2849c789",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_COTXUE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_COVXIU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c070ee22565a8185",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_COYHUT10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_COYPIP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3de86dfd4be44f52",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_COYTOZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f0617ff68d61e841",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_COZFOM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_19d2eb8ae83b0a3e",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_CPIPLA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_CPPHAM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CPYPTZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_08eda70c7ba3d019",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_CUHNEY10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_308005378a36a1f4",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_CUJSAB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_926733efa6fadf48",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_CUNTIO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_28ecc6623bc3811d",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_CUWRIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_DABGUI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bc1461607c87a7c8",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DADDUH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_78f4b7236326e3f8",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_DAFTOT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_77a9338479551131",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DAHNIJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4d72a5ac61689f5e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DAKGEB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_495248331fb308b0",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_DAWRAU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DEBBOB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_db8029752f9f783d",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_DECZIU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_DENBUT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fa08e2f93bf0d80b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DERZAB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DIAVER",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8d3aad01578b93cc",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DIGSIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DISHOC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_279a449083ede9ff",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_DIWPUU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DIWWUB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DIZREJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_DIZWAK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DOHREX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_DOLJIX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ef9ef6176511b120",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DOPXIP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_DOXANN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_DUDNUL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_38ae3d7e97e10fe9",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DUDPAT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_38ae3d7e97e10fe9",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_DUHSUU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c8f8bb0329478267",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_DUMTAG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_DUZDAD",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3228bf69b2ce3e76",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_ECBHMP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3228bf69b2ce3e76",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_EHMPYX10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5e75bd3259bb0dec",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_EMZPPO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69c1ac3de1112323",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_EPCMPO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a7db6cef32a431df",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_EXOADN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_FABSOQ10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3677730fac035e68",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FABWUA10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9ad57ca5789678c9",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FAHTUD",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c2e54b42736f4228",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FAHXIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FAJVAN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ef37c7d4f889bc3d",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FAVYEG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_404671487096a258",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FAWREA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6bf0b2ee0ec28a3e",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FAXPUP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_b7286454b6a33e97",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FECPUY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c928d783ea8e31f8",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_FEFPOV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c8ea2a470a13161b",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FEMMAL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ebcefe4d13bdaee2",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FEWBAK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3e08c0e49e53fa31",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_FEYKUP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FHFPBY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FIBREN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_90064691dd120e2d",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FIVPUV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c69d1b6aded39159",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FLPNTX10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5cb4a89a7660b6c",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FOGWAZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FOJZUZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a1839b7a722d41d2",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FOLMEY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_FOMDUG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FOPMIG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_40ed992131074db0",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FOWPOW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_08d7968a4f216128",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_FOYLIO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FPAMCA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_FUGSIJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_db8029752f9f783d",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FUHLID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FUJRUX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FUMBOE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3399c8ac5817fa01",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_FUNXUH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FUPFIF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d7ed8cd78f3f4e29",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_FURKEI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_FUSZOI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_GALSEM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_GANFIK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f2fe6c3414f41a47",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_GASXED",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_13a5fe35750623bc",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_GATPOG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7be33c65813e8305",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_GEBJOM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_GEHKIN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7f676bff0e9e46bd",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_GEJJUA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_608838e3332d4844",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_GEJLAI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_GEKWAU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_GIFZAW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_56e7ab0bd987357f",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_GIHKAJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5695b6350489c399",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_GIHTUM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0934fb71fd89299b",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_GIHWUP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_15cd07a8d7fee8eb",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_GIKJOZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4045110cc1b4194a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_GINKUJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3677730fac035e68",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_HADLAZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_HALDOL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c0423fbdc5100019",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_HALJOT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_62c3cbb8fdf639ce",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_HALOPE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_HALSES",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_df4333472816946c",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_HASCOT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6f885b0d62dd2815",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_HATKES",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5d4b4ccc8bccd512",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_HAVLUL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ce27d808c1138e5a",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_HAVRUR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_05d92e095fdcb3bf",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_HBFRAN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_HECHEC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fecfd40a08cdc309",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_HEJTAR",
+      "n_candidates": 6
+    },
+    {
+      "family_id": "family_64f8170444031ad0",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_HEKROE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e8e5e3a20a75e266",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_HEMLOA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fd487f2b6e8827d2",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_HEMWUR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3b5ac2e268a80b65",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_HEPGAK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_802ecf2712bcc295",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_HEPKUI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_HEVJAT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c525e17ef77e7567",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_HEVRIJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_61384ecf3a8b4198",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_HEXYIS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_51e28a441b1b7d0f",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_JOTDAX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f75a0becd840d9e5",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_JUBGES",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_JUBJOF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_JUDLUP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1e2592123c2d3861",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_JUVPAR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_82ef1006184dd98b",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_KAVLIC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_KAXXAI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a03b93c94c52e81f",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_KECDUR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3886653a2e62ea96",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_KEJBEG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_168036b326a7a517",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_KICRIX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_KIFZAA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_19c76c9554d33100",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_KIHWAZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a18e3fda3b9f2417",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_KIHWED",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_KINJIA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_KIXLOS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4d013bb9c56ad6c8",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_KOFLOG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_283ce63209be975d",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_KOKBIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_KOTGIJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_05dc8af68b7beeba",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_KUBHEU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8a32cdcdf278b10a",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_KUFPIK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_efdb44ca1f83cb47",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_KUHNUW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_LACCEX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2c9342e8fed3093",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_LADTOZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cefa9a67860b26a9",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_LANXED",
+      "n_candidates": 9
+    },
+    {
+      "family_id": "family_e38d7de63b5310bd",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_LAWJEY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_LEDWAS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3e7735028a1733e3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_LEKMET",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f7578d19e9f96ff3",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_LELROJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fd0687c749491088",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_LERKAU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_282bacf050d42cd8",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_LETBAN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c2e54b42736f4228",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_LETBUH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bff4522e4bcff6d4",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_LEVTOV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_177fa87efab88c31",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_LIKGIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_58d0ceab4c638c44",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_LIKMEX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cf9cb071addaf49d",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_LINLAV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_MATSTA10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bb4db85aacb53c19",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_MBZTZT10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4e158cf3dbb0251a",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_MICONZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cd625e1df7434ed7",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_MINTSA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fe0d4b0ac5be4cd1",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_MOPBZA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c91760544523ab9c",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_MTBPNP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_b9888ea90aa782a2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_MVERIQ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1e2592123c2d3861",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_NBPENC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e72a23577f8c89e1",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_NFCSEY",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1cc394cf463fb765",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PBYXCH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PCPTZA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ab566a1730c32751",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_PEBHAF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d615a63e827eaf25",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_PEKCEO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c2df66a36703737e",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_PEXJEH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_89288a2c3998d235",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_PIBSXM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6c72d66dc224f92e",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_PIKDIW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_999a1992687a274a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_PINSAG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f75076cadfc7d6a2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PKOJSI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PMAANO01",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a74b65b77138447f",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PMANAQ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_PMBSAN10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e076ceeb571d6c72",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_PMCPRC10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_588505fa343f2b45",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_PMPBTZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e0b1034bf26a781b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_PMTSZD",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_PNBPIP",
+      "n_candidates": 6
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_PNPAUR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ab566a1730c32751",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_PTHPAL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9415d5eb146a02d9",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_PXBVCP10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9060c18d9f7361dc",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_PXEZSD",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cc83b9cd5b90607b",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_PXMPEN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_PYMSBZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_QQQHDG10",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3053edfdee00eaa1",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_SADXIE",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fa3cde4a926ffacc",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_SAVYET",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_SAVZEU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d3b1c36d8318a65c",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SEMDET",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_9accbffb1cdc1b87",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_SEMXEN",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_338adb444a100d30",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_SEYMIS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_SFDMOX",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_feb2978ebc5668d7",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_SIFJIA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a68979a3cb8099be",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SIHDES",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_10c8ad9e5a1fe5e6",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SIHDIW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d07e844f9f35c93a",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_SIHGIZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cda6a18006d04a8a",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_SIHVUA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_SILTUC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_dbdf1536bfd38939",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_SINKUV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6b548750494dd3b9",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SISYIC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_SLFNMF02",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SOPSIZ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2274b9a82bd4e52d",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_SOWCOW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2c0c74fc64791156",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_SPIRIL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_15e53263b7e04dd1",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_TAPSOS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_907acd4a70be52ce",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_TAZPUF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e044fbd58b0abfc8",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_TAZXAT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_dd813b47fea323a3",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_VADTAV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_VAMBOA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_26b8a1411526c50f",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_VAMCUH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VAYXOI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_eb876d24403f74d5",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VENRUB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e87bfed0caa69b13",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_VEXROF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_608838e3332d4844",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_VEYRAS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a81ce7b645caad69",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VIBNID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5025ff352000123",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_VIBWIM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f7578d19e9f96ff3",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_VORBAF",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_4a18593103a66771",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_VORJER",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c928d783ea8e31f8",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VOWXEK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f233c16ae057a27b",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_VOXHAR",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VOXMOK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_VOXNOL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_VUSKID",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_af6fc72d9c1b40f0",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_WAMZAL",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_efdb44ca1f83cb47",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_WASTEP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a10fb587310a12b2",
+      "fold_id": 4,
+      "molecule_id": "omegacsd_WAVTIW",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bfaf6a2ec2004a27",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_WELGAV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_97848582c564ce68",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_WESZOJ",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_123348955b4e7e4d",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_WEVTIA",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_e6f7896a5b4d4d3f",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_WEXBEG",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_WIFREI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_11af4a86d94d3878",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_WIKJOP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_44e8427b3bfaf494",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YABKOB",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f95acdd33022f0e2",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_YAGWOS",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_b822f61e389e6811",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YAHFAO",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7de38c30427009bb",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_YAZBAC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_eac4a5e47684a768",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_YAZHUC",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "fold_id": 0,
+      "molecule_id": "omegacsd_YENLEI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_03bc5b9033310d63",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YESPIV",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2417ea256beff6ff",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YEYVED",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7d86428301b5a7a9",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YILDOM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0eb34317ab7f6186",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_YOPWOP",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YOSMOI",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_YOWYAK",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8189e4c0420ad64f",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_YUKNAT",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a3d6e872332a13b6",
+      "fold_id": 3,
+      "molecule_id": "omegacsd_YULXIM",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d834c73ca7b33691",
+      "fold_id": 2,
+      "molecule_id": "omegacsd_YULZOU",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "fold_id": 1,
+      "molecule_id": "omegacsd_YUYJEH",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d07897be28eef4fc",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1b6l",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5099cb7747f52e7a",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1bhx",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_196f7ec4873e7272",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1bto",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5a9f9e50dc84770b",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1c1u",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1d09",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_dbc5367af9776415",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1d3g",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1d3h",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1d8d",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1dfo",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_844c051bccd7422d",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1exa",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1f06",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1f8b",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2c9b518e02a01057",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1fm9",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1g4s",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1g6c",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1gja",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1gs5",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1gse",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1gz8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1h1p",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9600e3c0ebb83e6",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1h1s",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1h2k",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1h6h",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1hyo",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1ik4",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c91f8b4ec2e516bd",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1is0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1iy7",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_be71c7026124d25f",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1j3f",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1jsl",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1k2t",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1k2u",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1koj",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d1eae950135f6a64",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1kz8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1l7g",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1m2x",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2bfcd7fa773af97f",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1m5b",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1m5d",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1m5f",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1n2b",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1n3z",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c618baaa49b0e1ca",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1nms",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1nnk",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6f14feb4ed40c5e0",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1nqu",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1ofd",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c9600e3c0ebb83e6",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1oiu",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1oks",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f80091fbc9d8612b",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1p1o",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1pa9",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1pck",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3b139ddd2a925eb7",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1qxw",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1qy5",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1r34",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1r4p",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1r6w",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1rf6",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d9e374affc2f2a58",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1s63",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1s8j",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_05d5398e0a5c7805",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1sa4",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ce66a7e746b71b4a",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1syh",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1toj",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1uf5",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1uf7",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1uf8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1ur8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_b9b8f0757cf10dfc",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1uu9",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1uwc",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_64f8170444031ad0",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1uy8",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_3c7a5f5f51349355",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1v2n",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1v97",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1w1q",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1w9u",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bd13661808833377",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1wvj",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c5cb4a89a7660b6c",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1xap",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_2f96ac0802d067dd",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1xn0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_947c5f387dcd5395",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_1xom",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_bd052b9cb61a1164",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1xon",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a10500780764068c",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1xp0",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_de580ef96bbd1e46",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_1xqc",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_09b9b29d8e4f1d2b",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_1y6q",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_19a95321efc5b5be",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1yc1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_66f23ee245c6005c",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1yc4",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1yc5",
+      "n_candidates": 6
+    },
+    {
+      "family_id": "family_5cdf2ba148dc5867",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1yvx",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_1zvx",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_949091c1482a24d4",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_1zz2",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2aw1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7b597ad893610eac",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2ayr",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_18bf9d6b340856a5",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2b7d",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_2bts",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5eb52cf034a3345a",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_2byi",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_03687ca90e3c4225",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2c4w",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_2ewb",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_263535e477221da9",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_2f34",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_30657b12b77f1923",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2f4j",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_6e3ab4a5cff3c77b",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2f6v",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_fcce925a3b9754ee",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2flb",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2fqt",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_2fyv",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ffa61249884dd048",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2g8n",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_2ggd",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_2gss",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_2h03",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a10500780764068c",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_2h42",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_2hb1",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2hd6",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_d5c8b4923dc333e8",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2i0a",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_0c1169a17c00ffdd",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_2iuz",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_512647c7837accfe",
+      "fold_id": 2,
+      "molecule_id": "omegapdb_2j34",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "fold_id": 1,
+      "molecule_id": "omegapdb_2j47",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_ecfa7fb79746640f",
+      "fold_id": 0,
+      "molecule_id": "omegapdb_2j4i",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "fold_id": 3,
+      "molecule_id": "omegapdb_3cbs",
+      "n_candidates": 10
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "fold_id": 4,
+      "molecule_id": "omegapdb_6prc",
+      "n_candidates": 10
+    }
+  ],
+  "folds": [
+    {
+      "fold_id": 0,
+      "training_families": 229,
+      "training_family_ids": [
+        "family_0142e032ff88e955",
+        "family_03bc5b9033310d63",
+        "family_05d5398e0a5c7805",
+        "family_05d92e095fdcb3bf",
+        "family_05dc8af68b7beeba",
+        "family_08d0bb49e552ac84",
+        "family_08d7968a4f216128",
+        "family_0934fb71fd89299b",
+        "family_09673c2a400987bc",
+        "family_0c1169a17c00ffdd",
+        "family_0d509767aef54f28",
+        "family_0eb34317ab7f6186",
+        "family_10c8ad9e5a1fe5e6",
+        "family_10cd1edc55212d21",
+        "family_11af4a86d94d3878",
+        "family_123348955b4e7e4d",
+        "family_12a9bb7c7758a562",
+        "family_13a5fe35750623bc",
+        "family_1417e42f2bd1ffd3",
+        "family_15cd07a8d7fee8eb",
+        "family_15e53263b7e04dd1",
+        "family_177fa87efab88c31",
+        "family_18bf9d6b340856a5",
+        "family_195c97dd2e2f9e89",
+        "family_196f7ec4873e7272",
+        "family_19a95321efc5b5be",
+        "family_19c76c9554d33100",
+        "family_19d2eb8ae83b0a3e",
+        "family_1cc394cf463fb765",
+        "family_1dbbf90fc982f11b",
+        "family_1e2592123c2d3861",
+        "family_2098d873e99d0abe",
+        "family_20fe808af17fab6f",
+        "family_2274b9a82bd4e52d",
+        "family_2417ea256beff6ff",
+        "family_263535e477221da9",
+        "family_26b8a1411526c50f",
+        "family_279a449083ede9ff",
+        "family_28095386b0fb4537",
+        "family_282bacf050d42cd8",
+        "family_283ce63209be975d",
+        "family_28ecc6623bc3811d",
+        "family_2c9b518e02a01057",
+        "family_2f96ac0802d067dd",
+        "family_303c1ae9488e2984",
+        "family_308005378a36a1f4",
+        "family_3228bf69b2ce3e76",
+        "family_338adb444a100d30",
+        "family_3399c8ac5817fa01",
+        "family_3677730fac035e68",
+        "family_3886653a2e62ea96",
+        "family_38ae3d7e97e10fe9",
+        "family_3b139ddd2a925eb7",
+        "family_3c7a5f5f51349355",
+        "family_3e08c0e49e53fa31",
+        "family_3e29c31888ec6ef3",
+        "family_3e7735028a1733e3",
+        "family_4045110cc1b4194a",
+        "family_404671487096a258",
+        "family_40ed992131074db0",
+        "family_411ca8ad62cd1d1d",
+        "family_4186605160fb77a9",
+        "family_42c97e7a3c085fb3",
+        "family_44e8427b3bfaf494",
+        "family_495248331fb308b0",
+        "family_4a18593103a66771",
+        "family_4c692b95ec0e0881",
+        "family_4d013bb9c56ad6c8",
+        "family_512647c7837accfe",
+        "family_51e28a441b1b7d0f",
+        "family_520b7dbb471d2d66",
+        "family_5695b6350489c399",
+        "family_56e7ab0bd987357f",
+        "family_588505fa343f2b45",
+        "family_58d0ceab4c638c44",
+        "family_5a9f9e50dc84770b",
+        "family_5b2b239ec0392092",
+        "family_5cdf2ba148dc5867",
+        "family_5d4b4ccc8bccd512",
+        "family_5e75bd3259bb0dec",
+        "family_5eb52cf034a3345a",
+        "family_60bc44663a14f216",
+        "family_61384ecf3a8b4198",
+        "family_62c3cbb8fdf639ce",
+        "family_64f8170444031ad0",
+        "family_66f23ee245c6005c",
+        "family_69b245c62fe455ed",
+        "family_6b548750494dd3b9",
+        "family_6c72d66dc224f92e",
+        "family_6e3ab4a5cff3c77b",
+        "family_6e48449dbd90a853",
+        "family_6f14feb4ed40c5e0",
+        "family_6f885b0d62dd2815",
+        "family_7343e5d26b9cfb64",
+        "family_73c88bf04a99aae5",
+        "family_75009fab91863de9",
+        "family_758db664716d4572",
+        "family_77a9338479551131",
+        "family_78f4b7236326e3f8",
+        "family_7b597ad893610eac",
+        "family_7be33c65813e8305",
+        "family_7d86428301b5a7a9",
+        "family_7de38c30427009bb",
+        "family_7f676bff0e9e46bd",
+        "family_7fb8831e9236203a",
+        "family_802ecf2712bcc295",
+        "family_8189e4c0420ad64f",
+        "family_82ef1006184dd98b",
+        "family_844c051bccd7422d",
+        "family_856bd6657da6db6c",
+        "family_886efbd4bfa0bb06",
+        "family_8b041d2430934781",
+        "family_8b1ff88463dffffe",
+        "family_8c2e3ed84f9272bb",
+        "family_8d3aad01578b93cc",
+        "family_90064691dd120e2d",
+        "family_9060c18d9f7361dc",
+        "family_92370cefbdda6d4e",
+        "family_926733efa6fadf48",
+        "family_9415d5eb146a02d9",
+        "family_947c5f387dcd5395",
+        "family_949091c1482a24d4",
+        "family_95046468a5bc2f6a",
+        "family_97848582c564ce68",
+        "family_999a1992687a274a",
+        "family_9a142eead479ff33",
+        "family_9accbffb1cdc1b87",
+        "family_9ad57ca5789678c9",
+        "family_a03b93c94c52e81f",
+        "family_a10500780764068c",
+        "family_a10fb587310a12b2",
+        "family_a1839b7a722d41d2",
+        "family_a18e3fda3b9f2417",
+        "family_a21c4f64dcc59dd2",
+        "family_a3d6e872332a13b6",
+        "family_a68979a3cb8099be",
+        "family_a74b65b77138447f",
+        "family_a81ce7b645caad69",
+        "family_ab566a1730c32751",
+        "family_af6fc72d9c1b40f0",
+        "family_b7286454b6a33e97",
+        "family_b822f61e389e6811",
+        "family_b9888ea90aa782a2",
+        "family_bb4db85aacb53c19",
+        "family_bc1461607c87a7c8",
+        "family_bd052b9cb61a1164",
+        "family_bd13661808833377",
+        "family_be71c7026124d25f",
+        "family_becb1e38e9821757",
+        "family_bfaf6a2ec2004a27",
+        "family_bff4522e4bcff6d4",
+        "family_c0423fbdc5100019",
+        "family_c070ee22565a8185",
+        "family_c2df66a36703737e",
+        "family_c2e54b42736f4228",
+        "family_c43f50b6cd3d0cbd",
+        "family_c4b94b354fe5b49d",
+        "family_c525e17ef77e7567",
+        "family_c5cb4a89a7660b6c",
+        "family_c5fa4d5f2c9d73cd",
+        "family_c618baaa49b0e1ca",
+        "family_c69d1b6aded39159",
+        "family_c8ea2a470a13161b",
+        "family_c8f8bb0329478267",
+        "family_c91760544523ab9c",
+        "family_c91f8b4ec2e516bd",
+        "family_c928d783ea8e31f8",
+        "family_c9600e3c0ebb83e6",
+        "family_c9683f3678b351c3",
+        "family_cb4d20ea3f4b8f9e",
+        "family_cc83b9cd5b90607b",
+        "family_cca8902fc24975f5",
+        "family_cd625e1df7434ed7",
+        "family_cda6a18006d04a8a",
+        "family_cdf455e44ee3fb05",
+        "family_ce27d808c1138e5a",
+        "family_cefa9a67860b26a9",
+        "family_cf9cb071addaf49d",
+        "family_d07897be28eef4fc",
+        "family_d0cd378c13ee9ec0",
+        "family_d2dcc23bcdd9ae0e",
+        "family_d3b1c36d8318a65c",
+        "family_d5722012ab374b4e",
+        "family_d615a63e827eaf25",
+        "family_d7ed8cd78f3f4e29",
+        "family_d834c73ca7b33691",
+        "family_d9e374affc2f2a58",
+        "family_db8029752f9f783d",
+        "family_dbc5367af9776415",
+        "family_dbdf1536bfd38939",
+        "family_dd813b47fea323a3",
+        "family_de580ef96bbd1e46",
+        "family_e044fbd58b0abfc8",
+        "family_e060d928a6c7940d",
+        "family_e0b1034bf26a781b",
+        "family_e38d7de63b5310bd",
+        "family_e3f062da86b64d64",
+        "family_e44d8091d2c1870f",
+        "family_e6f7896a5b4d4d3f",
+        "family_e87bfed0caa69b13",
+        "family_e8e5e3a20a75e266",
+        "family_e94c24084ee9ebe4",
+        "family_ea78c4352157b38b",
+        "family_eac4a5e47684a768",
+        "family_eb05dc1d2849c789",
+        "family_eb34981a71f67e23",
+        "family_eb876d24403f74d5",
+        "family_ee3240f50d9c4821",
+        "family_ee830212d3e57ff2",
+        "family_ef0aa9bff0d6934e",
+        "family_ef9ef6176511b120",
+        "family_efdb44ca1f83cb47",
+        "family_f0617ff68d61e841",
+        "family_f290ba3e24997229",
+        "family_f2fe6c3414f41a47",
+        "family_f52b32ae9e4d1105",
+        "family_f64b6a438c5e9d11",
+        "family_f75076cadfc7d6a2",
+        "family_f75a0becd840d9e5",
+        "family_f80091fbc9d8612b",
+        "family_f8b586ee2df60871",
+        "family_f900ffbd67b6b2e8",
+        "family_fa08e2f93bf0d80b",
+        "family_fa3cde4a926ffacc",
+        "family_fd0687c749491088",
+        "family_fd487f2b6e8827d2",
+        "family_fe0d4b0ac5be4cd1",
+        "family_feb2978ebc5668d7",
+        "family_fecfd40a08cdc309"
+      ],
+      "training_molecules": 382,
+      "validation_families": 58,
+      "validation_family_ids": [
+        "family_03687ca90e3c4225",
+        "family_041961ff19920ccf",
+        "family_08eda70c7ba3d019",
+        "family_09b9b29d8e4f1d2b",
+        "family_0a0298f40f571bf0",
+        "family_168036b326a7a517",
+        "family_2bfcd7fa773af97f",
+        "family_2c0c74fc64791156",
+        "family_3053edfdee00eaa1",
+        "family_30657b12b77f1923",
+        "family_3b5ac2e268a80b65",
+        "family_3de86dfd4be44f52",
+        "family_4aa201d9298554c5",
+        "family_4b9688c58a68b209",
+        "family_4d72a5ac61689f5e",
+        "family_4e158cf3dbb0251a",
+        "family_5099cb7747f52e7a",
+        "family_50b772f11ab10ea5",
+        "family_58ed390b47f17e65",
+        "family_5c66a1976331bbb0",
+        "family_608838e3332d4844",
+        "family_674c6f0b1372731f",
+        "family_68e9ac7c138540a9",
+        "family_69c1ac3de1112323",
+        "family_6bf0b2ee0ec28a3e",
+        "family_6cd14c5b51f8842b",
+        "family_7796cb316aa67077",
+        "family_7c0273fe33caa2d6",
+        "family_7d842002d99af2da",
+        "family_873f79c8929f43fe",
+        "family_89288a2c3998d235",
+        "family_8a32cdcdf278b10a",
+        "family_907acd4a70be52ce",
+        "family_919079b4fdad2a0e",
+        "family_9a017170f5259ac2",
+        "family_a7db6cef32a431df",
+        "family_b9b8f0757cf10dfc",
+        "family_c1346404d29acc3e",
+        "family_c4d676730499110e",
+        "family_c5025ff352000123",
+        "family_ce66a7e746b71b4a",
+        "family_d07e844f9f35c93a",
+        "family_d1eae950135f6a64",
+        "family_d2c9342e8fed3093",
+        "family_d5c8b4923dc333e8",
+        "family_df4333472816946c",
+        "family_e076ceeb571d6c72",
+        "family_e72a23577f8c89e1",
+        "family_ebcefe4d13bdaee2",
+        "family_ecfa7fb79746640f",
+        "family_ef37c7d4f889bc3d",
+        "family_f233c16ae057a27b",
+        "family_f3fba29ae937c54f",
+        "family_f7578d19e9f96ff3",
+        "family_f95acdd33022f0e2",
+        "family_fcce925a3b9754ee",
+        "family_ff425c8f05e8b50c",
+        "family_ffa61249884dd048"
+      ],
+      "validation_molecules": 96
+    },
+    {
+      "fold_id": 1,
+      "training_families": 229,
+      "training_family_ids": [
+        "family_0142e032ff88e955",
+        "family_03687ca90e3c4225",
+        "family_041961ff19920ccf",
+        "family_05d92e095fdcb3bf",
+        "family_05dc8af68b7beeba",
+        "family_08d0bb49e552ac84",
+        "family_08eda70c7ba3d019",
+        "family_09673c2a400987bc",
+        "family_09b9b29d8e4f1d2b",
+        "family_0a0298f40f571bf0",
+        "family_0c1169a17c00ffdd",
+        "family_0d509767aef54f28",
+        "family_0eb34317ab7f6186",
+        "family_10c8ad9e5a1fe5e6",
+        "family_10cd1edc55212d21",
+        "family_11af4a86d94d3878",
+        "family_123348955b4e7e4d",
+        "family_12a9bb7c7758a562",
+        "family_13a5fe35750623bc",
+        "family_1417e42f2bd1ffd3",
+        "family_15cd07a8d7fee8eb",
+        "family_15e53263b7e04dd1",
+        "family_168036b326a7a517",
+        "family_18bf9d6b340856a5",
+        "family_196f7ec4873e7272",
+        "family_19c76c9554d33100",
+        "family_1cc394cf463fb765",
+        "family_1dbbf90fc982f11b",
+        "family_1e2592123c2d3861",
+        "family_2098d873e99d0abe",
+        "family_20fe808af17fab6f",
+        "family_2274b9a82bd4e52d",
+        "family_263535e477221da9",
+        "family_26b8a1411526c50f",
+        "family_279a449083ede9ff",
+        "family_28095386b0fb4537",
+        "family_282bacf050d42cd8",
+        "family_283ce63209be975d",
+        "family_28ecc6623bc3811d",
+        "family_2bfcd7fa773af97f",
+        "family_2c0c74fc64791156",
+        "family_2c9b518e02a01057",
+        "family_2f96ac0802d067dd",
+        "family_3053edfdee00eaa1",
+        "family_30657b12b77f1923",
+        "family_308005378a36a1f4",
+        "family_3228bf69b2ce3e76",
+        "family_338adb444a100d30",
+        "family_3399c8ac5817fa01",
+        "family_3677730fac035e68",
+        "family_3886653a2e62ea96",
+        "family_38ae3d7e97e10fe9",
+        "family_3b139ddd2a925eb7",
+        "family_3b5ac2e268a80b65",
+        "family_3de86dfd4be44f52",
+        "family_3e29c31888ec6ef3",
+        "family_404671487096a258",
+        "family_40ed992131074db0",
+        "family_411ca8ad62cd1d1d",
+        "family_4186605160fb77a9",
+        "family_42c97e7a3c085fb3",
+        "family_4a18593103a66771",
+        "family_4aa201d9298554c5",
+        "family_4b9688c58a68b209",
+        "family_4c692b95ec0e0881",
+        "family_4d013bb9c56ad6c8",
+        "family_4d72a5ac61689f5e",
+        "family_4e158cf3dbb0251a",
+        "family_5099cb7747f52e7a",
+        "family_50b772f11ab10ea5",
+        "family_512647c7837accfe",
+        "family_51e28a441b1b7d0f",
+        "family_520b7dbb471d2d66",
+        "family_5695b6350489c399",
+        "family_58d0ceab4c638c44",
+        "family_58ed390b47f17e65",
+        "family_5a9f9e50dc84770b",
+        "family_5b2b239ec0392092",
+        "family_5c66a1976331bbb0",
+        "family_5d4b4ccc8bccd512",
+        "family_5e75bd3259bb0dec",
+        "family_608838e3332d4844",
+        "family_60bc44663a14f216",
+        "family_61384ecf3a8b4198",
+        "family_62c3cbb8fdf639ce",
+        "family_64f8170444031ad0",
+        "family_66f23ee245c6005c",
+        "family_674c6f0b1372731f",
+        "family_68e9ac7c138540a9",
+        "family_69b245c62fe455ed",
+        "family_69c1ac3de1112323",
+        "family_6b548750494dd3b9",
+        "family_6bf0b2ee0ec28a3e",
+        "family_6c72d66dc224f92e",
+        "family_6cd14c5b51f8842b",
+        "family_6e3ab4a5cff3c77b",
+        "family_6f14feb4ed40c5e0",
+        "family_6f885b0d62dd2815",
+        "family_7343e5d26b9cfb64",
+        "family_75009fab91863de9",
+        "family_758db664716d4572",
+        "family_7796cb316aa67077",
+        "family_77a9338479551131",
+        "family_78f4b7236326e3f8",
+        "family_7b597ad893610eac",
+        "family_7be33c65813e8305",
+        "family_7c0273fe33caa2d6",
+        "family_7d842002d99af2da",
+        "family_7de38c30427009bb",
+        "family_7f676bff0e9e46bd",
+        "family_802ecf2712bcc295",
+        "family_8189e4c0420ad64f",
+        "family_82ef1006184dd98b",
+        "family_844c051bccd7422d",
+        "family_873f79c8929f43fe",
+        "family_886efbd4bfa0bb06",
+        "family_89288a2c3998d235",
+        "family_8a32cdcdf278b10a",
+        "family_8b041d2430934781",
+        "family_8b1ff88463dffffe",
+        "family_8d3aad01578b93cc",
+        "family_90064691dd120e2d",
+        "family_9060c18d9f7361dc",
+        "family_907acd4a70be52ce",
+        "family_919079b4fdad2a0e",
+        "family_926733efa6fadf48",
+        "family_947c5f387dcd5395",
+        "family_949091c1482a24d4",
+        "family_9a017170f5259ac2",
+        "family_9a142eead479ff33",
+        "family_9accbffb1cdc1b87",
+        "family_9ad57ca5789678c9",
+        "family_a03b93c94c52e81f",
+        "family_a10500780764068c",
+        "family_a10fb587310a12b2",
+        "family_a1839b7a722d41d2",
+        "family_a18e3fda3b9f2417",
+        "family_a21c4f64dcc59dd2",
+        "family_a3d6e872332a13b6",
+        "family_a68979a3cb8099be",
+        "family_a74b65b77138447f",
+        "family_a7db6cef32a431df",
+        "family_ab566a1730c32751",
+        "family_b7286454b6a33e97",
+        "family_b9888ea90aa782a2",
+        "family_b9b8f0757cf10dfc",
+        "family_bb4db85aacb53c19",
+        "family_bc1461607c87a7c8",
+        "family_bd13661808833377",
+        "family_bfaf6a2ec2004a27",
+        "family_bff4522e4bcff6d4",
+        "family_c070ee22565a8185",
+        "family_c1346404d29acc3e",
+        "family_c2df66a36703737e",
+        "family_c2e54b42736f4228",
+        "family_c43f50b6cd3d0cbd",
+        "family_c4b94b354fe5b49d",
+        "family_c4d676730499110e",
+        "family_c5025ff352000123",
+        "family_c525e17ef77e7567",
+        "family_c5cb4a89a7660b6c",
+        "family_c5fa4d5f2c9d73cd",
+        "family_c618baaa49b0e1ca",
+        "family_c69d1b6aded39159",
+        "family_c8ea2a470a13161b",
+        "family_c8f8bb0329478267",
+        "family_c91760544523ab9c",
+        "family_c91f8b4ec2e516bd",
+        "family_c9600e3c0ebb83e6",
+        "family_cb4d20ea3f4b8f9e",
+        "family_cc83b9cd5b90607b",
+        "family_cda6a18006d04a8a",
+        "family_cdf455e44ee3fb05",
+        "family_ce27d808c1138e5a",
+        "family_ce66a7e746b71b4a",
+        "family_cefa9a67860b26a9",
+        "family_d07e844f9f35c93a",
+        "family_d1eae950135f6a64",
+        "family_d2c9342e8fed3093",
+        "family_d3b1c36d8318a65c",
+        "family_d5722012ab374b4e",
+        "family_d5c8b4923dc333e8",
+        "family_d615a63e827eaf25",
+        "family_d7ed8cd78f3f4e29",
+        "family_d834c73ca7b33691",
+        "family_d9e374affc2f2a58",
+        "family_db8029752f9f783d",
+        "family_dbc5367af9776415",
+        "family_dd813b47fea323a3",
+        "family_de580ef96bbd1e46",
+        "family_df4333472816946c",
+        "family_e044fbd58b0abfc8",
+        "family_e060d928a6c7940d",
+        "family_e076ceeb571d6c72",
+        "family_e0b1034bf26a781b",
+        "family_e3f062da86b64d64",
+        "family_e44d8091d2c1870f",
+        "family_e6f7896a5b4d4d3f",
+        "family_e72a23577f8c89e1",
+        "family_e87bfed0caa69b13",
+        "family_ea78c4352157b38b",
+        "family_eac4a5e47684a768",
+        "family_eb05dc1d2849c789",
+        "family_eb34981a71f67e23",
+        "family_ebcefe4d13bdaee2",
+        "family_ecfa7fb79746640f",
+        "family_ee830212d3e57ff2",
+        "family_ef0aa9bff0d6934e",
+        "family_ef37c7d4f889bc3d",
+        "family_ef9ef6176511b120",
+        "family_f233c16ae057a27b",
+        "family_f290ba3e24997229",
+        "family_f3fba29ae937c54f",
+        "family_f52b32ae9e4d1105",
+        "family_f64b6a438c5e9d11",
+        "family_f75076cadfc7d6a2",
+        "family_f7578d19e9f96ff3",
+        "family_f75a0becd840d9e5",
+        "family_f8b586ee2df60871",
+        "family_f900ffbd67b6b2e8",
+        "family_f95acdd33022f0e2",
+        "family_fa08e2f93bf0d80b",
+        "family_fcce925a3b9754ee",
+        "family_fd0687c749491088",
+        "family_fd487f2b6e8827d2",
+        "family_feb2978ebc5668d7",
+        "family_fecfd40a08cdc309",
+        "family_ff425c8f05e8b50c",
+        "family_ffa61249884dd048"
+      ],
+      "training_molecules": 386,
+      "validation_families": 58,
+      "validation_family_ids": [
+        "family_03bc5b9033310d63",
+        "family_05d5398e0a5c7805",
+        "family_08d7968a4f216128",
+        "family_0934fb71fd89299b",
+        "family_177fa87efab88c31",
+        "family_195c97dd2e2f9e89",
+        "family_19a95321efc5b5be",
+        "family_19d2eb8ae83b0a3e",
+        "family_2417ea256beff6ff",
+        "family_303c1ae9488e2984",
+        "family_3c7a5f5f51349355",
+        "family_3e08c0e49e53fa31",
+        "family_3e7735028a1733e3",
+        "family_4045110cc1b4194a",
+        "family_44e8427b3bfaf494",
+        "family_495248331fb308b0",
+        "family_56e7ab0bd987357f",
+        "family_588505fa343f2b45",
+        "family_5cdf2ba148dc5867",
+        "family_5eb52cf034a3345a",
+        "family_6e48449dbd90a853",
+        "family_73c88bf04a99aae5",
+        "family_7d86428301b5a7a9",
+        "family_7fb8831e9236203a",
+        "family_856bd6657da6db6c",
+        "family_8c2e3ed84f9272bb",
+        "family_92370cefbdda6d4e",
+        "family_9415d5eb146a02d9",
+        "family_95046468a5bc2f6a",
+        "family_97848582c564ce68",
+        "family_999a1992687a274a",
+        "family_a81ce7b645caad69",
+        "family_af6fc72d9c1b40f0",
+        "family_b822f61e389e6811",
+        "family_bd052b9cb61a1164",
+        "family_be71c7026124d25f",
+        "family_becb1e38e9821757",
+        "family_c0423fbdc5100019",
+        "family_c928d783ea8e31f8",
+        "family_c9683f3678b351c3",
+        "family_cca8902fc24975f5",
+        "family_cd625e1df7434ed7",
+        "family_cf9cb071addaf49d",
+        "family_d07897be28eef4fc",
+        "family_d0cd378c13ee9ec0",
+        "family_d2dcc23bcdd9ae0e",
+        "family_dbdf1536bfd38939",
+        "family_e38d7de63b5310bd",
+        "family_e8e5e3a20a75e266",
+        "family_e94c24084ee9ebe4",
+        "family_eb876d24403f74d5",
+        "family_ee3240f50d9c4821",
+        "family_efdb44ca1f83cb47",
+        "family_f0617ff68d61e841",
+        "family_f2fe6c3414f41a47",
+        "family_f80091fbc9d8612b",
+        "family_fa3cde4a926ffacc",
+        "family_fe0d4b0ac5be4cd1"
+      ],
+      "validation_molecules": 92
+    },
+    {
+      "fold_id": 2,
+      "training_families": 230,
+      "training_family_ids": [
+        "family_0142e032ff88e955",
+        "family_03687ca90e3c4225",
+        "family_03bc5b9033310d63",
+        "family_041961ff19920ccf",
+        "family_05d5398e0a5c7805",
+        "family_05d92e095fdcb3bf",
+        "family_08d0bb49e552ac84",
+        "family_08d7968a4f216128",
+        "family_08eda70c7ba3d019",
+        "family_0934fb71fd89299b",
+        "family_09b9b29d8e4f1d2b",
+        "family_0a0298f40f571bf0",
+        "family_0c1169a17c00ffdd",
+        "family_0eb34317ab7f6186",
+        "family_10c8ad9e5a1fe5e6",
+        "family_10cd1edc55212d21",
+        "family_123348955b4e7e4d",
+        "family_12a9bb7c7758a562",
+        "family_13a5fe35750623bc",
+        "family_1417e42f2bd1ffd3",
+        "family_15cd07a8d7fee8eb",
+        "family_15e53263b7e04dd1",
+        "family_168036b326a7a517",
+        "family_177fa87efab88c31",
+        "family_18bf9d6b340856a5",
+        "family_195c97dd2e2f9e89",
+        "family_196f7ec4873e7272",
+        "family_19a95321efc5b5be",
+        "family_19c76c9554d33100",
+        "family_19d2eb8ae83b0a3e",
+        "family_1cc394cf463fb765",
+        "family_1e2592123c2d3861",
+        "family_2098d873e99d0abe",
+        "family_20fe808af17fab6f",
+        "family_2274b9a82bd4e52d",
+        "family_2417ea256beff6ff",
+        "family_263535e477221da9",
+        "family_26b8a1411526c50f",
+        "family_279a449083ede9ff",
+        "family_28095386b0fb4537",
+        "family_282bacf050d42cd8",
+        "family_283ce63209be975d",
+        "family_2bfcd7fa773af97f",
+        "family_2c0c74fc64791156",
+        "family_2c9b518e02a01057",
+        "family_303c1ae9488e2984",
+        "family_3053edfdee00eaa1",
+        "family_30657b12b77f1923",
+        "family_308005378a36a1f4",
+        "family_3228bf69b2ce3e76",
+        "family_3886653a2e62ea96",
+        "family_3b139ddd2a925eb7",
+        "family_3b5ac2e268a80b65",
+        "family_3c7a5f5f51349355",
+        "family_3de86dfd4be44f52",
+        "family_3e08c0e49e53fa31",
+        "family_3e7735028a1733e3",
+        "family_4045110cc1b4194a",
+        "family_404671487096a258",
+        "family_4186605160fb77a9",
+        "family_44e8427b3bfaf494",
+        "family_495248331fb308b0",
+        "family_4a18593103a66771",
+        "family_4aa201d9298554c5",
+        "family_4b9688c58a68b209",
+        "family_4d72a5ac61689f5e",
+        "family_4e158cf3dbb0251a",
+        "family_5099cb7747f52e7a",
+        "family_50b772f11ab10ea5",
+        "family_51e28a441b1b7d0f",
+        "family_520b7dbb471d2d66",
+        "family_5695b6350489c399",
+        "family_56e7ab0bd987357f",
+        "family_588505fa343f2b45",
+        "family_58d0ceab4c638c44",
+        "family_58ed390b47f17e65",
+        "family_5a9f9e50dc84770b",
+        "family_5c66a1976331bbb0",
+        "family_5cdf2ba148dc5867",
+        "family_5d4b4ccc8bccd512",
+        "family_5eb52cf034a3345a",
+        "family_608838e3332d4844",
+        "family_60bc44663a14f216",
+        "family_61384ecf3a8b4198",
+        "family_62c3cbb8fdf639ce",
+        "family_64f8170444031ad0",
+        "family_66f23ee245c6005c",
+        "family_674c6f0b1372731f",
+        "family_68e9ac7c138540a9",
+        "family_69c1ac3de1112323",
+        "family_6b548750494dd3b9",
+        "family_6bf0b2ee0ec28a3e",
+        "family_6cd14c5b51f8842b",
+        "family_6e3ab4a5cff3c77b",
+        "family_6e48449dbd90a853",
+        "family_6f885b0d62dd2815",
+        "family_7343e5d26b9cfb64",
+        "family_73c88bf04a99aae5",
+        "family_758db664716d4572",
+        "family_7796cb316aa67077",
+        "family_78f4b7236326e3f8",
+        "family_7b597ad893610eac",
+        "family_7be33c65813e8305",
+        "family_7c0273fe33caa2d6",
+        "family_7d842002d99af2da",
+        "family_7d86428301b5a7a9",
+        "family_7f676bff0e9e46bd",
+        "family_7fb8831e9236203a",
+        "family_82ef1006184dd98b",
+        "family_856bd6657da6db6c",
+        "family_873f79c8929f43fe",
+        "family_886efbd4bfa0bb06",
+        "family_89288a2c3998d235",
+        "family_8a32cdcdf278b10a",
+        "family_8b1ff88463dffffe",
+        "family_8c2e3ed84f9272bb",
+        "family_90064691dd120e2d",
+        "family_9060c18d9f7361dc",
+        "family_907acd4a70be52ce",
+        "family_919079b4fdad2a0e",
+        "family_92370cefbdda6d4e",
+        "family_926733efa6fadf48",
+        "family_9415d5eb146a02d9",
+        "family_949091c1482a24d4",
+        "family_95046468a5bc2f6a",
+        "family_97848582c564ce68",
+        "family_999a1992687a274a",
+        "family_9a017170f5259ac2",
+        "family_9a142eead479ff33",
+        "family_9accbffb1cdc1b87",
+        "family_9ad57ca5789678c9",
+        "family_a10500780764068c",
+        "family_a10fb587310a12b2",
+        "family_a18e3fda3b9f2417",
+        "family_a21c4f64dcc59dd2",
+        "family_a3d6e872332a13b6",
+        "family_a68979a3cb8099be",
+        "family_a74b65b77138447f",
+        "family_a7db6cef32a431df",
+        "family_a81ce7b645caad69",
+        "family_ab566a1730c32751",
+        "family_af6fc72d9c1b40f0",
+        "family_b7286454b6a33e97",
+        "family_b822f61e389e6811",
+        "family_b9888ea90aa782a2",
+        "family_b9b8f0757cf10dfc",
+        "family_bb4db85aacb53c19",
+        "family_bd052b9cb61a1164",
+        "family_bd13661808833377",
+        "family_be71c7026124d25f",
+        "family_becb1e38e9821757",
+        "family_bfaf6a2ec2004a27",
+        "family_bff4522e4bcff6d4",
+        "family_c0423fbdc5100019",
+        "family_c070ee22565a8185",
+        "family_c1346404d29acc3e",
+        "family_c2e54b42736f4228",
+        "family_c4b94b354fe5b49d",
+        "family_c4d676730499110e",
+        "family_c5025ff352000123",
+        "family_c525e17ef77e7567",
+        "family_c5fa4d5f2c9d73cd",
+        "family_c618baaa49b0e1ca",
+        "family_c69d1b6aded39159",
+        "family_c8ea2a470a13161b",
+        "family_c8f8bb0329478267",
+        "family_c91760544523ab9c",
+        "family_c928d783ea8e31f8",
+        "family_c9683f3678b351c3",
+        "family_cb4d20ea3f4b8f9e",
+        "family_cca8902fc24975f5",
+        "family_cd625e1df7434ed7",
+        "family_cda6a18006d04a8a",
+        "family_ce66a7e746b71b4a",
+        "family_cefa9a67860b26a9",
+        "family_cf9cb071addaf49d",
+        "family_d07897be28eef4fc",
+        "family_d07e844f9f35c93a",
+        "family_d0cd378c13ee9ec0",
+        "family_d1eae950135f6a64",
+        "family_d2c9342e8fed3093",
+        "family_d2dcc23bcdd9ae0e",
+        "family_d3b1c36d8318a65c",
+        "family_d5722012ab374b4e",
+        "family_d5c8b4923dc333e8",
+        "family_d615a63e827eaf25",
+        "family_d7ed8cd78f3f4e29",
+        "family_d9e374affc2f2a58",
+        "family_db8029752f9f783d",
+        "family_dbc5367af9776415",
+        "family_dbdf1536bfd38939",
+        "family_dd813b47fea323a3",
+        "family_de580ef96bbd1e46",
+        "family_df4333472816946c",
+        "family_e044fbd58b0abfc8",
+        "family_e076ceeb571d6c72",
+        "family_e38d7de63b5310bd",
+        "family_e44d8091d2c1870f",
+        "family_e6f7896a5b4d4d3f",
+        "family_e72a23577f8c89e1",
+        "family_e87bfed0caa69b13",
+        "family_e8e5e3a20a75e266",
+        "family_e94c24084ee9ebe4",
+        "family_eb05dc1d2849c789",
+        "family_eb876d24403f74d5",
+        "family_ebcefe4d13bdaee2",
+        "family_ecfa7fb79746640f",
+        "family_ee3240f50d9c4821",
+        "family_ef0aa9bff0d6934e",
+        "family_ef37c7d4f889bc3d",
+        "family_efdb44ca1f83cb47",
+        "family_f0617ff68d61e841",
+        "family_f233c16ae057a27b",
+        "family_f290ba3e24997229",
+        "family_f2fe6c3414f41a47",
+        "family_f3fba29ae937c54f",
+        "family_f52b32ae9e4d1105",
+        "family_f75076cadfc7d6a2",
+        "family_f7578d19e9f96ff3",
+        "family_f80091fbc9d8612b",
+        "family_f8b586ee2df60871",
+        "family_f900ffbd67b6b2e8",
+        "family_f95acdd33022f0e2",
+        "family_fa3cde4a926ffacc",
+        "family_fcce925a3b9754ee",
+        "family_fd0687c749491088",
+        "family_fd487f2b6e8827d2",
+        "family_fe0d4b0ac5be4cd1",
+        "family_ff425c8f05e8b50c",
+        "family_ffa61249884dd048"
+      ],
+      "training_molecules": 390,
+      "validation_families": 57,
+      "validation_family_ids": [
+        "family_05dc8af68b7beeba",
+        "family_09673c2a400987bc",
+        "family_0d509767aef54f28",
+        "family_11af4a86d94d3878",
+        "family_1dbbf90fc982f11b",
+        "family_28ecc6623bc3811d",
+        "family_2f96ac0802d067dd",
+        "family_338adb444a100d30",
+        "family_3399c8ac5817fa01",
+        "family_3677730fac035e68",
+        "family_38ae3d7e97e10fe9",
+        "family_3e29c31888ec6ef3",
+        "family_40ed992131074db0",
+        "family_411ca8ad62cd1d1d",
+        "family_42c97e7a3c085fb3",
+        "family_4c692b95ec0e0881",
+        "family_4d013bb9c56ad6c8",
+        "family_512647c7837accfe",
+        "family_5b2b239ec0392092",
+        "family_5e75bd3259bb0dec",
+        "family_69b245c62fe455ed",
+        "family_6c72d66dc224f92e",
+        "family_6f14feb4ed40c5e0",
+        "family_75009fab91863de9",
+        "family_77a9338479551131",
+        "family_7de38c30427009bb",
+        "family_802ecf2712bcc295",
+        "family_8189e4c0420ad64f",
+        "family_844c051bccd7422d",
+        "family_8b041d2430934781",
+        "family_8d3aad01578b93cc",
+        "family_947c5f387dcd5395",
+        "family_a03b93c94c52e81f",
+        "family_a1839b7a722d41d2",
+        "family_bc1461607c87a7c8",
+        "family_c2df66a36703737e",
+        "family_c43f50b6cd3d0cbd",
+        "family_c5cb4a89a7660b6c",
+        "family_c91f8b4ec2e516bd",
+        "family_c9600e3c0ebb83e6",
+        "family_cc83b9cd5b90607b",
+        "family_cdf455e44ee3fb05",
+        "family_ce27d808c1138e5a",
+        "family_d834c73ca7b33691",
+        "family_e060d928a6c7940d",
+        "family_e0b1034bf26a781b",
+        "family_e3f062da86b64d64",
+        "family_ea78c4352157b38b",
+        "family_eac4a5e47684a768",
+        "family_eb34981a71f67e23",
+        "family_ee830212d3e57ff2",
+        "family_ef9ef6176511b120",
+        "family_f64b6a438c5e9d11",
+        "family_f75a0becd840d9e5",
+        "family_fa08e2f93bf0d80b",
+        "family_feb2978ebc5668d7",
+        "family_fecfd40a08cdc309"
+      ],
+      "validation_molecules": 88
+    },
+    {
+      "fold_id": 3,
+      "training_families": 230,
+      "training_family_ids": [
+        "family_03687ca90e3c4225",
+        "family_03bc5b9033310d63",
+        "family_041961ff19920ccf",
+        "family_05d5398e0a5c7805",
+        "family_05dc8af68b7beeba",
+        "family_08d7968a4f216128",
+        "family_08eda70c7ba3d019",
+        "family_0934fb71fd89299b",
+        "family_09673c2a400987bc",
+        "family_09b9b29d8e4f1d2b",
+        "family_0a0298f40f571bf0",
+        "family_0c1169a17c00ffdd",
+        "family_0d509767aef54f28",
+        "family_11af4a86d94d3878",
+        "family_13a5fe35750623bc",
+        "family_1417e42f2bd1ffd3",
+        "family_15cd07a8d7fee8eb",
+        "family_168036b326a7a517",
+        "family_177fa87efab88c31",
+        "family_18bf9d6b340856a5",
+        "family_195c97dd2e2f9e89",
+        "family_196f7ec4873e7272",
+        "family_19a95321efc5b5be",
+        "family_19c76c9554d33100",
+        "family_19d2eb8ae83b0a3e",
+        "family_1dbbf90fc982f11b",
+        "family_2098d873e99d0abe",
+        "family_20fe808af17fab6f",
+        "family_2417ea256beff6ff",
+        "family_282bacf050d42cd8",
+        "family_28ecc6623bc3811d",
+        "family_2bfcd7fa773af97f",
+        "family_2c0c74fc64791156",
+        "family_2f96ac0802d067dd",
+        "family_303c1ae9488e2984",
+        "family_3053edfdee00eaa1",
+        "family_30657b12b77f1923",
+        "family_338adb444a100d30",
+        "family_3399c8ac5817fa01",
+        "family_3677730fac035e68",
+        "family_38ae3d7e97e10fe9",
+        "family_3b5ac2e268a80b65",
+        "family_3c7a5f5f51349355",
+        "family_3de86dfd4be44f52",
+        "family_3e08c0e49e53fa31",
+        "family_3e29c31888ec6ef3",
+        "family_3e7735028a1733e3",
+        "family_4045110cc1b4194a",
+        "family_404671487096a258",
+        "family_40ed992131074db0",
+        "family_411ca8ad62cd1d1d",
+        "family_42c97e7a3c085fb3",
+        "family_44e8427b3bfaf494",
+        "family_495248331fb308b0",
+        "family_4aa201d9298554c5",
+        "family_4b9688c58a68b209",
+        "family_4c692b95ec0e0881",
+        "family_4d013bb9c56ad6c8",
+        "family_4d72a5ac61689f5e",
+        "family_4e158cf3dbb0251a",
+        "family_5099cb7747f52e7a",
+        "family_50b772f11ab10ea5",
+        "family_512647c7837accfe",
+        "family_51e28a441b1b7d0f",
+        "family_520b7dbb471d2d66",
+        "family_5695b6350489c399",
+        "family_56e7ab0bd987357f",
+        "family_588505fa343f2b45",
+        "family_58d0ceab4c638c44",
+        "family_58ed390b47f17e65",
+        "family_5a9f9e50dc84770b",
+        "family_5b2b239ec0392092",
+        "family_5c66a1976331bbb0",
+        "family_5cdf2ba148dc5867",
+        "family_5d4b4ccc8bccd512",
+        "family_5e75bd3259bb0dec",
+        "family_5eb52cf034a3345a",
+        "family_608838e3332d4844",
+        "family_60bc44663a14f216",
+        "family_62c3cbb8fdf639ce",
+        "family_64f8170444031ad0",
+        "family_674c6f0b1372731f",
+        "family_68e9ac7c138540a9",
+        "family_69b245c62fe455ed",
+        "family_69c1ac3de1112323",
+        "family_6bf0b2ee0ec28a3e",
+        "family_6c72d66dc224f92e",
+        "family_6cd14c5b51f8842b",
+        "family_6e3ab4a5cff3c77b",
+        "family_6e48449dbd90a853",
+        "family_6f14feb4ed40c5e0",
+        "family_7343e5d26b9cfb64",
+        "family_73c88bf04a99aae5",
+        "family_75009fab91863de9",
+        "family_7796cb316aa67077",
+        "family_77a9338479551131",
+        "family_78f4b7236326e3f8",
+        "family_7b597ad893610eac",
+        "family_7be33c65813e8305",
+        "family_7c0273fe33caa2d6",
+        "family_7d842002d99af2da",
+        "family_7d86428301b5a7a9",
+        "family_7de38c30427009bb",
+        "family_7fb8831e9236203a",
+        "family_802ecf2712bcc295",
+        "family_8189e4c0420ad64f",
+        "family_82ef1006184dd98b",
+        "family_844c051bccd7422d",
+        "family_856bd6657da6db6c",
+        "family_873f79c8929f43fe",
+        "family_886efbd4bfa0bb06",
+        "family_89288a2c3998d235",
+        "family_8a32cdcdf278b10a",
+        "family_8b041d2430934781",
+        "family_8b1ff88463dffffe",
+        "family_8c2e3ed84f9272bb",
+        "family_8d3aad01578b93cc",
+        "family_90064691dd120e2d",
+        "family_9060c18d9f7361dc",
+        "family_907acd4a70be52ce",
+        "family_919079b4fdad2a0e",
+        "family_92370cefbdda6d4e",
+        "family_9415d5eb146a02d9",
+        "family_947c5f387dcd5395",
+        "family_95046468a5bc2f6a",
+        "family_97848582c564ce68",
+        "family_999a1992687a274a",
+        "family_9a017170f5259ac2",
+        "family_9a142eead479ff33",
+        "family_9accbffb1cdc1b87",
+        "family_a03b93c94c52e81f",
+        "family_a10fb587310a12b2",
+        "family_a1839b7a722d41d2",
+        "family_a7db6cef32a431df",
+        "family_a81ce7b645caad69",
+        "family_ab566a1730c32751",
+        "family_af6fc72d9c1b40f0",
+        "family_b822f61e389e6811",
+        "family_b9b8f0757cf10dfc",
+        "family_bb4db85aacb53c19",
+        "family_bc1461607c87a7c8",
+        "family_bd052b9cb61a1164",
+        "family_bd13661808833377",
+        "family_be71c7026124d25f",
+        "family_becb1e38e9821757",
+        "family_c0423fbdc5100019",
+        "family_c070ee22565a8185",
+        "family_c1346404d29acc3e",
+        "family_c2df66a36703737e",
+        "family_c43f50b6cd3d0cbd",
+        "family_c4b94b354fe5b49d",
+        "family_c4d676730499110e",
+        "family_c5025ff352000123",
+        "family_c525e17ef77e7567",
+        "family_c5cb4a89a7660b6c",
+        "family_c618baaa49b0e1ca",
+        "family_c69d1b6aded39159",
+        "family_c8ea2a470a13161b",
+        "family_c8f8bb0329478267",
+        "family_c91760544523ab9c",
+        "family_c91f8b4ec2e516bd",
+        "family_c928d783ea8e31f8",
+        "family_c9600e3c0ebb83e6",
+        "family_c9683f3678b351c3",
+        "family_cb4d20ea3f4b8f9e",
+        "family_cc83b9cd5b90607b",
+        "family_cca8902fc24975f5",
+        "family_cd625e1df7434ed7",
+        "family_cda6a18006d04a8a",
+        "family_cdf455e44ee3fb05",
+        "family_ce27d808c1138e5a",
+        "family_ce66a7e746b71b4a",
+        "family_cf9cb071addaf49d",
+        "family_d07897be28eef4fc",
+        "family_d07e844f9f35c93a",
+        "family_d0cd378c13ee9ec0",
+        "family_d1eae950135f6a64",
+        "family_d2c9342e8fed3093",
+        "family_d2dcc23bcdd9ae0e",
+        "family_d5722012ab374b4e",
+        "family_d5c8b4923dc333e8",
+        "family_d615a63e827eaf25",
+        "family_d834c73ca7b33691",
+        "family_dbdf1536bfd38939",
+        "family_de580ef96bbd1e46",
+        "family_df4333472816946c",
+        "family_e044fbd58b0abfc8",
+        "family_e060d928a6c7940d",
+        "family_e076ceeb571d6c72",
+        "family_e0b1034bf26a781b",
+        "family_e38d7de63b5310bd",
+        "family_e3f062da86b64d64",
+        "family_e44d8091d2c1870f",
+        "family_e72a23577f8c89e1",
+        "family_e8e5e3a20a75e266",
+        "family_e94c24084ee9ebe4",
+        "family_ea78c4352157b38b",
+        "family_eac4a5e47684a768",
+        "family_eb34981a71f67e23",
+        "family_eb876d24403f74d5",
+        "family_ebcefe4d13bdaee2",
+        "family_ecfa7fb79746640f",
+        "family_ee3240f50d9c4821",
+        "family_ee830212d3e57ff2",
+        "family_ef0aa9bff0d6934e",
+        "family_ef37c7d4f889bc3d",
+        "family_ef9ef6176511b120",
+        "family_efdb44ca1f83cb47",
+        "family_f0617ff68d61e841",
+        "family_f233c16ae057a27b",
+        "family_f290ba3e24997229",
+        "family_f2fe6c3414f41a47",
+        "family_f3fba29ae937c54f",
+        "family_f52b32ae9e4d1105",
+        "family_f64b6a438c5e9d11",
+        "family_f7578d19e9f96ff3",
+        "family_f75a0becd840d9e5",
+        "family_f80091fbc9d8612b",
+        "family_f8b586ee2df60871",
+        "family_f95acdd33022f0e2",
+        "family_fa08e2f93bf0d80b",
+        "family_fa3cde4a926ffacc",
+        "family_fcce925a3b9754ee",
+        "family_fd0687c749491088",
+        "family_fd487f2b6e8827d2",
+        "family_fe0d4b0ac5be4cd1",
+        "family_feb2978ebc5668d7",
+        "family_fecfd40a08cdc309",
+        "family_ff425c8f05e8b50c",
+        "family_ffa61249884dd048"
+      ],
+      "training_molecules": 382,
+      "validation_families": 57,
+      "validation_family_ids": [
+        "family_0142e032ff88e955",
+        "family_05d92e095fdcb3bf",
+        "family_08d0bb49e552ac84",
+        "family_0eb34317ab7f6186",
+        "family_10c8ad9e5a1fe5e6",
+        "family_10cd1edc55212d21",
+        "family_123348955b4e7e4d",
+        "family_12a9bb7c7758a562",
+        "family_15e53263b7e04dd1",
+        "family_1cc394cf463fb765",
+        "family_1e2592123c2d3861",
+        "family_2274b9a82bd4e52d",
+        "family_263535e477221da9",
+        "family_26b8a1411526c50f",
+        "family_279a449083ede9ff",
+        "family_28095386b0fb4537",
+        "family_283ce63209be975d",
+        "family_2c9b518e02a01057",
+        "family_308005378a36a1f4",
+        "family_3228bf69b2ce3e76",
+        "family_3886653a2e62ea96",
+        "family_3b139ddd2a925eb7",
+        "family_4186605160fb77a9",
+        "family_4a18593103a66771",
+        "family_61384ecf3a8b4198",
+        "family_66f23ee245c6005c",
+        "family_6b548750494dd3b9",
+        "family_6f885b0d62dd2815",
+        "family_758db664716d4572",
+        "family_7f676bff0e9e46bd",
+        "family_926733efa6fadf48",
+        "family_949091c1482a24d4",
+        "family_9ad57ca5789678c9",
+        "family_a10500780764068c",
+        "family_a18e3fda3b9f2417",
+        "family_a21c4f64dcc59dd2",
+        "family_a3d6e872332a13b6",
+        "family_a68979a3cb8099be",
+        "family_a74b65b77138447f",
+        "family_b7286454b6a33e97",
+        "family_b9888ea90aa782a2",
+        "family_bfaf6a2ec2004a27",
+        "family_bff4522e4bcff6d4",
+        "family_c2e54b42736f4228",
+        "family_c5fa4d5f2c9d73cd",
+        "family_cefa9a67860b26a9",
+        "family_d3b1c36d8318a65c",
+        "family_d7ed8cd78f3f4e29",
+        "family_d9e374affc2f2a58",
+        "family_db8029752f9f783d",
+        "family_dbc5367af9776415",
+        "family_dd813b47fea323a3",
+        "family_e6f7896a5b4d4d3f",
+        "family_e87bfed0caa69b13",
+        "family_eb05dc1d2849c789",
+        "family_f75076cadfc7d6a2",
+        "family_f900ffbd67b6b2e8"
+      ],
+      "validation_molecules": 96
+    },
+    {
+      "fold_id": 4,
+      "training_families": 230,
+      "training_family_ids": [
+        "family_0142e032ff88e955",
+        "family_03687ca90e3c4225",
+        "family_03bc5b9033310d63",
+        "family_041961ff19920ccf",
+        "family_05d5398e0a5c7805",
+        "family_05d92e095fdcb3bf",
+        "family_05dc8af68b7beeba",
+        "family_08d0bb49e552ac84",
+        "family_08d7968a4f216128",
+        "family_08eda70c7ba3d019",
+        "family_0934fb71fd89299b",
+        "family_09673c2a400987bc",
+        "family_09b9b29d8e4f1d2b",
+        "family_0a0298f40f571bf0",
+        "family_0d509767aef54f28",
+        "family_0eb34317ab7f6186",
+        "family_10c8ad9e5a1fe5e6",
+        "family_10cd1edc55212d21",
+        "family_11af4a86d94d3878",
+        "family_123348955b4e7e4d",
+        "family_12a9bb7c7758a562",
+        "family_15e53263b7e04dd1",
+        "family_168036b326a7a517",
+        "family_177fa87efab88c31",
+        "family_195c97dd2e2f9e89",
+        "family_19a95321efc5b5be",
+        "family_19d2eb8ae83b0a3e",
+        "family_1cc394cf463fb765",
+        "family_1dbbf90fc982f11b",
+        "family_1e2592123c2d3861",
+        "family_2274b9a82bd4e52d",
+        "family_2417ea256beff6ff",
+        "family_263535e477221da9",
+        "family_26b8a1411526c50f",
+        "family_279a449083ede9ff",
+        "family_28095386b0fb4537",
+        "family_283ce63209be975d",
+        "family_28ecc6623bc3811d",
+        "family_2bfcd7fa773af97f",
+        "family_2c0c74fc64791156",
+        "family_2c9b518e02a01057",
+        "family_2f96ac0802d067dd",
+        "family_303c1ae9488e2984",
+        "family_3053edfdee00eaa1",
+        "family_30657b12b77f1923",
+        "family_308005378a36a1f4",
+        "family_3228bf69b2ce3e76",
+        "family_338adb444a100d30",
+        "family_3399c8ac5817fa01",
+        "family_3677730fac035e68",
+        "family_3886653a2e62ea96",
+        "family_38ae3d7e97e10fe9",
+        "family_3b139ddd2a925eb7",
+        "family_3b5ac2e268a80b65",
+        "family_3c7a5f5f51349355",
+        "family_3de86dfd4be44f52",
+        "family_3e08c0e49e53fa31",
+        "family_3e29c31888ec6ef3",
+        "family_3e7735028a1733e3",
+        "family_4045110cc1b4194a",
+        "family_40ed992131074db0",
+        "family_411ca8ad62cd1d1d",
+        "family_4186605160fb77a9",
+        "family_42c97e7a3c085fb3",
+        "family_44e8427b3bfaf494",
+        "family_495248331fb308b0",
+        "family_4a18593103a66771",
+        "family_4aa201d9298554c5",
+        "family_4b9688c58a68b209",
+        "family_4c692b95ec0e0881",
+        "family_4d013bb9c56ad6c8",
+        "family_4d72a5ac61689f5e",
+        "family_4e158cf3dbb0251a",
+        "family_5099cb7747f52e7a",
+        "family_50b772f11ab10ea5",
+        "family_512647c7837accfe",
+        "family_56e7ab0bd987357f",
+        "family_588505fa343f2b45",
+        "family_58ed390b47f17e65",
+        "family_5b2b239ec0392092",
+        "family_5c66a1976331bbb0",
+        "family_5cdf2ba148dc5867",
+        "family_5e75bd3259bb0dec",
+        "family_5eb52cf034a3345a",
+        "family_608838e3332d4844",
+        "family_61384ecf3a8b4198",
+        "family_66f23ee245c6005c",
+        "family_674c6f0b1372731f",
+        "family_68e9ac7c138540a9",
+        "family_69b245c62fe455ed",
+        "family_69c1ac3de1112323",
+        "family_6b548750494dd3b9",
+        "family_6bf0b2ee0ec28a3e",
+        "family_6c72d66dc224f92e",
+        "family_6cd14c5b51f8842b",
+        "family_6e48449dbd90a853",
+        "family_6f14feb4ed40c5e0",
+        "family_6f885b0d62dd2815",
+        "family_73c88bf04a99aae5",
+        "family_75009fab91863de9",
+        "family_758db664716d4572",
+        "family_7796cb316aa67077",
+        "family_77a9338479551131",
+        "family_7c0273fe33caa2d6",
+        "family_7d842002d99af2da",
+        "family_7d86428301b5a7a9",
+        "family_7de38c30427009bb",
+        "family_7f676bff0e9e46bd",
+        "family_7fb8831e9236203a",
+        "family_802ecf2712bcc295",
+        "family_8189e4c0420ad64f",
+        "family_844c051bccd7422d",
+        "family_856bd6657da6db6c",
+        "family_873f79c8929f43fe",
+        "family_89288a2c3998d235",
+        "family_8a32cdcdf278b10a",
+        "family_8b041d2430934781",
+        "family_8c2e3ed84f9272bb",
+        "family_8d3aad01578b93cc",
+        "family_907acd4a70be52ce",
+        "family_919079b4fdad2a0e",
+        "family_92370cefbdda6d4e",
+        "family_926733efa6fadf48",
+        "family_9415d5eb146a02d9",
+        "family_947c5f387dcd5395",
+        "family_949091c1482a24d4",
+        "family_95046468a5bc2f6a",
+        "family_97848582c564ce68",
+        "family_999a1992687a274a",
+        "family_9a017170f5259ac2",
+        "family_9ad57ca5789678c9",
+        "family_a03b93c94c52e81f",
+        "family_a10500780764068c",
+        "family_a1839b7a722d41d2",
+        "family_a18e3fda3b9f2417",
+        "family_a21c4f64dcc59dd2",
+        "family_a3d6e872332a13b6",
+        "family_a68979a3cb8099be",
+        "family_a74b65b77138447f",
+        "family_a7db6cef32a431df",
+        "family_a81ce7b645caad69",
+        "family_af6fc72d9c1b40f0",
+        "family_b7286454b6a33e97",
+        "family_b822f61e389e6811",
+        "family_b9888ea90aa782a2",
+        "family_b9b8f0757cf10dfc",
+        "family_bc1461607c87a7c8",
+        "family_bd052b9cb61a1164",
+        "family_be71c7026124d25f",
+        "family_becb1e38e9821757",
+        "family_bfaf6a2ec2004a27",
+        "family_bff4522e4bcff6d4",
+        "family_c0423fbdc5100019",
+        "family_c1346404d29acc3e",
+        "family_c2df66a36703737e",
+        "family_c2e54b42736f4228",
+        "family_c43f50b6cd3d0cbd",
+        "family_c4d676730499110e",
+        "family_c5025ff352000123",
+        "family_c5cb4a89a7660b6c",
+        "family_c5fa4d5f2c9d73cd",
+        "family_c91f8b4ec2e516bd",
+        "family_c928d783ea8e31f8",
+        "family_c9600e3c0ebb83e6",
+        "family_c9683f3678b351c3",
+        "family_cc83b9cd5b90607b",
+        "family_cca8902fc24975f5",
+        "family_cd625e1df7434ed7",
+        "family_cdf455e44ee3fb05",
+        "family_ce27d808c1138e5a",
+        "family_ce66a7e746b71b4a",
+        "family_cefa9a67860b26a9",
+        "family_cf9cb071addaf49d",
+        "family_d07897be28eef4fc",
+        "family_d07e844f9f35c93a",
+        "family_d0cd378c13ee9ec0",
+        "family_d1eae950135f6a64",
+        "family_d2c9342e8fed3093",
+        "family_d2dcc23bcdd9ae0e",
+        "family_d3b1c36d8318a65c",
+        "family_d5c8b4923dc333e8",
+        "family_d7ed8cd78f3f4e29",
+        "family_d834c73ca7b33691",
+        "family_d9e374affc2f2a58",
+        "family_db8029752f9f783d",
+        "family_dbc5367af9776415",
+        "family_dbdf1536bfd38939",
+        "family_dd813b47fea323a3",
+        "family_df4333472816946c",
+        "family_e060d928a6c7940d",
+        "family_e076ceeb571d6c72",
+        "family_e0b1034bf26a781b",
+        "family_e38d7de63b5310bd",
+        "family_e3f062da86b64d64",
+        "family_e6f7896a5b4d4d3f",
+        "family_e72a23577f8c89e1",
+        "family_e87bfed0caa69b13",
+        "family_e8e5e3a20a75e266",
+        "family_e94c24084ee9ebe4",
+        "family_ea78c4352157b38b",
+        "family_eac4a5e47684a768",
+        "family_eb05dc1d2849c789",
+        "family_eb34981a71f67e23",
+        "family_eb876d24403f74d5",
+        "family_ebcefe4d13bdaee2",
+        "family_ecfa7fb79746640f",
+        "family_ee3240f50d9c4821",
+        "family_ee830212d3e57ff2",
+        "family_ef37c7d4f889bc3d",
+        "family_ef9ef6176511b120",
+        "family_efdb44ca1f83cb47",
+        "family_f0617ff68d61e841",
+        "family_f233c16ae057a27b",
+        "family_f2fe6c3414f41a47",
+        "family_f3fba29ae937c54f",
+        "family_f64b6a438c5e9d11",
+        "family_f75076cadfc7d6a2",
+        "family_f7578d19e9f96ff3",
+        "family_f75a0becd840d9e5",
+        "family_f80091fbc9d8612b",
+        "family_f900ffbd67b6b2e8",
+        "family_f95acdd33022f0e2",
+        "family_fa08e2f93bf0d80b",
+        "family_fa3cde4a926ffacc",
+        "family_fcce925a3b9754ee",
+        "family_fe0d4b0ac5be4cd1",
+        "family_feb2978ebc5668d7",
+        "family_fecfd40a08cdc309",
+        "family_ff425c8f05e8b50c",
+        "family_ffa61249884dd048"
+      ],
+      "training_molecules": 372,
+      "validation_families": 57,
+      "validation_family_ids": [
+        "family_0c1169a17c00ffdd",
+        "family_13a5fe35750623bc",
+        "family_1417e42f2bd1ffd3",
+        "family_15cd07a8d7fee8eb",
+        "family_18bf9d6b340856a5",
+        "family_196f7ec4873e7272",
+        "family_19c76c9554d33100",
+        "family_2098d873e99d0abe",
+        "family_20fe808af17fab6f",
+        "family_282bacf050d42cd8",
+        "family_404671487096a258",
+        "family_51e28a441b1b7d0f",
+        "family_520b7dbb471d2d66",
+        "family_5695b6350489c399",
+        "family_58d0ceab4c638c44",
+        "family_5a9f9e50dc84770b",
+        "family_5d4b4ccc8bccd512",
+        "family_60bc44663a14f216",
+        "family_62c3cbb8fdf639ce",
+        "family_64f8170444031ad0",
+        "family_6e3ab4a5cff3c77b",
+        "family_7343e5d26b9cfb64",
+        "family_78f4b7236326e3f8",
+        "family_7b597ad893610eac",
+        "family_7be33c65813e8305",
+        "family_82ef1006184dd98b",
+        "family_886efbd4bfa0bb06",
+        "family_8b1ff88463dffffe",
+        "family_90064691dd120e2d",
+        "family_9060c18d9f7361dc",
+        "family_9a142eead479ff33",
+        "family_9accbffb1cdc1b87",
+        "family_a10fb587310a12b2",
+        "family_ab566a1730c32751",
+        "family_bb4db85aacb53c19",
+        "family_bd13661808833377",
+        "family_c070ee22565a8185",
+        "family_c4b94b354fe5b49d",
+        "family_c525e17ef77e7567",
+        "family_c618baaa49b0e1ca",
+        "family_c69d1b6aded39159",
+        "family_c8ea2a470a13161b",
+        "family_c8f8bb0329478267",
+        "family_c91760544523ab9c",
+        "family_cb4d20ea3f4b8f9e",
+        "family_cda6a18006d04a8a",
+        "family_d5722012ab374b4e",
+        "family_d615a63e827eaf25",
+        "family_de580ef96bbd1e46",
+        "family_e044fbd58b0abfc8",
+        "family_e44d8091d2c1870f",
+        "family_ef0aa9bff0d6934e",
+        "family_f290ba3e24997229",
+        "family_f52b32ae9e4d1105",
+        "family_f8b586ee2df60871",
+        "family_fd0687c749491088",
+        "family_fd487f2b6e8827d2"
+      ],
+      "validation_molecules": 106
+    }
+  ],
+  "n_folds": 5,
+  "rule": "Sort original-development families by SHA256(seed|family_id); assign round-robin to outer folds",
+  "schema_version": 2,
+  "seed": 271828
+}
