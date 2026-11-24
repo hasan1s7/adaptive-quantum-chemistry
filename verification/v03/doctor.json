@@ -1,0 +1,159 @@
+{
+  "app_ready": true,
+  "checks": [
+    {
+      "app_required": true,
+      "detail": "Python 3.12.14 at /opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python; app requires 3.10 or newer.",
+      "name": "python_runtime",
+      "status": "pass"
+    },
+    {
+      "app_required": true,
+      "detail": "All 6 application entry/assets are present.",
+      "name": "application_files",
+      "status": "pass"
+    },
+    {
+      "app_required": true,
+      "detail": "All 10 registered scientific source modules match their frozen hashes.",
+      "name": "frozen_scientific_source",
+      "status": "pass"
+    },
+    {
+      "app_required": true,
+      "detail": "All 9 served summary files match the recorded seal; the full ledger is checked separately.",
+      "name": "app_summary_evidence",
+      "status": "pass"
+    },
+    {
+      "app_required": true,
+      "detail": "Prepared audit, split identity, and 4 feature/reference file hashes match.",
+      "name": "prepared_data",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": {
+        "meaning": "Content integrity and internal consistency; not an external attestation or a population risk guarantee.",
+        "primary_rows_verified": 2868,
+        "seal_schema_version": 2,
+        "seal_sha256": "456c81601dd7e3d54dfe3fbb8b66cdc01aedda970b37be713e921b6133c4aab9",
+        "sealed_files": [
+          "REPORT.md",
+          "aggregate.csv",
+          "audit.json",
+          "decision.json",
+          "decision_ledger.jsonl.gz",
+          "environment.json",
+          "execution_accounting.json",
+          "experiment_registry.json",
+          "experiments.csv",
+          "fold_aggregates.csv",
+          "fold_choices.json",
+          "folds.json",
+          "paired_comparisons.csv",
+          "per_molecule.csv",
+          "risk_vs_calls.png",
+          "run_status.json",
+          "trace_catalog.jsonl.gz",
+          "verification_manifest.json",
+          "verification_replays.jsonl.gz"
+        ],
+        "unsealed_files": [],
+        "verified": true,
+        "warnings": []
+      },
+      "name": "expanded_evidence",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": {
+        "meaning": "Content integrity and internal consistency; not an external attestation or a population risk guarantee.",
+        "primary_rows_verified": 648,
+        "seal_schema_version": 1,
+        "seal_sha256": "9d33494e36ba549a7c58c5cd83f3f9d1c89916ea555dec442fd8e0d10c71f656",
+        "sealed_files": [
+          "aggregate.csv",
+          "decision.json",
+          "paired_comparisons.csv",
+          "per_molecule.csv",
+          "traces.jsonl"
+        ],
+        "unsealed_files": [
+          "REPORT.md",
+          "audit.json",
+          "development_frontier.csv",
+          "development_per_molecule.jsonl.gz",
+          "development_traces.jsonl.gz",
+          "environment.json",
+          "excluded_molecules.csv",
+          "families.csv",
+          "frozen_config.json",
+          "heldout_frontier.csv",
+          "heldout_frontier_traces.jsonl.gz",
+          "prepared/audit.json",
+          "prepared/development_features.jsonl",
+          "prepared/development_references.jsonl",
+          "prepared/evaluation_features.jsonl",
+          "prepared/evaluation_references.jsonl",
+          "prepared/excluded_candidates.csv",
+          "prepared/excluded_molecules.csv",
+          "prepared/excluded_raw_rows.csv",
+          "prepared/families.csv",
+          "prepared/geometry_manifest.csv",
+          "prepared/split_manifest.json",
+          "prepared/unmatched_rows.csv",
+          "risk_vs_calls.png",
+          "split_manifest.json",
+          "unmatched_rows.csv"
+        ],
+        "verified": true,
+        "warnings": [
+          "Historical v0.1 seal verifies primary outcomes only; supplementary views have narrower integrity coverage.",
+          "26 auxiliary files are outside this seal."
+        ]
+      },
+      "name": "historical_evidence",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": "Historical v0.1 seal verifies primary outcomes only; supplementary views have narrower integrity coverage. 26 auxiliary files are outside this seal.",
+      "name": "historical_evidence_coverage",
+      "status": "warn"
+    },
+    {
+      "app_required": true,
+      "detail": "Bundled coordinate bytes and source identity match (478 development molecules, 4761 candidates).",
+      "name": "development_geometry",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": "Historical release unchanged: 11 source files and 58 recorded artifacts.",
+      "name": "historical_release",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": "Pinned source archive bytes match upstream_lock.json; no extraction or download performed.",
+      "name": "benchmark_source_snapshot",
+      "status": "pass"
+    },
+    {
+      "app_required": false,
+      "detail": "127.0.0.1:8765 is available now; startup checks it again.",
+      "name": "loopback_port",
+      "status": "pass"
+    }
+  ],
+  "files_modified": false,
+  "full_evidence_ready": true,
+  "network_accessed": false,
+  "ok": true,
+  "optional_scientific_dependencies": null,
+  "root": "/workspace/scratch/ab91b74f520d/adaptive-quantum-chemistry",
+  "schema_version": 1,
+  "scope": "Read-only file integrity, frozen-source checks, summary consistency, and local runtime diagnostics. No independent quantum calculation or full policy replay is performed."
+}

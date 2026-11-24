@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#10292e">
+  <meta name="color-scheme" content="light dark">
+  <meta name="description" content="A local, reproducible workbench for reference-query decisions on real molecular conformers.">
+  <title>AQC · Conformer workbench</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2310292e'/%3E%3Cpath d='M14 46 30 17h5l15 29h-8l-3-7H25l-4 7zm14-14h8l-4-9z' fill='%239ce4cb'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/assets/styles.css">
+  <script defer src="/assets/client.js"></script>
+  <script defer src="/assets/molecule-viewer.js"></script>
+  <script defer src="/assets/app.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to workbench</a>
+  <header class="app-header">
+    <a class="brand" href="#replay" aria-label="Adaptive Quantum Chemistry home"><span class="brand-symbol" aria-hidden="true">AQC</span><span>Adaptive Quantum<br><strong>Chemistry</strong></span></a>
+    <div class="connection" id="connection-status" role="status"><span class="connection-dot"></span><span>Connecting locally</span></div>
+  </header>
+  <nav class="primary-nav" aria-label="Workbench views">
+    <button class="nav-button active" data-view="replay" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9zm0 0v9m8-4.5L12 12 4 7.5m8 4.5v9"/></svg>Replay a molecule</button>
+    <button class="nav-button" data-view="results"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16M8 15l4-5 4 2 4-7"/></svg>Measured results</button>
+    <button class="nav-button" data-view="saved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11l3 3v15H5zm3 0v7h8V3M8 21v-7h8v7"/></svg>Saved runs<span id="saved-count" class="count" hidden></span></button>
+  </nav>
+  <main id="main" tabindex="-1">
+    <noscript><div class="notice error">This workbench needs JavaScript to display molecules and step through a query. The original CSV and JSON results remain available in the repository.</div></noscript>
+    <div id="global-error" class="notice error" role="alert" hidden></div>
+    <div id="startup-panel" class="startup-panel"><div class="loader" aria-hidden="true"></div><h1>Opening the conformer workbench</h1><p>Checking the local data and loading real development molecules.</p><p id="startup-detail" class="muted">No external services or live quantum calculations.</p><button class="button secondary" id="retry-startup" hidden>Try connecting again</button></div>
+
+    <section id="view-replay" class="view" aria-labelledby="replay-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow" id="replay-scope-label">REAL MOLECULES · OFFLINE REFERENCE REPLAY</p><h1 id="replay-title">Conformer workbench</h1><p class="lede">See what each reference query buys.</p></div><span class="scope-pill" id="replay-scope-pill">Original development data</span></div>
+      <div id="saved-mode-banner" class="notice saved-notice" hidden><div><strong>Saved run · read-only</strong><p id="saved-mode-detail">Inspect the geometry and reference observations captured in this run.</p></div><button class="button secondary" id="return-live">Return to live replay</button></div>
+      <section class="selection-panel" aria-label="Choose a molecule and policy">
+        <div class="molecule-picker"><label for="molecule-search">Find a molecule <span id="molecule-total" class="field-meta"></span></label><div class="search-input"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 5 5"/></svg><input id="molecule-search" type="search" placeholder="Search molecule ID" autocomplete="off"></div></div>
+        <div class="field"><label for="molecule-select">Development molecule</label><select id="molecule-select" disabled><option>Loading molecules…</option></select></div>
+        <div class="field policy-picker"><label for="policy-select">Acquisition policy</label><select id="policy-select" disabled><option value="sequential">Sequential · fold-selected</option><option value="fixed">Fixed top-2</option><option value="adaptive">Cheap window · fold-selected</option><option value="full">Full reference rerank</option><option value="manual">Manual queries</option></select></div>
+      </section>
+      <div class="workspace-grid">
+        <section class="viewer-card" aria-labelledby="molecule-title">
+          <div class="viewer-heading"><div><span class="eyebrow light" id="coordinate-scope-label">VERIFIED COORDINATES</span><h2 id="molecule-title">Loading molecule…</h2></div><span id="renderer-label" class="viewer-badge">3D viewer</span></div>
+          <div class="conformer-controls"><button class="icon-button on-dark" id="conformer-prev" aria-label="View previous conformer">‹</button><label class="sr-only" for="conformer-select">Conformer to inspect</label><select id="conformer-select" disabled><option>Loading conformers…</option></select><button class="icon-button on-dark" id="conformer-next" aria-label="View next conformer">›</button></div>
+          <div class="molecule-viewport" id="molecule-viewport" role="group" aria-label="Interactive molecular geometry"><div id="geometry-message" class="geometry-message">Loading verified coordinates…</div></div>
+          <div class="viewer-instructions"><span>Drag to rotate · pinch or scroll to zoom</span><button class="text-button on-dark" id="reset-camera">Reset view</button></div>
+          <div class="energy-strip"><div><span>GFN2-xTB · relative to cheap minimum</span><strong id="view-cheap-energy">— <small>kcal/mol</small></strong></div><div><span>Reference observation</span><strong id="view-reference-energy">Hidden until queried</strong></div></div>
+          <details class="viewer-options"><summary>Display &amp; coordinate details</summary><div class="viewer-option-controls"><label>Rendering<select id="viewer-style"><option value="ball-stick">Ball &amp; stick</option><option value="wireframe">Wireframe</option><option value="spacefill">Space filling</option></select></label><label class="check-label"><input type="checkbox" id="viewer-hydrogens" checked> Show hydrogens</label><label class="check-label"><input type="checkbox" id="viewer-spin"> Rotate slowly</label></div><p id="coordinate-detail" class="mono small">No coordinates loaded.</p><p class="small">Bonds are inferred for display only. Coordinates never become acquisition features. Shift-drag pans; arrow keys rotate the focused view.</p></details>
+        </section>
+        <aside class="acquisition-card" aria-labelledby="query-title">
+          <div class="section-heading"><div><p class="eyebrow">PAID-QUERY ACCOUNTING</p><h2 id="query-title">Start with one reference</h2></div><span id="session-status" class="status-chip">Ready</span></div>
+          <div class="query-metrics"><div><strong id="paid-count">0</strong><span>charged calls</span></div><div><strong id="pool-size">—</strong><span>conformers in pool</span></div></div>
+          <div class="best-verified" id="best-verified"><span>Best reference-verified conformer</span><strong>None yet</strong><p>Each query reveals one reference energy.</p></div>
+          <div id="session-result" class="session-result" aria-live="polite" hidden></div>
+          <div class="next-decision" id="next-decision"><span class="step-marker" aria-hidden="true">→</span><p>Loading a reproducible policy decision…</p></div>
+          <div class="query-actions" id="query-actions"><button class="button primary" id="step-query" disabled><span class="action-symbol" aria-hidden="true">+</span>Reveal next<span class="button-cost">1 call</span></button><button class="button secondary" id="run-policy" disabled>Run to stop</button><button class="button secondary" id="finish-manual" hidden disabled>Finish selection</button></div>
+          <p class="accounting-note">Offline replay of saved single points. Calls are accounting units, not new calculations or wall-clock savings.</p>
+          <div class="session-tools"><button class="text-button" id="reset-session" disabled>Start over</button><button class="text-button" id="save-run" disabled>Save run</button><button class="text-button" id="download-trace" disabled>Download trace</button></div>
+          <details class="policy-details"><summary>Policy &amp; family details</summary><p id="policy-description"></p><dl id="policy-metadata" class="metadata-list"></dl><pre id="policy-config"></pre><p class="small muted">The sequential envelope is a heuristic, not a confidence guarantee. This replay does not tune a policy or alter saved measurements.</p></details>
+        </aside>
+      </div>
+      <section class="panel trace-panel" aria-labelledby="trace-title"><div class="section-heading"><div><p class="eyebrow">ONE REVEAL AT A TIME</p><h2 id="trace-title">Query history</h2></div><span id="trace-count" class="field-meta">No queries yet</span></div><ol id="query-history" class="query-history"><li class="empty-state compact">Reference labels stay on the server until a charged query reveals them.</li></ol><details id="policy-events-details" hidden><summary>Inspect policy decision events</summary><ol id="policy-events" class="event-list"></ol></details></section>
+    </section>
+
+    <section id="view-results" class="view" aria-labelledby="results-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow">SAVED, MEASURED EVIDENCE</p><h1 id="results-title">The acquisition benchmark</h1><p class="lede">Actual measurements from the registered experiment.</p></div><button class="button secondary" id="export-results" disabled>Export visible CSV</button></div>
+      <div id="results-loading" class="panel empty-state"><div class="loader" aria-hidden="true"></div><h2>Loading the measured results</h2><p>Reading the saved tables from the local server.</p></div>
+      <div id="results-error" class="notice error" role="alert" hidden></div>
+      <div id="results-content" hidden>
+        <div class="scope-switch" aria-label="Result population"><button class="active" id="scope-cv" data-scope="cv" aria-pressed="true">Family cross-validation</button><button id="scope-registry" data-scope="registry" aria-pressed="false">All configurations <span id="registry-total"></span></button></div>
+        <div class="scope-explanation" id="scope-explanation"></div>
+        <section id="result-decision" class="decision-panel" aria-label="Recorded benchmark decision"></section>
+        <div class="results-summary" id="results-summary"></div>
+        <section class="panel risk-panel"><div class="section-heading"><div><h2>Risk versus reference calls</h2><p>Risk is the share of molecules with regret above 1 kcal/mol.</p></div><span id="plot-count" class="field-meta"></span></div><div id="risk-plot" class="risk-plot" role="img" aria-label="Measured risk versus mean reference calls"></div><div class="plot-legend"><span><i class="legend-dot fixed"></i>Fixed top-k</span><span><i class="legend-dot adaptive"></i>Cheap window</span><span><i class="legend-dot sequential"></i>Sequential</span><span><i class="legend-dot matched"></i>Matched simple</span><span><i class="legend-dot full"></i>Full rerank</span><span><i class="legend-dot diagnostic"></i>Unverified diagnostic</span></div><p class="chart-note" id="plot-note"></p></section>
+        <section class="panel measured-panel"><div class="section-heading"><div><h2 id="result-list-title">Out-of-fold policy results</h2><p id="result-list-description"></p></div><span id="visible-result-count" class="field-meta"></span></div>
+          <div id="registry-filters" class="registry-filters" hidden><label>Find configuration<input id="configuration-search" type="search" placeholder="Search ID or parameters"></label><label>Policy family<select id="configuration-kind"><option value="all">All families</option><option value="fixed">Fixed top-k</option><option value="adaptive">Cheap window</option><option value="sequential">Sequential</option><option value="full">Full rerank</option><option value="diagnostic">Unverified diagnostic</option></select></label><label>Observed risk<select id="configuration-risk"><option value="all">Any risk</option><option value="0.05">At most 5%</option><option value="0.025">At most 2.5%</option><option value="0">Zero observed failures</option></select></label><label>Sort by<select id="configuration-sort"><option value="mean_calls">Fewest calls</option><option value="success_rate">Highest success</option><option value="p95_regret_kcal">Lowest tail regret</option><option value="config_id">Configuration ID</option></select></label></div>
+          <div id="result-cards" class="result-cards"></div><div id="result-pagination" class="pagination" hidden><button class="button secondary" id="result-previous">Previous</button><span id="result-page-label"></span><button class="button secondary" id="result-next">Next</button></div>
+        </section>
+        <details class="panel evidence-details"><summary>Read the inference limits &amp; provenance</summary><div id="evidence-details"></div></details>
+      </div>
+    </section>
+
+    <section id="view-saved" class="view" aria-labelledby="saved-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow">KEEP THE DECISION TRAIL</p><h1 id="saved-title">Your saved runs</h1><p class="lede">Reopen a recorded trace and its geometry without querying again.</p></div><label class="button secondary import-button">Import run JSON<input id="import-run" type="file" accept="application/json,.json"></label></div>
+      <p class="scope-explanation">Saved runs are stored in this browser on this device. Export a JSON file to keep a portable copy. Imported runs are read-only user files; they are not sealed benchmark evidence.</p>
+      <div id="saved-error" class="notice error" role="alert" hidden></div><div id="saved-runs" class="saved-runs"></div>
+    </section>
+    <footer class="app-footer"><span>Adaptive Quantum Chemistry <span class="footer-dot">·</span> MVP workbench</span><span>Local data <span class="footer-dot">·</span> No live quantum jobs</span></footer>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+</body>
+</html>

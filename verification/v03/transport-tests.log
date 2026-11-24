@@ -1,0 +1,10 @@
+test_bundled_eight_part_transport_restores_the_sealed_ledger (tests.test_evidence_transport.EvidenceTransportTests.test_bundled_eight_part_transport_restores_the_sealed_ledger) ... ok
+test_corrupt_chunk_and_conflicting_existing_file_fail_closed (tests.test_evidence_transport.EvidenceTransportTests.test_corrupt_chunk_and_conflicting_existing_file_fail_closed) ... ok
+test_default_parts_fit_the_bounded_base64_transport (tests.test_evidence_transport.EvidenceTransportTests.test_default_parts_fit_the_bounded_base64_transport) ... ok
+test_original_four_part_checksums_remain_recoverable_from_same_ledger (tests.test_evidence_transport.EvidenceTransportTests.test_original_four_part_checksums_remain_recoverable_from_same_ledger) ... ok
+test_round_trip_and_idempotence_preserve_exact_bytes (tests.test_evidence_transport.EvidenceTransportTests.test_round_trip_and_idempotence_preserve_exact_bytes) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.652s
+
+OK

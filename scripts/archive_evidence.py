@@ -13,6 +13,7 @@ import json
 from pathlib import Path
 
 PROJECT = Path(__file__).resolve().parents[1]
+DEFAULT_PART_BYTES = 10 * 1024 * 1024
 
 
 def sha(path):
@@ -32,7 +33,7 @@ def safe_path(root, name):
     return result
 
 
-def pack(source: Path, folder: Path, root: Path = PROJECT, part_bytes: int = 20 * 1024 * 1024):
+def pack(source: Path, folder: Path, root: Path = PROJECT, part_bytes: int = DEFAULT_PART_BYTES):
     root, source, folder = root.resolve(), source.resolve(), folder.resolve()
     if part_bytes <= 0 or not source.is_relative_to(root) or not folder.is_relative_to(root):
         raise ValueError("Transport files must belong to this repository")

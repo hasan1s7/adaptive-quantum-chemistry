@@ -1,0 +1,8 @@
+{
+  "title": "AQC overnight MVP",
+  "timezone": "America/New_York",
+  "schedule": "BEGIN:VEVENT\nDTSTART;TZID=America/New_York:20261124T020000\nRRULE:FREQ=HOURLY;INTERVAL=3;COUNT=2\nEND:VEVENT",
+  "timing_mode": "flexible_schedule",
+  "scheduled_not_executed": true,
+  "scope": "AQC only; no deployment, new probes, live jobs, paid compute or Nabu changes"
+}

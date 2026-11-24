@@ -1,14 +1,60 @@
-# Adaptive Quantum Chemistry · v0.2
+# Adaptive Quantum Chemistry · v0.3 MVP
 
-**Start with the [interactive acquisition lab](results/lab/dashboard.html) in
-a real browser tab.** If a live tab has been opened for you, use that tab first.
-The file-preview pane is not the running application: download the HTML and
-open it in Chrome, Firefox, Edge, or Safari if the preview is blank or only
-shows text. Explore recorded risk-versus-calls results, rotate molecular
-geometries, step through paid reference queries, compare policies on the same
-pool, and inspect the evidence checks. The self-contained HTML embeds its
-JavaScript and coordinates; it needs no external assets, API requests, or
-quantum executable.
+**Open the local conformer workbench:** extract the complete repository, then
+run the following command from its folder with Python 3.10 or newer:
+
+```bash
+python -m aqc_app
+```
+
+The application opens in your browser. **No pip installation, scientific
+packages, Node, API account, or quantum software is needed to use the app.**
+Python itself must already be installed. On Windows, double-click
+`start-aqc.cmd`; on Linux or macOS, run `sh start-aqc.sh`. Keep the terminal
+open while using the workbench. It listens only on this computer at
+`http://127.0.0.1:8765/`.
+
+Choose a real development molecule, rotate its verified 3D coordinates,
+select a policy, and reveal reference energies one charged query at a time.
+The Python server retains unqueried references. Finish a decision to see its
+regret, save or export the queried trace, and compare the recorded operating
+points in **Measured results**. Imported traces are labeled unverified,
+read-only user snapshots; they never become benchmark evidence.
+
+If startup fails, run `python scripts/doctor.py`. For an occupied port, use
+`python -m aqc_app --port 8766`. Add `--no-open` to print the local address
+without opening a browser. See the [acceptance record](docs/MVP_ACCEPTANCE.md)
+and [HTTP API contract](aqc_app/API.md) for tested behavior and limits.
+
+<details>
+<summary>Development preview and responsive QA</summary>
+
+To run the local app without opening a browser, use:
+
+```bash
+python scripts/preview.py --port 4173
+```
+
+For the optional browser layout harness, add `--responsive-check` and open
+`http://127.0.0.1:4173/__qa__/responsive`. It displays the real app in a
+same-origin frame at selectable CSS widths. The `/__qa__/responsive` and
+`/__qa__/app` routes exist only in this development mode; the normal
+`python -m aqc_app` runtime does not enable them. The preview still binds only
+to loopback. A narrow iframe is a layout check, not physical mobile acceptance
+or a hosted deployment. See the [acceptance record](docs/MVP_ACCEPTANCE.md) for
+executed checks and remaining gates.
+
+</details>
+
+The app has a responsive interface; it is **not a hosted service or a native
+phone app**. A phone cannot reach a different computer through that computer's
+loopback address. Native Windows/macOS and physical phone acceptance remain
+separate from the executed Linux/API/browser checks.
+
+The historical [v0.2 portable lab](results/lab/dashboard.html) remains available
+as an inspectable client-side demonstration. The new local application uses a
+server-enforced reference boundary. Both display the same frozen scientific
+measurements; v0.3 adds product functionality, not a new scientific result.
 
 This repository implements a reproducible CLI benchmark for deciding which
 conformers deserve expensive reference single points. Version 0.2 registers
