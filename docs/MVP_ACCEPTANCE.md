@@ -8,9 +8,10 @@ interface does not establish a new scientific result.
 ## Current acceptance status
 
 The local implementation is complete enough to exercise the launch, replay,
-results, and saved-run workflows. The available automated/browser checks and
-private repository publication have completed. Native-device and clean-package
-acceptance remain separate gates; this record identifies their actual scope.
+results, and saved-run workflows. The available automated/browser checks,
+private repository publication, and today's clean ZIP extraction checks have
+completed. Native-device acceptance remains separate; this record identifies
+the actual scope of each gate.
 
 | Gate | Status at this handoff | Evidence or next required action |
 |---|---|---|
@@ -21,7 +22,8 @@ acceptance remain separate gates; this record identifies their actual scope.
 | Ledger transport | Eight bounded pieces restored byte for byte; transport tests passed. | `verification/v03/transport-compatibility.json` and `transport-tests.log`. |
 | Available desktop/responsive browser acceptance | **Completed for the observed remote Chrome/Linux paths.** Desktop and narrow-iframe replay, manual acquisition, Canvas 3D controls, results/filtering, reset, saving, actual desktop JSON/CSV downloads, and valid/invalid imports passed. | `verification/v03/browser-acceptance.json`; iframe download-event capture and physical-device limits are explicit below. |
 | Native Windows/macOS and physical mobile acceptance | **Pending; devices unavailable in this workspace.** | Execute the device cases below on those platforms. |
-| Hardware WebGL and clean extracted-package follow-up | **Pending.** The browser exercised the labeled Canvas fallback; overnight clean-package checks remain scheduled. | Native graphics acceptance and fresh-package execution must have their own evidence. |
+| Hardware WebGL | **Pending.** The browser exercised the labeled Canvas fallback. | Native graphics acceptance needs its own evidence. |
+| Clean distribution ZIP extraction | **Passed today.** All 226 manifest-listed file hashes matched; a path containing spaces supported standard-library diagnostics, actual server startup, and full reranking with zero regret. | `verification/v03/package-receipt.json`, `clean-package-doctor.json`, and `clean-package-server.log`. The 227th bundled file is `DISTRIBUTION.json` itself. |
 | Consolidated automated test gate | **216 Python tests run: 215 passed, one native Windows test skipped.** | `verification/v03/python-tests.log`; no failures. Frontend and viewer checks are reported separately. |
 | Private repository publication | **Passed.** Remote `main` and `mvp/v0.3.0` were read back at delivered implementation commit `ef85e831e3d10230182f14a4ded382afcea51d41`. | `verification/v03/publication.json`; exact tested tree `053128a37c90675be99383c8a48662bfbc7979c9` contains 224 files. Later documentation-only commits may follow. |
 
@@ -213,10 +215,11 @@ successful child-frame file capture is claimed. Normal desktop JSON and CSV
 downloads were captured and inspected successfully. This limitation does not
 establish physical mobile file export support; that gate remains open.
 
-The remaining platform checks are native Windows/macOS, physical mobile,
-hardware WebGL, and the scheduled overnight fresh-package checks. Private
-repository publication has passed with remote readback; its receipt is
-separate from these browser observations. Neither constitutes a hosted public
+The remaining platform checks are native Windows/macOS, physical mobile, and
+hardware WebGL. Today's package extraction and private repository publication
+have passed with their own receipts. The overnight follow-up is still scheduled
+to independently audit useful incomplete available gates; it is not evidence
+that those future checks have already run. None constitutes a hosted public
 deployment.
 
 For the optional developer layout harness:
@@ -230,7 +233,7 @@ width buttons are for browser QA only. The normal `python -m aqc_app` launch
 does not enable these QA routes. The harness is bound to loopback and does not
 turn the application into a hosted or mobile service.
 
-## Published implementation and remaining package acceptance
+## Published implementation and clean-package acceptance
 
 The automated totals and available-browser outcomes above are recorded
 executed gates. The delivered implementation commit
@@ -248,7 +251,37 @@ tested implementation; a later documentation-only commit may carry this
 receipt without changing that identity. No Nabu repository was accessed or
 modified.
 
-The complete distribution ZIP receipt and overnight clean-extraction checks
-are still separate work. Append their outcomes only after execution, and keep
-native-device and hardware-WebGL gates open until tested. No hosted public
-deployment or additional scientific experiment is claimed.
+The complete distribution ZIP was then created from documentation commit
+`3824f99607f7f21ca70b621724bca3661622ccce`, tree
+`bfa1dabb635d831f30fce181628648c3ef8885cf`, without further app-source edits.
+Its 225 Git files, restored scientific ledger, and `DISTRIBUTION.json` comprise
+227 bundled files. The archive is `adaptive-quantum-chemistry-v0.3.0.zip`,
+196,073,526 bytes, SHA256:
+
+```text
+770d9427fd3bd2298d775e55dbd78089b4925aac539640be7a3640157ec2e2c5
+```
+
+Fresh extraction into a temporary path containing spaces verified all 226
+file hashes listed in `DISTRIBUTION.json`; the manifest does not hash itself.
+The following checks then passed against that extracted copy:
+
+| Executed check | Observed result |
+|---|---|
+| `python3 -S scripts/doctor.py --json --no-port-check` | Exit 0; `app_ready`, `full_evidence_ready`, and overall `ok` were true. No files were modified and no network access occurred. |
+| `python3 -S -m aqc_app --no-open --port 53273` | Started on an OS-allocated loopback port with site-packages disabled; all 478 development pools were available. The actual port is recorded in the server log. |
+| Create an `astex_1g9v` session with `{"kind":"full"}`, then run it through the HTTP API | Initial session had zero references; full reranking charged ten calls and finished with zero regret. |
+| Stop the extracted app with SIGINT | Server and workers shut down; exit 0. |
+
+The original post-creation receipts are copied verbatim to
+`verification/v03/package-receipt.json`, `clean-package-doctor.json`, and
+`clean-package-server.log`. They were produced after archive creation and are
+intentionally outside that ZIP; recording them does not require a rebuild or
+a self-referential archive hash. The existing ZIP's size and SHA256 were also
+independently rechecked when the receipts were copied.
+
+Today's ZIP extraction gate is closed. Scheduled overnight work should
+independently inspect useful incomplete available gates and any concrete
+remaining issue, rather than claim a future run or reopen the completed gate
+without cause. Native-device and hardware-WebGL gates remain open. No hosted
+public deployment or additional scientific experiment is claimed.

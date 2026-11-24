@@ -28,8 +28,8 @@ then read back successfully. The structured receipt is
 `verification/v03/publication.json`. A later documentation-only commit may
 carry this receipt; the identities above deliberately name the delivered,
 tested implementation rather than attempting to name the receipt's own
-future commit. A complete distribution ZIP and its fresh-extraction checks
-are separate from the completed repository publication.
+future commit. The complete distribution ZIP and today's fresh-extraction
+checks have also completed, with a separate post-creation receipt below.
 
 ## What is implemented
 
@@ -181,8 +181,40 @@ Native Windows double-click execution, native macOS behavior, physical
 iPhone/iPad/Android acceptance, and hardware WebGL remain open because those
 environments were not available in this acceptance. A shell test, DOM harness,
 desktop narrow viewport, or software 3D fallback check does not close those
-gates. The scheduled overnight fresh-package check remains outstanding;
-private repository publication has passed and is recorded separately.
+gates. Today's clean ZIP extraction and private repository publication have
+passed. The scheduled overnight passes remain future independent follow-up;
+their outcomes must be recorded only after they run.
+
+## Complete ZIP and clean-extraction receipt
+
+`adaptive-quantum-chemistry-v0.3.0.zip` was built from documentation commit
+`3824f99607f7f21ca70b621724bca3661622ccce`, tree
+`bfa1dabb635d831f30fce181628648c3ef8885cf`, with no further application-source
+changes. It contains 225 Git files, the restored ledger, and
+`DISTRIBUTION.json`: 227 files in total.
+
+| Archive field | Verified value |
+|---|---|
+| Size | 196,073,526 bytes |
+| SHA256 | `770d9427fd3bd2298d775e55dbd78089b4925aac539640be7a3640157ec2e2c5` |
+| Manifest-listed file hashes checked after fresh extraction | 226, all matching; the distribution manifest does not hash itself |
+| Extraction path | Temporary folder containing spaces |
+| Standard-library diagnostic | `python3 -S scripts/doctor.py --json --no-port-check`: exit 0, `app_ready` and `full_evidence_ready` true |
+| Actual extracted server | `python3 -S -m aqc_app --no-open --port 53273`: all 478 development pools available |
+| HTTP full-rerank check | New `astex_1g9v` session started with zero references; `{"kind":"full"}` completed with ten charged calls and zero regret |
+| Shutdown | SIGINT; server exit 0 |
+
+The port was allocated for this test and is recorded in the server log; it is
+not a new required application port. Receipts and logs are
+`verification/v03/package-receipt.json`, `clean-package-doctor.json`, and
+`clean-package-server.log`. They are verbatim copies of evidence created after
+the archive and intentionally are not inside that ZIP. The ZIP's size and
+digest were independently checked again while copying the records. There is
+no rebuild loop and no self-referential archive checksum.
+
+Today's extraction gate is closed. This verifies the complete package on the
+available Linux runtime with site-packages disabled; it does not certify the
+untested native platforms or physical phones.
 
 ## Scheduled follow-up passes
 
@@ -194,8 +226,8 @@ times or proof that work already ran. The record is marked
 
 | Intended window | Priority | Evidence to leave |
 |---|---|---|
-| Around 02:00 Eastern | Recheck the exact private repository and published contents; run launch and current acceptance checks; address concrete blockers in startup, reference accounting, session recovery, import/export, and responsive controls. | Actual commands, revision, logs, browser observations, fixes, unresolved gates, and readback of the published implementation. |
-| Around 05:00 Eastern | Recheck the delivered package from a clean extraction; verify current seals and transport restoration; finish remaining available-device UI/error paths and publish an honest handoff. | Clean-package results, final hashes, tested platform scope, known issues, and the exact delivered commit. |
+| Around 02:00 Eastern | Independently inspect useful available acceptance cases not yet observed, prioritizing UI expiry/error recovery, keyboard navigation, saved-run storage failures, and offline behavior; investigate concrete gaps in the published evidence. | Actual commands, revision, observations, any fixes, unresolved gates, and the inspected publication identity. |
+| Around 05:00 Eastern | Review findings and any changes from the first pass, complete still-useful available checks, and update the handoff. Repeat package verification if a change or concrete issue requires it; today's clean extraction already passed. | Evidence for new checks or fixes, package hashes if the package changed, tested platform scope, and honest remaining limitations. |
 
 Both passes are limited to this MVP and its delivery. Preserve frozen
 scientific files and historical evaluation. Do not add shape probes, neural
@@ -211,7 +243,8 @@ with remote `main` and `mvp/v0.3.0` readback confirmed. The complete v0.2 releas
 baseline and its exact nontransport/transport hashes were also verified. See
 `verification/v03/publication.json` for immutable identities and scope.
 
-The remaining delivery work is the distribution ZIP receipt and scheduled
-clean-extraction verification. Native-device and hardware-WebGL gates remain
-open. Publication of a private source repository does not constitute a hosted
-public application, a new scientific result, or proof of those device gates.
+The distribution ZIP receipt and today's clean-extraction verification have
+also passed. Scheduled overnight independent follow-up has not yet been
+claimed as executed. Native-device and hardware-WebGL gates remain open.
+Publication of a private source repository does not constitute a hosted public
+application, a new scientific result, or proof of those device gates.

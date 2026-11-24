@@ -1,0 +1,8 @@
+Adaptive Quantum Chemistry local MVP: http://127.0.0.1:53273/
+Verified development data: 478 molecules, 4761 conformers. References stay on the server until a charged query.
+Loopback only. No quantum jobs. Sessions are in memory and expire after 15 idle minutes; export traces to keep them. Press Ctrl+C to stop.
+
+Stopping AQC and closing active policy workers.
+AQC local: "GET /api/health HTTP/1.1" 200 -
+AQC local: "POST /api/sessions HTTP/1.1" 201 -
+AQC local: "POST /api/sessions/7uZQo5uC3rl-oEGoWiEgSIciseEwpxLZ/run HTTP/1.1" 200 -
