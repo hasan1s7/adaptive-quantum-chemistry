@@ -3,23 +3,43 @@
   "parts": [
     {
       "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part000",
-      "sha256": "9f448c60e534d8b788d29f1dfe4835bad3589bf0a13ad9c0368aa5e5f27746b7",
-      "size_bytes": 20971520
+      "sha256": "b6c76c27ffab5aacdf5a65c705d243cd34012ab19ff50cd0b976a20ad3a0c4c5",
+      "size_bytes": 10485760
     },
     {
       "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part001",
-      "sha256": "10e9c70762f69f7173302cb5eac32e569cccea8996ebf438297344f43d5dfb5c",
-      "size_bytes": 20971520
+      "sha256": "e8ac0fb9cebbd2a62cdd0e405f451dd897c7aab35859bff33e8eb6e50553dc03",
+      "size_bytes": 10485760
     },
     {
       "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part002",
-      "sha256": "45b697ecdc2d7932e8ce95e9b3d7de9719062d62d5a2be1ba9de6269e362d46a",
-      "size_bytes": 20971520
+      "sha256": "6b66f2f56a83ed86b4a465a806f1df24497cdf1075c9970af7e3d23aaa6e6ffe",
+      "size_bytes": 10485760
     },
     {
       "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part003",
-      "sha256": "1b28208b6fa6ed440e12859c62fe825bf084676b5c0025bc9ab5cfa3569a41f8",
-      "size_bytes": 12285905
+      "sha256": "aa3c0fbbe58c73685d74d8223cf27edb168ae7de2f5b5ba15757ed877ade1372",
+      "size_bytes": 10485760
+    },
+    {
+      "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part004",
+      "sha256": "23086963d357400c067eb91d8258fd5e274029580d5f8740f624250a69dcbbf4",
+      "size_bytes": 10485760
+    },
+    {
+      "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part005",
+      "sha256": "64b6bafdb8288d750b19f29d49f0cdab753616ba818b6c089ab42c466f012da4",
+      "size_bytes": 10485760
+    },
+    {
+      "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part006",
+      "sha256": "61c0755402697914e40c680bf5d9181fcebdabc5f4887e5a217626af1df536f2",
+      "size_bytes": 10485760
+    },
+    {
+      "path": "data/evidence_chunks/lab-ledger/decision_ledger.jsonl.gz.part007",
+      "sha256": "e69fae6e20d851dc839c368af383d9145bb72d3f49f3ea3d9aaa8486d9064ea4",
+      "size_bytes": 1800145
     }
   ],
   "schema_version": 1,
