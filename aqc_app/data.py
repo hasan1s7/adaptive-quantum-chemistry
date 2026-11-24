@@ -6,6 +6,7 @@ historical evaluation reference file. Only this server-side object owns labels.
 from __future__ import annotations
 
 import csv
+import copy
 import gzip
 import hashlib
 import io
@@ -87,13 +88,161 @@ DEFAULT_POLICIES = [
     {"id": "manual", "label": "Manual paid queries", "config": {"kind": "manual"}},
 ]
 
+# These roles belong to the already recorded development cross-validation.
+# They are not a new configuration registry or newly selected operating points.
+DIAGNOSTIC_ROLES = ("sequential", "matched_simple", "fixed_top_k", "adaptive",
+                    "full_rerank", "cheap_only")
+DIAGNOSTIC_FIELDS = ("molecule_id", "family_id", "fold_id", "n_candidates", "policy",
+                     "config_id", "expensive_calls", "regret_kcal", "success_1kcal",
+                     "fallback", "stop_reason")
+DIAGNOSTIC_STOPS = frozenset({
+    "fixed_k_complete", "all_candidates_queried", "cheap_gap_exceeds_threshold",
+    "sequential_cheap_separation_heuristic", "sequential_empirical_envelope",
+    "full_rerank_complete", "full_rerank_with_failed_outputs",
+    "full_rerank_fallback_failed_output", "full_rerank_fallback_crowded_at_cap",
+    "full_rerank_fallback_empirical_unresolved_at_cap", "unverified_cheap_only_diagnostic",
+})
+DIAGNOSTIC_CASES = (
+    {"id": "rescue", "molecule_id": "omegacsd_GIHTUM", "title": "Escalation helps",
+     "description": "Retrospective example: sequential escalation recovered a within-1 kcal/mol decision that fixed top-2 missed."},
+    {"id": "waste", "molecule_id": "astex_1xoq", "title": "Extra calls, same decision quality",
+     "description": "Retrospective example: sequential queried the complete pool while fixed top-2 already had zero regret."},
+    {"id": "early_stop", "molecule_id": "omegapdb_2f4j", "title": "An early stop fails",
+     "description": "Retrospective example: the sequential one-query stopping rule failed the tolerance while fixed top-2 succeeded."},
+    {"id": "shared_failure", "molecule_id": "omegapdb_2byi", "title": "Both heuristics miss",
+     "description": "Retrospective example: sequential and fixed top-2 both missed the tolerance; the paid full rerank recovered the pool minimum."},
+    {"id": "comparator_fallback", "molecule_id": "omegapdb_1yc4", "title": "The comparator falls back",
+     "description": "Retrospective example: the exact fold-selected matched simple cheap-window policy fell back to all 10 queries; fixed top-2 and sequential used 2 each, all with zero regret."},
+)
+
+
+def _fold_metadata(pools, folds, selected, registry):
+    """Check complete, family-disjoint fold assignments and frozen role choices."""
+    if (folds.get("analysis_scope") != "development_family_cv" or
+            selected.get("analysis_scope") != "development_family_cv" or
+            selected.get("validation_labels_used_for_selection") is not False or
+            type(folds.get("n_folds")) is not int or folds["n_folds"] < 2 or
+            selected.get("n_folds") != folds["n_folds"]):
+        raise DataIntegrityError("diagnostic fold scope differs from frozen development cross-validation")
+    assignments = folds.get("assignments", [])
+    if not isinstance(assignments, list) or len(assignments) != len(pools):
+        raise DataIntegrityError("diagnostic fold coverage differs from development molecules")
+    by_molecule, by_family = {}, {}
+    for row in assignments:
+        mid, family, fold = row.get("molecule_id"), row.get("family_id"), row.get("fold_id")
+        pool = pools.get(mid)
+        if (pool is None or mid in by_molecule or family != pool["family_id"] or
+                type(fold) is not int or not 0 <= fold < folds["n_folds"] or
+                row.get("n_candidates") != len(pool["candidates"])):
+            raise DataIntegrityError("diagnostic fold molecule, family, or pool identity differs")
+        if family in by_family and by_family[family] != fold:
+            raise DataIntegrityError("a chemical family crosses diagnostic folds")
+        by_molecule[mid], by_family[family] = fold, fold
+    if set(by_molecule) != set(pools):
+        raise DataIntegrityError("diagnostic fold coverage differs from development molecules")
+    expected_folds = set(range(folds["n_folds"]))
+    registered = {row["config_id"]: row["config"] for row in registry["configurations"]}
+    choices = {}
+    for document in (folds, selected):
+        seen = set()
+        for row in document.get("folds", []):
+            fold = row.get("fold_id")
+            if type(fold) is not int or fold not in expected_folds or fold in seen:
+                raise DataIntegrityError("diagnostic fold summary is missing or duplicated")
+            seen.add(fold)
+            validation = {family for family, assigned in by_family.items() if assigned == fold}
+            training = set(by_family) - validation
+            for prefix, families in (("training", training), ("validation", validation)):
+                supplied = row.get(prefix + "_family_ids")
+                expected_count = sum((assigned == fold) == (prefix == "validation")
+                                     for assigned in by_molecule.values())
+                if (not isinstance(supplied, list) or len(supplied) != len(families) or
+                        set(supplied) != families or row.get(prefix + "_families") != len(families) or
+                        row.get(prefix + "_molecules") != expected_count):
+                    raise DataIntegrityError("diagnostic training and validation family boundaries differ")
+            if document is selected:
+                roles = row.get("choices")
+                if not isinstance(roles, dict) or set(roles) != set(DIAGNOSTIC_ROLES):
+                    raise DataIntegrityError("diagnostic policy roles differ from frozen choices")
+                for choice in roles.values():
+                    if (not isinstance(choice, dict) or choice.get("config_id") not in registered or
+                            choice.get("config") != registered[choice["config_id"]]):
+                        raise DataIntegrityError("diagnostic policy configuration differs from its registry")
+                choices[fold] = roles
+        if seen != expected_folds:
+            raise DataIntegrityError("diagnostic fold summary is missing or duplicated")
+    return by_molecule, choices
+
+
+def _diagnostic_rows(rows, pools, fold_by_molecule, choices, aggregates):
+    """Validate recorded outcomes and project an explicit metrics-only schema.
+
+    Do not copy arbitrary columns: the sealed source also holds evaluator-best
+    candidate IDs and trace annotations that are intentionally not public.
+    """
+    expected = {(mid, role) for mid in pools for role in DIAGNOSTIC_ROLES}
+    seen, clean = set(), []
+    for row in rows:
+        mid, role = row.get("molecule_id"), row.get("policy")
+        pair = (mid, role)
+        if pair not in expected or pair in seen:
+            raise DataIntegrityError("diagnostic molecule/policy coverage is unknown or duplicated")
+        seen.add(pair)
+        pool, fold = pools[mid], fold_by_molecule[mid]
+        if (row.get("analysis_scope") != "development_family_cv" or row.get("split") != "development_cv" or
+                row.get("family_id") != pool["family_id"] or type(row.get("fold_id")) is not int or
+                row["fold_id"] != fold or type(row.get("n_candidates")) is not int or
+                row["n_candidates"] != len(pool["candidates"]) or
+                row.get("config_id") != choices[fold][role]["config_id"]):
+            raise DataIntegrityError("diagnostic scope, identity, or selected configuration differs")
+        calls, regret = row.get("expensive_calls"), row.get("regret_kcal")
+        success, fallback = row.get("success_within_1_kcal"), row.get("fallback")
+        if (type(calls) is not int or not 0 <= calls <= len(pool["candidates"]) or
+                type(regret) not in (int, float) or not math.isfinite(regret) or regret < 0 or
+                type(success) is not bool or success != (regret <= 1.0 + 1e-9) or
+                type(fallback) is not bool or row.get("stop_reason") not in DIAGNOSTIC_STOPS):
+            raise DataIntegrityError("diagnostic outcome or accounting is invalid")
+        paid = role != "cheap_only"
+        if ((paid and calls < 1) or (not paid and calls != 0) or
+                row.get("verified_selection") is not paid or
+                fallback != row["stop_reason"].startswith("full_rerank_fallback_") or
+                (fallback and calls != len(pool["candidates"])) or
+                (role == "full_rerank" and (calls != len(pool["candidates"]) or regret != 0))):
+            raise DataIntegrityError("diagnostic paid/diagnostic/full-rerank accounting differs")
+        clean.append({"molecule_id": mid, "family_id": pool["family_id"], "fold_id": fold,
+                      "n_candidates": len(pool["candidates"]), "policy": role,
+                      "config_id": row["config_id"], "expensive_calls": calls,
+                      "regret_kcal": regret, "success_1kcal": success, "fallback": fallback,
+                      "stop_reason": row["stop_reason"]})
+    if seen != expected:
+        raise DataIntegrityError("diagnostic molecule/policy coverage is incomplete")
+    summaries = {row["policy"]: row for row in aggregates}
+    if len(summaries) != len(aggregates) or set(summaries) != set(DIAGNOSTIC_ROLES):
+        raise DataIntegrityError("diagnostic aggregate role coverage differs")
+    for role in DIAGNOSTIC_ROLES:
+        group = [row for row in clean if row["policy"] == role]
+        count, summary = len(group), summaries[role]
+        total = sum(row["expensive_calls"] for row in group)
+        actual = {"n_molecules": count, "n_families": len({row["family_id"] for row in group}),
+                  "total_calls": total, "mean_calls": total / count,
+                  "success_rate": sum(row["success_1kcal"] for row in group) / count,
+                  "fallback_rate": sum(row["fallback"] for row in group) / count,
+                  "max_regret_kcal": max(row["regret_kcal"] for row in group)}
+        if summary.get("analysis_scope") != "development_family_cv" or any(
+                type(summary.get(key)) not in (int, float) or
+                not math.isclose(summary[key], value, rel_tol=1e-12, abs_tol=1e-12)
+                for key, value in actual.items()):
+            raise DataIntegrityError("diagnostic rows do not reproduce the sealed aggregate metrics")
+    order = {role: index for index, role in enumerate(DIAGNOSTIC_ROLES)}
+    return sorted(clean, key=lambda row: (row["molecule_id"], order[row["policy"]]))
+
 
 class DevelopmentStore:
     """Immutable verified inputs; public methods never serialize reference maps."""
     EXPORT_NAMES = frozenset({"aggregate.csv", "experiments.csv", "paired_comparisons.csv", "risk_vs_calls.png"})
     SUMMARY_FILES = ("aggregate.csv", "experiments.csv", "paired_comparisons.csv", "risk_vs_calls.png",
                      "decision.json", "fold_choices.json", "folds.json", "execution_accounting.json",
-                     "experiment_registry.json")
+                     "experiment_registry.json", "per_molecule.csv")
 
     def __init__(self, root=None):
         self.root = Path(root).resolve() if root is not None else Path(__file__).resolve().parents[1]
@@ -205,10 +354,10 @@ class DevelopmentStore:
         self.counts = {"molecules": len(self._pools), "families": len({p["family_id"] for p in features}),
                        "candidates": candidate_count, "atom_records": atom_count,
                        "max_candidates_per_pool": max(len(p["candidates"]) for p in features)}
-        self._fold_by_molecule = {row["molecule_id"]: row["fold_id"] for row in documents["folds.json"]["assignments"]}
-        if set(self._fold_by_molecule) != set(self._pools):
-            raise DataIntegrityError("fold coverage differs from development molecules")
-        self._fold_choices = {row["fold_id"]: row["choices"] for row in documents["fold_choices.json"]["folds"]}
+        self._fold_by_molecule, self._fold_choices = _fold_metadata(
+            self._pools, documents["folds.json"], documents["fold_choices.json"], registry)
+        if file_sha256(results / "folds.json") != registry["folds_sha256"]:
+            raise DataIntegrityError("diagnostic folds differ from the registered experiment")
         self.provenance = {"scope": "original_development_only", "fresh_external_holdout": False,
                            "historical_reference_labels_loaded": False, "source_revision": audit["revision"],
                            "source_split_sha256": split["split_sha256"], "registry_sha256": registry["registry_sha256"],
@@ -227,6 +376,21 @@ class DevelopmentStore:
                          "execution_accounting": documents["execution_accounting.json"],
                          "provenance": self.provenance,
                          "downloads": [{"name": name, "url": "/api/results/" + name} for name in sorted(self.EXPORT_NAMES)]}
+        rows = _diagnostic_rows(documents["per_molecule.csv"], self._pools, self._fold_by_molecule,
+                                self._fold_choices, documents["aggregate.csv"])
+        self._diagnostics = {
+            "scope": "development_family_cv_retrospective", "fresh_external_holdout": False,
+            "counts": {"molecules": self.counts["molecules"], "families": self.counts["families"],
+                       "candidates": self.counts["candidates"], "folds": len(self._fold_choices),
+                       "rows": len(rows), "roles": len(DIAGNOSTIC_ROLES)},
+            "roles": list(DIAGNOSTIC_ROLES), "rows": rows,
+            "cases": copy.deepcopy(list(DIAGNOSTIC_CASES)),
+            "provenance": {**self.provenance, "scope": "development_family_cv_retrospective",
+                           "source_file": "results/lab/per_molecule.csv",
+                           "source_sha256": seal["artifact_sha256"]["per_molecule.csv"],
+                           "candidate_labels_included": False,
+                           "case_selection": "Retrospectively selected illustrations from already observed development outcomes; not representative sampling or independent validation",
+                           "inference": "Filtered molecule and inferred-family outcomes are descriptive; filtering does not select a newly validated policy or rerun uncertainty estimation"}}
 
     def _require(self, molecule_id):
         if not isinstance(molecule_id, str) or molecule_id not in self._pools:
@@ -239,6 +403,7 @@ class DevelopmentStore:
         configs = {item["id"]: dict(item["config"]) for item in DEFAULT_POLICIES}
         for name, role in (("sequential", "sequential"), ("adaptive", "adaptive"), ("fixed", "fixed_top_k")):
             configs[name] = dict(choices[role]["config"])
+        configs["matched_simple"] = dict(choices["matched_simple"]["config"])
         return {"molecule_id": molecule_id, "family_id": pool["family_id"],
                 "fold_id": self._fold_by_molecule[molecule_id], "n_candidates": len(pool["candidates"]),
                 "policy_configs": configs, "scope": "original_development_only",
@@ -255,6 +420,16 @@ class DevelopmentStore:
 
     def public_results(self):
         return self._results
+
+    def public_diagnostics(self):
+        return copy.deepcopy(self._diagnostics)
+
+    def diagnostics_csv(self):
+        output = io.StringIO(newline="")
+        writer = csv.DictWriter(output, fieldnames=DIAGNOSTIC_FIELDS, lineterminator="\n")
+        writer.writeheader()
+        writer.writerows(self._diagnostics["rows"])
+        return output.getvalue().encode("utf-8")
 
     def export(self, name):
         if name not in self.EXPORT_NAMES:

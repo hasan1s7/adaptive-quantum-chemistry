@@ -21,11 +21,12 @@ PROJECT = Path(__file__).resolve().parents[1]
 APP_FILES = (
     "aqc_app/__main__.py", "app/index.html", "app/assets/client.js",
     "app/assets/app.js", "app/assets/styles.css", "app/assets/molecule-viewer.js",
+    "app/assets/comparison.js", "app/assets/workbench.js", "app/assets/workbench.css",
 )
 APP_SUMMARY_FILES = (
     "aggregate.csv", "experiments.csv", "paired_comparisons.csv", "risk_vs_calls.png",
     "decision.json", "fold_choices.json", "folds.json", "execution_accounting.json",
-    "experiment_registry.json",
+    "experiment_registry.json", "per_molecule.csv",
 )
 
 

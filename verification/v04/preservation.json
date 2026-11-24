@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "baseline_commit": "6d81701875b996426c07f383789767ea423a899a",
+  "protected_files_checked": 179,
+  "changed_protected_files": [],
+  "restored_ledger_sha256": "845a2c1846f8a1b5887134775c80c3f77f9efe4df3ef3fd18fd34fde4e8ccb07",
+  "scope": "Frozen scientific engine, input data, measured evidence, prior releases and prior acceptance records"
+}

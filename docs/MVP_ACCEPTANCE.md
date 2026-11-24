@@ -1,5 +1,8 @@
 # Local MVP acceptance
 
+This is the historical **v0.3** acceptance record. The current comparison
+workbench has a separate [v0.4 acceptance record](MVP_V04_ACCEPTANCE.md).
+
 This acceptance contract covers the local saved-results application and its
 paid-query simulator. The recorded benchmark, source pin, family split,
 historical evaluation, and v0.2 scientific files remain frozen. A working

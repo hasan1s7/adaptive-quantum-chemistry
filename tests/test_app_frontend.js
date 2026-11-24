@@ -134,6 +134,15 @@ function mockAPI() {
     await assert.rejects(failing.action('id', 'step'), error => error.code === 'offline');
     assert.equal(failedCalls, 1);
   });
+  await test('comparison mutation keys reach the server without entering policy data or retrying', async () => {
+    const calls = [], client = C.createClient(async (url, init) => { calls.push({url, init}); return response({ok: true}); });
+    await client.action('lane-1', 'step', {}, {idempotencyKey: 'comparison-lane-1-step-1'});
+    assert.equal(calls.length, 1);
+    assert.equal(calls[0].init.headers['Idempotency-Key'], 'comparison-lane-1-step-1');
+    assert.deepEqual(JSON.parse(calls[0].init.body), {});
+    await assert.rejects(client.action('lane-1', 'step', {}, {idempotencyKey: 'bad\nkey'}), error => error.code === 'invalid_idempotency_key');
+    assert.equal(calls.length, 1);
+  });
   await test('paid worker failures carry the server state into the UI error', async () => {
     const session = paidState(); session.status = 'failed';
     const client = C.createClient(async () => response({error: {code: 'worker_failed', message: 'Paid query logged'}, session}, 502));

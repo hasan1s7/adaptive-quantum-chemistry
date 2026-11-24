@@ -1,0 +1,28 @@
+# Executed in /workspace/scratch/ab91b74f520d/adaptive-quantum-chemistry
+# Repeated component checks below are not additional unique test cases.
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python -m pip check
+python3 -S -m unittest discover -s tests -p test_app_server.py -v
+.venv/bin/python -m unittest discover -s tests -v > verification/v04/python-tests.log 2>&1
+python3 -S -m unittest discover -s tests -p test_app_diagnostics.py -v > verification/v04/diagnostics-tests.log 2>&1
+node tests/test_app_frontend.js > verification/v04/frontend-tests.log
+node tests/test_comparison.js > verification/v04/comparison-tests.log
+node tests/test_workbench_ui.js > verification/v04/workbench-ui-tests.log
+node tests/test_molecule_viewer.js > verification/v04/viewer-tests.log
+node scripts/verify_workbench.js --out verification/v04/comparison-replays.json > verification/v04/comparison-http.log 2>&1
+node tests/test_comparison_expiry_http.js verification/v04/expiry-recovery.json > verification/v04/expiry-recovery.log 2>&1
+python3 -S scripts/doctor.py --json --no-port-check > verification/v04/doctor.json
+node --check app/assets/workbench.js
+node --check app/assets/app.js
+node --check scripts/verify_workbench.js
+git diff --check
+git -c core.whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol diff --cached --check
+# The final staged check recognizes the actual browser CSV downloads' CRLF
+# line endings. Their original downloaded bytes and hashes are preserved.
+sites-preview start /workspace/scratch/ab91b74f520d/adaptive-quantum-chemistry
+# Preview restarted after changes; actual browser observations and downloaded
+# artifacts are documented in browser-acceptance.json. The last preview remains
+# available for review; it is not a hosted deployment.
+# Exact protected-file SHA256 comparison: preservation.json.
+# Package/build/extraction commands are recorded in package-receipt.json.

@@ -1,10 +1,11 @@
 {
   "name": "adaptive-quantum-chemistry-workbench",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "private": true,
   "description": "Local development-only conformer acquisition workbench",
   "scripts": {
     "dev": "python3 scripts/preview.py --responsive-check",
-    "test": "node tests/test_app_frontend.js && node tests/test_molecule_viewer.js"
+    "test": "node tests/test_app_frontend.js && node tests/test_comparison.js && node tests/test_workbench_ui.js && node tests/test_comparison_expiry_http.js && node tests/test_molecule_viewer.js",
+    "verify:workbench": "node scripts/verify_workbench.js"
   }
 }

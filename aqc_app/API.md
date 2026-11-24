@@ -15,8 +15,9 @@ network request, or dependency installation occurs.
 
 The separate historical HTML simulator remains inspectable client-side. This
 runtime serves a new application whose unqueried reference labels remain in
-the Python process. The old HTML, reference files, scientific source, and
-per-molecule evaluator tables are outside the HTTP file allowlist.
+the Python process. The old HTML, reference files, scientific source, and raw
+per-molecule evaluator tables are outside the HTTP file allowlist. A validated
+projection of already recorded per-molecule metrics is available separately.
 
 ## Data and scope
 
@@ -24,6 +25,9 @@ Startup verifies the original development features and reference file against
 recorded hashes; original split membership; the unchanged oracle and worker;
 all displayed candidate coordinates against the geometry asset and original
 identity audit; and each served summary file against the complete v0.2 seal.
+It also verifies the per-molecule evaluator table against that seal before
+projecting its metrics, checks its exact pool/family/fold/configuration coverage,
+and requires the projected rows to reproduce the saved aggregate accounting.
 It loads 478 development molecules, 287 families, 4,761 conformers and 186,905
 atom coordinate records. It never opens historical evaluation reference rows.
 
@@ -44,6 +48,8 @@ opaque values to the client. The API version is 1.
 | `GET /api/molecules/{molecule_id}` | Cheap candidates, verified geometry, provenance and fold-selected policy presets; no reference energies |
 | `GET /api/results` | Saved development aggregate, configuration summaries, paired comparisons, decision and fold choices |
 | `GET /api/results/{name}` | Only `aggregate.csv`, `experiments.csv`, `paired_comparisons.csv` or `risk_vs_calls.png` |
+| `GET /api/diagnostics` | Validated retrospective development metrics, scope, counts, roles, illustrative cases and provenance; no candidate truth identifiers or reference labels |
+| `GET /api/diagnostics.csv` | The same sanitized metric rows as an attachment with exactly the documented columns |
 | `POST /api/sessions` | Create a zero-charge session from `{molecule_id, config}` |
 | `GET /api/sessions/{session_id}` | Current disclosed state |
 | `POST /api/sessions/{session_id}/step` | One policy-requested query; body `{}` |
@@ -59,8 +65,59 @@ Policy config schemas are exactly those accepted by the unchanged
 `aqc.oracle.policy_payload` for `full`, `fixed`, `adaptive` and `sequential`.
 Manual sessions use exactly `{"kind":"manual"}`. Geometry and family metadata
 are never passed to the policy worker. The molecule response's `policy_configs`
-map uses keys `sequential`, `fixed`, `adaptive`, `full`, and `manual`; its paid
-presets come from that molecule's excluded validation fold.
+map uses keys `sequential`, `fixed`, `adaptive`, `full`, `manual`, and
+`matched_simple`; its paid presets were selected using the training families
+that exclude that molecule's validation fold. `matched_simple` is the exact
+saved `choices["matched_simple"]["config"]` for that fold. It can be an adaptive
+cheap-window policy and must not be replaced by fixed top-2. The catalog retains
+the five original preset entries; the comparison workbench takes this exact
+additional preset from the molecule response.
+
+### Retrospective diagnostic contract
+
+`GET /api/diagnostics` returns a JSON object with these top-level fields:
+
+- `scope`: exactly `"development_family_cv_retrospective"`.
+- `fresh_external_holdout`: always `false`.
+- `counts`: integer `molecules`, `families`, `candidates`, `folds`, `rows`, and
+  `roles`; the sealed source currently has 478, 287, 4,761, 5, 2,868, and 6.
+- `roles`: `sequential`, `matched_simple`, `fixed_top_k`, `adaptive`,
+  `full_rerank`, and `cheap_only`, in that order.
+- `rows`: one row for every development molecule and role, sorted by molecule
+  ID and the role order above.
+- `cases`: retrospectively selected illustrations with `id`, `molecule_id`,
+  `title`, and `description` only. The IDs are `rescue`, `waste`, `early_stop`,
+  `shared_failure`, and `comparator_fallback`.
+- `provenance`: source revision and hashes, including the evaluator table's
+  SHA-256, scope, and explicit retrospective-selection/inference qualifications.
+
+Each metric row has exactly these columns, also used by the CSV endpoint:
+
+```text
+molecule_id,family_id,fold_id,n_candidates,policy,config_id,expensive_calls,regret_kcal,success_1kcal,fallback,stop_reason
+```
+
+`fold_id`, `n_candidates`, and `expensive_calls` are integers; `regret_kcal` is
+a finite nonnegative number; `success_1kcal` and `fallback` are JSON booleans.
+Success uses the frozen evaluator's 1 kcal/mol threshold and numerical tolerance.
+The family and fold identities come from the sealed development assignments.
+Every paid role has at least one charged query. `cheap_only` has zero calls and
+is an unverified diagnostic. Full rerank has exactly the pool's candidate count
+in calls and zero regret. Rows with mismatched identifiers, configurations,
+scope, coverage, accounting, or aggregate totals cause startup to fail.
+
+The projection never includes `selected_candidate`, `best_pool_candidate`,
+`query_order`, reference energies, or raw trace annotations. It is built from
+an explicit field allowlist; unknown source columns are never copied. The raw
+`per_molecule.csv` cannot be fetched through `/api/results` or another file route.
+
+These are outcomes already observed during development family cross-validation,
+not a fresh external holdout. Cases are selected to illustrate behavior rather
+than to estimate its frequency. Filtering molecules, families, or cases does
+not tune a policy or produce a new uncertainty estimate. Diagnostic reads do
+not alter active paid sessions or disclose their unqueried reference labels.
+Each comparison lane creates its own ordinary session and pays its own first
+query, including when another lane has already queried the same candidate.
 
 ### State and accounting
 
@@ -146,9 +203,14 @@ receiving unqueried candidate labels for free.
 
 ```bash
 python -S -m unittest discover -s tests -p test_app_server.py -v
+python -S -m unittest discover -s tests -p test_app_diagnostics.py -v
 ```
 
 The tests exercise real HTTP requests and worker processes, including policy
 parity, geometry coverage, family scope, charged reveals, full-rerank zero
 regret, missing-output fallback, concurrent requests, idempotent retries,
 disconnect recovery, reset accounting, expiry and subprocess faults.
+The diagnostic suite additionally checks source sealing, exhaustive role and
+pool coverage, family partition integrity, exact frozen comparator choices,
+sanitized JSON/CSV parity, retrospective case predicates, and independent
+query accounting across comparison lanes.

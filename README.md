@@ -1,4 +1,4 @@
-# Adaptive Quantum Chemistry · v0.3 MVP
+# Adaptive Quantum Chemistry · v0.4 comparison workbench
 
 **Open the local conformer workbench:** extract the complete repository, then
 run the following command from its folder with Python 3.10 or newer:
@@ -18,12 +18,38 @@ Choose a real development molecule, rotate its verified 3D coordinates,
 select a policy, and reveal reference energies one charged query at a time.
 The Python server retains unqueried references. Finish a decision to see its
 regret, save or export the queried trace, and compare the recorded operating
-points in **Measured results**. Imported traces are labeled unverified,
+points in **Measured results**. **Compare policies** runs four independent
+query sessions on the same molecular pool; **Failure explorer** connects the
+measured family-CV outcomes to individual molecules and replayable cases.
+Imported traces are labeled unverified,
 read-only user snapshots; they never become benchmark evidence.
+
+### New in v0.4
+
+- **Four policy lanes:** fixed top-2, the exact fold-selected matched simple
+  comparator, sequential reference feedback, and full reference rerank.
+  Step one lane, step all active lanes, or run them to their stopping rules.
+- **Independent accounting:** each lane pays for its own references. A reveal
+  in one lane does not reveal it in another. Completed lanes retain their
+  result; unresolved network outcomes block further mutations until reconciled.
+- **A real 3D inspector:** choose the lane and conformer to inspect actual,
+  verified coordinates and only that lane's purchased observations.
+- **A retrospective failure explorer:** search and filter all 478 development
+  molecules across 287 families, switch the comparator, inspect paired cost
+  and regret differences, and open a case in the comparison view.
+- **Recovery after expiry:** explicitly archive an unavailable comparison and
+  start a new one. Unresolved charges remain visibly recorded as a lower bound.
+- **Portable comparison reports:** export JSON or CSV with immutable policy
+  configurations, geometry identities, query accounting, and explicit scope.
+
+The new interface reads the original sealed evidence. It does not add new
+policy configurations, retune thresholds, reopen the historical evaluation,
+or turn repeated UI replays into independent scientific experiments. See the
+[comparison guide](docs/COMPARISON_WORKBENCH.md).
 
 If startup fails, run `python scripts/doctor.py`. For an occupied port, use
 `python -m aqc_app --port 8766`. Add `--no-open` to print the local address
-without opening a browser. See the [acceptance record](docs/MVP_ACCEPTANCE.md)
+without opening a browser. See the [v0.4 acceptance record](docs/MVP_V04_ACCEPTANCE.md)
 and [HTTP API contract](aqc_app/API.md) for tested behavior and limits.
 
 <details>
@@ -41,7 +67,7 @@ same-origin frame at selectable CSS widths. The `/__qa__/responsive` and
 `/__qa__/app` routes exist only in this development mode; the normal
 `python -m aqc_app` runtime does not enable them. The preview still binds only
 to loopback. A narrow iframe is a layout check, not physical mobile acceptance
-or a hosted deployment. See the [acceptance record](docs/MVP_ACCEPTANCE.md) for
+or a hosted deployment. See the [v0.4 acceptance record](docs/MVP_V04_ACCEPTANCE.md) for
 executed checks and remaining gates.
 
 </details>
@@ -54,7 +80,7 @@ separate from the executed Linux/API/browser checks.
 The historical [v0.2 portable lab](results/lab/dashboard.html) remains available
 as an inspectable client-side demonstration. The new local application uses a
 server-enforced reference boundary. Both display the same frozen scientific
-measurements; v0.3 adds product functionality, not a new scientific result.
+measurements; v0.3 and v0.4 add product functionality, not new scientific results.
 
 This repository implements a reproducible CLI benchmark for deciding which
 conformers deserve expensive reference single points. Version 0.2 registers

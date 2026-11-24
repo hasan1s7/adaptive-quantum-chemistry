@@ -32,13 +32,18 @@
     const requestFetch = fetcher || root.fetch?.bind(root);
     if (!requestFetch) throw new APIError('This browser does not support local API requests.');
     const timeout = options.timeout ?? 30000;
-    async function request(path, method = 'GET', body) {
+    async function request(path, method = 'GET', body, requestOptions = {}) {
       if (!path.startsWith('/api/')) throw new APIError('Only the local AQC API can be requested.');
+      const idempotencyKey = requestOptions.idempotencyKey;
+      if (idempotencyKey !== undefined && (typeof idempotencyKey !== 'string' || !/^[A-Za-z0-9_.:-]{1,80}$/.test(idempotencyKey))) {
+        throw new APIError('The query request needs a short ASCII idempotency key.', 0, 'invalid_idempotency_key');
+      }
       const controller = typeof AbortController !== 'undefined' ? new AbortController() : null;
       const timer = controller ? setTimeout(() => controller.abort(), timeout) : null;
       try {
         const response = await requestFetch(path, {method, credentials: 'same-origin',
-          headers: {'Accept': 'application/json', ...(body !== undefined ? {'Content-Type': 'application/json'} : {})},
+          headers: {'Accept': 'application/json', ...(body !== undefined ? {'Content-Type': 'application/json'} : {}),
+            ...(idempotencyKey !== undefined ? {'Idempotency-Key': idempotencyKey} : {})},
           ...(body !== undefined ? {body: JSON.stringify(body)} : {}), ...(controller ? {signal: controller.signal} : {})});
         let data;
         try { data = await response.json(); }
@@ -67,9 +72,9 @@
       createSession: (molecule_id, config) => request('/api/sessions', 'POST', {molecule_id, config}),
       getSession: id => request(sessionPath(id)),
       releaseSession: id => request(sessionPath(id), 'DELETE'),
-      action: (id, action, data = {}) => {
+      action: (id, action, data = {}, requestOptions = {}) => {
         if (!['step', 'run', 'query', 'finish', 'reset'].includes(action)) return Promise.reject(new APIError('Unknown session action.'));
-        return request(sessionPath(id) + '/' + action, 'POST', data);
+        return request(sessionPath(id) + '/' + action, 'POST', data, requestOptions);
       },
       exportSession: id => request(sessionPath(id) + '/export.json')
     });

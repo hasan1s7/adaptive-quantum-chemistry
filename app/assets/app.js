@@ -94,6 +94,7 @@
     const state = {health: null, catalog: null, molecule: null, session: null, config: null,
       view: 'replay', policy: 'sequential', candidateId: null, busy: false, apiReady: false, generation: 0,
       savedMode: false, savedSource: null, results: null, resultScope: 'cv', resultPage: 0, resultsBusy: false, viewer: null};
+    const extras = root.AQCExtras?.create(document, {api, download, toast, navigate: view});
     let toastTimer = null;
     const STORAGE_KEY = 'aqc-workbench-saved-runs-v1', MAX_SAVED = 12;
     function setText(id, value) { const node = $(id); if (node) node.textContent = value == null ? '' : String(value); }
@@ -129,9 +130,9 @@
       setTimeout(() => root.URL.revokeObjectURL(url), 1000);
     }
     function view(name, updateHash = true) {
-      if (!['replay', 'results', 'saved'].includes(name)) name = 'replay';
+      if (!['replay', 'results', 'saved', 'compare', 'diagnostics'].includes(name)) name = 'replay';
       state.view = name; document.body.dataset.view = name;
-      for (const item of ['replay', 'results', 'saved']) show('view-' + item, item === name && (item !== 'replay' || !!state.molecule));
+      for (const item of ['replay', 'results', 'saved', 'compare', 'diagnostics']) show('view-' + item, item === name && (item !== 'replay' || !!state.molecule));
       show('startup-panel', name === 'replay' && !state.molecule);
       for (const button of document.querySelectorAll('[data-view]')) {
         const active = button.dataset.view === name; button.classList.toggle('active', active);
@@ -141,6 +142,7 @@
       if (name === 'results') loadResults();
       if (name === 'saved') renderSaved();
       if (name === 'replay' && state.viewer) root.requestAnimationFrame?.(() => state.viewer.resize());
+      extras?.onView(name);
     }
     function filteredMolecules() {
       const query = ($('molecule-search')?.value || '').trim().toLowerCase();
@@ -451,6 +453,7 @@
         const [health, catalog] = await Promise.all([api.health(), api.catalog()]);
         if (!Array.isArray(catalog.molecules) || !catalog.molecules.length) throw new Error('No original development molecules are available. Check the server’s data paths.');
         state.health = health; state.catalog = catalog; state.apiReady = true; connection(true); renderMoleculeOptions();
+        extras?.ready(catalog);
         await loadMolecule(catalog.default_molecule_id || catalog.molecules[0].molecule_id);
       } catch (err) { state.apiReady = false; startupFailure(err); }
       updateSavedCount();
@@ -521,7 +524,8 @@
     });
     updateSavedCount(); document.body.dataset.view = 'replay';
     return Object.freeze({start, view, action, loadMolecule, changePolicy, openSaved, renderResults,
-      state: () => ({...state, viewer: state.viewer?.getState() || null}), selectCandidate});
+      state: () => ({...state, viewer: state.viewer?.getState() || null}), selectCandidate,
+      extras: extras || null});
   }
   const exported = {createApp, resolveConfig, reasonText, renderPlot, escape, format, percent, confidence};
   if (typeof module !== 'undefined' && module.exports) module.exports = exported;

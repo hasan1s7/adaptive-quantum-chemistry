@@ -1,0 +1,6 @@
+PASS omegacsd_GIHTUM: four independent lanes; 17 offline calls; exact sealed-result parity
+PASS astex_1xoq: four independent lanes; 24 offline calls; exact sealed-result parity
+PASS omegapdb_2f4j: four independent lanes; 15 offline calls; exact sealed-result parity
+PASS omegapdb_2byi: four independent lanes; 16 offline calls; exact sealed-result parity
+PASS omegapdb_1yc4: four independent lanes; 24 offline calls; exact sealed-result parity
+PASS 20 real HTTP replays / 96 offline charges. No new quantum calculations or fresh statistical evidence.

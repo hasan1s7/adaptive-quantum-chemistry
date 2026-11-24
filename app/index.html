@@ -9,8 +9,11 @@
   <title>AQC · Conformer workbench</title>
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='15' fill='%2310292e'/%3E%3Cpath d='M14 46 30 17h5l15 29h-8l-3-7H25l-4 7zm14-14h8l-4-9z' fill='%239ce4cb'/%3E%3C/svg%3E">
   <link rel="stylesheet" href="/assets/styles.css">
+  <link rel="stylesheet" href="/assets/workbench.css">
   <script defer src="/assets/client.js"></script>
   <script defer src="/assets/molecule-viewer.js"></script>
+  <script defer src="/assets/comparison.js"></script>
+  <script defer src="/assets/workbench.js"></script>
   <script defer src="/assets/app.js"></script>
 </head>
 <body>
@@ -21,6 +24,8 @@
   </header>
   <nav class="primary-nav" aria-label="Workbench views">
     <button class="nav-button active" data-view="replay" aria-current="page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 3 8 4.5v9L12 21l-8-4.5v-9zm0 0v9m8-4.5L12 12 4 7.5m8 4.5v9"/></svg>Replay a molecule</button>
+    <button class="nav-button" data-view="compare"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v16H4zM14 4h6v16h-6zM7 8v5m10-5v9"/></svg>Compare policies</button>
+    <button class="nav-button" data-view="diagnostics"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10" cy="10" r="6"/><path d="m15 15 6 6M7 10h6m-3-3v6"/></svg>Failure explorer</button>
     <button class="nav-button" data-view="results"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4v16h16M8 15l4-5 4 2 4-7"/></svg>Measured results</button>
     <button class="nav-button" data-view="saved"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 3h11l3 3v15H5zm3 0v7h8V3M8 21v-7h8v7"/></svg>Saved runs<span id="saved-count" class="count" hidden></span></button>
   </nav>
@@ -59,6 +64,60 @@
         </aside>
       </div>
       <section class="panel trace-panel" aria-labelledby="trace-title"><div class="section-heading"><div><p class="eyebrow">ONE REVEAL AT A TIME</p><h2 id="trace-title">Query history</h2></div><span id="trace-count" class="field-meta">No queries yet</span></div><ol id="query-history" class="query-history"><li class="empty-state compact">Reference labels stay on the server until a charged query reveals them.</li></ol><details id="policy-events-details" hidden><summary>Inspect policy decision events</summary><ol id="policy-events" class="event-list"></ol></details></section>
+    </section>
+
+    <section id="view-compare" class="view workbench-view" aria-labelledby="compare-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow">SAME MOLECULE · INDEPENDENT QUERY BUDGETS</p><h1 id="compare-title">Watch the policies diverge.</h1><p class="lede">Four policies. One fixed candidate pool. Every reference is paid for in its own lane.</p></div><span class="scope-pill">Interactive offline replay</span></div>
+      <div id="comparison-error" class="notice error" role="alert" hidden></div>
+      <div id="comparison-warning" class="notice comparison-warning" role="status" hidden></div>
+      <div id="comparison-recovery" class="comparison-recovery" hidden><p id="cmp-recovery-detail">The local server no longer has this session. Archive its last confirmed accounting to start a new comparison.</p><button id="cmp-archive-unavailable" class="button secondary" disabled>Archive unavailable comparison</button></div>
+      <div class="comparison-picker panel">
+        <label>Find a development molecule<input id="cmp-search" type="search" placeholder="Molecule ID or chemical family" autocomplete="off"></label>
+        <label>Fixed candidate pool<select id="cmp-molecule" disabled><option>Loading molecules…</option></select></label>
+        <button id="cmp-load" class="button secondary" disabled>Start fresh comparison</button>
+      </div>
+      <div class="case-heading"><p>Or inspect a retrospectively selected case</p><span>Cases illustrate behavior; they do not validate a policy.</span></div>
+      <div id="comparison-cases" class="case-grid"><p class="muted">Loading measured cases…</p></div>
+      <section class="comparison-command" aria-label="Control the independent replays">
+        <div class="comparison-command-title"><span class="eyebrow light">CURRENT COMPARISON</span><h2 id="cmp-current">Choose a molecule</h2><p id="cmp-pool-detail">Each lane begins with zero revealed labels.</p></div>
+        <div class="comparison-counts" aria-live="polite"><div><strong id="cmp-calls">0</strong><span id="cmp-call-label">calls across these lanes</span></div><div><strong id="cmp-finished">0 / 4</strong><span>policies stopped</span></div></div>
+        <div class="comparison-actions"><button id="cmp-step" class="button mint" disabled>Step all active policies</button><button id="cmp-run" class="button dark-outline" disabled>Run all to stop</button></div>
+      </section>
+      <div class="comparison-meta"><p id="cmp-accounting">Each policy pays separately, including when two lanes query the same conformer. These are offline accounting units, not live compute or runtime savings.</p><div class="comparison-export"><button id="cmp-json" class="text-button" disabled>Export comparison JSON</button><button id="cmp-csv" class="text-button" disabled>Export comparison CSV</button></div></div>
+      <div id="cmp-archive-note" class="scope-explanation" hidden></div>
+      <div id="comparison-lanes" class="comparison-lanes" aria-label="Independent policy lanes"><div class="panel empty-state">Choose a molecule to create four independent replay sessions.</div></div>
+      <div class="comparison-inspect-grid" id="comparison-inspector" hidden>
+        <section class="viewer-card comparison-viewer" aria-labelledby="cmp-geometry-title">
+          <div class="viewer-heading"><div><span class="eyebrow light">VERIFIED COORDINATES · DISPLAY ONLY</span><h2 id="cmp-geometry-title">Inspect a conformer</h2></div><span id="cmp-renderer" class="viewer-badge">3D viewer</span></div>
+          <div class="comparison-viewer-controls"><label>Observe this policy<select id="cmp-lane-select"></select></label><label>Conformer<select id="cmp-conformer-select"></select></label></div>
+          <div id="cmp-viewport" class="molecule-viewport" role="group" aria-label="Interactive comparison molecular geometry"><div id="cmp-geometry-message" class="geometry-message">Loading verified coordinates…</div></div>
+          <div class="viewer-instructions"><span>Drag to rotate · scroll or pinch to zoom</span><button id="cmp-reset-camera" class="text-button on-dark">Reset view</button></div>
+          <div class="energy-strip"><div><span>Cheap energy above cheap minimum</span><strong id="cmp-cheap">—</strong></div><div><span id="cmp-reference-label">This lane’s paid reference</span><strong id="cmp-reference">Hidden until this lane queries</strong></div></div>
+          <details class="viewer-options"><summary>Display controls &amp; identity</summary><div class="viewer-option-controls"><label>Rendering<select id="cmp-style"><option value="ball-stick">Ball &amp; stick</option><option value="wireframe">Wireframe</option><option value="spacefill">Space filling</option></select></label><label class="check-label"><input id="cmp-hydrogens" type="checkbox" checked> Show hydrogens</label><label class="check-label"><input id="cmp-spin" type="checkbox"> Rotate slowly</label></div><p id="cmp-coordinate-detail" class="mono small"></p><p class="small">Display bonds use a distance heuristic. The policies receive candidate IDs and cheap energies; geometry never becomes an acquisition feature.</p></details>
+        </section>
+        <section class="panel comparison-trace" aria-labelledby="cmp-trace-title"><div class="section-heading"><div><p class="eyebrow">ONLY THIS LANE’S OBSERVATIONS</p><h2 id="cmp-trace-title">The decision trail</h2></div><span id="cmp-trace-count" class="field-meta"></span></div><div id="cmp-progress" class="observed-progress"></div><p class="chart-note">Change in the best verified energy, relative to this lane’s first successful query. Unqueried references never set the scale. This is not regret.</p><ol id="cmp-history" class="lane-history"></ol><details class="comparison-event-details"><summary>Frozen configuration &amp; stop reason</summary><pre id="cmp-config"></pre><p id="cmp-stop-detail"></p></details></section>
+      </div>
+    </section>
+
+    <section id="view-diagnostics" class="view workbench-view" aria-labelledby="diagnostics-title" hidden>
+      <div class="page-heading"><div><p class="eyebrow">RETROSPECTIVE · ORIGINAL DEVELOPMENT CROSS-VALIDATION</p><h1 id="diagnostics-title">Find the expensive mistakes.</h1><p class="lede">Trace the aggregate result back to molecules, families, and stopping decisions.</p></div><button id="diag-export" class="button secondary" disabled>Export filtered comparisons</button></div>
+      <div class="diagnostic-scope"><strong>Previously measured development results.</strong><p>These are the sealed family cross-validation results. Filtering and selecting cases is retrospective. Policies do not receive these diagnostic outcomes.</p></div>
+      <div id="diagnostics-error" class="notice error" role="alert" hidden></div><button id="diag-retry" class="button secondary" hidden>Retry evidence loading</button>
+      <div id="diagnostics-loading" class="panel empty-state"><div class="loader" aria-hidden="true"></div><h2>Checking the measured molecule table</h2><p>Reading the verified, development-only evidence.</p></div>
+      <div id="diagnostics-content" hidden>
+        <div id="diagnostic-summary" class="diagnostic-summary"></div>
+        <section class="panel diagnostic-filters" aria-label="Filter paired molecule outcomes">
+          <label>Compare sequential against<select id="diag-comparator"><option value="matched_simple">Matched simple · fold-selected</option><option value="fixed_top_k">Fixed top-2</option></select></label>
+          <label>Search molecule<input id="diag-search" type="search" placeholder="e.g. omegacsd_GIHTUM"></label>
+          <label>Chemical family<select id="diag-family"><option value="all">All chemical families</option></select></label>
+          <label>Behavior<select id="diag-behavior"><option value="all">Every paired outcome</option><option value="rescue">Sequential rescues success</option><option value="waste">More calls, same regret</option><option value="early_stop">Early stop loses success</option><option value="shared_failure">Both miss the 1 kcal/mol target</option><option value="fewer_calls">Sequential uses fewer calls</option><option value="worse_regret">Sequential has higher regret</option></select></label>
+          <label>Sort molecules<select id="diag-sort"><option value="regret">Largest sequential regret</option><option value="regret_delta">Largest regret increase</option><option value="calls_delta">Most additional calls</option><option value="molecule">Molecule ID</option></select></label>
+          <button id="diag-clear" class="text-button">Clear filters</button>
+        </section>
+        <div class="diagnostic-plot-grid"><section class="panel diagnostic-plot-panel"><div class="section-heading"><div><p class="eyebrow">PAIRED DIFFERENCES</p><h2>What did adaptation buy?</h2></div><span id="diag-plot-count" class="field-meta"></span></div><div id="diagnostic-plot" class="diagnostic-plot"></div><p class="chart-note">Each point is a molecule; points may overlap. Both axes are sequential minus the selected comparator. Left means fewer calls; down means lower regret. Click a point or choose a row for details.</p></section><aside id="diagnostic-detail" class="panel diagnostic-detail" aria-live="polite"></aside></div>
+        <section class="panel diagnostic-table-panel"><div class="section-heading"><div><h2>Every molecule has a decision trail</h2><p id="diag-table-description"></p></div><span id="diag-visible-count" class="field-meta"></span></div><div id="diagnostic-rows" class="diagnostic-rows"></div><div class="pagination"><button id="diag-prev" class="button secondary">Previous</button><span id="diag-page"></span><button id="diag-next" class="button secondary">Next</button></div></section>
+        <details class="panel evidence-details"><summary>How to read this explorer</summary><p>The matched simple policy is the exact simple configuration selected on the training families for each fold. Fixed top-2 is a separate comparator. Comparing with one does not establish a result against the other.</p><p>Success means reference regret at most 1 kcal/mol, with the benchmark’s numerical tolerance. “More calls, same regret” means a call increase with regret equal within 10⁻⁸ kcal/mol. “Early stop loses success” means fewer calls and a failed 1 kcal/mol decision where the comparator succeeded. These descriptive filters may overlap.</p><p>Family-level uncertainty and the registered operating-point decision remain in Measured results. The exploratory subset summaries here are counts, not new confidence intervals, independent experiments, or policy validation.</p><p id="diag-provenance" class="mono small"></p></details>
+      </div>
     </section>
 
     <section id="view-results" class="view" aria-labelledby="results-title" hidden>

@@ -23,6 +23,9 @@ STATIC_FILES = {
     "/assets/app.js": ("assets/app.js", "text/javascript; charset=utf-8"),
     "/assets/styles.css": ("assets/styles.css", "text/css; charset=utf-8"),
     "/assets/molecule-viewer.js": ("assets/molecule-viewer.js", "text/javascript; charset=utf-8"),
+    "/assets/comparison.js": ("assets/comparison.js", "text/javascript; charset=utf-8"),
+    "/assets/workbench.js": ("assets/workbench.js", "text/javascript; charset=utf-8"),
+    "/assets/workbench.css": ("assets/workbench.css", "text/css; charset=utf-8"),
 }
 SESSION_TOKEN = re.compile(r"[A-Za-z0-9_-]{32}")
 IDEMPOTENCY_TOKEN = re.compile(r"[A-Za-z0-9_.:-]{1,80}")
@@ -213,6 +216,13 @@ class RequestHandler(http.server.BaseHTTPRequestHandler):
             return
         if path == "/api/results":
             self._json(200, self.server.store.public_results())
+            return
+        if path == "/api/diagnostics":
+            self._json(200, self.server.store.public_diagnostics())
+            return
+        if path == "/api/diagnostics.csv":
+            self._send(200, self.server.store.diagnostics_csv(), "text/csv; charset=utf-8",
+                       filename="aqc-development-retrospective-diagnostics.csv")
             return
         if path.startswith("/api/results/"):
             name = path.removeprefix("/api/results/")
