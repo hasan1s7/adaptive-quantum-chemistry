@@ -1,0 +1,7379 @@
+{
+  "assignments": [
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "molecule_id": "astex_1g9v",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "astex_1gkc",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d5722012ab374b4e",
+      "molecule_id": "astex_1gm8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_id": "astex_1hnn",
+      "n_candidates": 8,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "molecule_id": "astex_1hp0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5446787b7057085b",
+      "molecule_id": "astex_1hq2",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e3f062da86b64d64",
+      "molecule_id": "astex_1hvy",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9888ea90aa782a2",
+      "molecule_id": "astex_1ia1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "astex_1ig3",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "astex_1j3j",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "astex_1jd0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6e48449dbd90a853",
+      "molecule_id": "astex_1jje",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8b041d2430934781",
+      "molecule_id": "astex_1jla",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_id": "astex_1k3u",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e29c31888ec6ef3",
+      "molecule_id": "astex_1ke5",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9112b02076d6625b",
+      "molecule_id": "astex_1kzk",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_873f79c8929f43fe",
+      "molecule_id": "astex_1l2s",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_id": "astex_1lrh",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_09673c2a400987bc",
+      "molecule_id": "astex_1m2z",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_76c4bfb483348294",
+      "molecule_id": "astex_1meh",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "astex_1mmv",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "astex_1n1m",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "astex_1n2j",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_674c6f0b1372731f",
+      "molecule_id": "astex_1n2v",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3b5ac2e268a80b65",
+      "molecule_id": "astex_1n46",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "astex_1nav",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_58ed390b47f17e65",
+      "molecule_id": "astex_1of1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "astex_1of6",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_28095386b0fb4537",
+      "molecule_id": "astex_1opk",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "astex_1oq5",
+      "n_candidates": 8,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2098d873e99d0abe",
+      "molecule_id": "astex_1owe",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7d0cb07200ae0279",
+      "molecule_id": "astex_1p2y",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_118e95c1462abb69",
+      "molecule_id": "astex_1p62",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7343e5d26b9cfb64",
+      "molecule_id": "astex_1q1g",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "astex_1q4g",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "astex_1r55",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "astex_1r58",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "astex_1r9o",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "astex_1sg0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "astex_1sq5",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e44d8091d2c1870f",
+      "molecule_id": "astex_1t40",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cb4d20ea3f4b8f9e",
+      "molecule_id": "astex_1t9b",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0142e032ff88e955",
+      "molecule_id": "astex_1tow",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "astex_1tz8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5f4a1cb311fc2c9e",
+      "molecule_id": "astex_1u1c",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fd9edb71ae739d42",
+      "molecule_id": "astex_1uml",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "molecule_id": "astex_1unl",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_12a9bb7c7758a562",
+      "molecule_id": "astex_1v0p",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f3fba29ae937c54f",
+      "molecule_id": "astex_1v48",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cdf455e44ee3fb05",
+      "molecule_id": "astex_1v4s",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ff425c8f05e8b50c",
+      "molecule_id": "astex_1w2g",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f4ae01f4ae11fa5f",
+      "molecule_id": "astex_1xm6",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_75009fab91863de9",
+      "molecule_id": "astex_1xoq",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_10cd1edc55212d21",
+      "molecule_id": "astex_1xoz",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c618baaa49b0e1ca",
+      "molecule_id": "astex_1yqy",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_49e91647d5bfb2a5",
+      "molecule_id": "astex_1yvf",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_becb1e38e9821757",
+      "molecule_id": "astex_1z95",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f64b6a438c5e9d11",
+      "molecule_id": "astex_2br1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "astex_2bsm",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6cd14c5b51f8842b",
+      "molecule_id": "omegacsd_ABHYTZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegacsd_ABIMAZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_25c26f9d294a5b32",
+      "molecule_id": "omegacsd_ABSBPP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c4b94b354fe5b49d",
+      "molecule_id": "omegacsd_ABVPRO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5446787b7057085b",
+      "molecule_id": "omegacsd_ABXBPC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_ABZNPS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f4ae01f4ae11fa5f",
+      "molecule_id": "omegacsd_ACENHT",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "omegacsd_ACPIXZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "omegacsd_ACTHBZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d9820d67d1dcf0dd",
+      "molecule_id": "omegacsd_ADPRTR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_AMOCMS10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_AMPDAM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_195c97dd2e2f9e89",
+      "molecule_id": "omegacsd_ANOPPS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "molecule_id": "omegacsd_ANTZOA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1dbbf90fc982f11b",
+      "molecule_id": "omegacsd_ANTZOB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_303c1ae9488e2984",
+      "molecule_id": "omegacsd_AOPCHY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_886efbd4bfa0bb06",
+      "molecule_id": "omegacsd_APRTAM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_AURMIN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bd13661808833377",
+      "molecule_id": "omegacsd_AZLNPR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ea78c4352157b38b",
+      "molecule_id": "omegacsd_BAFJEX10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_BAFREF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e8dab9e252e51e3d",
+      "molecule_id": "omegacsd_BAFYOW",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9a017170f5259ac2",
+      "molecule_id": "omegacsd_BAJZOB10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_758db664716d4572",
+      "molecule_id": "omegacsd_BATROD",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_08d0bb49e552ac84",
+      "molecule_id": "omegacsd_BATXID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "molecule_id": "omegacsd_BAXOZO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9a142eead479ff33",
+      "molecule_id": "omegacsd_BBSPRT10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_BEDLUR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c8cfdb8a544e2b1a",
+      "molecule_id": "omegacsd_BEHHOL10",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_95046468a5bc2f6a",
+      "molecule_id": "omegacsd_BEKDIE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegacsd_BELWOE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_62c3cbb8fdf639ce",
+      "molecule_id": "omegacsd_BENPRL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_041961ff19920ccf",
+      "molecule_id": "omegacsd_BESCEH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "molecule_id": "omegacsd_BETFAH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_520b7dbb471d2d66",
+      "molecule_id": "omegacsd_BEWLIY10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7d842002d99af2da",
+      "molecule_id": "omegacsd_BEWLOE10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_BEXVOP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_BHMPET",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0a0298f40f571bf0",
+      "molecule_id": "omegacsd_BIBHID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "molecule_id": "omegacsd_BIBSEK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_85802b0908d6910e",
+      "molecule_id": "omegacsd_BSBTHP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ef0aa9bff0d6934e",
+      "molecule_id": "omegacsd_BTHYDX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_BUDCUY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a3bb82bb83ef94ef",
+      "molecule_id": "omegacsd_BUFXOP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_351a955d3bcc6849",
+      "molecule_id": "omegacsd_BUHNIB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_bff4522e4bcff6d4",
+      "molecule_id": "omegacsd_BUNFUL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_BUSNIM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_BUTDID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_50b772f11ab10ea5",
+      "molecule_id": "omegacsd_BUVYIA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_183ba87ee5cb72a9",
+      "molecule_id": "omegacsd_BUYZIE",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9d09569671207dcc",
+      "molecule_id": "omegacsd_BZAPCX10",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9d09569671207dcc",
+      "molecule_id": "omegacsd_BZAPUC20",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6dbdb0936fac51f5",
+      "molecule_id": "omegacsd_CABCUD",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d0cd378c13ee9ec0",
+      "molecule_id": "omegacsd_CAFGIZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_CAGXEN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_856bd6657da6db6c",
+      "molecule_id": "omegacsd_CALLEG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4186605160fb77a9",
+      "molecule_id": "omegacsd_CANPUC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegacsd_CARNID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_73c88bf04a99aae5",
+      "molecule_id": "omegacsd_CATXIE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_CAVNUI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e060d928a6c7940d",
+      "molecule_id": "omegacsd_CBMHZP",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "family_85802b0908d6910e",
+      "molecule_id": "omegacsd_CBSTHP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ef0aa9bff0d6934e",
+      "molecule_id": "omegacsd_CBZHYX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ee830212d3e57ff2",
+      "molecule_id": "omegacsd_CEJTIU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_CEKNOV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_CELDEC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a7db6cef32a431df",
+      "molecule_id": "omegacsd_CELXOG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4c692b95ec0e0881",
+      "molecule_id": "omegacsd_CENNIS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4aa201d9298554c5",
+      "molecule_id": "omegacsd_CETZOQ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_76c4bfb483348294",
+      "molecule_id": "omegacsd_CEVTUS",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_42c97e7a3c085fb3",
+      "molecule_id": "omegacsd_CEWFUF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f06e993c8899f46e",
+      "molecule_id": "omegacsd_CFBPBI",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fa015453ef93f829",
+      "molecule_id": "omegacsd_CIBPEI",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_id": "omegacsd_CIBPOS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_eb34981a71f67e23",
+      "molecule_id": "omegacsd_CIDSIR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_CIHFAA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_id": "omegacsd_CIHJAE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_92370cefbdda6d4e",
+      "molecule_id": "omegacsd_CIJFEG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5c66a1976331bbb0",
+      "molecule_id": "omegacsd_CIJVAS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_CIPXEE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_CIXFIY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d8dded20fa2baadb",
+      "molecule_id": "omegacsd_CIXTOS",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_CLPHAC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c69d1b6aded39159",
+      "molecule_id": "omegacsd_CLPNXA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_CLPSAM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d834c73ca7b33691",
+      "molecule_id": "omegacsd_CLPTBU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3bf56e4f702c1608",
+      "molecule_id": "omegacsd_CMANPQ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a67ccc4b307320ba",
+      "molecule_id": "omegacsd_CMAPTX",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_CMPEPI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "omegacsd_CMSMOC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_CMXPMB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ee3240f50d9c4821",
+      "molecule_id": "omegacsd_CMXPYO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e086ee5ab649f1f",
+      "molecule_id": "omegacsd_CNBPCT",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c4d676730499110e",
+      "molecule_id": "omegacsd_CNINDO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d94ce5b9b28b6902",
+      "molecule_id": "omegacsd_COCHOL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fa08e2f93bf0d80b",
+      "molecule_id": "omegacsd_CODYUP10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "molecule_id": "omegacsd_COFHIO10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e519f4379a2a98df",
+      "molecule_id": "omegacsd_COKBOT",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_60bc44663a14f216",
+      "molecule_id": "omegacsd_COKSUQ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_24af2b1c18894df4",
+      "molecule_id": "omegacsd_COKTAX",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_eb05dc1d2849c789",
+      "molecule_id": "omegacsd_COTXUE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_COVXIU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c070ee22565a8185",
+      "molecule_id": "omegacsd_COYHUT10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_COYPIP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3de86dfd4be44f52",
+      "molecule_id": "omegacsd_COYTOZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7d0cb07200ae0279",
+      "molecule_id": "omegacsd_COYVIV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f0617ff68d61e841",
+      "molecule_id": "omegacsd_COZFOM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_19d2eb8ae83b0a3e",
+      "molecule_id": "omegacsd_CPIPLA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_CPPHAM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b160af7e9cbfa5e7",
+      "molecule_id": "omegacsd_CPQZOL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "omegacsd_CPYPTZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_08eda70c7ba3d019",
+      "molecule_id": "omegacsd_CUHNEY10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_308005378a36a1f4",
+      "molecule_id": "omegacsd_CUJSAB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_926733efa6fadf48",
+      "molecule_id": "omegacsd_CUNTIO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f87503e1bf3b99d3",
+      "molecule_id": "omegacsd_CUSLUX",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_28ecc6623bc3811d",
+      "molecule_id": "omegacsd_CUWRIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_DABGUI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bc1461607c87a7c8",
+      "molecule_id": "omegacsd_DADDUH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_78f4b7236326e3f8",
+      "molecule_id": "omegacsd_DAFTOT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a5e0566ebae9ae95",
+      "molecule_id": "omegacsd_DAFVUB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_77a9338479551131",
+      "molecule_id": "omegacsd_DAHNIJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4d72a5ac61689f5e",
+      "molecule_id": "omegacsd_DAKGEB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b138567975e52730",
+      "molecule_id": "omegacsd_DANNEL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_495248331fb308b0",
+      "molecule_id": "omegacsd_DAWRAU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_id": "omegacsd_DEBBOB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4215205075d0d35a",
+      "molecule_id": "omegacsd_DEBFAR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_db8029752f9f783d",
+      "molecule_id": "omegacsd_DECZIU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "molecule_id": "omegacsd_DENBUT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6ed54682e26fdb1c",
+      "molecule_id": "omegacsd_DENDAC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fa08e2f93bf0d80b",
+      "molecule_id": "omegacsd_DERZAB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_DIAVER",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8d3aad01578b93cc",
+      "molecule_id": "omegacsd_DIGSIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5e70e0cf1c981ca3",
+      "molecule_id": "omegacsd_DIPJAN10",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_DISHOC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_279a449083ede9ff",
+      "molecule_id": "omegacsd_DIWPUU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "molecule_id": "omegacsd_DIWWUB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_DIZREJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "molecule_id": "omegacsd_DIZWAK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "molecule_id": "omegacsd_DOHREX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_DOLJIX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ef9ef6176511b120",
+      "molecule_id": "omegacsd_DOPXIP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_id": "omegacsd_DOTFEX",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_DOXANN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "molecule_id": "omegacsd_DUDNUL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_38ae3d7e97e10fe9",
+      "molecule_id": "omegacsd_DUDPAT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_38ae3d7e97e10fe9",
+      "molecule_id": "omegacsd_DUHSUU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c8f8bb0329478267",
+      "molecule_id": "omegacsd_DUMTAG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_aaec8f41f864a96e",
+      "molecule_id": "omegacsd_DUPKII",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6c52466b3326abf1",
+      "molecule_id": "omegacsd_DUXYOK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "omegacsd_DUZDAD",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e4572f90d2cd911b",
+      "molecule_id": "omegacsd_EBTNIC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3228bf69b2ce3e76",
+      "molecule_id": "omegacsd_ECBHMP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3228bf69b2ce3e76",
+      "molecule_id": "omegacsd_EHMPYX10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7016749f799eafa5",
+      "molecule_id": "omegacsd_EITDZL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5e75bd3259bb0dec",
+      "molecule_id": "omegacsd_EMZPPO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_69c1ac3de1112323",
+      "molecule_id": "omegacsd_EPCMPO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a7db6cef32a431df",
+      "molecule_id": "omegacsd_EXOADN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "molecule_id": "omegacsd_FABSOQ10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3677730fac035e68",
+      "molecule_id": "omegacsd_FABWUA10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e4cfec2b990d5190",
+      "molecule_id": "omegacsd_FACCER10",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9ad57ca5789678c9",
+      "molecule_id": "omegacsd_FAHTUD",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c2e54b42736f4228",
+      "molecule_id": "omegacsd_FAHXIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegacsd_FAJVAN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_39f89102d13469f3",
+      "molecule_id": "omegacsd_FANPUF",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ef37c7d4f889bc3d",
+      "molecule_id": "omegacsd_FAVYEG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_404671487096a258",
+      "molecule_id": "omegacsd_FAWREA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6bf0b2ee0ec28a3e",
+      "molecule_id": "omegacsd_FAXPUP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f086c8ebbb974482",
+      "molecule_id": "omegacsd_FBPAZD",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b7286454b6a33e97",
+      "molecule_id": "omegacsd_FECPUY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c928d783ea8e31f8",
+      "molecule_id": "omegacsd_FEFPOV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegacsd_FEKYEZ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c8ea2a470a13161b",
+      "molecule_id": "omegacsd_FEMMAL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_518599c681a45183",
+      "molecule_id": "omegacsd_FEVZUB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ebcefe4d13bdaee2",
+      "molecule_id": "omegacsd_FEWBAK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c8cfdb8a544e2b1a",
+      "molecule_id": "omegacsd_FEYJEY",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3e08c0e49e53fa31",
+      "molecule_id": "omegacsd_FEYKUP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "molecule_id": "omegacsd_FHFPBY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "molecule_id": "omegacsd_FIBREN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8912f152ffca996e",
+      "molecule_id": "omegacsd_FIJJUD",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_90064691dd120e2d",
+      "molecule_id": "omegacsd_FIVPUV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_152ed0447597598c",
+      "molecule_id": "omegacsd_FIWLUS",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_25c26f9d294a5b32",
+      "molecule_id": "omegacsd_FIXNUV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c69d1b6aded39159",
+      "molecule_id": "omegacsd_FLPNTX10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_77998c98637be2c3",
+      "molecule_id": "omegacsd_FOBZIF",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c5cb4a89a7660b6c",
+      "molecule_id": "omegacsd_FOGWAZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_FOJZUZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a1839b7a722d41d2",
+      "molecule_id": "omegacsd_FOLMEY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_FOMDUG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_FOPMIG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_40ed992131074db0",
+      "molecule_id": "omegacsd_FOWPOW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_08d7968a4f216128",
+      "molecule_id": "omegacsd_FOYLIO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_FPAMCA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c64d77f21ce985c9",
+      "molecule_id": "omegacsd_FUCFIS",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7d0cb07200ae0279",
+      "molecule_id": "omegacsd_FUDVUV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "molecule_id": "omegacsd_FUGSIJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_20d49129612c8345",
+      "molecule_id": "omegacsd_FUHHAR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_db8029752f9f783d",
+      "molecule_id": "omegacsd_FUHLID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "molecule_id": "omegacsd_FUJRUX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_FUMBOE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3399c8ac5817fa01",
+      "molecule_id": "omegacsd_FUNXUH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2c2662d9e0ddc6e5",
+      "molecule_id": "omegacsd_FUNYAO",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_FUPFIF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5f4a1cb311fc2c9e",
+      "molecule_id": "omegacsd_FURACM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d7ed8cd78f3f4e29",
+      "molecule_id": "omegacsd_FURKEI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegacsd_FURSEM01",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_FUSZOI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_dd72be6c73532640",
+      "molecule_id": "omegacsd_GAKWIY",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_GALSEM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_id": "omegacsd_GANFIK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_db868054ccb833d1",
+      "molecule_id": "omegacsd_GASPUL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f2fe6c3414f41a47",
+      "molecule_id": "omegacsd_GASXED",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_13a5fe35750623bc",
+      "molecule_id": "omegacsd_GATPOG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_731c91c1d20dd7bd",
+      "molecule_id": "omegacsd_GAVMIZ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7be33c65813e8305",
+      "molecule_id": "omegacsd_GEBJOM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_GEHKIN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7f676bff0e9e46bd",
+      "molecule_id": "omegacsd_GEJJUA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_608838e3332d4844",
+      "molecule_id": "omegacsd_GEJLAI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "molecule_id": "omegacsd_GEKWAU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegacsd_GIFZAW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_56e7ab0bd987357f",
+      "molecule_id": "omegacsd_GIHKAJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5695b6350489c399",
+      "molecule_id": "omegacsd_GIHTUM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_0934fb71fd89299b",
+      "molecule_id": "omegacsd_GIHWUP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_15cd07a8d7fee8eb",
+      "molecule_id": "omegacsd_GIKJOZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4045110cc1b4194a",
+      "molecule_id": "omegacsd_GINKUJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3677730fac035e68",
+      "molecule_id": "omegacsd_HADLAZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "molecule_id": "omegacsd_HALDOL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c0423fbdc5100019",
+      "molecule_id": "omegacsd_HALJOT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_62c3cbb8fdf639ce",
+      "molecule_id": "omegacsd_HALOPE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "molecule_id": "omegacsd_HALSES",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_df4333472816946c",
+      "molecule_id": "omegacsd_HASCOT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6f885b0d62dd2815",
+      "molecule_id": "omegacsd_HATKES",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6c1b3325f9b5ede9",
+      "molecule_id": "omegacsd_HAVJET",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5d4b4ccc8bccd512",
+      "molecule_id": "omegacsd_HAVLUL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ce27d808c1138e5a",
+      "molecule_id": "omegacsd_HAVRUR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_05d92e095fdcb3bf",
+      "molecule_id": "omegacsd_HBFRAN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_HECHEC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9200a6289831da8",
+      "molecule_id": "omegacsd_HEHVOF",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fecfd40a08cdc309",
+      "molecule_id": "omegacsd_HEJTAR",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "family_64f8170444031ad0",
+      "molecule_id": "omegacsd_HEKROE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f87503e1bf3b99d3",
+      "molecule_id": "omegacsd_HEKZAY",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e8e5e3a20a75e266",
+      "molecule_id": "omegacsd_HEMLOA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_fd487f2b6e8827d2",
+      "molecule_id": "omegacsd_HEMWUR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9ce0cb4a697214e",
+      "molecule_id": "omegacsd_HEMXIG",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3b5ac2e268a80b65",
+      "molecule_id": "omegacsd_HEPGAK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_802ecf2712bcc295",
+      "molecule_id": "omegacsd_HEPKUI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_HEVJAT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c525e17ef77e7567",
+      "molecule_id": "omegacsd_HEVRIJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3d14e35adb299d15",
+      "molecule_id": "omegacsd_HEVXEL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegacsd_HEXFEV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_61384ecf3a8b4198",
+      "molecule_id": "omegacsd_HEXYIS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_51e28a441b1b7d0f",
+      "molecule_id": "omegacsd_JOTDAX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f098064355a8ace4",
+      "molecule_id": "omegacsd_JOXFIL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f75a0becd840d9e5",
+      "molecule_id": "omegacsd_JUBGES",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_JUBJOF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "molecule_id": "omegacsd_JUDLUP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9554b54aaa712816",
+      "molecule_id": "omegacsd_JUDWEK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_41c9c5490097a4cc",
+      "molecule_id": "omegacsd_JUHHEZ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3db85e74377286ef",
+      "molecule_id": "omegacsd_JUKZUK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_1e2592123c2d3861",
+      "molecule_id": "omegacsd_JUVPAR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9506a91952d20828",
+      "molecule_id": "omegacsd_KABJOM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_32e1982790eca31e",
+      "molecule_id": "omegacsd_KACKII",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_82ef1006184dd98b",
+      "molecule_id": "omegacsd_KAVLIC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_32e6024647346d81",
+      "molecule_id": "omegacsd_KAVNOK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_KAXXAI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_fa015453ef93f829",
+      "molecule_id": "omegacsd_KEBVES",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a03b93c94c52e81f",
+      "molecule_id": "omegacsd_KECDUR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3886653a2e62ea96",
+      "molecule_id": "omegacsd_KEJBEG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_62d24317f7eeb1cf",
+      "molecule_id": "omegacsd_KEJGEL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_168036b326a7a517",
+      "molecule_id": "omegacsd_KICRIX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "molecule_id": "omegacsd_KIFZAA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_19c76c9554d33100",
+      "molecule_id": "omegacsd_KIHWAZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a18e3fda3b9f2417",
+      "molecule_id": "omegacsd_KIHWED",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_id": "omegacsd_KINJIA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_id": "omegacsd_KIXLOS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8646dcc70e3bae64",
+      "molecule_id": "omegacsd_KOFKUL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8646dcc70e3bae64",
+      "molecule_id": "omegacsd_KOFLIA",
+      "n_candidates": 9,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_4d013bb9c56ad6c8",
+      "molecule_id": "omegacsd_KOFLOG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8646dcc70e3bae64",
+      "molecule_id": "omegacsd_KOFMIB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3d0210369a0c42e3",
+      "molecule_id": "omegacsd_KOJMEB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_283ce63209be975d",
+      "molecule_id": "omegacsd_KOKBIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "molecule_id": "omegacsd_KOTGIJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_05dc8af68b7beeba",
+      "molecule_id": "omegacsd_KUBHEU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8a32cdcdf278b10a",
+      "molecule_id": "omegacsd_KUFPIK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_efdb44ca1f83cb47",
+      "molecule_id": "omegacsd_KUHNUW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegacsd_LABLOP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_id": "omegacsd_LACCEX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_24845fa7ad622541",
+      "molecule_id": "omegacsd_LACPAG",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d2c9342e8fed3093",
+      "molecule_id": "omegacsd_LADTOZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cefa9a67860b26a9",
+      "molecule_id": "omegacsd_LANXED",
+      "n_candidates": 9,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e38d7de63b5310bd",
+      "molecule_id": "omegacsd_LAWJEY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_53cd6f683d47ff8a",
+      "molecule_id": "omegacsd_LAXWEM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegacsd_LEDWAS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e7735028a1733e3",
+      "molecule_id": "omegacsd_LEKMET",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f7578d19e9f96ff3",
+      "molecule_id": "omegacsd_LELROJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_db5cc3e598ca5a81",
+      "molecule_id": "omegacsd_LEMXIK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fd0687c749491088",
+      "molecule_id": "omegacsd_LERKAU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_282bacf050d42cd8",
+      "molecule_id": "omegacsd_LETBAN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c2e54b42736f4228",
+      "molecule_id": "omegacsd_LETBUH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bff4522e4bcff6d4",
+      "molecule_id": "omegacsd_LEVTOV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_880bdc04be0f6e19",
+      "molecule_id": "omegacsd_LEZGOM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_880bdc04be0f6e19",
+      "molecule_id": "omegacsd_LIKBUC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_177fa87efab88c31",
+      "molecule_id": "omegacsd_LIKGIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_58d0ceab4c638c44",
+      "molecule_id": "omegacsd_LIKMEX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cf9cb071addaf49d",
+      "molecule_id": "omegacsd_LINLAV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3bf56e4f702c1608",
+      "molecule_id": "omegacsd_MAMNAQ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "molecule_id": "omegacsd_MATSTA10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bb4db85aacb53c19",
+      "molecule_id": "omegacsd_MBZTZT10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_4e158cf3dbb0251a",
+      "molecule_id": "omegacsd_MICONZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cd625e1df7434ed7",
+      "molecule_id": "omegacsd_MINTSA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5bdee982601b2123",
+      "molecule_id": "omegacsd_MLDPHE10",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fe0d4b0ac5be4cd1",
+      "molecule_id": "omegacsd_MOPBZA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_731c91c1d20dd7bd",
+      "molecule_id": "omegacsd_MRMPYR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c91760544523ab9c",
+      "molecule_id": "omegacsd_MTBPNP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9888ea90aa782a2",
+      "molecule_id": "omegacsd_MVERIQ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8d55136e0350fb32",
+      "molecule_id": "omegacsd_NADYIA",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_64e92f79ab06d1b1",
+      "molecule_id": "omegacsd_NADZIB",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_1e2592123c2d3861",
+      "molecule_id": "omegacsd_NBPENC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e72a23577f8c89e1",
+      "molecule_id": "omegacsd_NFCSEY",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_33907f2ab6a6d9b9",
+      "molecule_id": "omegacsd_PACVUK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_42bf2856f661950d",
+      "molecule_id": "omegacsd_PAPPHI",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_afb18a53c6a2f279",
+      "molecule_id": "omegacsd_PBBSHD",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_1cc394cf463fb765",
+      "molecule_id": "omegacsd_PBYXCH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_id": "omegacsd_PCPTZA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ab566a1730c32751",
+      "molecule_id": "omegacsd_PEBHAF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d615a63e827eaf25",
+      "molecule_id": "omegacsd_PEKCEO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c2df66a36703737e",
+      "molecule_id": "omegacsd_PEXJEH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_89288a2c3998d235",
+      "molecule_id": "omegacsd_PIBSXM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6dce3c67277f066b",
+      "molecule_id": "omegacsd_PIDSIE",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_840e756896f2a184",
+      "molecule_id": "omegacsd_PIDWOO",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6c72d66dc224f92e",
+      "molecule_id": "omegacsd_PIKDIW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d531ce22f527e136",
+      "molecule_id": "omegacsd_PILCOC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_999a1992687a274a",
+      "molecule_id": "omegacsd_PINSAG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f75076cadfc7d6a2",
+      "molecule_id": "omegacsd_PKOJSI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "molecule_id": "omegacsd_PMAANO01",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a74b65b77138447f",
+      "molecule_id": "omegacsd_PMANAQ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_PMBSAN10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e076ceeb571d6c72",
+      "molecule_id": "omegacsd_PMCPRC10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9fd62af9add7877b",
+      "molecule_id": "omegacsd_PMEPEN",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fb4129c50f294e57",
+      "molecule_id": "omegacsd_PMPAIN",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_588505fa343f2b45",
+      "molecule_id": "omegacsd_PMPBTZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e0b1034bf26a781b",
+      "molecule_id": "omegacsd_PMTSZD",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_id": "omegacsd_PNBPIP",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegacsd_PNPAUR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ab566a1730c32751",
+      "molecule_id": "omegacsd_PTHPAL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9415d5eb146a02d9",
+      "molecule_id": "omegacsd_PXBVCP10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9060c18d9f7361dc",
+      "molecule_id": "omegacsd_PXEZSD",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cc83b9cd5b90607b",
+      "molecule_id": "omegacsd_PXMPEN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "molecule_id": "omegacsd_PYMSBZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "molecule_id": "omegacsd_QQQHDG10",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3053edfdee00eaa1",
+      "molecule_id": "omegacsd_SADXIE",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b1f005891ac25390",
+      "molecule_id": "omegacsd_SAGMUI",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_130145d6ddc12a09",
+      "molecule_id": "omegacsd_SAGWOM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c59a3a8bfdfb9d59",
+      "molecule_id": "omegacsd_SAVXOC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fa3cde4a926ffacc",
+      "molecule_id": "omegacsd_SAVYET",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_SAVZEU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2dc35754da407033",
+      "molecule_id": "omegacsd_SEFLIY",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d3b1c36d8318a65c",
+      "molecule_id": "omegacsd_SEMDET",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9accbffb1cdc1b87",
+      "molecule_id": "omegacsd_SEMXEN",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_338adb444a100d30",
+      "molecule_id": "omegacsd_SEYMIS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegacsd_SEYPUH",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_SFDMOX",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_feb2978ebc5668d7",
+      "molecule_id": "omegacsd_SIFJIA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a68979a3cb8099be",
+      "molecule_id": "omegacsd_SIHDES",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_10c8ad9e5a1fe5e6",
+      "molecule_id": "omegacsd_SIHDIW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d07e844f9f35c93a",
+      "molecule_id": "omegacsd_SIHGIZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cda6a18006d04a8a",
+      "molecule_id": "omegacsd_SIHVUA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "molecule_id": "omegacsd_SILTUC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_dbdf1536bfd38939",
+      "molecule_id": "omegacsd_SINKUV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6b548750494dd3b9",
+      "molecule_id": "omegacsd_SISYIC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b47ef4f3ef48d33",
+      "molecule_id": "omegacsd_SLFNMB04",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_SLFNMF02",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bb41ebcd714d3973",
+      "molecule_id": "omegacsd_SOPNAM",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegacsd_SOPSIZ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_273f7ba3129c491a",
+      "molecule_id": "omegacsd_SORCOR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_2274b9a82bd4e52d",
+      "molecule_id": "omegacsd_SOWCOW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2c0c74fc64791156",
+      "molecule_id": "omegacsd_SPIRIL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3b93d71eba494c98",
+      "molecule_id": "omegacsd_SURREC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_269b5c3f3d793d12",
+      "molecule_id": "omegacsd_TAJSEC",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_183ba87ee5cb72a9",
+      "molecule_id": "omegacsd_TANNOL",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c8cfdb8a544e2b1a",
+      "molecule_id": "omegacsd_TAPBZO",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_15e53263b7e04dd1",
+      "molecule_id": "omegacsd_TAPSOS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_731c91c1d20dd7bd",
+      "molecule_id": "omegacsd_TAPZEP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_907acd4a70be52ce",
+      "molecule_id": "omegacsd_TAZPUF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e044fbd58b0abfc8",
+      "molecule_id": "omegacsd_TAZXAT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_9d09569671207dcc",
+      "molecule_id": "omegacsd_TECSUP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_35a1b9f08ebf3caa",
+      "molecule_id": "omegacsd_TEDBUZ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_089a2eb92840542c",
+      "molecule_id": "omegacsd_TPHPRO",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_dd813b47fea323a3",
+      "molecule_id": "omegacsd_VADTAV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "molecule_id": "omegacsd_VAMBOA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_26b8a1411526c50f",
+      "molecule_id": "omegacsd_VAMCUH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "molecule_id": "omegacsd_VAYXOI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_db787e13d16072eb",
+      "molecule_id": "omegacsd_VEMCIZ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_eb876d24403f74d5",
+      "molecule_id": "omegacsd_VENRUB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e87bfed0caa69b13",
+      "molecule_id": "omegacsd_VEXROF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_608838e3332d4844",
+      "molecule_id": "omegacsd_VEYRAS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a81ce7b645caad69",
+      "molecule_id": "omegacsd_VIBNID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5025ff352000123",
+      "molecule_id": "omegacsd_VIBWIM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d02984c5a5d869f6",
+      "molecule_id": "omegacsd_VIPHOR",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8783dea974a13f7d",
+      "molecule_id": "omegacsd_VOPDIN",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f7578d19e9f96ff3",
+      "molecule_id": "omegacsd_VORBAF",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_19537ce3e09ae7f1",
+      "molecule_id": "omegacsd_VORDAH",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_4a18593103a66771",
+      "molecule_id": "omegacsd_VORJER",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c928d783ea8e31f8",
+      "molecule_id": "omegacsd_VOWXEK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f233c16ae057a27b",
+      "molecule_id": "omegacsd_VOXHAR",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "molecule_id": "omegacsd_VOXMOK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegacsd_VOXNOL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c75a9ba7a8d419c",
+      "molecule_id": "omegacsd_VUGDEG",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "molecule_id": "omegacsd_VUSKID",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_af6fc72d9c1b40f0",
+      "molecule_id": "omegacsd_WAMZAL",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_efdb44ca1f83cb47",
+      "molecule_id": "omegacsd_WASTEP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a10fb587310a12b2",
+      "molecule_id": "omegacsd_WAVTIW",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e83ef15da92b8405",
+      "molecule_id": "omegacsd_WEBCOV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_bfaf6a2ec2004a27",
+      "molecule_id": "omegacsd_WELGAV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_27ef7821df9e8a75",
+      "molecule_id": "omegacsd_WESFOP",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_97848582c564ce68",
+      "molecule_id": "omegacsd_WESZOJ",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_123348955b4e7e4d",
+      "molecule_id": "omegacsd_WEVTIA",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_e6f7896a5b4d4d3f",
+      "molecule_id": "omegacsd_WEXBEG",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "molecule_id": "omegacsd_WIFREI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_11af4a86d94d3878",
+      "molecule_id": "omegacsd_WIKJOP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_44e8427b3bfaf494",
+      "molecule_id": "omegacsd_YABKOB",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f95acdd33022f0e2",
+      "molecule_id": "omegacsd_YAGWOS",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bbe2b1e9dc146502",
+      "molecule_id": "omegacsd_YAHBOY",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b822f61e389e6811",
+      "molecule_id": "omegacsd_YAHFAO",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7de38c30427009bb",
+      "molecule_id": "omegacsd_YAZBAC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_eac4a5e47684a768",
+      "molecule_id": "omegacsd_YAZHUC",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3b93d71eba494c98",
+      "molecule_id": "omegacsd_YEMNEJ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_id": "omegacsd_YENLEI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_03bc5b9033310d63",
+      "molecule_id": "omegacsd_YESPIV",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2417ea256beff6ff",
+      "molecule_id": "omegacsd_YEYVED",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_50f78512eb3e8f00",
+      "molecule_id": "omegacsd_YICPIJ",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7d86428301b5a7a9",
+      "molecule_id": "omegacsd_YILDOM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_19a6bcae8c655829",
+      "molecule_id": "omegacsd_YINDII",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_aa9197b9ca428222",
+      "molecule_id": "omegacsd_YITLES",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9e44662df35f6d05",
+      "molecule_id": "omegacsd_YOPRAW",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_0eb34317ab7f6186",
+      "molecule_id": "omegacsd_YOPWOP",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_id": "omegacsd_YOSMOI",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5e70e0cf1c981ca3",
+      "molecule_id": "omegacsd_YOWVOV",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegacsd_YOWYAK",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_87e020baeda83457",
+      "molecule_id": "omegacsd_YOXDEU",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_0029b1e3f6e46149",
+      "molecule_id": "omegacsd_YUKKUK",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8189e4c0420ad64f",
+      "molecule_id": "omegacsd_YUKNAT",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a3d6e872332a13b6",
+      "molecule_id": "omegacsd_YULXIM",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d834c73ca7b33691",
+      "molecule_id": "omegacsd_YULZOU",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "molecule_id": "omegacsd_YUYJEH",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d07897be28eef4fc",
+      "molecule_id": "omegapdb_1b6l",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5099cb7747f52e7a",
+      "molecule_id": "omegapdb_1bhx",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_196f7ec4873e7272",
+      "molecule_id": "omegapdb_1bto",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5a9f9e50dc84770b",
+      "molecule_id": "omegapdb_1c1u",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1d09",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_dbc5367af9776415",
+      "molecule_id": "omegapdb_1d3g",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1d3h",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f22f5cc794e0e507",
+      "molecule_id": "omegapdb_1d4l",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1d8d",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1dfo",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cc69cbb471af556c",
+      "molecule_id": "omegapdb_1e2m",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_844c051bccd7422d",
+      "molecule_id": "omegapdb_1exa",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1f06",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1f8b",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2c9b518e02a01057",
+      "molecule_id": "omegapdb_1fm9",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegapdb_1g4s",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1g6c",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegapdb_1gja",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1gs5",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1gse",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_id": "omegapdb_1gz8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "molecule_id": "omegapdb_1h1p",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9600e3c0ebb83e6",
+      "molecule_id": "omegapdb_1h1s",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1h2k",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1h6h",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1hyo",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1ik4",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c91f8b4ec2e516bd",
+      "molecule_id": "omegapdb_1is0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1iy7",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_be71c7026124d25f",
+      "molecule_id": "omegapdb_1j3f",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1jsl",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1k2t",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1k2u",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1koj",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d1eae950135f6a64",
+      "molecule_id": "omegapdb_1kz8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1l7g",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1m2x",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_2bfcd7fa773af97f",
+      "molecule_id": "omegapdb_1m5b",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1m5d",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1m5f",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1n2b",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "molecule_id": "omegapdb_1n3z",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c618baaa49b0e1ca",
+      "molecule_id": "omegapdb_1nms",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_1nnk",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6f14feb4ed40c5e0",
+      "molecule_id": "omegapdb_1nqu",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cc69cbb471af556c",
+      "molecule_id": "omegapdb_1nqv",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_410634c4fd0d3872",
+      "molecule_id": "omegapdb_1o2y",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_410634c4fd0d3872",
+      "molecule_id": "omegapdb_1o3m",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1ofd",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9600e3c0ebb83e6",
+      "molecule_id": "omegapdb_1oiu",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1oks",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f80091fbc9d8612b",
+      "molecule_id": "omegapdb_1p1o",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1pa9",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1pck",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_22412aed673f72fb",
+      "molecule_id": "omegapdb_1q72",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_646503043269b206",
+      "molecule_id": "omegapdb_1q91",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_664d2ed0536553a0",
+      "molecule_id": "omegapdb_1qnf",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3b139ddd2a925eb7",
+      "molecule_id": "omegapdb_1qxw",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "molecule_id": "omegapdb_1qy5",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "molecule_id": "omegapdb_1r34",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1r4p",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1r6w",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1rf6",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f0710ce6f2b73ca6",
+      "molecule_id": "omegapdb_1ros",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d9e374affc2f2a58",
+      "molecule_id": "omegapdb_1s63",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1s8j",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_05d5398e0a5c7805",
+      "molecule_id": "omegapdb_1sa4",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ce66a7e746b71b4a",
+      "molecule_id": "omegapdb_1syh",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1toj",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1uf5",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1uf7",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1uf8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1ur8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ce55ad6a79fa5ff6",
+      "molecule_id": "omegapdb_1urw",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_10291eb985a8a7a6",
+      "molecule_id": "omegapdb_1utt",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b9b8f0757cf10dfc",
+      "molecule_id": "omegapdb_1uu9",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1uwc",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_64f8170444031ad0",
+      "molecule_id": "omegapdb_1uy8",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_aa240020e9899f64",
+      "molecule_id": "omegapdb_1v2k",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3c7a5f5f51349355",
+      "molecule_id": "omegapdb_1v2n",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_id": "omegapdb_1v97",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_id": "omegapdb_1w1q",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_1w9u",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bd13661808833377",
+      "molecule_id": "omegapdb_1wvj",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5cb4a89a7660b6c",
+      "molecule_id": "omegapdb_1xap",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_cc69cbb471af556c",
+      "molecule_id": "omegapdb_1xge",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_2f96ac0802d067dd",
+      "molecule_id": "omegapdb_1xn0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_947c5f387dcd5395",
+      "molecule_id": "omegapdb_1xom",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_bd052b9cb61a1164",
+      "molecule_id": "omegapdb_1xon",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a10500780764068c",
+      "molecule_id": "omegapdb_1xp0",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_de580ef96bbd1e46",
+      "molecule_id": "omegapdb_1xqc",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_09b9b29d8e4f1d2b",
+      "molecule_id": "omegapdb_1y6q",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_19a95321efc5b5be",
+      "molecule_id": "omegapdb_1yc1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_66f23ee245c6005c",
+      "molecule_id": "omegapdb_1yc4",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_1yc5",
+      "n_candidates": 6,
+      "split": "development"
+    },
+    {
+      "family_id": "family_5cdf2ba148dc5867",
+      "molecule_id": "omegapdb_1yvx",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_id": "omegapdb_1zvx",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_949091c1482a24d4",
+      "molecule_id": "omegapdb_1zz2",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_id": "omegapdb_2aw1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7b597ad893610eac",
+      "molecule_id": "omegapdb_2ayr",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_18bf9d6b340856a5",
+      "molecule_id": "omegapdb_2b7d",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6902544cbbdc65d1",
+      "molecule_id": "omegapdb_2bgd",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d75ec5fd2d48a977",
+      "molecule_id": "omegapdb_2brc",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_130145d6ddc12a09",
+      "molecule_id": "omegapdb_2btr",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegapdb_2bts",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c75a9ba7a8d419c",
+      "molecule_id": "omegapdb_2byh",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5eb52cf034a3345a",
+      "molecule_id": "omegapdb_2byi",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_03687ca90e3c4225",
+      "molecule_id": "omegapdb_2c4w",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_id": "omegapdb_2cbs",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f1391de383263905",
+      "molecule_id": "omegapdb_2cji",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7d0cb07200ae0279",
+      "molecule_id": "omegapdb_2evc",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_id": "omegapdb_2ewb",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_263535e477221da9",
+      "molecule_id": "omegapdb_2f34",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_30657b12b77f1923",
+      "molecule_id": "omegapdb_2f4j",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_6e3ab4a5cff3c77b",
+      "molecule_id": "omegapdb_2f6v",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_3d22fc7ce97fd39e",
+      "molecule_id": "omegapdb_2f70",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_id": "omegapdb_2f71",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_id": "omegapdb_2f7p",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fcce925a3b9754ee",
+      "molecule_id": "omegapdb_2flb",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_2fqt",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_2fyv",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ffa61249884dd048",
+      "molecule_id": "omegapdb_2g8n",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_2ggd",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_2gss",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_2h03",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a10500780764068c",
+      "molecule_id": "omegapdb_2h42",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_id": "omegapdb_2hb1",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_id": "omegapdb_2hd6",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_d5c8b4923dc333e8",
+      "molecule_id": "omegapdb_2i0a",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_b4d6693100d88fae",
+      "molecule_id": "omegapdb_2iko",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_0c1169a17c00ffdd",
+      "molecule_id": "omegapdb_2iuz",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_8d618a07168e99a7",
+      "molecule_id": "omegapdb_2izl",
+      "n_candidates": 10,
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_512647c7837accfe",
+      "molecule_id": "omegapdb_2j34",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "molecule_id": "omegapdb_2j47",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_ecfa7fb79746640f",
+      "molecule_id": "omegapdb_2j4i",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_id": "omegapdb_3cbs",
+      "n_candidates": 10,
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_id": "omegapdb_6prc",
+      "n_candidates": 10,
+      "split": "development"
+    }
+  ],
+  "counts": {
+    "development": {
+      "candidates": 4761,
+      "families": 287,
+      "molecules": 478
+    },
+    "evaluation": {
+      "candidates": 1617,
+      "families": 124,
+      "molecules": 162
+    }
+  },
+  "families": [
+    {
+      "family_id": "family_0029b1e3f6e46149",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YUKKUK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_0142e032ff88e955",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1tow"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_03687ca90e3c4225",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2c4w"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_03bc5b9033310d63",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YESPIV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_041961ff19920ccf",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BESCEH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_05d5398e0a5c7805",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1sa4"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_05d92e095fdcb3bf",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HBFRAN"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_05dc8af68b7beeba",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KUBHEU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_089a2eb92840542c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TPHPRO"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_08d0bb49e552ac84",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BATXID"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_08d7968a4f216128",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FOYLIO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_08eda70c7ba3d019",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CUHNEY10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_0934fb71fd89299b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GIHWUP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_09673c2a400987bc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1m2z"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_09b9b29d8e4f1d2b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1y6q"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_0a0298f40f571bf0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BIBHID"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_0c1169a17c00ffdd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2iuz"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_0d509767aef54f28",
+      "molecule_count": 11,
+      "molecule_ids": [
+        "astex_1sg0",
+        "astex_1tz8",
+        "omegacsd_AMPDAM",
+        "omegacsd_BAFREF",
+        "omegacsd_BEDLUR",
+        "omegacsd_BHMPET",
+        "omegacsd_BUDCUY",
+        "omegacsd_BUSNIM",
+        "omegacsd_CEKNOV",
+        "omegacsd_CMPEPI",
+        "omegacsd_DEBBOB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_0eb34317ab7f6186",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YOPWOP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_10291eb985a8a7a6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1utt"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_10c8ad9e5a1fe5e6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SIHDIW"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_10cd1edc55212d21",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1xoz"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_118e95c1462abb69",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1p62"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_11af4a86d94d3878",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WIKJOP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_123348955b4e7e4d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WEVTIA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_12a9bb7c7758a562",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1v0p"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_130145d6ddc12a09",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_SAGWOM",
+        "omegapdb_2btr"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_13a5fe35750623bc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GATPOG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_1417e42f2bd1ffd3",
+      "molecule_count": 11,
+      "molecule_ids": [
+        "omegacsd_BUTDID",
+        "omegacsd_CAVNUI",
+        "omegacsd_CIHFAA",
+        "omegacsd_CPPHAM",
+        "omegacsd_DOXANN",
+        "omegacsd_FOMDUG",
+        "omegacsd_GEHKIN",
+        "omegacsd_JUBJOF",
+        "omegacsd_VOXNOL",
+        "omegapdb_1gja",
+        "omegapdb_2hd6"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_152ed0447597598c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FIWLUS"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_15cd07a8d7fee8eb",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GIKJOZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_15e53263b7e04dd1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TAPSOS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_166a56e130e350ea",
+      "molecule_count": 6,
+      "molecule_ids": [
+        "omegacsd_FEKYEZ",
+        "omegacsd_FURSEM01",
+        "omegacsd_HEXFEV",
+        "omegacsd_LABLOP",
+        "omegacsd_SEYPUH",
+        "omegapdb_2f7p"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_168036b326a7a517",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KICRIX"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_177fa87efab88c31",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LIKGIV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_183ba87ee5cb72a9",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_BUYZIE",
+        "omegacsd_TANNOL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_18bf9d6b340856a5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2b7d"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_19537ce3e09ae7f1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VORDAH"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_195c97dd2e2f9e89",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_ANOPPS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_196f7ec4873e7272",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1bto"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_19a6bcae8c655829",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YINDII"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_19a95321efc5b5be",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1yc1"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_19c76c9554d33100",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KIHWAZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_19d2eb8ae83b0a3e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CPIPLA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_1cc394cf463fb765",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PBYXCH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_1dbbf90fc982f11b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_ANTZOB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_1e2592123c2d3861",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_JUVPAR",
+        "omegacsd_NBPENC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2098d873e99d0abe",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1owe"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_20d49129612c8345",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FUHHAR"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_20fe808af17fab6f",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_DIZWAK",
+        "omegacsd_KOTGIJ",
+        "omegacsd_VAMBOA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_22412aed673f72fb",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1q72"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_2274b9a82bd4e52d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SOWCOW"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2417ea256beff6ff",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YEYVED"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_24845fa7ad622541",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LACPAG"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_24af2b1c18894df4",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COKTAX"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_25c26f9d294a5b32",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_ABSBPP",
+        "omegacsd_FIXNUV"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_263535e477221da9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2f34"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_269b5c3f3d793d12",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TAJSEC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_26b8a1411526c50f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VAMCUH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_273f7ba3129c491a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SORCOR"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_279a449083ede9ff",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DIWPUU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_27ef7821df9e8a75",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WESFOP"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_28095386b0fb4537",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1opk"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_282bacf050d42cd8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LETBAN"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_283ce63209be975d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KOKBIV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_28ecc6623bc3811d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CUWRIV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2bfcd7fa773af97f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1m5b"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2c0c74fc64791156",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SPIRIL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2c2662d9e0ddc6e5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FUNYAO"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_2c9b518e02a01057",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1fm9"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_2dc35754da407033",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SEFLIY"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_2f96ac0802d067dd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1xn0"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_303c1ae9488e2984",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_AOPCHY"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3053edfdee00eaa1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SADXIE"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_30657b12b77f1923",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2f4j"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_308005378a36a1f4",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CUJSAB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3228bf69b2ce3e76",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_ECBHMP",
+        "omegacsd_EHMPYX10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_32e1982790eca31e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KACKII"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_32e6024647346d81",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KAVNOK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_338adb444a100d30",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SEYMIS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_33907f2ab6a6d9b9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PACVUK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3399c8ac5817fa01",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FUNXUH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_351a955d3bcc6849",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BUHNIB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_35a1b9f08ebf3caa",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TEDBUZ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3677730fac035e68",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_FABWUA10",
+        "omegacsd_HADLAZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3886653a2e62ea96",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KEJBEG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_38ae3d7e97e10fe9",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_DUDPAT",
+        "omegacsd_DUHSUU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_39f89102d13469f3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FANPUF"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3b139ddd2a925eb7",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1qxw"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3b5ac2e268a80b65",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1n46",
+        "omegacsd_HEPGAK"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3b93d71eba494c98",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_SURREC",
+        "omegacsd_YEMNEJ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3bf56e4f702c1608",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CMANPQ",
+        "omegacsd_MAMNAQ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3c7a5f5f51349355",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1v2n"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3d0210369a0c42e3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KOJMEB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3d14e35adb299d15",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEVXEL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3d22fc7ce97fd39e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2f70"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3db85e74377286ef",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JUKZUK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3de86dfd4be44f52",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COYTOZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e086ee5ab649f1f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CNBPCT"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_3e08c0e49e53fa31",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FEYKUP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e29c31888ec6ef3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1ke5"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_3e7735028a1733e3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LEKMET"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4045110cc1b4194a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GINKUJ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_404671487096a258",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FAWREA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_40ed992131074db0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FOWPOW"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_410634c4fd0d3872",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegapdb_1o2y",
+        "omegapdb_1o3m"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_411ca8ad62cd1d1d",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_DOHREX",
+        "omegacsd_GEKWAU",
+        "omegacsd_HALSES"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4186605160fb77a9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CANPUC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_41c9c5490097a4cc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JUHHEZ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_4215205075d0d35a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DEBFAR"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_42bf2856f661950d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PAPPHI"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_42c97e7a3c085fb3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CEWFUF"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_44e8427b3bfaf494",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YABKOB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_495248331fb308b0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DAWRAU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_49e91647d5bfb2a5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1yvf"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_4a18593103a66771",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VORJER"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4aa201d9298554c5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CETZOQ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4b9688c58a68b209",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_BIBSEK",
+        "omegacsd_FHFPBY",
+        "omegacsd_HALDOL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4c692b95ec0e0881",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CENNIS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4d013bb9c56ad6c8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KOFLOG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4d72a5ac61689f5e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DAKGEB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_4e158cf3dbb0251a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MICONZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5099cb7747f52e7a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1bhx"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_50b772f11ab10ea5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BUVYIA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_50f78512eb3e8f00",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YICPIJ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_512647c7837accfe",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2j34"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_518599c681a45183",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FEVZUB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_51e28a441b1b7d0f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JOTDAX"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_520b7dbb471d2d66",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BEWLIY10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_53cd6f683d47ff8a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LAXWEM"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5446787b7057085b",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1hq2",
+        "omegacsd_ABXBPC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5695b6350489c399",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GIHTUM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_56e7ab0bd987357f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GIHKAJ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_588505fa343f2b45",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMPBTZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_58d0ceab4c638c44",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LIKMEX"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_58ed390b47f17e65",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1of1"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5a9f9e50dc84770b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1c1u"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b2b239ec0392092",
+      "molecule_count": 7,
+      "molecule_ids": [
+        "astex_1ig3",
+        "omegacsd_FAJVAN",
+        "omegacsd_GIFZAW",
+        "omegacsd_YOWYAK",
+        "omegapdb_1g4s",
+        "omegapdb_2bts",
+        "omegapdb_2ewb"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5b47ef4f3ef48d33",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SLFNMB04"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5bdee982601b2123",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MLDPHE10"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5c66a1976331bbb0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CIJVAS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5cdf2ba148dc5867",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1yvx"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5d4b4ccc8bccd512",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HAVLUL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5e70e0cf1c981ca3",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_DIPJAN10",
+        "omegacsd_YOWVOV"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_5e75bd3259bb0dec",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_EMZPPO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5eb52cf034a3345a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2byi"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_5f4a1cb311fc2c9e",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1u1c",
+        "omegacsd_FURACM"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_608838e3332d4844",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_GEJLAI",
+        "omegacsd_VEYRAS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_60bc44663a14f216",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COKSUQ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_61384ecf3a8b4198",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEXYIS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_62c3cbb8fdf639ce",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_BENPRL",
+        "omegacsd_HALOPE"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_62d24317f7eeb1cf",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KEJGEL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_646503043269b206",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1q91"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_64e92f79ab06d1b1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_NADZIB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_64f8170444031ad0",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_HEKROE",
+        "omegapdb_1uy8"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_664d2ed0536553a0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1qnf"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_66f23ee245c6005c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1yc4"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_674c6f0b1372731f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1n2v"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_68e9ac7c138540a9",
+      "molecule_count": 6,
+      "molecule_ids": [
+        "omegacsd_AMOCMS10",
+        "omegacsd_AURMIN",
+        "omegacsd_CELDEC",
+        "omegacsd_COYPIP",
+        "omegacsd_HECHEC",
+        "omegacsd_PNBPIP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6902544cbbdc65d1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2bgd"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_69b245c62fe455ed",
+      "molecule_count": 5,
+      "molecule_ids": [
+        "astex_1k3u",
+        "omegacsd_GANFIK",
+        "omegacsd_LACCEX",
+        "omegapdb_1gz8",
+        "omegapdb_1w1q"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_69c1ac3de1112323",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_EPCMPO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6b548750494dd3b9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SISYIC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6bf0b2ee0ec28a3e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FAXPUP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6c1b3325f9b5ede9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HAVJET"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6c52466b3326abf1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DUXYOK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6c72d66dc224f92e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PIKDIW"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6cd14c5b51f8842b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_ABHYTZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6dbdb0936fac51f5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CABCUD"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6dce3c67277f066b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PIDSIE"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6e3ab4a5cff3c77b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2f6v"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6e48449dbd90a853",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1jje"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6ed54682e26fdb1c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DENDAC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_6f14feb4ed40c5e0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1nqu"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_6f885b0d62dd2815",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HATKES"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7016749f799eafa5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_EITDZL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_716e53b4a2f4edbc",
+      "molecule_count": 5,
+      "molecule_ids": [
+        "astex_1hnn",
+        "astex_1lrh",
+        "omegacsd_DOTFEX",
+        "omegapdb_2cbs",
+        "omegapdb_2f71"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_731c91c1d20dd7bd",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_GAVMIZ",
+        "omegacsd_MRMPYR",
+        "omegacsd_TAPZEP"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7343e5d26b9cfb64",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1q1g"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_73c88bf04a99aae5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CATXIE"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_75009fab91863de9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1xoq"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_758db664716d4572",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BATROD"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_76c4bfb483348294",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1meh",
+        "omegacsd_CEVTUS"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7796cb316aa67077",
+      "molecule_count": 13,
+      "molecule_ids": [
+        "astex_1nav",
+        "omegacsd_BEXVOP",
+        "omegacsd_CAGXEN",
+        "omegacsd_CLPHAC",
+        "omegacsd_CMXPMB",
+        "omegacsd_DIAVER",
+        "omegacsd_FOPMIG",
+        "omegacsd_FPAMCA",
+        "omegacsd_GALSEM",
+        "omegacsd_HEVJAT",
+        "omegacsd_KAXXAI",
+        "omegacsd_SAVZEU",
+        "omegacsd_YENLEI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_77998c98637be2c3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FOBZIF"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_77a9338479551131",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DAHNIJ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_78f4b7236326e3f8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DAFTOT"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7b597ad893610eac",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2ayr"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7be33c65813e8305",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GEBJOM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7c0273fe33caa2d6",
+      "molecule_count": 9,
+      "molecule_ids": [
+        "omegacsd_CIPXEE",
+        "omegacsd_CIXFIY",
+        "omegacsd_DISHOC",
+        "omegacsd_DIZREJ",
+        "omegacsd_FOJZUZ",
+        "omegacsd_FUMBOE",
+        "omegacsd_FUPFIF",
+        "omegacsd_FUSZOI",
+        "omegacsd_KIXLOS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7d0cb07200ae0279",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "astex_1p2y",
+        "omegacsd_COYVIV",
+        "omegacsd_FUDVUV",
+        "omegapdb_2evc"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_7d842002d99af2da",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BEWLOE10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7d86428301b5a7a9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YILDOM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7de38c30427009bb",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YAZBAC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7f676bff0e9e46bd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GEJJUA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_7fb8831e9236203a",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "omegacsd_VAYXOI",
+        "omegacsd_VOXMOK",
+        "omegacsd_YUYJEH",
+        "omegapdb_2j47"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_802ecf2712bcc295",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEPKUI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8189e4c0420ad64f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YUKNAT"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_82ef1006184dd98b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KAVLIC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_840e756896f2a184",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PIDWOO"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_844c051bccd7422d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1exa"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_856bd6657da6db6c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CALLEG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_85802b0908d6910e",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_BSBTHP",
+        "omegacsd_CBSTHP"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8646dcc70e3bae64",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_KOFKUL",
+        "omegacsd_KOFLIA",
+        "omegacsd_KOFMIB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_873f79c8929f43fe",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1l2s"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8783dea974a13f7d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VOPDIN"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_87e020baeda83457",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YOXDEU"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_880bdc04be0f6e19",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_LEZGOM",
+        "omegacsd_LIKBUC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_886efbd4bfa0bb06",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_APRTAM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8912f152ffca996e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FIJJUD"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_89288a2c3998d235",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PIBSXM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8a32cdcdf278b10a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KUFPIK"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8b041d2430934781",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1jla"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8b1ff88463dffffe",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_JUDLUP",
+        "omegacsd_MATSTA10",
+        "omegacsd_QQQHDG10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c2e3ed84f9272bb",
+      "molecule_count": 12,
+      "molecule_ids": [
+        "astex_1jd0",
+        "astex_1n1m",
+        "omegacsd_ABIMAZ",
+        "omegacsd_CARNID",
+        "omegapdb_1g6c",
+        "omegapdb_1l7g",
+        "omegapdb_1m2x",
+        "omegapdb_1m5d",
+        "omegapdb_1m5f",
+        "omegapdb_1nnk",
+        "omegapdb_2fyv",
+        "omegapdb_2hb1"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8c75a9ba7a8d419c",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_VUGDEG",
+        "omegapdb_2byh"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8d3aad01578b93cc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DIGSIV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_8d55136e0350fb32",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_NADYIA"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_8d618a07168e99a7",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2izl"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_90064691dd120e2d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FIVPUV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9060c18d9f7361dc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PXEZSD"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_907acd4a70be52ce",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TAZPUF"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9112b02076d6625b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1kzk"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_919079b4fdad2a0e",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_BAXOZO",
+        "omegacsd_BETFAH",
+        "omegacsd_DIWWUB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_92370cefbdda6d4e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CIJFEG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_926733efa6fadf48",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CUNTIO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9415d5eb146a02d9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PXBVCP10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_947c5f387dcd5395",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1xom"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_949091c1482a24d4",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1zz2"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_95046468a5bc2f6a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BEKDIE"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9506a91952d20828",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KABJOM"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9554b54aaa712816",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JUDWEK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_97848582c564ce68",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WESZOJ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_999a1992687a274a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PINSAG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9a017170f5259ac2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BAJZOB10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9a142eead479ff33",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BBSPRT10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9accbffb1cdc1b87",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SEMXEN"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9ad57ca5789678c9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FAHTUD"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_9d09569671207dcc",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_BZAPCX10",
+        "omegacsd_BZAPUC20",
+        "omegacsd_TECSUP"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9e44662df35f6d05",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YOPRAW"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_9fd62af9add7877b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMEPEN"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a03b93c94c52e81f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KECDUR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a10500780764068c",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegapdb_1xp0",
+        "omegapdb_2h42"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a10fb587310a12b2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WAVTIW"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a1839b7a722d41d2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FOLMEY"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a18e3fda3b9f2417",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_KIHWED"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a21c4f64dcc59dd2",
+      "molecule_count": 27,
+      "molecule_ids": [
+        "astex_1of6",
+        "astex_1r58",
+        "omegacsd_BELWOE",
+        "omegacsd_LEDWAS",
+        "omegacsd_PNPAUR",
+        "omegacsd_SOPSIZ",
+        "omegapdb_1d3h",
+        "omegapdb_1dfo",
+        "omegapdb_1f8b",
+        "omegapdb_1h6h",
+        "omegapdb_1iy7",
+        "omegapdb_1k2t",
+        "omegapdb_1k2u",
+        "omegapdb_1oks",
+        "omegapdb_1pa9",
+        "omegapdb_1r4p",
+        "omegapdb_1r6w",
+        "omegapdb_1s8j",
+        "omegapdb_1toj",
+        "omegapdb_1uf8",
+        "omegapdb_1ur8",
+        "omegapdb_1uwc",
+        "omegapdb_1yc5",
+        "omegapdb_2ggd",
+        "omegapdb_2gss",
+        "omegapdb_2h03",
+        "omegapdb_3cbs"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a3bb82bb83ef94ef",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BUFXOP"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a3d6e872332a13b6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YULXIM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a5e0566ebae9ae95",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DAFVUB"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a67ccc4b307320ba",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CMAPTX"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_a68979a3cb8099be",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SIHDES"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a74b65b77138447f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMANAQ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a7db6cef32a431df",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CELXOG",
+        "omegacsd_EXOADN"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_a81ce7b645caad69",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VIBNID"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_aa240020e9899f64",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1v2k"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_aa9197b9ca428222",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YITLES"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_aaec8f41f864a96e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DUPKII"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ab566a1730c32751",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_PEBHAF",
+        "omegacsd_PTHPAL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_af6fc72d9c1b40f0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WAMZAL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_afb18a53c6a2f279",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PBBSHD"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b138567975e52730",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DANNEL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b160af7e9cbfa5e7",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CPQZOL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b1f005891ac25390",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SAGMUI"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b4d6693100d88fae",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2iko"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b7286454b6a33e97",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FECPUY"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_b822f61e389e6811",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YAHFAO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9200a6289831da8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEHVOF"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_b9888ea90aa782a2",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1ia1",
+        "omegacsd_MVERIQ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9b8f0757cf10dfc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1uu9"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_b9ce0cb4a697214e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEMXIG"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_bb41ebcd714d3973",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SOPNAM"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_bb4db85aacb53c19",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MBZTZT10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_bbe2b1e9dc146502",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YAHBOY"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_bc1461607c87a7c8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DADDUH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_bd052b9cb61a1164",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1xon"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_bd13661808833377",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_AZLNPR",
+        "omegapdb_1wvj"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_be71c7026124d25f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1j3f"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_becb1e38e9821757",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1z95"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_bfaf6a2ec2004a27",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WELGAV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_bff4522e4bcff6d4",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_BUNFUL",
+        "omegacsd_LEVTOV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c0423fbdc5100019",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HALJOT"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c070ee22565a8185",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COYHUT10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c1346404d29acc3e",
+      "molecule_count": 6,
+      "molecule_ids": [
+        "astex_1oq5",
+        "astex_2bsm",
+        "omegacsd_ACPIXZ",
+        "omegacsd_CPYPTZ",
+        "omegacsd_DUZDAD",
+        "omegapdb_2aw1"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c2df66a36703737e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PEXJEH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c2e54b42736f4228",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_FAHXIV",
+        "omegacsd_LETBUH"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c43f50b6cd3d0cbd",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "astex_1g9v",
+        "omegacsd_KIFZAA",
+        "omegacsd_SILTUC",
+        "omegapdb_1r34"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c4b94b354fe5b49d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_ABVPRO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c4d676730499110e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CNINDO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5025ff352000123",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VIBWIM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c525e17ef77e7567",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEVRIJ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c59a3a8bfdfb9d59",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SAVXOC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c5cb4a89a7660b6c",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_FOGWAZ",
+        "omegapdb_1xap"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c5fa4d5f2c9d73cd",
+      "molecule_count": 5,
+      "molecule_ids": [
+        "omegacsd_CIBPOS",
+        "omegacsd_CIHJAE",
+        "omegacsd_KINJIA",
+        "omegacsd_PCPTZA",
+        "omegapdb_1v97"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c618baaa49b0e1ca",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1yqy",
+        "omegapdb_1nms"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c64d77f21ce985c9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FUCFIS"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c69d1b6aded39159",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CLPNXA",
+        "omegacsd_FLPNTX10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c8cfdb8a544e2b1a",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_BEHHOL10",
+        "omegacsd_FEYJEY",
+        "omegacsd_TAPBZO"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_c8ea2a470a13161b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FEMMAL"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c8f8bb0329478267",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DUMTAG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c91760544523ab9c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MTBPNP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c91f8b4ec2e516bd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1is0"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c928d783ea8e31f8",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_FEFPOV",
+        "omegacsd_VOWXEK"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9600e3c0ebb83e6",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegapdb_1h1s",
+        "omegapdb_1oiu"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_c9683f3678b351c3",
+      "molecule_count": 9,
+      "molecule_ids": [
+        "omegacsd_ABZNPS",
+        "omegacsd_CLPSAM",
+        "omegacsd_COVXIU",
+        "omegacsd_DABGUI",
+        "omegacsd_DOLJIX",
+        "omegacsd_PMBSAN10",
+        "omegacsd_SFDMOX",
+        "omegacsd_SLFNMF02",
+        "omegacsd_YOSMOI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cb4d20ea3f4b8f9e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1t9b"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cc69cbb471af556c",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegapdb_1e2m",
+        "omegapdb_1nqv",
+        "omegapdb_1xge"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_cc83b9cd5b90607b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PXMPEN"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cca8902fc24975f5",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_FUGSIJ",
+        "omegacsd_PYMSBZ",
+        "omegacsd_WIFREI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cd625e1df7434ed7",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MINTSA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cda6a18006d04a8a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SIHVUA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cdf455e44ee3fb05",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1v4s"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ce27d808c1138e5a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HAVRUR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ce55ad6a79fa5ff6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1urw"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_ce66a7e746b71b4a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1syh"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cefa9a67860b26a9",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LANXED"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_cf9cb071addaf49d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LINLAV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d02984c5a5d869f6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VIPHOR"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d07897be28eef4fc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1b6l"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d07e844f9f35c93a",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SIHGIZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d0cd378c13ee9ec0",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CAFGIZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d1eae950135f6a64",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1kz8"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2c9342e8fed3093",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LADTOZ"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d2dcc23bcdd9ae0e",
+      "molecule_count": 6,
+      "molecule_ids": [
+        "astex_1j3j",
+        "astex_1q4g",
+        "astex_1r9o",
+        "omegacsd_ACTHBZ",
+        "omegacsd_CMSMOC",
+        "omegapdb_1zvx"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d3b1c36d8318a65c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SEMDET"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d531ce22f527e136",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PILCOC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d5722012ab374b4e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1gm8"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d5c8b4923dc333e8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2i0a"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d615a63e827eaf25",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PEKCEO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d75ec5fd2d48a977",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2brc"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d7ed8cd78f3f4e29",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FURKEI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d834c73ca7b33691",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CLPTBU",
+        "omegacsd_YULZOU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_d8dded20fa2baadb",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CIXTOS"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d94ce5b9b28b6902",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COCHOL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d9820d67d1dcf0dd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_ADPRTR"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_d9e374affc2f2a58",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1s63"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_db5cc3e598ca5a81",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LEMXIK"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_db787e13d16072eb",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VEMCIZ"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_db8029752f9f783d",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_DECZIU",
+        "omegacsd_FUHLID"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_db868054ccb833d1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GASPUL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_dbc5367af9776415",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1d3g"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_dbdf1536bfd38939",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SINKUV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_dd72be6c73532640",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GAKWIY"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_dd813b47fea323a3",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VADTAV"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_de580ef96bbd1e46",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1xqc"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_df4333472816946c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HASCOT"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e044fbd58b0abfc8",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_TAZXAT"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e060d928a6c7940d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CBMHZP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e076ceeb571d6c72",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMCPRC10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e0b1034bf26a781b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMTSZD"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e38d7de63b5310bd",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LAWJEY"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e3f062da86b64d64",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1hvy"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e44d8091d2c1870f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1t40"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e4572f90d2cd911b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_EBTNIC"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e4cfec2b990d5190",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FACCER10"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e519f4379a2a98df",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COKBOT"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e6f7896a5b4d4d3f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WEXBEG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e72a23577f8c89e1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_NFCSEY"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e83ef15da92b8405",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_WEBCOV"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e87bfed0caa69b13",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VEXROF"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e8dab9e252e51e3d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BAFYOW"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_e8e5e3a20a75e266",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEMLOA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_e94c24084ee9ebe4",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "omegacsd_ANTZOA",
+        "omegacsd_DUDNUL",
+        "omegacsd_FABSOQ10",
+        "omegacsd_VUSKID"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ea78c4352157b38b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_BAFJEX10"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_eac4a5e47684a768",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YAZHUC"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_eb05dc1d2849c789",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COTXUE"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_eb34981a71f67e23",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CIDSIR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_eb876d24403f74d5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VENRUB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ebcefe4d13bdaee2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FEWBAK"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ecfa7fb79746640f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2j4i"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ee3240f50d9c4821",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CMXPYO"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ee830212d3e57ff2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CEJTIU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ef0aa9bff0d6934e",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_BTHYDX",
+        "omegacsd_CBZHYX"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ef37c7d4f889bc3d",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FAVYEG"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ef9ef6176511b120",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_DOPXIP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_efdb44ca1f83cb47",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_KUHNUW",
+        "omegacsd_WASTEP"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f0617ff68d61e841",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_COZFOM"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f06e993c8899f46e",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_CFBPBI"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f0710ce6f2b73ca6",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1ros"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f086c8ebbb974482",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_FBPAZD"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f098064355a8ace4",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JOXFIL"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f1391de383263905",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2cji"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f22f5cc794e0e507",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1d4l"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f233c16ae057a27b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_VOXHAR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f290ba3e24997229",
+      "molecule_count": 24,
+      "molecule_ids": [
+        "astex_1gkc",
+        "astex_1mmv",
+        "astex_1n2j",
+        "astex_1r55",
+        "astex_1sq5",
+        "omegapdb_1d09",
+        "omegapdb_1d8d",
+        "omegapdb_1f06",
+        "omegapdb_1gs5",
+        "omegapdb_1gse",
+        "omegapdb_1h2k",
+        "omegapdb_1hyo",
+        "omegapdb_1ik4",
+        "omegapdb_1jsl",
+        "omegapdb_1koj",
+        "omegapdb_1n2b",
+        "omegapdb_1ofd",
+        "omegapdb_1pck",
+        "omegapdb_1rf6",
+        "omegapdb_1uf5",
+        "omegapdb_1uf7",
+        "omegapdb_1w9u",
+        "omegapdb_2fqt",
+        "omegapdb_6prc"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f2fe6c3414f41a47",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_GASXED"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f3fba29ae937c54f",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1v48"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f4ae01f4ae11fa5f",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "astex_1xm6",
+        "omegacsd_ACENHT"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f52b32ae9e4d1105",
+      "molecule_count": 4,
+      "molecule_ids": [
+        "astex_1unl",
+        "omegacsd_COFHIO10",
+        "omegacsd_FIBREN",
+        "omegapdb_1h1p"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f64b6a438c5e9d11",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_2br1"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f75076cadfc7d6a2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PKOJSI"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f7578d19e9f96ff3",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_LELROJ",
+        "omegacsd_VORBAF"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f75a0becd840d9e5",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_JUBGES"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f80091fbc9d8612b",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_1p1o"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f87503e1bf3b99d3",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CUSLUX",
+        "omegacsd_HEKZAY"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_f8b586ee2df60871",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "astex_1hp0",
+        "omegapdb_1n3z",
+        "omegapdb_1qy5"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f900ffbd67b6b2e8",
+      "molecule_count": 3,
+      "molecule_ids": [
+        "omegacsd_DENBUT",
+        "omegacsd_FUJRUX",
+        "omegacsd_PMAANO01"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_f95acdd33022f0e2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_YAGWOS"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fa015453ef93f829",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CIBPEI",
+        "omegacsd_KEBVES"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fa08e2f93bf0d80b",
+      "molecule_count": 2,
+      "molecule_ids": [
+        "omegacsd_CODYUP10",
+        "omegacsd_DERZAB"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fa3cde4a926ffacc",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SAVYET"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fb4129c50f294e57",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_PMPAIN"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fcce925a3b9754ee",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2flb"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fd0687c749491088",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_LERKAU"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fd487f2b6e8827d2",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEMWUR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fd9edb71ae739d42",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1uml"
+      ],
+      "split": "evaluation"
+    },
+    {
+      "family_id": "family_fe0d4b0ac5be4cd1",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_MOPBZA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_feb2978ebc5668d7",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_SIFJIA"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_fecfd40a08cdc309",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegacsd_HEJTAR"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ff425c8f05e8b50c",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "astex_1w2g"
+      ],
+      "split": "development"
+    },
+    {
+      "family_id": "family_ffa61249884dd048",
+      "molecule_count": 1,
+      "molecule_ids": [
+        "omegapdb_2g8n"
+      ],
+      "split": "development"
+    }
+  ],
+  "family_rule": "RDKit 2025.9.6 generic Bemis-Murcko scaffold; all acyclic molecules one family; stereochemistry ignored",
+  "rule": "sort families by SHA256(seed|family_id); first floor(0.70*n_families) development",
+  "seed": 1729,
+  "split_sha256": "29607bec2250e2116e9e16b7d23b91ff941764c495e0fdef09d7b2e4b86431bd"
+}
