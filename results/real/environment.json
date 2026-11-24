@@ -1,0 +1,13 @@
+{
+  "bootstrap": 5000,
+  "bootstrap_seed": 1729,
+  "bootstrap_unit": "chemical family; paired, all molecules retained; molecule-weighted metrics; 95% percentile CIs",
+  "packages": {
+    "matplotlib": "3.10.8",
+    "numpy": "2.3.5",
+    "pillow": "12.0.0",
+    "rdkit": "2025.9.6"
+  },
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14"
+}

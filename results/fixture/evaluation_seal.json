@@ -1,0 +1,11 @@
+{
+  "artifact_sha256": {
+    "aggregate.csv": "0d71fa08723c04fa7b31587ea70715f3f4aef27ab01c1847ae929803412311b4",
+    "decision.json": "b33ecbc8095a4c8e1d355a23edd752c86338fc3b911f5fa54d780b912b6a8d20",
+    "paired_comparisons.csv": "c236dc262a9c5efa668e7bf159bf090f45e1392f324a35b644088f02362eb5fe",
+    "per_molecule.csv": "171d7cfc45e0cc10bbf4b78ebbccee4a34c057d5f22ebd20efd15d14ad5ad70e",
+    "traces.jsonl": "93b24f0c5a124591ad6fbfb7056b74472f3db282c3f47442281eb68c2ea49b66"
+  },
+  "config_sha256": "9cce6ca22b9e3911da18ed9abd363a1fc682e6317a31e303b4b0c30ee2ab26f1",
+  "split_sha256": "fa0fd94e332dff847f7c2bb1fe60ecd34340e95dbe8e1e77532e99756f0c98ca"
+}

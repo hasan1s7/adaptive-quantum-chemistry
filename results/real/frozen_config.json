@@ -1,0 +1,234 @@
+{
+  "audit_sha256": "5ff6d92cd54277a30d1c67a8b79152984268e60e30e18cdd706af6aad44ef7c2",
+  "config_sha256": "c757a6a2238f50a5e1389302a172a83fb899ce92b9d83994e66951b6dc6db540",
+  "dataset_kind": "real",
+  "development_choices": {
+    "adaptive": {
+      "bootstrap_replicates": 0,
+      "fallback_rate": 0.0,
+      "fallback_rate_ci_high": null,
+      "fallback_rate_ci_low": null,
+      "interval_method": "family-cluster percentile bootstrap; molecule-weighted",
+      "max_regret_kcal": 5.146527566481382,
+      "mean_call_fraction": 0.2014760576476058,
+      "mean_calls": 2.002092050209205,
+      "mean_calls_ci_high": null,
+      "mean_calls_ci_low": null,
+      "median_regret_kcal": 0.0,
+      "n_families": 287,
+      "n_molecules": 478,
+      "p95_regret_kcal": 0.7781900652684256,
+      "p95_regret_kcal_ci_high": null,
+      "p95_regret_kcal_ci_low": null,
+      "policy": "adaptive_k02_gap0_cap04",
+      "success_rate": 0.9560669456066946,
+      "success_rate_ci_high": null,
+      "success_rate_ci_low": null,
+      "total_calls": 957,
+      "uncertainty_warning": ""
+    },
+    "fixed_top_k": {
+      "bootstrap_replicates": 0,
+      "fallback_rate": 0.0,
+      "fallback_rate_ci_high": null,
+      "fallback_rate_ci_low": null,
+      "interval_method": "family-cluster percentile bootstrap; molecule-weighted",
+      "max_regret_kcal": 5.146527566481382,
+      "mean_call_fraction": 0.2012668526266853,
+      "mean_calls": 2.0,
+      "mean_calls_ci_high": null,
+      "mean_calls_ci_low": null,
+      "median_regret_kcal": 0.0,
+      "n_families": 287,
+      "n_molecules": 478,
+      "p95_regret_kcal": 0.7781900652684256,
+      "p95_regret_kcal_ci_high": null,
+      "p95_regret_kcal_ci_low": null,
+      "policy": "fixed_k_02",
+      "success_rate": 0.9560669456066946,
+      "success_rate_ci_high": null,
+      "success_rate_ci_low": null,
+      "total_calls": 956,
+      "uncertainty_warning": ""
+    },
+    "matched_comparator": {
+      "bootstrap_replicates": 0,
+      "fallback_rate": 0.0,
+      "fallback_rate_ci_high": null,
+      "fallback_rate_ci_low": null,
+      "interval_method": "family-cluster percentile bootstrap; molecule-weighted",
+      "max_regret_kcal": 5.146527566481382,
+      "mean_call_fraction": 0.2012668526266853,
+      "mean_calls": 2.0,
+      "mean_calls_ci_high": null,
+      "mean_calls_ci_low": null,
+      "median_regret_kcal": 0.0,
+      "n_families": 287,
+      "n_molecules": 478,
+      "p95_regret_kcal": 0.7781900652684256,
+      "p95_regret_kcal_ci_high": null,
+      "p95_regret_kcal_ci_low": null,
+      "policy": "fixed_k_02",
+      "success_rate": 0.9560669456066946,
+      "success_rate_ci_high": null,
+      "success_rate_ci_low": null,
+      "total_calls": 956,
+      "uncertainty_warning": ""
+    }
+  },
+  "holdout_curve_configs": {
+    "adaptive_k01_gap0_cap04": {
+      "cap": 4,
+      "gap": 0.0,
+      "k": 1,
+      "kind": "adaptive"
+    },
+    "adaptive_k01_gap4_cap10": {
+      "cap": 10,
+      "gap": 4.0,
+      "k": 1,
+      "kind": "adaptive"
+    },
+    "adaptive_k02_gap0_cap04": {
+      "cap": 4,
+      "gap": 0.0,
+      "k": 2,
+      "kind": "adaptive"
+    },
+    "adaptive_k04_gap0_cap04": {
+      "cap": 4,
+      "gap": 0.0,
+      "k": 4,
+      "kind": "adaptive"
+    },
+    "fixed_k_01": {
+      "k": 1,
+      "kind": "fixed"
+    },
+    "fixed_k_02": {
+      "k": 2,
+      "kind": "fixed"
+    },
+    "fixed_k_03": {
+      "k": 3,
+      "kind": "fixed"
+    },
+    "fixed_k_04": {
+      "k": 4,
+      "kind": "fixed"
+    },
+    "fixed_k_05": {
+      "k": 5,
+      "kind": "fixed"
+    },
+    "fixed_k_06": {
+      "k": 6,
+      "kind": "fixed"
+    },
+    "fixed_k_07": {
+      "k": 7,
+      "kind": "fixed"
+    },
+    "fixed_k_08": {
+      "k": 8,
+      "kind": "fixed"
+    },
+    "fixed_k_09": {
+      "k": 9,
+      "kind": "fixed"
+    },
+    "fixed_k_10": {
+      "k": 10,
+      "kind": "fixed"
+    }
+  },
+  "limitations": [
+    "Development selection is empirical and optimistically biased by grid search; final evaluation uses held-out families.",
+    "A >=95% observed success rate is not a population guarantee."
+  ],
+  "matching_rule": "Least-cost fixed k with development success >= selected adaptive development success and >=95%; freeze before holdout labels",
+  "policies": {
+    "adaptive": {
+      "cap": 4,
+      "gap": 0.0,
+      "k": 2,
+      "kind": "adaptive"
+    },
+    "cheap_only": {
+      "kind": "diagnostic"
+    },
+    "fixed_top_k": {
+      "k": 2,
+      "kind": "fixed"
+    },
+    "full_rerank": {
+      "kind": "full"
+    }
+  },
+  "prepared_files_sha256": {
+    "development_features.jsonl": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+    "development_references.jsonl": "396365e0b1987f773beeff0b4daba75f9201af14a934de76deef51864c97296c",
+    "evaluation_features.jsonl": "0516715758e482a56e2126b29fc95702c1c3b497f75cb8216af225c3509e0a38",
+    "evaluation_references.jsonl": "02caa19547f53b669d2278dffe88f5df62f717104f58eae108b517a50d8da055"
+  },
+  "primary_comparator": "fixed_top_k",
+  "reduced_call_adaptive_meets_dev_target": true,
+  "reduced_call_fixed_meets_dev_target": true,
+  "schema_version": 1,
+  "search_grid": {
+    "caps": [
+      2,
+      4,
+      6,
+      8,
+      10
+    ],
+    "config_count": 204,
+    "fixed_k": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "gaps_kcal": [
+      0.0,
+      0.1,
+      0.25,
+      0.5,
+      1.0,
+      2.0,
+      4.0,
+      8.0
+    ],
+    "initial_k": [
+      1,
+      2,
+      3,
+      4,
+      6,
+      8,
+      10
+    ]
+  },
+  "selection_rule": "Among points >=95% development success, minimize total calls, then p95 regret, then maximize success, then lexical config name",
+  "source_code_sha256": {
+    "__init__.py": "ef2b469b3fce499789a9ec5715db7f19d31ec3058dc62b3b7b90a611fbfafd18",
+    "__main__.py": "5017c8cf4af45297885f24e7707e08850cb5913e1eaaf9a0a7a27f358b574478",
+    "benchmark.py": "c6dbb86fcb5e86298989b81437215798e3315a82c1c1d2c47352b3de4338c9fa",
+    "data.py": "6083ca3cc55b8a78c90dba3a6dca77fcd145d417c093d2308e184e7197663368",
+    "fixture.py": "fca3d606b5f626b9dceae67333132d94a9e058313a79564422f4a58de5fa7d13",
+    "oracle.py": "7f8f8493ddae4f13365adcb9be08c4f2c36a32bc59a4d8e082ec985a110a9b09",
+    "policy_worker.py": "c1709b6274630d71ac3a07875780b75ee5e86cfe9e53ca8645ccb28c28aaccf3",
+    "statistics.py": "4997b8461e123fae65310aba625a3788538ae88d6f7a402de8bdeba5ec190d41"
+  },
+  "split_sha256": "29607bec2250e2116e9e16b7d23b91ff941764c495e0fdef09d7b2e4b86431bd",
+  "success_tolerance_kcal": 1e-09,
+  "target_call_savings": 0.3,
+  "target_success": 0.95
+}
