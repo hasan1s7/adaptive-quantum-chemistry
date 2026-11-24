@@ -1,8 +1,0 @@
-test_coordinates_preserve_order_units_and_identity (tests.test_viewer_geometry.ViewerGeometryTests.test_coordinates_preserve_order_units_and_identity) ... ok
-test_modified_xyz_and_unmatched_geometry_fail_closed (tests.test_viewer_geometry.ViewerGeometryTests.test_modified_xyz_and_unmatched_geometry_fail_closed) ... ok
-test_nonfinite_coordinates_and_extra_records_are_rejected (tests.test_viewer_geometry.ViewerGeometryTests.test_nonfinite_coordinates_and_extra_records_are_rejected) ... ok
-
-----------------------------------------------------------------------
-Ran 3 tests in 0.000s
-
-OK

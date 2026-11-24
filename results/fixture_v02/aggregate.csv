@@ -1,5 +1,0 @@
-policy,n_molecules,n_families,success_rate,median_regret_kcal,p95_regret_kcal,max_regret_kcal,mean_calls,total_calls,mean_call_fraction,fallback_rate,bootstrap_replicates,interval_method,uncertainty_warning,success_rate_ci_low,success_rate_ci_high,mean_calls_ci_low,mean_calls_ci_high,p95_regret_kcal_ci_low,p95_regret_kcal_ci_high,fallback_rate_ci_low,fallback_rate_ci_high
-adaptive,32,8,1.0,0.0,0.0,0.0,3.0,96,0.5,0.0,5000,family-cluster percentile bootstrap; molecule-weighted,no observed failures: a degenerate empirical interval does not bound unobserved failure risk,1.0,1.0,3.0,3.0,0.0,0.0,0.0,0.0
-cheap_only,32,8,0.5,0.75,2.1,2.1,0.0,0,0.0,0.0,5000,family-cluster percentile bootstrap; molecule-weighted,,0.5,0.5,0.0,0.0,2.1,2.1,0.0,0.0
-fixed_top_k,32,8,1.0,0.0,0.0,0.0,3.0,96,0.5,0.0,5000,family-cluster percentile bootstrap; molecule-weighted,no observed failures: a degenerate empirical interval does not bound unobserved failure risk,1.0,1.0,3.0,3.0,0.0,0.0,0.0,0.0
-full_rerank,32,8,1.0,0.0,0.0,0.0,6.0,192,1.0,0.0,5000,family-cluster percentile bootstrap; molecule-weighted,,1.0,1.0,6.0,6.0,0.0,0.0,0.0,0.0

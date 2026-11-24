@@ -1,9 +1,0 @@
-.venv/
-.cache/
-__pycache__/
-*.pyc
-runs/
-data/prepared/
-previews/
-# The original sealed log is reconstructed byte-for-byte from transport chunks.
-/results/lab/decision_ledger.jsonl.gz
