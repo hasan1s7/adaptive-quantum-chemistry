@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "repository": "hasan1s7/adaptive-quantum-chemistry",
+  "branch": "main",
+  "source_commit": "4d035e3e2113d11e740b6498a03bfeb39a7e3c2a",
+  "source_tree": "ec33dde3bea883e1c1e7dd390cf657969ddaccab",
+  "parent_commit": "6d81701875b996426c07f383789767ea423a899a",
+  "parent_tree": "934de07e5cf47843b4f85eb5b5aa37373273e819",
+  "source_url": "https://github.com/hasan1s7/adaptive-quantum-chemistry/tree/4d035e3e2113d11e740b6498a03bfeb39a7e3c2a",
+  "remote_tree_equals_local_index": true,
+  "remote_commit_parent_verified": true,
+  "branch_update_force": false,
+  "branch_update_expected_sha": "6d81701875b996426c07f383789767ea423a899a",
+  "source_main_readback_verified": true,
+  "additional_commit_scope": "A later verification-only commit adds clean-package receipts and updates the acceptance record; the package identifies the original source cut.",
+  "package_sha256": "cae22f26cedbe78e571b831a376ca9ca8d226bf3048a43ef3321aa08d40522ad",
+  "package_size_bytes": 196250304,
+  "recorded_at_utc": "2026-11-24T18:55:12.786833+00:00",
+  "frozen_scientific_files_preserved": 179,
+  "new_scientific_configurations": 0,
+  "new_external_holdout": false,
+  "hosting_or_deployment_performed": false
+}

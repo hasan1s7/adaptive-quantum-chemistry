@@ -26,3 +26,12 @@ sites-preview start /workspace/scratch/ab91b74f520d/adaptive-quantum-chemistry
 # available for review; it is not a hosted deployment.
 # Exact protected-file SHA256 comparison: preservation.json.
 # Package/build/extraction commands are recorded in package-receipt.json.
+
+# Source-cut package (published source and staged index tree matched exactly):
+python3 -S scripts/build_distribution.py --source-commit 4d035e3e2113d11e740b6498a03bfeb39a7e3c2a --source-tree ec33dde3bea883e1c1e7dd390cf657969ddaccab --output /workspace/scratch/ab91b74f520d/adaptive-quantum-chemistry-v0.4.0.zip > /workspace/scratch/ab91b74f520d/v04-package-build.json
+# Extracted with Python zipfile to a new folder containing spaces; checked
+# all 261 content hashes and exact archive membership against DISTRIBUTION.json.
+# Working directory for the following two commands:
+# /workspace/scratch/ab91b74f520d/verification-v04-clean/AQC Clean Extraction/adaptive-quantum-chemistry
+python3 -S scripts/doctor.py --json --no-port-check > /workspace/scratch/ab91b74f520d/v04-clean-package-doctor.json
+node scripts/verify_workbench.js --out /workspace/scratch/ab91b74f520d/v04-clean-package-replays.json > /workspace/scratch/ab91b74f520d/v04-clean-package-http.log 2>&1

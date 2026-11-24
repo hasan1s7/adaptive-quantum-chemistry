@@ -25,6 +25,7 @@ Python site-packages disabled.
 | Browser interaction | Independent reveal, per-lane stopping, cross-lane privacy, exact comparator fallback, retained accounting, filters, family selection, existing results, 3D controls, JSON and CSV downloads exercised. | `verification/v04/browser-acceptance.json` and downloaded browser reports |
 | Narrow layout | Compare and diagnostics views checked at iframe widths **320, 360, 430 px**, without page-level horizontal overflow. | `verification/v04/browser-acceptance.json`, `browser-narrow.jpg` |
 | Frozen scientific preservation | **179 protected tracked files** match the v0.3 baseline. Restored ledger SHA-256 remains `845a2c1846f8a1b5887134775c80c3f77f9efe4df3ef3fd18fd34fde4e8ccb07`. | `verification/v04/preservation.json`, `protected-baseline.json` |
+| Clean downloadable package | **261 file hashes verified** after extraction into a fresh folder containing spaces; doctor passes and all **20 HTTP replays / 96 charges** reproduce with Python site-packages disabled. | `verification/v04/package-receipt.json`, `clean-package-doctor.json`, `clean-package-replays.json` |
 
 The 16 diagnostic Python tests are already included in the full-suite total.
 The 19 + 20 + 8 JavaScript suites comprise **47 checks**. The actual expiry
@@ -98,9 +99,20 @@ The v0.4 changes and checks documented here were completed in the active
 session. No new overnight schedule was created.
 
 Repository publication and clean-package identities are recorded separately
-in `verification/v04/publication.json` and `package-receipt.json` when the
-release cut is produced. The package identifies its precise source commit;
-later receipt-only commits may follow without changing application code.
+in `verification/v04/publication.json` and `package-receipt.json`. The source
+cut is `4d035e3e2113d11e740b6498a03bfeb39a7e3c2a`, with verified tree
+`ec33dde3bea883e1c1e7dd390cf657969ddaccab`. The complete ZIP contains 260 tracked
+files, the restored ledger, and `DISTRIBUTION.json` (262 files total). It is
+196,250,304 bytes with SHA-256
+`cae22f26cedbe78e571b831a376ca9ca8d226bf3048a43ef3321aa08d40522ad`.
+
+The archive identifies its precise source cut. This updated acceptance record
+and the clean-package receipts are published afterward without changing
+application code. The clean doctor retains the historical v0.1 ancillary-file
+coverage warning: those extra historical artifacts were not covered by that
+original evaluation seal. Both the app and the full v0.2 evidence are ready.
+Repeated clean-package replays are product verification, not extra scientific
+experiments.
 
 ## Scientific decision
 
