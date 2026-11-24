@@ -8,9 +8,9 @@ interface does not establish a new scientific result.
 ## Current acceptance status
 
 The local implementation is complete enough to exercise the launch, replay,
-results, and saved-run workflows. Final product acceptance and remote
-publication are separate gates. This record must be updated with their actual
-evidence; it is not a release certificate.
+results, and saved-run workflows. The available automated/browser checks and
+private repository publication have completed. Native-device and clean-package
+acceptance remain separate gates; this record identifies their actual scope.
 
 | Gate | Status at this handoff | Evidence or next required action |
 |---|---|---|
@@ -23,7 +23,7 @@ evidence; it is not a release certificate.
 | Native Windows/macOS and physical mobile acceptance | **Pending; devices unavailable in this workspace.** | Execute the device cases below on those platforms. |
 | Hardware WebGL and clean extracted-package follow-up | **Pending.** The browser exercised the labeled Canvas fallback; overnight clean-package checks remain scheduled. | Native graphics acceptance and fresh-package execution must have their own evidence. |
 | Consolidated automated test gate | **216 Python tests run: 215 passed, one native Windows test skipped.** | `verification/v03/python-tests.log`; no failures. Frontend and viewer checks are reported separately. |
-| Private repository publication | **Pending final receipt.** | Record delivered artifact checksums, commit IDs, and remote readback after completion. |
+| Private repository publication | **Passed.** Remote `main` and `mvp/v0.3.0` were read back at delivered implementation commit `ef85e831e3d10230182f14a4ded382afcea51d41`. | `verification/v03/publication.json`; exact tested tree `053128a37c90675be99383c8a48662bfbc7979c9` contains 224 files. Later documentation-only commits may follow. |
 
 No hosted public deployment has been performed. The scheduled follow-up passes
 are around 02:00 and 05:00 America/New_York on November 24, 2026, with flexible
@@ -214,9 +214,10 @@ downloads were captured and inspected successfully. This limitation does not
 establish physical mobile file export support; that gate remains open.
 
 The remaining platform checks are native Windows/macOS, physical mobile,
-hardware WebGL, and the scheduled overnight fresh-package checks. Remote
-publication remains a separate pending receipt. These observations do not
-claim a hosted public deployment.
+hardware WebGL, and the scheduled overnight fresh-package checks. Private
+repository publication has passed with remote readback; its receipt is
+separate from these browser observations. Neither constitutes a hosted public
+deployment.
 
 For the optional developer layout harness:
 
@@ -229,11 +230,25 @@ width buttons are for browser QA only. The normal `python -m aqc_app` launch
 does not enable these QA routes. The harness is bound to loopback and does not
 turn the application into a hosted or mobile service.
 
-## Final acceptance receipt to complete
+## Published implementation and remaining package acceptance
 
 The automated totals and available-browser outcomes above are recorded
-executed gates. The publisher must append fresh-package and publication
-receipts only after observing them. Record the delivered source revision,
-artifact checksums, unresolved platform limits, and verified remote commit.
-Keep unavailable platform gates open. A successful local run or a staging
-commit does not establish that `main` contains the MVP.
+executed gates. The delivered implementation commit
+`ef85e831e3d10230182f14a4ded382afcea51d41` and its exact tested 224-file tree
+`053128a37c90675be99383c8a48662bfbc7979c9` were published and read back on remote
+`main` and `mvp/v0.3.0`. The publisher fast-forwarded `main` from the expected
+`cf43d5c47d520f2e865f6bccdcf6fc85acb8ed59`. The complete v0.2 release branch
+commit `63de0477259056decca619e20f66e06cf56d6fc9`, tree
+`705386d5e96d131c748a5cd4f1bac07796267aee`, preserves 182 original
+nontransport file hashes and all eight exact transport pieces.
+
+`verification/v03/publication.json` is the publication receipt and supersedes
+earlier checkpoint records that marked publication pending. It identifies the
+tested implementation; a later documentation-only commit may carry this
+receipt without changing that identity. No Nabu repository was accessed or
+modified.
+
+The complete distribution ZIP receipt and overnight clean-extraction checks
+are still separate work. Append their outcomes only after execution, and keep
+native-device and hardware-WebGL gates open until tested. No hosted public
+deployment or additional scientific experiment is claimed.

@@ -9,21 +9,27 @@ quantum job, or establish that shape-aware acquisition helps.
 
 The sole authorized publication destination is the private repository
 [`hasan1s7/adaptive-quantum-chemistry`](https://github.com/hasan1s7/adaptive-quantum-chemistry).
-Do not modify Nabu or another repository. No hosted public deployment has been
-performed or included in this handoff.
+No Nabu repository was accessed or modified. No hosted public deployment has
+been performed or included in this handoff.
 
-At the drafting checkpoint, the publisher reported:
+The publisher completed publication and verified the remote references and
+contents:
 
-| Reference | Checkpoint | Meaning |
+| Reference or evidence | Verified identity | Meaning |
 |---|---|---|
-| `main` | `cf43d5c47d520f2e865f6bccdcf6fc85acb8ed59` | Older remote state; the completed MVP has not yet been claimed as published here. |
-| Staging | `5c38f726fb33e5c70c17d9faee1814ca2eafb2df` | Transfer checkpoint, not a completed publication receipt. |
-| Local MVP and final publication | Pending final acceptance and remote readback | Fill the final commit and evidence only after the publisher verifies them. |
+| Delivered implementation on `main` and `mvp/v0.3.0` | `ef85e831e3d10230182f14a4ded382afcea51d41` | Both remote references were read back at this implementation commit. |
+| Exact tested implementation tree | `053128a37c90675be99383c8a48662bfbc7979c9` | 224 files; the delivered implementation tree was verified. |
+| Complete v0.2 release branch commit | `63de0477259056decca619e20f66e06cf56d6fc9` | Preserved scientific baseline, including exact nontransport file and bounded transport checks. |
+| Complete v0.2 release tree | `705386d5e96d131c748a5cd4f1bac07796267aee` | 182 original nontransport file hashes and all eight transport pieces matched exactly. |
 
-These identifiers describe this handoff checkpoint; they are not a live remote
-status query. Do not use a successful staging transfer to claim that `main` is
-updated. The final receipt must name the actual remote commit and verify the
-delivered contents.
+`main` was fast-forwarded from
+`cf43d5c47d520f2e865f6bccdcf6fc85acb8ed59` using the expected previous SHA,
+then read back successfully. The structured receipt is
+`verification/v03/publication.json`. A later documentation-only commit may
+carry this receipt; the identities above deliberately name the delivered,
+tested implementation rather than attempting to name the receipt's own
+future commit. A complete distribution ZIP and its fresh-extraction checks
+are separate from the completed repository publication.
 
 ## What is implemented
 
@@ -175,8 +181,8 @@ Native Windows double-click execution, native macOS behavior, physical
 iPhone/iPad/Android acceptance, and hardware WebGL remain open because those
 environments were not available in this acceptance. A shell test, DOM harness,
 desktop narrow viewport, or software 3D fallback check does not close those
-gates. The scheduled overnight fresh-package check and final publication
-receipt remain separate outstanding work.
+gates. The scheduled overnight fresh-package check remains outstanding;
+private repository publication has passed and is recorded separately.
 
 ## Scheduled follow-up passes
 
@@ -188,7 +194,7 @@ times or proof that work already ran. The record is marked
 
 | Intended window | Priority | Evidence to leave |
 |---|---|---|
-| Around 02:00 Eastern | Confirm the exact private repository and published contents; run launch and current acceptance checks; address concrete blockers in startup, reference accounting, session recovery, import/export, and responsive controls. | Actual commands, revision, logs, browser observations, fixes, unresolved gates, and remote receipt if publication completes. |
+| Around 02:00 Eastern | Recheck the exact private repository and published contents; run launch and current acceptance checks; address concrete blockers in startup, reference accounting, session recovery, import/export, and responsive controls. | Actual commands, revision, logs, browser observations, fixes, unresolved gates, and readback of the published implementation. |
 | Around 05:00 Eastern | Recheck the delivered package from a clean extraction; verify current seals and transport restoration; finish remaining available-device UI/error paths and publish an honest handoff. | Clean-package results, final hashes, tested platform scope, known issues, and the exact delivered commit. |
 
 Both passes are limited to this MVP and its delivery. Preserve frozen
@@ -199,9 +205,13 @@ instead of replacing it with a claim from another platform.
 
 ## Publication receipt
 
-Publication remains pending in this draft. After the final checks, record the
-actual private-repository commit, remote readback, current manifest identity,
-and the tested extracted distribution. Include exact executed test totals and
-skips, actual browser outcomes, and remaining device gates. Until that receipt
-exists, the local implementation and staging state must not be described as an
-updated `main` branch or a hosted service.
+**Publication passed.** The delivered implementation commit is
+[`ef85e831e3d10230182f14a4ded382afcea51d41`](https://github.com/hasan1s7/adaptive-quantum-chemistry/commit/ef85e831e3d10230182f14a4ded382afcea51d41),
+with remote `main` and `mvp/v0.3.0` readback confirmed. The complete v0.2 release
+baseline and its exact nontransport/transport hashes were also verified. See
+`verification/v03/publication.json` for immutable identities and scope.
+
+The remaining delivery work is the distribution ZIP receipt and scheduled
+clean-extraction verification. Native-device and hardware-WebGL gates remain
+open. Publication of a private source repository does not constitute a hosted
+public application, a new scientific result, or proof of those device gates.

@@ -1,0 +1,68 @@
+{
+  "acceptance_records": [
+    "verification/v03/python-tests.log",
+    "verification/v03/frontend-tests.log",
+    "verification/v03/viewer-tests.log",
+    "verification/v03/browser-acceptance.json",
+    "verification/v03/transport-compatibility.json"
+  ],
+  "complete_v02_release": {
+    "all_transport_part_hashes_match": true,
+    "commit": "63de0477259056decca619e20f66e06cf56d6fc9",
+    "git_tree": "705386d5e96d131c748a5cd4f1bac07796267aee",
+    "original_nontransport_file_hashes_match": true,
+    "original_nontransport_files_exact_hash_count": 182,
+    "transport_parts_exact_hash_count": 8
+  },
+  "delivered_implementation": {
+    "commit": "ef85e831e3d10230182f14a4ded382afcea51d41",
+    "file_count": 224,
+    "git_tree": "053128a37c90675be99383c8a48662bfbc7979c9",
+    "remote_refs_read_back": {
+      "refs/heads/main": "ef85e831e3d10230182f14a4ded382afcea51d41",
+      "refs/heads/mvp/v0.3.0": "ef85e831e3d10230182f14a4ded382afcea51d41"
+    },
+    "tested_tree_matches_delivered_tree": true
+  },
+  "main_update": {
+    "expected_previous_commit": "cf43d5c47d520f2e865f6bccdcf6fc85acb8ed59",
+    "expected_sha_used": true,
+    "method": "fast_forward",
+    "readback_confirmed": true
+  },
+  "observation_source": "Publisher confirmed successful publication, remote ref readback, and exact tree/content comparisons",
+  "receipt_commit_semantics": "This receipt names the delivered tested implementation commit. A later documentation-only commit may contain the receipt; no self-referential current commit SHA is asserted.",
+  "record_type": "private_repository_implementation_publication",
+  "recorded_at_utc": "2026-11-24T04:42:24.474428+00:00",
+  "remaining_gates": [
+    "native Windows acceptance",
+    "native macOS acceptance",
+    "physical mobile acceptance including file export/import",
+    "hardware WebGL acceptance",
+    "distribution ZIP receipt and scheduled overnight clean-extraction checks"
+  ],
+  "repository": {
+    "name": "adaptive-quantum-chemistry",
+    "owner": "hasan1s7",
+    "url": "https://github.com/hasan1s7/adaptive-quantum-chemistry",
+    "visibility": "private"
+  },
+  "schema_version": 1,
+  "scientific_evidence": {
+    "current_transport_manifest": "data/evidence_chunks/lab-ledger/manifest.json",
+    "current_transport_manifest_sha256": "505601d4a2eade4c3e5783213268cfbd3cd66a6b32cd713e994fe95d0a3324cd",
+    "ledger_path": "results/lab/decision_ledger.jsonl.gz",
+    "ledger_sha256": "845a2c1846f8a1b5887134775c80c3f77f9efe4df3ef3fd18fd34fde4e8ccb07",
+    "ledger_size_bytes": 75200465,
+    "new_experiments_performed_for_publication": false
+  },
+  "scope": {
+    "hosted_public_deployment": false,
+    "live_quantum_jobs": false,
+    "nabu_accessed": false,
+    "nabu_modified": false,
+    "paid_compute": false
+  },
+  "status": "passed",
+  "supersedes": "Earlier handoff and browser checkpoint statements that publication was pending; their recorded test observations remain unchanged."
+}
