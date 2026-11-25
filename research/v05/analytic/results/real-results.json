@@ -1,0 +1,173 @@
+{
+  "scope": "exploratory original-development family CV; no fresh holdout",
+  "execution": "GitHub connector fetched three exact Git blobs; analysis executed in Code Mode V8; local Node reproducer fixture-tested, not run on full repository in container",
+  "ref": "81e5fb8228ecd65e108f9d9a6edf325f3d2b5f7e",
+  "pins": [
+    "12132b13d0b9629f346a12dd8b3cbb140a8c1334",
+    "38b2e40ba649166833452412b566af828aeec3d6",
+    "5d0af44eaa882ed2397846a3fd87f0e1b8422139"
+  ],
+  "rows": 478,
+  "families": 287,
+  "folds": [
+    0,
+    1,
+    2,
+    3,
+    4
+  ],
+  "brier": {
+    "constant": 0.03820882228341587,
+    "gap": 0.03569745716198486
+  },
+  "results": [
+    {
+      "name": "top1",
+      "threshold": null,
+      "calls": 478,
+      "success": 438,
+      "mean_regret": 0.32692311544952307,
+      "rescues": 0
+    },
+    {
+      "name": "top2",
+      "threshold": null,
+      "calls": 956,
+      "success": 457,
+      "mean_regret": 0.18303500224176647,
+      "rescues": 19
+    },
+    {
+      "name": "constant",
+      "threshold": 0.02,
+      "calls": 956,
+      "success": 457,
+      "mean_regret": 0.18303500224176647,
+      "rescues": 19
+    },
+    {
+      "name": "gap",
+      "threshold": 0.02,
+      "calls": 802,
+      "success": 455,
+      "mean_regret": 0.2059599197807938,
+      "rescues": 17
+    },
+    {
+      "name": "constant",
+      "threshold": 0.05,
+      "calls": 478,
+      "success": 438,
+      "mean_regret": 0.32692311544952307,
+      "rescues": 0
+    },
+    {
+      "name": "gap",
+      "threshold": 0.05,
+      "calls": 571,
+      "success": 450,
+      "mean_regret": 0.2677391345787328,
+      "rescues": 12
+    },
+    {
+      "name": "constant",
+      "threshold": 0.1,
+      "calls": 478,
+      "success": 438,
+      "mean_regret": 0.32692311544952307,
+      "rescues": 0
+    },
+    {
+      "name": "gap",
+      "threshold": 0.1,
+      "calls": 503,
+      "success": 445,
+      "mean_regret": 0.29591926358185705,
+      "rescues": 7
+    }
+  ],
+  "bins": [
+    {
+      "bin": 0,
+      "n": 271,
+      "observed_rescues": 5,
+      "mean_prediction": 0.020550222596458886
+    },
+    {
+      "bin": 1,
+      "n": 105,
+      "observed_rescues": 0,
+      "mean_prediction": 0.008144888488350979
+    },
+    {
+      "bin": 2,
+      "n": 50,
+      "observed_rescues": 5,
+      "mean_prediction": 0.07913894037584804
+    },
+    {
+      "bin": 3,
+      "n": 25,
+      "observed_rescues": 7,
+      "mean_prediction": 0.15669023974299093
+    },
+    {
+      "bin": 4,
+      "n": 15,
+      "observed_rescues": 1,
+      "mean_prediction": 0.05697215585703198
+    },
+    {
+      "bin": 5,
+      "n": 7,
+      "observed_rescues": 1,
+      "mean_prediction": 0.06439899255156609
+    },
+    {
+      "bin": 6,
+      "n": 5,
+      "observed_rescues": 0,
+      "mean_prediction": 0.036431068227686325
+    }
+  ],
+  "paired_family_bootstrap": {
+    "draws": 5000,
+    "seed": 271828,
+    "comparison": "gap vs top2; conditional on fitted cross-fold predictions",
+    "intervals": [
+      {
+        "threshold": 0.02,
+        "call_saving_ci95": [
+          0.13416815742397137,
+          0.19052631578947368
+        ],
+        "success_difference_ci95": [
+          -0.0106951871657754,
+          0
+        ]
+      },
+      {
+        "threshold": 0.05,
+        "call_saving_ci95": [
+          0.3784829721362229,
+          0.42660550458715596
+        ],
+        "success_difference_ci95": [
+          -0.02650602409638554,
+          -0.004415011037527594
+        ]
+      },
+      {
+        "threshold": 0.1,
+        "call_saving_ci95": [
+          0.46320346320346323,
+          0.4836683417085427
+        ],
+        "success_difference_ci95": [
+          -0.03917525773195876,
+          -0.012903225806451613
+        ]
+      }
+    ]
+  }
+}

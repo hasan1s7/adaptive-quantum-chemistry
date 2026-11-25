@@ -1,0 +1,99 @@
+{
+  "train": {
+    "alkane": [
+      "CCCC",
+      "CCCCC",
+      "CCCCCC"
+    ],
+    "alcohol": [
+      "CCO",
+      "CCCO",
+      "CCCCO"
+    ],
+    "ether": [
+      "COC",
+      "CCOC",
+      "CCOCC"
+    ],
+    "ketone": [
+      "CC(=O)C",
+      "CC(=O)CC",
+      "CC(=O)CCC"
+    ],
+    "ester": [
+      "CC(=O)OC",
+      "CC(=O)OCC",
+      "CCC(=O)OC"
+    ],
+    "amine": [
+      "CCN",
+      "CCCN",
+      "CCNCC"
+    ],
+    "cycloalkane": [
+      "C1CCCC1",
+      "C1CCCCC1",
+      "CC1CCCCC1"
+    ],
+    "aromatic": [
+      "c1ccccc1",
+      "Cc1ccccc1",
+      "CCc1ccccc1"
+    ]
+  },
+  "test": {
+    "amide": [
+      "CC(=O)N",
+      "CCC(=O)N",
+      "CC(=O)NC"
+    ],
+    "nitrile": [
+      "CC#N",
+      "CCC#N",
+      "CCCC#N"
+    ],
+    "thioether": [
+      "CSC",
+      "CCSC",
+      "CCSCC"
+    ],
+    "haloalkane": [
+      "CCCl",
+      "CCCCl",
+      "CCCCCl"
+    ]
+  },
+  "seed": 271828,
+  "directions": 5,
+  "amplitudes_angstrom_rms": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "points": 128,
+  "candidate_indices": [
+    0,
+    14,
+    28,
+    42,
+    56,
+    71,
+    85,
+    99,
+    113,
+    127
+  ],
+  "degree": 16,
+  "tolerance_kcal_mol": 1.0,
+  "penalties": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "primary_penalty": 0.05,
+  "cheap": "UFF",
+  "comparison": "MMFF94 (not quantum truth)",
+  "shape": "spectral power above degree 2; finite difference mean abs d2E/ds2",
+  "split": "explicit class blocks; generated cohort; no previous labels used; cross-class similarity not excluded",
+  "timing": "perf_counter_ns around batched CalcEnergy calls, single process, warmup before sampling; excludes setup and feature extraction; no monetary cost"
+}

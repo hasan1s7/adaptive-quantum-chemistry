@@ -1,0 +1,4 @@
+rows 80
+cost 0.0 positive 15 negative 13 ties 32 max delta 0.01766666666666672
+cost 0.001 positive 0 negative 60 ties 0 max delta -0.005900000000000016
+cost 0.01 positive 0 negative 60 ties 0 max delta -0.05899999999999994

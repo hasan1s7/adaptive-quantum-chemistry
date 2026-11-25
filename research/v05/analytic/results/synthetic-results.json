@@ -1,0 +1,796 @@
+{
+  "scope": "analytic synthetic stress test; no molecular measurements",
+  "seed": 271828,
+  "centres_per_regime": 60,
+  "train_centres": 40,
+  "test_centres": 20,
+  "seeds_per_centre": 5,
+  "amplitudes": [
+    0.05,
+    0.1,
+    0.2
+  ],
+  "points_per_path": 128,
+  "reference_success_tolerance_synthetic_units": 0.1,
+  "decision_penalty": 0.05,
+  "regimes": {
+    "aligned": {
+      "policy": [
+        {
+          "policy": "top1",
+          "n": 600,
+          "success": 256,
+          "calls": 600,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.512187753180842,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 600.0,
+              "utility": 0.3766666666666667
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 606.0,
+              "utility": 0.3761666666666667
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 660.0,
+              "utility": 0.3716666666666667
+            }
+          ]
+        },
+        {
+          "policy": "top2",
+          "n": 600,
+          "success": 359,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2860049245993938,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.4983333333333334
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.49783333333333335
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.4933333333333334
+            }
+          ]
+        },
+        {
+          "policy": "gap",
+          "n": 600,
+          "success": 359,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2860049245993938,
+          "brier": 0.14341940593771155,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.4983333333333334
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.49783333333333335
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.4933333333333334
+            }
+          ]
+        },
+        {
+          "policy": "gap_shape",
+          "n": 600,
+          "success": 359,
+          "calls": 1200,
+          "additional_cheap_evaluations": 70800,
+          "mean_regret": 0.2860049245993938,
+          "brier": 0.1430620932285601,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.4983333333333334
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1276.8,
+              "utility": 0.4919333333333334
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1968.0,
+              "utility": 0.43433333333333335
+            }
+          ]
+        }
+      ],
+      "paired_shape": [
+        {
+          "amplitude": 0.05,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.026819513987123216,
+          "circular_median": 0.13484287092441427,
+          "centre_mean": -0.07136632861819248,
+          "ci95": [
+            -0.1508490821189595,
+            0.006161560461974615
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.05,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 550.3173936464777,
+          "circular_median": 661.6583272414774,
+          "centre_mean": 10.48625090731686,
+          "ci95": [
+            -145.71216655749174,
+            139.8283126188374
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.19148328658389535,
+          "circular_median": 0.07563579514826937,
+          "centre_mean": 0.1362381095176437,
+          "ci95": [
+            0.06924390230753381,
+            0.20513168779378918
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 542.5507789947144,
+          "circular_median": 604.1850767610788,
+          "centre_mean": 40.57510390215057,
+          "ci95": [
+            -45.29666347682698,
+            132.40226727589734
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.14774921159530913,
+          "circular_median": 0.07834854154589942,
+          "centre_mean": 0.06547548456223606,
+          "ci95": [
+            0.003707732537599581,
+            0.12568759899906778
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 562.3916844287799,
+          "circular_median": 706.6589373189477,
+          "centre_mean": 48.350766420514226,
+          "ci95": [
+            -27.416570461423703,
+            131.14210988750185
+          ],
+          "centres": 20,
+          "draws": 1000
+        }
+      ]
+    },
+    "independent": {
+      "policy": [
+        {
+          "policy": "top1",
+          "n": 600,
+          "success": 286,
+          "calls": 600,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.39449453236797,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 600.0,
+              "utility": 0.4266666666666667
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 606.0,
+              "utility": 0.4261666666666667
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 660.0,
+              "utility": 0.4216666666666667
+            }
+          ]
+        },
+        {
+          "policy": "top2",
+          "n": 600,
+          "success": 387,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.22603435342595604,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.545
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5445
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.54
+            }
+          ]
+        },
+        {
+          "policy": "gap",
+          "n": 600,
+          "success": 387,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.22603435342595604,
+          "brier": 0.14088198822035022,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.545
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5445
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.54
+            }
+          ]
+        },
+        {
+          "policy": "gap_shape",
+          "n": 600,
+          "success": 387,
+          "calls": 1200,
+          "additional_cheap_evaluations": 70800,
+          "mean_regret": 0.22603435342595604,
+          "brier": 0.14073151962744238,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.545
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1276.8,
+              "utility": 0.5386
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1968.0,
+              "utility": 0.481
+            }
+          ]
+        }
+      ],
+      "paired_shape": [
+        {
+          "amplitude": 0.05,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.021045469863473235,
+          "circular_median": 0.10770371025392395,
+          "centre_mean": -0.08017099984008533,
+          "ci95": [
+            -0.1706522027864317,
+            0.007665984664191095
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.05,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 462.5497868920759,
+          "circular_median": 439.1875186649999,
+          "centre_mean": 11.3837842314697,
+          "ci95": [
+            -99.27452197377723,
+            121.84712761281568
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.14339820275849013,
+          "circular_median": 0.07610802962768012,
+          "centre_mean": 0.09565399935816309,
+          "ci95": [
+            0.021139394560601328,
+            0.16974137664029584
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 487.36859306266973,
+          "circular_median": 489.4576801529713,
+          "centre_mean": 25.3259507792154,
+          "ci95": [
+            -39.011833107706934,
+            92.98779629581982
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.14201114546183588,
+          "circular_median": 0.08259380024998864,
+          "centre_mean": 0.05970488620168123,
+          "ci95": [
+            0.0009432124112226383,
+            0.11048518913012578
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 450.3224996908232,
+          "circular_median": 427.5707997220052,
+          "centre_mean": 25.62408069779247,
+          "ci95": [
+            -32.1084790230535,
+            85.84765981283749
+          ],
+          "centres": 20,
+          "draws": 1000
+        }
+      ]
+    },
+    "anti_aligned": {
+      "policy": [
+        {
+          "policy": "top1",
+          "n": 600,
+          "success": 296,
+          "calls": 600,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.3885796469972452,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 600.0,
+              "utility": 0.44333333333333336
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 606.0,
+              "utility": 0.44283333333333336
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 660.0,
+              "utility": 0.43833333333333335
+            }
+          ]
+        },
+        {
+          "policy": "top2",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2372307515262976,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5428333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.5383333333333333
+            }
+          ]
+        },
+        {
+          "policy": "gap",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2372307515262976,
+          "brier": 0.1277845005256352,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5428333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.5383333333333333
+            }
+          ]
+        },
+        {
+          "policy": "gap_shape",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 70800,
+          "mean_regret": 0.2372307515262976,
+          "brier": 0.12804729049523442,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1276.8,
+              "utility": 0.5369333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1968.0,
+              "utility": 0.4793333333333333
+            }
+          ]
+        }
+      ],
+      "paired_shape": [
+        {
+          "amplitude": 0.05,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.013654885715489014,
+          "circular_median": 0.06903164521691796,
+          "centre_mean": -0.09789129873467593,
+          "ci95": [
+            -0.18140928815793234,
+            -0.015001186874308344
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.05,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 405.07787603739433,
+          "circular_median": 406.93754625911566,
+          "centre_mean": -14.5454131401396,
+          "ci95": [
+            -141.44576982947603,
+            98.30579443473574
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.13243450165844622,
+          "circular_median": 0.07331239280147189,
+          "centre_mean": 0.08815744960865397,
+          "ci95": [
+            0.016155042679279658,
+            0.15879566391875735
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 377.2984773032605,
+          "circular_median": 291.22692274604833,
+          "centre_mean": 29.295572439519347,
+          "ci95": [
+            -41.93896291954761,
+            109.92414325212185
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.12596263955236964,
+          "circular_median": 0.0780230653129988,
+          "centre_mean": 0.08127872697386951,
+          "ci95": [
+            0.019984591330296324,
+            0.1339862384787138
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 372.96615778399087,
+          "circular_median": 335.58678145988415,
+          "centre_mean": 29.54787781180781,
+          "ci95": [
+            -29.141995942842502,
+            92.24740315322745
+          ],
+          "centres": 20,
+          "draws": 1000
+        }
+      ]
+    },
+    "shift": {
+      "policy": [
+        {
+          "policy": "top1",
+          "n": 600,
+          "success": 296,
+          "calls": 600,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.3885796469972452,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 600.0,
+              "utility": 0.44333333333333336
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 606.0,
+              "utility": 0.44283333333333336
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 660.0,
+              "utility": 0.43833333333333335
+            }
+          ]
+        },
+        {
+          "policy": "top2",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2372307515262976,
+          "brier": null,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5428333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.5383333333333333
+            }
+          ]
+        },
+        {
+          "policy": "gap",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 0,
+          "mean_regret": 0.2372307515262976,
+          "brier": 0.1286184291047558,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1206.0,
+              "utility": 0.5428333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1260.0,
+              "utility": 0.5383333333333333
+            }
+          ]
+        },
+        {
+          "policy": "gap_shape",
+          "n": 600,
+          "success": 386,
+          "calls": 1200,
+          "additional_cheap_evaluations": 70800,
+          "mean_regret": 0.2372307515262976,
+          "brier": 0.12833706153735605,
+          "cost_sensitivity": [
+            {
+              "cheap_unit_cost": 0.0,
+              "total_cost": 1200.0,
+              "utility": 0.5433333333333333
+            },
+            {
+              "cheap_unit_cost": 0.001,
+              "total_cost": 1276.8,
+              "utility": 0.5369333333333333
+            },
+            {
+              "cheap_unit_cost": 0.01,
+              "total_cost": 1968.0,
+              "utility": 0.4793333333333333
+            }
+          ]
+        }
+      ],
+      "paired_shape": [
+        {
+          "amplitude": 0.05,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.013654885715489014,
+          "circular_median": 0.06903164521691796,
+          "centre_mean": -0.09789129873467593,
+          "ci95": [
+            -0.18140928815793234,
+            -0.015001186874308344
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.05,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 405.07787603739433,
+          "circular_median": 406.93754625911566,
+          "centre_mean": -14.5454131401396,
+          "ci95": [
+            -141.44576982947603,
+            98.30579443473574
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.13243450165844622,
+          "circular_median": 0.07331239280147189,
+          "centre_mean": 0.08815744960865397,
+          "ci95": [
+            0.016155042679279658,
+            0.15879566391875735
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.1,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 377.2984773032605,
+          "circular_median": 291.22692274604833,
+          "centre_mean": 29.295572439519347,
+          "ci95": [
+            -41.93896291954761,
+            109.92414325212185
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_spectral",
+          "pairs": 100,
+          "linear_median": 0.12596263955236964,
+          "circular_median": 0.0780230653129988,
+          "centre_mean": 0.08127872697386951,
+          "ci95": [
+            0.019984591330296324,
+            0.1339862384787138
+          ],
+          "centres": 20,
+          "draws": 1000
+        },
+        {
+          "amplitude": 0.2,
+          "metric": "delta_mac",
+          "pairs": 100,
+          "linear_median": 372.96615778399087,
+          "circular_median": 335.58678145988415,
+          "centre_mean": 29.54787781180781,
+          "ci95": [
+            -29.141995942842502,
+            92.24740315322745
+          ],
+          "centres": 20,
+          "draws": 1000
+        }
+      ]
+    }
+  },
+  "trajectory_count": 7200,
+  "sample_count_per_fidelity": 921600
+}

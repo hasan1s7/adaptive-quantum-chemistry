@@ -1,0 +1,370 @@
+{
+  "scope": "generated real molecular geometries; UFF versus MMFF94 force-field comparison, not quantum validation",
+  "protocol": {
+    "train": {
+      "alkane": [
+        "CCCC",
+        "CCCCC",
+        "CCCCCC"
+      ],
+      "alcohol": [
+        "CCO",
+        "CCCO",
+        "CCCCO"
+      ],
+      "ether": [
+        "COC",
+        "CCOC",
+        "CCOCC"
+      ],
+      "ketone": [
+        "CC(=O)C",
+        "CC(=O)CC",
+        "CC(=O)CCC"
+      ],
+      "ester": [
+        "CC(=O)OC",
+        "CC(=O)OCC",
+        "CCC(=O)OC"
+      ],
+      "amine": [
+        "CCN",
+        "CCCN",
+        "CCNCC"
+      ],
+      "cycloalkane": [
+        "C1CCCC1",
+        "C1CCCCC1",
+        "CC1CCCCC1"
+      ],
+      "aromatic": [
+        "c1ccccc1",
+        "Cc1ccccc1",
+        "CCc1ccccc1"
+      ]
+    },
+    "test": {
+      "amide": [
+        "CC(=O)N",
+        "CCC(=O)N",
+        "CC(=O)NC"
+      ],
+      "nitrile": [
+        "CC#N",
+        "CCC#N",
+        "CCCC#N"
+      ],
+      "thioether": [
+        "CSC",
+        "CCSC",
+        "CCSCC"
+      ],
+      "haloalkane": [
+        "CCCl",
+        "CCCCl",
+        "CCCCCl"
+      ]
+    },
+    "seed": 271828,
+    "directions": 5,
+    "amplitudes_angstrom_rms": [
+      0.05,
+      0.1,
+      0.2
+    ],
+    "points": 128,
+    "candidate_indices": [
+      0,
+      14,
+      28,
+      42,
+      56,
+      71,
+      85,
+      99,
+      113,
+      127
+    ],
+    "degree": 16,
+    "tolerance_kcal_mol": 1.0,
+    "penalties": [
+      0.02,
+      0.05,
+      0.1
+    ],
+    "primary_penalty": 0.05,
+    "cheap": "UFF",
+    "comparison": "MMFF94 (not quantum truth)",
+    "shape": "spectral power above degree 2; finite difference mean abs d2E/ds2",
+    "split": "explicit class blocks; generated cohort; no previous labels used; cross-class similarity not excluded",
+    "timing": "perf_counter_ns around batched CalcEnergy calls, single process, warmup before sampling; excludes setup and feature extraction; no monetary cost"
+  },
+  "rdkit": "2025.09.4",
+  "numpy": "2.3.5",
+  "python": "3.13.5",
+  "train_trajectories": 720,
+  "test_trajectories": 360,
+  "train_rescues": 56,
+  "test_rescues": 30,
+  "train_cost_ratio": 0.8755314022957967,
+  "train_cheap_us_per_point": 7.880413780381945,
+  "train_reference_us_per_point": 9.000720887586805,
+  "test_cheap_us_per_point": 6.056248980034722,
+  "test_reference_us_per_point": 6.665366927083333,
+  "policies": [
+    {
+      "penalty": 0.02,
+      "policy": "top1",
+      "n": 360,
+      "success": 303,
+      "calls": 360,
+      "cheap_points": 3600,
+      "mean_regret": 1.6154166010216793,
+      "brier": null,
+      "cost": 3511.9130482648684,
+      "utility": 0.6465603862075073
+    },
+    {
+      "penalty": 0.02,
+      "policy": "top2",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 3600,
+      "mean_regret": 0.5304613798740289,
+      "brier": null,
+      "cost": 3871.9130482648684,
+      "utility": 0.7098937195408407
+    },
+    {
+      "penalty": 0.02,
+      "policy": "gap",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 3600,
+      "mean_regret": 0.5304613798740289,
+      "brier": 0.07471900491875823,
+      "cost": 3871.9130482648684,
+      "utility": 0.7098937195408407
+    },
+    {
+      "penalty": 0.02,
+      "policy": "spectral",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 46080,
+      "mean_regret": 0.5304613798740289,
+      "brier": 0.0746815759600382,
+      "cost": 41064.487017790314,
+      "utility": -1.3563603898772396
+    },
+    {
+      "penalty": 0.02,
+      "policy": "mac",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 46080,
+      "mean_regret": 0.5304613798740289,
+      "brier": 0.07493173605549862,
+      "cost": 41064.487017790314,
+      "utility": -1.3563603898772396
+    },
+    {
+      "penalty": 0.05,
+      "policy": "top1",
+      "n": 360,
+      "success": 303,
+      "calls": 360,
+      "cheap_points": 3600,
+      "mean_regret": 1.6154166010216793,
+      "brier": null,
+      "cost": 3511.9130482648684,
+      "utility": 0.3539009655187682
+    },
+    {
+      "penalty": 0.05,
+      "policy": "top2",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 3600,
+      "mean_regret": 0.5304613798740289,
+      "brier": null,
+      "cost": 3871.9130482648684,
+      "utility": 0.3872342988521016
+    },
+    {
+      "penalty": 0.05,
+      "policy": "gap",
+      "n": 360,
+      "success": 331,
+      "calls": 670,
+      "cheap_points": 3600,
+      "mean_regret": 0.5713087441866285,
+      "brier": 0.07471900491875823,
+      "cost": 3821.9130482648684,
+      "utility": 0.38862318774099036
+    },
+    {
+      "penalty": 0.05,
+      "policy": "spectral",
+      "n": 360,
+      "success": 331,
+      "calls": 672,
+      "cheap_points": 46080,
+      "mean_regret": 0.560476694302641,
+      "brier": 0.0746815759600382,
+      "cost": 41016.487017790314,
+      "utility": -4.777289863581988
+    },
+    {
+      "penalty": 0.05,
+      "policy": "mac",
+      "n": 360,
+      "success": 329,
+      "calls": 612,
+      "cheap_points": 46080,
+      "mean_regret": 0.5897770883041482,
+      "brier": 0.07493173605549862,
+      "cost": 40956.487017790314,
+      "utility": -4.7745120858042105
+    },
+    {
+      "penalty": 0.1,
+      "policy": "top1",
+      "n": 360,
+      "success": 303,
+      "calls": 360,
+      "cheap_points": 3600,
+      "mean_regret": 1.6154166010216793,
+      "brier": null,
+      "cost": 3511.9130482648684,
+      "utility": -0.13386473562913026
+    },
+    {
+      "penalty": 0.1,
+      "policy": "top2",
+      "n": 360,
+      "success": 333,
+      "calls": 720,
+      "cheap_points": 3600,
+      "mean_regret": 0.5304613798740289,
+      "brier": null,
+      "cost": 3871.9130482648684,
+      "utility": -0.15053140229579687
+    },
+    {
+      "penalty": 0.1,
+      "policy": "gap",
+      "n": 360,
+      "success": 313,
+      "calls": 424,
+      "cheap_points": 3600,
+      "mean_regret": 0.9274978893869849,
+      "brier": 0.07471900491875823,
+      "cost": 3575.9130482648684,
+      "utility": -0.12386473562913014
+    },
+    {
+      "penalty": 0.1,
+      "policy": "spectral",
+      "n": 360,
+      "success": 319,
+      "calls": 461,
+      "cheap_points": 46080,
+      "mean_regret": 0.7773643804943673,
+      "brier": 0.0746815759600382,
+      "cost": 40805.487017790314,
+      "utility": -10.448746393830643
+    },
+    {
+      "penalty": 0.1,
+      "policy": "mac",
+      "n": 360,
+      "success": 313,
+      "calls": 424,
+      "cheap_points": 46080,
+      "mean_regret": 0.9274978893869849,
+      "brier": 0.07493173605549862,
+      "cost": 40768.487017790314,
+      "utility": -10.455135282719532
+    }
+  ],
+  "paired": [
+    {
+      "amp": 0.05,
+      "metric": "spectral",
+      "pairs": 60,
+      "family_means": {
+        "amide": -0.30984865837379205,
+        "nitrile": -0.05860463309734492,
+        "thioether": -0.0904316231762784,
+        "haloalkane": -0.030176029590003154
+      },
+      "mean": -0.12226523605935463
+    },
+    {
+      "amp": 0.05,
+      "metric": "mac",
+      "pairs": 60,
+      "family_means": {
+        "amide": -54.47028954757911,
+        "nitrile": -92.54981360965691,
+        "thioether": -46.39126293886086,
+        "haloalkane": -65.07013958025193
+      },
+      "mean": -64.62037641908721
+    },
+    {
+      "amp": 0.1,
+      "metric": "spectral",
+      "pairs": 60,
+      "family_means": {
+        "amide": -0.18296244119736335,
+        "nitrile": -0.011737140318549607,
+        "thioether": 0.007120565241107521,
+        "haloalkane": 0.07672884042855044
+      },
+      "mean": -0.02771254396156375
+    },
+    {
+      "amp": 0.1,
+      "metric": "mac",
+      "pairs": 60,
+      "family_means": {
+        "amide": -94.52292066689058,
+        "nitrile": -100.04481178338526,
+        "thioether": -55.581724591460265,
+        "haloalkane": -87.81333241405284
+      },
+      "mean": -84.49069736394723
+    },
+    {
+      "amp": 0.2,
+      "metric": "spectral",
+      "pairs": 60,
+      "family_means": {
+        "amide": -0.009513942575706171,
+        "nitrile": -0.012228292604030968,
+        "thioether": 0.13597903207748077,
+        "haloalkane": 0.1533350615167209
+      },
+      "mean": 0.06689296460361614
+    },
+    {
+      "amp": 0.2,
+      "metric": "mac",
+      "pairs": 60,
+      "family_means": {
+        "amide": -186.55237564434478,
+        "nitrile": -133.21470738871278,
+        "thioether": -76.69325046886578,
+        "haloalkane": -129.6009135069299
+      },
+      "mean": -131.5153117522133
+    }
+  ]
+}

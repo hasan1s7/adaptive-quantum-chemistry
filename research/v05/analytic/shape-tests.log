@@ -1,0 +1,15 @@
+test_bootstrap (test_shape_lab.ShapeTests.test_bootstrap) ... ok
+test_constant (test_shape_lab.ShapeTests.test_constant) ... ok
+test_geometry (test_shape_lab.ShapeTests.test_geometry) ... ok
+test_high_order (test_shape_lab.ShapeTests.test_high_order) ... ok
+test_invalid (test_shape_lab.ShapeTests.test_invalid) ... ok
+test_policy (test_shape_lab.ShapeTests.test_policy) ... ok
+test_quadratic (test_shape_lab.ShapeTests.test_quadratic) ... ok
+test_scaling (test_shape_lab.ShapeTests.test_scaling) ... ok
+test_shift (test_shape_lab.ShapeTests.test_shift) ... ok
+test_train_test (test_shape_lab.ShapeTests.test_train_test) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.117s
+
+OK

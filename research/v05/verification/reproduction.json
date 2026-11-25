@@ -1,0 +1,14 @@
+{
+  "repeat_trajectories_matched": 1080,
+  "timing_fields_excluded": [
+    "cheap_ns",
+    "reference_ns"
+  ],
+  "original_training_ratio": 0.8755314022957967,
+  "repeat_training_ratio": 0.879935964923589,
+  "original_raw_sha256": "1d378b6f40d43fcb126579fa984bdb45d847d3cb7159b687ae0386ffa250a381",
+  "repeat_raw_sha256": "f9f65dace779b1ada94ea068a1fecd0366c06322aa3038151b320d2188d23c97",
+  "protocol_sha256": "70e9c5e15da4691e2df7736c7c6ad7a83ce5857eeafea3774300c25007452796",
+  "runtime": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "source_blob": "a29a852a85c07582396ac151112c2eac219d76f3"
+}

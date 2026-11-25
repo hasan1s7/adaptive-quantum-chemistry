@@ -1,0 +1,11 @@
+test_calc_energy_coordinates (test_molecular_pilot.Pilot.test_calc_energy_coordinates) ... ok
+test_fit_boundary (test_molecular_pilot.Pilot.test_fit_boundary) ... ok
+test_geometry (test_molecular_pilot.Pilot.test_geometry) ... ok
+test_metrics (test_molecular_pilot.Pilot.test_metrics) ... ok
+test_receipt (test_molecular_pilot.Pilot.test_receipt) ... ok
+test_split (test_molecular_pilot.Pilot.test_split) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.092s
+
+OK

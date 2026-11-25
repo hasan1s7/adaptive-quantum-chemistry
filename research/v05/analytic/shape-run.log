@@ -1,0 +1,106 @@
+{
+  "aligned": [
+    {
+      "policy": "top1",
+      "success": 256,
+      "calls": 600,
+      "brier": null
+    },
+    {
+      "policy": "top2",
+      "success": 359,
+      "calls": 1200,
+      "brier": null
+    },
+    {
+      "policy": "gap",
+      "success": 359,
+      "calls": 1200,
+      "brier": 0.14341940593771155
+    },
+    {
+      "policy": "gap_shape",
+      "success": 359,
+      "calls": 1200,
+      "brier": 0.1430620932285601
+    }
+  ],
+  "independent": [
+    {
+      "policy": "top1",
+      "success": 286,
+      "calls": 600,
+      "brier": null
+    },
+    {
+      "policy": "top2",
+      "success": 387,
+      "calls": 1200,
+      "brier": null
+    },
+    {
+      "policy": "gap",
+      "success": 387,
+      "calls": 1200,
+      "brier": 0.14088198822035022
+    },
+    {
+      "policy": "gap_shape",
+      "success": 387,
+      "calls": 1200,
+      "brier": 0.14073151962744238
+    }
+  ],
+  "anti_aligned": [
+    {
+      "policy": "top1",
+      "success": 296,
+      "calls": 600,
+      "brier": null
+    },
+    {
+      "policy": "top2",
+      "success": 386,
+      "calls": 1200,
+      "brier": null
+    },
+    {
+      "policy": "gap",
+      "success": 386,
+      "calls": 1200,
+      "brier": 0.1277845005256352
+    },
+    {
+      "policy": "gap_shape",
+      "success": 386,
+      "calls": 1200,
+      "brier": 0.12804729049523442
+    }
+  ],
+  "shift": [
+    {
+      "policy": "top1",
+      "success": 296,
+      "calls": 600,
+      "brier": null
+    },
+    {
+      "policy": "top2",
+      "success": 386,
+      "calls": 1200,
+      "brier": null
+    },
+    {
+      "policy": "gap",
+      "success": 386,
+      "calls": 1200,
+      "brier": 0.1286184291047558
+    },
+    {
+      "policy": "gap_shape",
+      "success": 386,
+      "calls": 1200,
+      "brier": 0.12833706153735605
+    }
+  ]
+}
