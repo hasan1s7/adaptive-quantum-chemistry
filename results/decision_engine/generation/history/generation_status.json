@@ -1,0 +1,24 @@
+{
+  "schema": "erkidu-generation-gate/v1",
+  "evidence_class": "proposed",
+  "status": "not_executed",
+  "reason": "Published fixed-pool relaxed energies do not label new generated geometries; no live MLIP or reference calculator was run. Generation awaits a competitive frozen fixed-pool decision, physics protocol review and a fresh reference batch.",
+  "generated_candidates": 0,
+  "candidate_records_file": "generation_candidate_records.jsonl",
+  "generation_steps": 0,
+  "mlip_relaxations": 0,
+  "reference_jobs_attempted": 0,
+  "reference_jobs_completed": 0,
+  "reference_jobs_failed": 0,
+  "duplicate_rate": null,
+  "novelty_rate": null,
+  "undefined_metric_reason": "No candidate proposals were made; zero proposals is not evidence of zero duplicates or perfect novelty.",
+  "independent_DFT_validation": false,
+  "constraints": [
+    "one benign ordinary-valence oxide composition per comparison",
+    "no conductivity, degradation, synthesis or real-cell performance claims",
+    "failed attempts charged",
+    "equal total cost comparison with non-generative seeds",
+    "no paid compute authorization implied"
+  ]
+}

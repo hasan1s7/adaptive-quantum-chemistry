@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "assertions": 103,
+  "scientific_experiment_rerun": false,
+  "checks": "control coherence; actual-case visibility; generation receipt; exact embedded downloads; narrow viewport SVG; keyboard state",
+  "visual_browser_qa": "not performed: browser executable unavailable"
+}

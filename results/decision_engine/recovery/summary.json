@@ -1,0 +1,283 @@
+{
+  "schema": "erkidu-recovery-summary/v1",
+  "git_main_head": "f2a603e14f1d704084f6ddcb07645f2f701fa844",
+  "historical_repo_pin": "6d81701875b996426c07f383789767ea423a899a",
+  "upstream_data_pin": "0109c8ec7cff3c10d3617ed65392fffc81492755",
+  "evidence_class": "executed_replay_on_previously_examined_development_data",
+  "reproduction_status": "passed",
+  "reproduced_output_count": 4,
+  "policy_metrics": {
+    "steric": {
+      "attempted_calls": 956,
+      "mean_regret_kcal": 0.17811971337977256,
+      "median_regret_kcal": 0.0,
+      "p90_regret_kcal": 0.43668227485613914,
+      "p95_regret_kcal": 0.7663868310104589,
+      "p99_regret_kcal": 2.6003721471934127,
+      "pools": 478,
+      "replayed_completed_labels": 956,
+      "severe_misses_gt3": 3,
+      "success": 458,
+      "success_rate": 0.9581589958158996,
+      "worst_regret_kcal": 5.146527566481382
+    },
+    "top2": {
+      "attempted_calls": 956,
+      "mean_regret_kcal": 0.18303500224176647,
+      "median_regret_kcal": 0.0,
+      "p90_regret_kcal": 0.43668227485613914,
+      "p95_regret_kcal": 0.7781900652684256,
+      "p99_regret_kcal": 2.6003721471934127,
+      "pools": 478,
+      "replayed_completed_labels": 956,
+      "severe_misses_gt3": 4,
+      "success": 457,
+      "success_rate": 0.9560669456066946,
+      "worst_regret_kcal": 5.146527566481382
+    },
+    "torsion": {
+      "attempted_calls": 956,
+      "mean_regret_kcal": 0.19527397459632498,
+      "median_regret_kcal": 0.0,
+      "p90_regret_kcal": 0.4701189417741263,
+      "p95_regret_kcal": 1.0824775139626572,
+      "p99_regret_kcal": 2.6066820430662494,
+      "pools": 478,
+      "replayed_completed_labels": 956,
+      "severe_misses_gt3": 3,
+      "success": 453,
+      "success_rate": 0.9476987447698745,
+      "worst_regret_kcal": 3.5505617926828563
+    },
+    "torsion_plus_steric": {
+      "attempted_calls": 956,
+      "mean_regret_kcal": 0.19235969906420522,
+      "median_regret_kcal": 0.0,
+      "p90_regret_kcal": 0.4661872474127449,
+      "p95_regret_kcal": 1.0824775139626572,
+      "p99_regret_kcal": 2.6066820430662494,
+      "pools": 478,
+      "replayed_completed_labels": 956,
+      "severe_misses_gt3": 3,
+      "success": 453,
+      "success_rate": 0.9476987447698745,
+      "worst_regret_kcal": 3.5505617926828563
+    }
+  },
+  "paired_vs_top2": {
+    "steric": {
+      "harmed_pool_ids": [],
+      "regret_losses": 12,
+      "regret_ties": 457,
+      "regret_wins": 9,
+      "rescued_pool_ids": [
+        "omegacsd_JUDLUP"
+      ],
+      "threshold_gains": 1,
+      "threshold_losses": 0,
+      "threshold_ties": 477
+    },
+    "torsion": {
+      "harmed_pool_ids": [
+        "astex_1unl",
+        "omegacsd_PYMSBZ",
+        "omegapdb_1b6l",
+        "omegapdb_1bhx",
+        "omegapdb_1gs5",
+        "omegapdb_1nqu",
+        "omegapdb_1oiu",
+        "omegapdb_1zz2"
+      ],
+      "regret_losses": 111,
+      "regret_ties": 300,
+      "regret_wins": 67,
+      "rescued_pool_ids": [
+        "omegacsd_FEMMAL",
+        "omegacsd_FIBREN",
+        "omegacsd_JUDLUP",
+        "omegacsd_MINTSA"
+      ],
+      "threshold_gains": 4,
+      "threshold_losses": 8,
+      "threshold_ties": 466
+    },
+    "torsion_plus_steric": {
+      "harmed_pool_ids": [
+        "astex_1unl",
+        "omegacsd_PYMSBZ",
+        "omegapdb_1b6l",
+        "omegapdb_1bhx",
+        "omegapdb_1gs5",
+        "omegapdb_1nqu",
+        "omegapdb_1oiu",
+        "omegapdb_1zz2"
+      ],
+      "regret_losses": 106,
+      "regret_ties": 303,
+      "regret_wins": 69,
+      "rescued_pool_ids": [
+        "omegacsd_FEMMAL",
+        "omegacsd_FIBREN",
+        "omegacsd_JUDLUP",
+        "omegacsd_MINTSA"
+      ],
+      "threshold_gains": 4,
+      "threshold_losses": 8,
+      "threshold_ties": 466
+    }
+  },
+  "cluster_bootstrap": {
+    "steric": {
+      "clusters": 287,
+      "delta_mean_regret_kcal": -0.004915288861993911,
+      "delta_success_rate": 0.0020920502092050207,
+      "draws": 2000,
+      "interpretation": "development descriptive, conditional on frozen policy and inferred family assignments",
+      "regret_diff_cluster_bootstrap_95": [
+        -0.016340081141897275,
+        0.003315876789750612
+      ],
+      "seed": 271828,
+      "success_diff_cluster_bootstrap_95": [
+        0.0,
+        0.007177033492822967
+      ]
+    },
+    "torsion": {
+      "clusters": 287,
+      "delta_mean_regret_kcal": 0.012238972354558526,
+      "delta_success_rate": -0.008368200836820083,
+      "draws": 2000,
+      "interpretation": "development descriptive, conditional on frozen policy and inferred family assignments",
+      "regret_diff_cluster_bootstrap_95": [
+        -0.015058554074026552,
+        0.04448710888380422
+      ],
+      "seed": 271828,
+      "success_diff_cluster_bootstrap_95": [
+        -0.021570277149321266,
+        0.004367532031287486
+      ]
+    },
+    "torsion_plus_steric": {
+      "clusters": 287,
+      "delta_mean_regret_kcal": 0.009324696822438748,
+      "delta_success_rate": -0.008368200836820083,
+      "draws": 2000,
+      "interpretation": "development descriptive, conditional on frozen policy and inferred family assignments",
+      "regret_diff_cluster_bootstrap_95": [
+        -0.02015952335339958,
+        0.041574276110940965
+      ],
+      "seed": 271828,
+      "success_diff_cluster_bootstrap_95": [
+        -0.02197802197802198,
+        0.005130208333333323
+      ]
+    }
+  },
+  "historical_tests": {
+    "passed": 10,
+    "failed": 0,
+    "wall_seconds": 6.241
+  },
+  "reproduction_wall_seconds": 6.495804440999962,
+  "real_reference_jobs": 0,
+  "saved_669": {
+    "schema": "erkidu-saved-669-ledger-inspection/v1",
+    "evidence_class": "executed_integrity_inspection_of_prior_replay",
+    "reran_669_policy": false,
+    "live_reference_jobs": 0,
+    "new_label_queries": 0,
+    "rows_inspected": 1912,
+    "summary": {
+      "1_gap_gate": {
+        "calls": 669,
+        "success": 452,
+        "molecules": 478
+      },
+      "2_rmsd_rerank": {
+        "calls": 669,
+        "success": 452,
+        "molecules": 478
+      },
+      "3_gyration_probe": {
+        "calls": 669,
+        "success": 452,
+        "molecules": 478
+      },
+      "fixed_top_two": {
+        "calls": 956,
+        "success": 457,
+        "molecules": 478
+      }
+    },
+    "reference_regret_records_verified": 1912,
+    "paired_changes": {
+      "1_gap_gate_vs_2_rmsd_rerank": {
+        "gains": 2,
+        "losses": 2
+      },
+      "1_gap_gate_vs_fixed_top_two": {
+        "gains": 0,
+        "losses": 5
+      },
+      "2_rmsd_rerank_vs_1_gap_gate": {
+        "gains": 2,
+        "losses": 2
+      },
+      "2_rmsd_rerank_vs_fixed_top_two": {
+        "gains": 2,
+        "losses": 7
+      },
+      "3_gyration_probe_vs_1_gap_gate": {
+        "gains": 2,
+        "losses": 2
+      },
+      "3_gyration_probe_vs_2_rmsd_rerank": {
+        "gains": 1,
+        "losses": 1
+      },
+      "3_gyration_probe_vs_fixed_top_two": {
+        "gains": 2,
+        "losses": 7
+      }
+    },
+    "files_sha256": {
+      "per_molecule.csv": "10b4600f6711442af464f5d481912db87f8fa329e5e6840be796d55884cf4152",
+      "verification.log": "43a13b9671f373ca6681c637268d9f1c76f774a74356b6fd7e975a1163e1ec77",
+      "results.json": "11343b39a8b2d1da9b04443d318f526d891c391e2008f0a869faa8b293f55886",
+      "README.md": "346db99b45960561b738ec9d835d1ef33b353f335cfecafed4eb4943a6f9c07b"
+    },
+    "original_input_hashes_verified": {
+      "development_features.jsonl": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+      "development_references.jsonl": "396365e0b1987f773beeff0b4daba75f9201af14a934de76deef51864c97296c",
+      "development_geometry.json.gz": "05949303658ab98af392c79a6b9f63cfd8ca310f3faf1bfcf57d38106308df7a",
+      "folds.json": "969e74925d1d3c8144216590e3e5a968218360bc158f56a2df0e9b5a86e5fc7f"
+    },
+    "limitations": "This checks saved query identities, recorded accounting and outcomes against original development labels; it does not reacquire labels, rerun acquisition or provide independent scientific validation."
+  },
+  "new_fixed_pair_shape_vs_gap_allocation": {
+    "status": "not_run",
+    "relationship_to_saved_669": "different planned allocation experiment; saved669 instead shares a gap-selected set of second-call pools and varies second-candidate choice"
+  },
+  "failure_case_pool_ids": [
+    "omegapdb_2byi",
+    "omegapdb_1bhx"
+  ],
+  "archive_sha256": {
+    "Erkidu-MLIP-Pilot.zip": "87d8b09ec97efafd1077f5fc4eaee0a2f2695efc585b6417dd9f153c61130951",
+    "Hanash-Protocol-2026-11-24.zip": "38f8c4a9736732949007b191c895580dbaf059ccc1fe474df89031024b85236b",
+    "Erkidu-workbench-update.zip": "d5fd5efcd382367dc320385a5ffb0c3e1b64274e1a48e2d565d66550ba115c7e",
+    "erkidu-three-policy-replay.zip": "2a8dbf00ccdc2393516cf59e91bed4f7d0a8bbc5b5f656f9ffd36d7ddaea7b81",
+    "Erkidu-research-lab.zip": "0c37228181c03e6ffac2aa768bb07920180d73e5399f2ef326b597492c3bc48b",
+    "Erkidu-v05-research-complete.zip": "6946243bf05ca30f97dce62d71bcb29c5c35b1eb691608637d038bdacd50a29d"
+  },
+  "limitations": [
+    "Development data already examined",
+    "Historical source has inferred geometry topology",
+    "No compatible forces",
+    "No measured quantum runtime, queueing, or spend",
+    "No independent external validation"
+  ]
+}

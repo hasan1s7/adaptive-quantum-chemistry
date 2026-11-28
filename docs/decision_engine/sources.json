@@ -1,0 +1,492 @@
+{
+  "checked_date": "2026-11-27",
+  "repository_sha": "58b3bd5b95c1165c5208150203007cea0031c64c",
+  "source_records": [
+    {
+      "id": "wbm_paper",
+      "title": "Wang, Botti & Marques (2021), Predicting stable crystalline compounds using chemical similarity",
+      "url": "https://www.nature.com/articles/s41524-020-00481-6",
+      "retrieval_ref": "turn278874826search0",
+      "supports": "Original DFT protocol; PBE/PAW5.2/520eV, spin, k-point and convergence settings."
+    },
+    {
+      "id": "matbench_paper",
+      "title": "Riebesell et al. (2025), A framework to evaluate machine learning crystal stability predictions",
+      "url": "https://doi.org/10.1038/s42256-025-01055-1",
+      "retrieval_ref": "turn370245820search13",
+      "supports": "Initial-structure-only evaluation and public data provenance."
+    },
+    {
+      "id": "wbm_protocol",
+      "title": "Pinned Matbench WBM README",
+      "url": "https://github.com/janosh/matbench-discovery/blob/58b3bd5b95c1165c5208150203007cea0031c64c/site/src/routes/data/%5Bslug%5D/wbm-readme.md",
+      "retrieval_ref": null,
+      "supports": "Dataset columns, post-reference prototype selection, changes in MP2020 correction convention."
+    },
+    {
+      "id": "dataset_registry",
+      "title": "Pinned Matbench dataset registry",
+      "url": "https://github.com/janosh/matbench-discovery/blob/58b3bd5b95c1165c5208150203007cea0031c64c/matbench_discovery/datasets.yml",
+      "retrieval_ref": null,
+      "supports": "Training sets, corpus sizes, explicit MPtrj/WBM prototype overlap and data licenses."
+    },
+    {
+      "id": "wbm_data_terms",
+      "title": "Matbench Discovery Data Files version42",
+      "url": "https://api.figshare.com/v2/articles/22715158/versions/42",
+      "retrieval_ref": null,
+      "supports": "CC BY4.0 metadata and file IDs/checksums retrieved through official API."
+    },
+    {
+      "id": "prediction_terms",
+      "title": "Matbench Discovery Model Predictions for Discovery version31",
+      "url": "https://api.figshare.com/v2/articles/28187990/versions/31",
+      "retrieval_ref": null,
+      "supports": "CC BY4.0 metadata; confirms three chosen prediction files belong to this article."
+    },
+    {
+      "id": "chgnet_card",
+      "title": "CHGNet0.3.0 benchmark model card",
+      "url": "https://github.com/janosh/matbench-discovery/blob/58b3bd5b95c1165c5208150203007cea0031c64c/models/chgnet/chgnet-0.3.0.yml",
+      "retrieval_ref": null,
+      "supports": "Checkpoint, evaluation optimizer, MPtrj snapshot, correction convention, prediction byte digest."
+    },
+    {
+      "id": "mace_card",
+      "title": "MACE-MP0 medium benchmark model card",
+      "url": "https://github.com/janosh/matbench-discovery/blob/58b3bd5b95c1165c5208150203007cea0031c64c/models/mace/mace-mp-0.yml",
+      "retrieval_ref": null,
+      "supports": "Medium checkpoint and prediction version, MPtrj training, FIRE relaxation settings."
+    },
+    {
+      "id": "m3gnet_card",
+      "title": "M3GNet benchmark model card",
+      "url": "https://github.com/janosh/matbench-discovery/blob/58b3bd5b95c1165c5208150203007cea0031c64c/models/m3gnet/m3gnet.yml",
+      "retrieval_ref": null,
+      "supports": "MPF training, historic version, published prediction digest; checkpoint license discrepancy flagged."
+    },
+    {
+      "id": "mace_foundations",
+      "title": "Official MACE foundation models",
+      "url": "https://github.com/ACEsuit/mace-foundations",
+      "retrieval_ref": "turn605537734view3",
+      "supports": "MACE-MP0 MIT model licensing, training sets and levels of theory."
+    },
+    {
+      "id": "mace_off",
+      "title": "Official MACE-OFF repository",
+      "url": "https://github.com/ACEsuit/mace-off/blob/main/README.md",
+      "retrieval_ref": "turn608832018view2",
+      "supports": "Academic Software License; commercial use not permitted for these model weights."
+    },
+    {
+      "id": "rmd17",
+      "title": "Original-author rMD17 NPZ repository",
+      "url": "https://github.com/andersx/rmd17-npz",
+      "retrieval_ref": "turn605537734view0",
+      "supports": "CC0, units, tight PBE/def2-SVP labels, 1000-frame train/test splits, time dependence."
+    },
+    {
+      "id": "rmd17_terms",
+      "title": "Revised MD17 dataset version4",
+      "url": "https://api.figshare.com/v2/articles/12672038/versions/4",
+      "retrieval_ref": null,
+      "supports": "CC0 official metadata and original label files."
+    },
+    {
+      "id": "correction_change",
+      "title": "Matbench issue358",
+      "url": "https://github.com/janosh/matbench-discovery/issues/358",
+      "retrieval_ref": "turn733656228view0",
+      "supports": "Changing library versions changes correction assignments; exact artifact pin matters."
+    },
+    {
+      "id": "dpgen",
+      "title": "DP-GEN concurrent learning platform",
+      "url": "https://arxiv.org/abs/1910.12690",
+      "retrieval_ref": "turn845069979academia37",
+      "supports": "Existing active-learning incumbent for potential-energy-model generation."
+    },
+    {
+      "id": "flare",
+      "title": "On-the-fly active learning of interpretable Bayesian force fields",
+      "url": "https://www.nature.com/articles/s41524-020-0283-z",
+      "retrieval_ref": "turn845069979search12",
+      "supports": "Existing uncertainty-based DFT acquisition framework."
+    },
+    {
+      "id": "softening",
+      "title": "Systematic softening in universal machine learning interatomic potentials",
+      "url": "https://www.nature.com/articles/s41524-024-01500-6",
+      "retrieval_ref": "turn845069979search0",
+      "supports": "Primary evidence of common failure modes across M3GNet, CHGNet and MACE-MP0."
+    }
+  ],
+  "downloaded_source_files": [
+    {
+      "path": "data/decision_engine/source_metadata/12672038_metadata.json",
+      "size_bytes": 1073,
+      "sha256": "d478577cd2033dd32aa51d840a07c0b0718b1f48dcdfb41fb8e7957aa4e3df65",
+      "source_file_name": "12672038_metadata.json",
+      "source_capture_sha256": "13086e67ff301801014b58bba838ea5026baba61c0af63bd0b7586aab9a01337",
+      "source_capture_size_bytes": 14224,
+      "publication_transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "size_bytes": 12745632,
+      "sha256": "ff19e59d74115de9762fbc868c9f35900ae099c18f23e9c89d10589af1418225",
+      "source_file_name": "2023-12-13-wbm-summary.csv.gz",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 8378779,
+      "sha256": "f1d083a56cacb02cdcb556830f58216890f84503c6a19e1c53bf92939aaedb8e",
+      "source_file_name": "2025-02-01-mp-energies.csv.gz",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/22715158_metadata.json",
+      "size_bytes": 2324,
+      "sha256": "4d1af8f81f8b731450db07c2a6e6935f56ad56a5f55f01d17af8a02644d7c696",
+      "source_file_name": "22715158_metadata.json",
+      "source_capture_sha256": "b86c926ace712e0ddbc86cb39ecb52b79481c2410d274fade8413e694b2e7737",
+      "source_capture_size_bytes": 17599,
+      "publication_transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "size_bytes": 6976,
+      "sha256": "d27e61aadd6d4f00ef131d125b22e1609d6a02bb285a288fa4c3872341ad82f6",
+      "source_file_name": "23713842_metadata.json",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/28187990_metadata.json",
+      "size_bytes": 2046,
+      "sha256": "de179db93623be2777d262db984b3f7f305e90b09ac3e4d028bf19abc66edb4f",
+      "source_file_name": "28187990_metadata.json",
+      "source_capture_sha256": "5086d30b60f58e6bd0ae12e510b59b26debe004943d31b2fb87dc968254fff24",
+      "source_capture_size_bytes": 86594,
+      "publication_transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/chgnet-0.3.0.yml",
+      "size_bytes": 8595,
+      "sha256": "23e13562d2426e484b90addbf52e6c4de4f7135b5947ca3252ed170228cc305b",
+      "source_file_name": "chgnet-0.3.0.yml"
+    },
+    {
+      "size_bytes": 121575,
+      "sha256": "7633cb2902e906975ae02021e492559df71075f9d46225f27a584a7b24dcd9f3",
+      "source_file_name": "chgnet_yaml_commits.txt",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 23289,
+      "sha256": "8084be462138578cb79d1a6a843e73f907188017a04e1633f83b67bab20bb931",
+      "source_file_name": "compile_wbm_test_set.py",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/data-files.yml",
+      "size_bytes": 1322,
+      "sha256": "19aa11d02de6bb1569ed84be5694641cca2b1eb580ba576145f0087f79178e96",
+      "source_file_name": "data-files.yml",
+      "source_capture_sha256": "7df3ba90dae368757a93132da0c2c271216a648c32ae32824ae1cd1bdc44d55a",
+      "source_capture_size_bytes": 9513,
+      "publication_transformation": "Keep only three consumed public-source entries. Omit unrelated entries and the complete private-reference subtree."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/datasets.yml",
+      "size_bytes": 57447,
+      "sha256": "09c9fff8a9772ac86902d9ca19bdcf978c53b243effd70981ba0ea1e836bae2e",
+      "source_file_name": "datasets.yml"
+    },
+    {
+      "size_bytes": 31807,
+      "sha256": "99fced22f14967dbe35bdbbca1ed82afb9434bf06827a8187b2987249cbee2b9",
+      "source_file_name": "discovery.py",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 5198,
+      "sha256": "40a76cb56c62d038ee6d2319c6453b2ae96aeaf6ce784647bd5f108c9d57fa79",
+      "source_file_name": "energy.py",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 16122,
+      "sha256": "74c9b08f130eb655973be8f018af0ce23e05909be4f8c28a78186fc0d111a1c7",
+      "source_file_name": "figshare.py",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 787,
+      "sha256": "49995be3ddf91116dfaec7f80a5ef8bcf2c93dce2c2d8b0a585784d648edb346",
+      "source_file_name": "figshare_tasks.txt",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 6382,
+      "sha256": "1cd50a1218bbfed811e3aa867dae43e50887b2c21481546cd4e5fb828662c309",
+      "source_file_name": "issue358.txt",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "size_bytes": 2,
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "source_file_name": "issue358_comments.txt",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/m3gnet.yml",
+      "size_bytes": 7295,
+      "sha256": "d000e0f4bb8dddd947b9108c6375a51a144f6e5c1a80946338d7de3715d30b6e",
+      "source_file_name": "m3gnet.yml"
+    },
+    {
+      "path": "data/decision_engine/source_metadata/m3gnet_LICENSE.txt",
+      "size_bytes": 1529,
+      "sha256": "a1f95e08d7efe8e911aed04b891d51b90ba46291585f43939134806670ee2a38",
+      "source_file_name": "m3gnet_LICENSE.txt"
+    },
+    {
+      "path": "data/decision_engine/source_metadata/mace-mp-0.yml",
+      "size_bytes": 8120,
+      "sha256": "94cd6c618c79f1149d2eaa3c406820b61d4b489c6a8b46f65500c097a86362a3",
+      "source_file_name": "mace-mp-0.yml"
+    },
+    {
+      "size_bytes": 199456,
+      "sha256": "e261d8aa4152677455e9b4eae2871c14b0a7d054573123c3566f20b9847524f1",
+      "source_file_name": "mbd_git_tree.json",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/oxide_correction_audit.json",
+      "size_bytes": 534,
+      "sha256": "4d7ee33e9c1977b0b15c9bdc15c5cda4c93c783bdd2cb4beec919b21e875c1da",
+      "source_file_name": "oxide_correction_audit.json"
+    },
+    {
+      "size_bytes": 13127,
+      "sha256": "42b6d0ad03d204f9c0da6d381dc97f63735b655f47f2e8c92770849be9b5a733",
+      "source_file_name": "run_discovery.py",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/wbm-readme.md",
+      "size_bytes": 20483,
+      "sha256": "eed09003561d748d88a1e2a8afe1309330f20abeec2a7f0567beb184db9e2f83",
+      "source_file_name": "wbm-readme.md"
+    },
+    {
+      "size_bytes": 1695,
+      "sha256": "d254dc30ed97f95b58bc23a882f4782e569149bcfe8cce92a38ced71cc790db8",
+      "source_file_name": "wbm_materialscloud_readme.txt",
+      "publication_status": "Source capture recorded for reproducibility; file not bundled in this source release."
+    }
+  ],
+  "model_predictions": [
+    {
+      "model_key": "chgnet-0.3.0",
+      "version": "v0.3.0",
+      "checkpoint_url": "https://github.com/CederGroupHub/chgnet/raw/refs/heads/main/chgnet/pretrained/0.3.0/chgnet_0.3.0_e29f68s314m37.pth.tar",
+      "training_sets": [
+        "MPtrj"
+      ],
+      "license_manifest": {
+        "code": "BSD-3-Clause",
+        "code_url": "https://github.com/CederGroupHub/chgnet/blob/d55f185199f/LICENSE",
+        "checkpoint": "BSD-3-Clause",
+        "checkpoint_url": "https://github.com/CederGroupHub/chgnet/blob/d55f185199f/LICENSE"
+      },
+      "evaluation": {
+        "ase_optimizer": "FIRE",
+        "cell_filter": "FrechetCellFilter",
+        "max_steps": 500,
+        "max_force": 0.05,
+        "kappa": {
+          "protocol": "phonondb-v1",
+          "displacement_distance": 0.03
+        }
+      },
+      "predictions": {
+        "name": "models/chgnet/chgnet-0.3.0/2026-11-19-discovery.csv.gz",
+        "url": "https://figshare.com/files/71653801",
+        "size": 1322638,
+        "md5": "3944fdbf7d1b041aae6ea811011008cc"
+      }
+    },
+    {
+      "model_key": "mace-mp-0",
+      "version": "v0.3.5",
+      "checkpoint_url": "https://github.com/ACEsuit/mace-foundations/releases/download/mace_mp_0/2023-12-03-mace-128-L1_epoch-199.model",
+      "training_sets": [
+        "MPtrj"
+      ],
+      "license_manifest": {
+        "code": "MIT",
+        "code_url": "https://github.com/ACEsuit/mace/blob/b0fa4ef7c/LICENSE.md",
+        "checkpoint": "MIT",
+        "checkpoint_url": "https://github.com/ACEsuit/mace-foundations/blob/1ff8786eb/LICENSE"
+      },
+      "evaluation": {
+        "max_force": 0.05,
+        "max_steps": 500,
+        "ase_optimizer": "FIRE",
+        "cell_filter": "FrechetCellFilter",
+        "kappa": {
+          "protocol": "phonondb-v1",
+          "displacement_distance": 0.03
+        }
+      },
+      "predictions": {
+        "name": "models/mace/mace-mp-0/2026-11-19-discovery.csv.gz",
+        "url": "https://figshare.com/files/71653786",
+        "size": 1324336,
+        "md5": "3bfe7826a613684a92a7dd28643cac9f"
+      }
+    },
+    {
+      "model_key": "m3gnet",
+      "version": "v2022.9.20",
+      "checkpoint_url": "https://github.com/materialsvirtuallab/m3gnet/tree/3a8b14dfd5/pretrained/MP-2021.2.8-EFS",
+      "training_sets": [
+        "MPF"
+      ],
+      "license_manifest": {
+        "code": "BSD-3-Clause",
+        "code_url": "https://github.com/materialsvirtuallab/m3gnet/blob/3a8b14dfd59/LICENSE",
+        "checkpoint": "MIT",
+        "checkpoint_url": "https://github.com/materialsvirtuallab/m3gnet/blob/3a8b14dfd59/LICENSE"
+      },
+      "evaluation": {
+        "ase_optimizer": "FIRE",
+        "cell_filter": "ExpCellFilter",
+        "max_steps": 500,
+        "max_force": 0.05,
+        "kappa": {
+          "protocol": "phonondb-v1",
+          "displacement_distance": 0.03
+        }
+      },
+      "predictions": {
+        "name": "models/m3gnet/m3gnet/2026-11-19-discovery.csv.gz",
+        "url": "https://figshare.com/files/71653831",
+        "size": 1322251,
+        "md5": "b9bcef0e065876de910516b9a1f7a777"
+      }
+    }
+  ],
+  "physics_audit": {
+    "selection": "prequery_oxide_valence_rule",
+    "valences": {
+      "Li": 1,
+      "Na": 1,
+      "K": 1,
+      "Rb": 1,
+      "Cs": 1,
+      "Mg": 2,
+      "Ca": 2,
+      "Sr": 2,
+      "Ba": 2,
+      "Al": 3,
+      "Ga": 3,
+      "Sc": 3,
+      "Y": 3,
+      "B": 3,
+      "Si": 4,
+      "Ge": 4,
+      "Sn": 4,
+      "Ti": 4,
+      "Zr": 4,
+      "Hf": 4,
+      "O": -2
+    },
+    "n_rows": 597,
+    "n_compositions": 305,
+    "n_compositions_ge2": 110,
+    "n_corrections_changed": 0,
+    "n_variable_correction_compositions": 0,
+    "variable_compositions": {},
+    "changed_ids": []
+  },
+  "initial_geometry_audit": {
+    "schema_version": "erkidu.initial-geometry-audit.v1",
+    "source_url": "https://ndownloader.figshare.com/files/53161835",
+    "source_md5": "b809f101dd42a745ec2baabe7eb16f11",
+    "source_sha256": "98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58",
+    "source_size_bytes": 49537334,
+    "source_rows": 256963,
+    "selection_uses_reference_labels": false,
+    "eligible_rows": 597,
+    "eligible_compositions": 305,
+    "invalid_records": [],
+    "exact_duplicate_groups": [
+      [
+        "wbm-2-34348",
+        "wbm-3-51521"
+      ],
+      [
+        "wbm-2-35130",
+        "wbm-3-52723"
+      ],
+      [
+        "wbm-2-35217",
+        "wbm-3-52847"
+      ]
+    ],
+    "near_duplicate_candidate_pairs": [
+      {
+        "left": "wbm-1-37022",
+        "right": "wbm-1-37023",
+        "composition_key": "Ge1O2",
+        "pair_spectrum_rms_angstrom": 0.0001464395575858655,
+        "pair_spectrum_max_abs_angstrom": 0.00036289256613342147,
+        "relative_volume_difference": 0.00016708812959430802
+      },
+      {
+        "left": "wbm-1-39641",
+        "right": "wbm-1-39642",
+        "composition_key": "Ba1O3Si1",
+        "pair_spectrum_rms_angstrom": 0.007021364633590952,
+        "pair_spectrum_max_abs_angstrom": 0.025054686518279468,
+        "relative_volume_difference": 0.0005020609021632298
+      },
+      {
+        "left": "wbm-2-34348",
+        "right": "wbm-3-51521",
+        "composition_key": "Cs2O3Ti1",
+        "pair_spectrum_rms_angstrom": 0.0,
+        "pair_spectrum_max_abs_angstrom": 0.0,
+        "relative_volume_difference": 0.0
+      },
+      {
+        "left": "wbm-2-35217",
+        "right": "wbm-3-52847",
+        "composition_key": "O5Rb2Ti2",
+        "pair_spectrum_rms_angstrom": 0.0,
+        "pair_spectrum_max_abs_angstrom": 0.0,
+        "relative_volume_difference": 0.0
+      },
+      {
+        "left": "wbm-2-35130",
+        "right": "wbm-3-52723",
+        "composition_key": "K2O5Ti2",
+        "pair_spectrum_rms_angstrom": 0.0,
+        "pair_spectrum_max_abs_angstrom": 0.0,
+        "relative_volume_difference": 0.0
+      }
+    ],
+    "near_duplicate_method": "Species-pair periodic distance spectra; equal atom counts; relative volume<=0.001; RMS<=0.01A,max<=0.03A; images[-2,2]^3; screening diagnostic, not crystallographic identity proof",
+    "near_duplicate_policy": "Keep every same-composition candidate in one split; audit pair co-membership before execution",
+    "output_sha256": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b"
+  },
+  "initial_geometry_extractor": "erkidu/tools/prepare_wbm_geometries.py",
+  "initial_geometry_payload": "erkidu/data/decision_engine/initial_geometries.json.gz",
+  "publication_metadata": {
+    "date": "2026-11-28",
+    "manifest": "data/decision_engine/source_metadata/publication_manifest.json",
+    "note": "Four ancillary upstream metadata dumps are published as explicit public extracts. Source-capture and public-extract checksums are distinguished. Local cache paths are omitted from this registry. Scientific input/output seals are unchanged."
+  }
+}

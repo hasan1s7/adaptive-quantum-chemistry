@@ -1,0 +1,15 @@
+test_all_budgets_and_first_identities (test_erkidu_two_call.TwoCallTests.test_all_budgets_and_first_identities) ... ok
+test_development_scope_and_zero_live_jobs (test_erkidu_two_call.TwoCallTests.test_development_scope_and_zero_live_jobs) ... ok
+test_fallback_and_tie (test_erkidu_two_call.TwoCallTests.test_fallback_and_tie) ... ok
+test_graph_excludes_12_13 (test_erkidu_two_call.TwoCallTests.test_graph_excludes_12_13) ... ok
+test_input_integrity_protected (test_erkidu_two_call.TwoCallTests.test_input_integrity_protected) ... ok
+test_pairs_have_exactly_one_row_each (test_erkidu_two_call.TwoCallTests.test_pairs_have_exactly_one_row_each) ... ok
+test_plan_seal_reproducible_byte_for_byte (test_erkidu_two_call.TwoCallTests.test_plan_seal_reproducible_byte_for_byte) ... ok
+test_planning_cannot_require_reference_file (test_erkidu_two_call.TwoCallTests.test_planning_cannot_require_reference_file) ... ok
+test_rank_four_case_definition_not_implied_by_rank3_recoverability (test_erkidu_two_call.TwoCallTests.test_rank_four_case_definition_not_implied_by_rank3_recoverability) ... ok
+test_rotation_translation_invariant_contact_and_dihedral (test_erkidu_two_call.TwoCallTests.test_rotation_translation_invariant_contact_and_dihedral) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 3.570s
+
+OK

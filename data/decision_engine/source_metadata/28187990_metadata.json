@@ -1,0 +1,51 @@
+{
+  "id": 28187990,
+  "title": "Matbench Discovery - Model Predictions for Discovery",
+  "version": 31,
+  "doi": "10.6084/m9.figshare.28187990.v31",
+  "citation": "Riebesell, Janosh (2025). Matbench Discovery - Model Predictions for Discovery. figshare. Dataset. https://doi.org/10.6084/m9.figshare.28187990.v31",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url_public_api": "https://api.figshare.com/v2/articles/28187990",
+  "url_public_html": "https://figshare.com/articles/dataset/Matbench_Discovery_-_Model_Predictions_for_Discovery/28187990",
+  "published_date": "2026-11-19T15:01:36Z",
+  "authors": [
+    {
+      "full_name": "Janosh Riebesell",
+      "orcid_id": "0000-0001-5233-3462"
+    }
+  ],
+  "files": [
+    {
+      "id": 71653786,
+      "name": "2026-11-19-discovery.csv.gz",
+      "size": 1324336,
+      "download_url": "https://ndownloader.figshare.com/files/71653786",
+      "supplied_md5": "3bfe7826a613684a92a7dd28643cac9f",
+      "computed_md5": "3bfe7826a613684a92a7dd28643cac9f",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 71653801,
+      "name": "2026-11-19-discovery.csv.gz",
+      "size": 1322638,
+      "download_url": "https://ndownloader.figshare.com/files/71653801",
+      "supplied_md5": "3944fdbf7d1b041aae6ea811011008cc",
+      "computed_md5": "3944fdbf7d1b041aae6ea811011008cc",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 71653831,
+      "name": "2026-11-19-discovery.csv.gz",
+      "size": 1322251,
+      "download_url": "https://ndownloader.figshare.com/files/71653831",
+      "supplied_md5": "b9bcef0e065876de910516b9a1f7a777",
+      "computed_md5": "b9bcef0e065876de910516b9a1f7a777",
+      "mimetype": "application/gzip"
+    }
+  ],
+  "publication_scope": "Public article, licence and attribution fields; only files used by the oxide replay, geometry extraction or protocol audit are included. File names are normalized to basenames. Administrative fields and unrelated records are omitted."
+}

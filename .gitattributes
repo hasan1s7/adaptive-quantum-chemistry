@@ -5,3 +5,7 @@
 *.zip binary
 *.part* binary
 *.jsonl text eol=lf
+
+# Keep published scientific receipts byte-identical across checkout platforms.
+data/decision_engine/** -text
+results/decision_engine/** -text

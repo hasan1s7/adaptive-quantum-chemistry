@@ -1,0 +1,60 @@
+{
+  "id": 22715158,
+  "title": "Matbench Discovery - Data Files",
+  "version": 42,
+  "doi": "10.6084/m9.figshare.22715158.v42",
+  "citation": "Riebesell, Janosh (2023). Matbench Discovery - Data Files. figshare. Dataset. https://doi.org/10.6084/m9.figshare.22715158.v42",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "url_public_api": "https://api.figshare.com/v2/articles/22715158",
+  "url_public_html": "https://figshare.com/articles/dataset/Matbench_Discovery_v1_0_0/22715158",
+  "published_date": "2026-11-19T15:01:55Z",
+  "authors": [
+    {
+      "full_name": "Janosh Riebesell",
+      "orcid_id": "0000-0001-5233-3462"
+    }
+  ],
+  "files": [
+    {
+      "id": 44225498,
+      "name": "2023-12-13-wbm-summary.csv.gz",
+      "size": 12745632,
+      "download_url": "https://ndownloader.figshare.com/files/44225498",
+      "supplied_md5": "fb23d85dab61fab001b92cb0ac4f8f3d",
+      "computed_md5": "fb23d85dab61fab001b92cb0ac4f8f3d",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 52080797,
+      "name": "2025-02-01-mp-energies.csv.gz",
+      "size": 8378779,
+      "download_url": "https://ndownloader.figshare.com/files/52080797",
+      "supplied_md5": "7eb0c49fc169ba92783f2f6d0d19d741",
+      "computed_md5": "7eb0c49fc169ba92783f2f6d0d19d741",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 53161835,
+      "name": "2022-10-19-wbm-init-structs.jsonl.gz",
+      "size": 49537334,
+      "download_url": "https://ndownloader.figshare.com/files/53161835",
+      "supplied_md5": "b809f101dd42a745ec2baabe7eb16f11",
+      "computed_md5": "b809f101dd42a745ec2baabe7eb16f11",
+      "mimetype": "application/gzip"
+    },
+    {
+      "id": 71653870,
+      "name": "2026-11-19-wbm-summary.csv.gz",
+      "size": 12739717,
+      "download_url": "https://ndownloader.figshare.com/files/71653870",
+      "supplied_md5": "e63906af07b0408ee3eaa7028aa02d27",
+      "computed_md5": "e63906af07b0408ee3eaa7028aa02d27",
+      "mimetype": "application/gzip"
+    }
+  ],
+  "publication_scope": "Public article, licence and attribution fields; only files used by the oxide replay, geometry extraction or protocol audit are included. File names are normalized to basenames. Administrative fields and unrelated records are omitted."
+}

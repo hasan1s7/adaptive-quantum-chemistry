@@ -1,0 +1,109 @@
+{
+  "all_retained_geometries_initial_before_DFT": true,
+  "cross_split_exact_or_known_near_pairs": 0,
+  "evidence_class": "executed_inspection",
+  "geometry_sha256": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b",
+  "known_near_pairs_checked": [
+    {
+      "composition_key": "Ge1O2",
+      "left": "wbm-1-37022",
+      "membership": {
+        "wbm-1-37022": {
+          "retained": true,
+          "split": "train"
+        },
+        "wbm-1-37023": {
+          "retained": true,
+          "split": "train"
+        }
+      },
+      "pair_spectrum_max_abs_angstrom": 0.00036289256613342147,
+      "pair_spectrum_rms_angstrom": 0.0001464395575858655,
+      "relative_volume_difference": 0.00016708812959430802,
+      "right": "wbm-1-37023"
+    },
+    {
+      "composition_key": "Ba1O3Si1",
+      "left": "wbm-1-39641",
+      "membership": {
+        "wbm-1-39641": {
+          "retained": true,
+          "split": "calibration"
+        },
+        "wbm-1-39642": {
+          "retained": false,
+          "split": null
+        }
+      },
+      "pair_spectrum_max_abs_angstrom": 0.025054686518279468,
+      "pair_spectrum_rms_angstrom": 0.007021364633590952,
+      "relative_volume_difference": 0.0005020609021632298,
+      "right": "wbm-1-39642"
+    },
+    {
+      "composition_key": "Cs2O3Ti1",
+      "left": "wbm-2-34348",
+      "membership": {
+        "wbm-2-34348": {
+          "retained": true,
+          "split": "calibration"
+        },
+        "wbm-3-51521": {
+          "retained": false,
+          "split": null
+        }
+      },
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "pair_spectrum_rms_angstrom": 0.0,
+      "relative_volume_difference": 0.0,
+      "right": "wbm-3-51521"
+    },
+    {
+      "composition_key": "O5Rb2Ti2",
+      "left": "wbm-2-35217",
+      "membership": {
+        "wbm-2-35217": {
+          "retained": false,
+          "split": null
+        },
+        "wbm-3-52847": {
+          "retained": false,
+          "split": null
+        }
+      },
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "pair_spectrum_rms_angstrom": 0.0,
+      "relative_volume_difference": 0.0,
+      "right": "wbm-3-52847"
+    },
+    {
+      "composition_key": "K2O5Ti2",
+      "left": "wbm-2-35130",
+      "membership": {
+        "wbm-2-35130": {
+          "retained": false,
+          "split": null
+        },
+        "wbm-3-52723": {
+          "retained": false,
+          "split": null
+        }
+      },
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "pair_spectrum_rms_angstrom": 0.0,
+      "relative_volume_difference": 0.0,
+      "right": "wbm-3-52723"
+    }
+  ],
+  "limits": [
+    "Recorded pair-spectrum screen is not a proof of crystallographic identity or exhaustive near-duplicate detection",
+    "Shared abstract prototypes across distinct compositions remain a source of correlation",
+    "Source charge is not verified charge/spin metadata; formal oxide screening is not an independent electronic-structure audit",
+    "No model relaxation or reference calculation was executed"
+  ],
+  "near_pair_method": "Species-pair periodic distance spectra; equal atom counts; relative volume<=0.001; RMS<=0.01A,max<=0.03A; images[-2,2]^3; screening diagnostic, not crystallographic identity proof",
+  "retained_exact_duplicate_groups": [],
+  "retained_structures_checked": 367,
+  "schema": "erkidu-independent-geometry-split-audit/v1",
+  "status": "passed"
+}

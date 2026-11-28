@@ -1,0 +1,2138 @@
+{
+  "comparisons_to_fixed_top_two": [
+    {
+      "arm": "calibrated_interval",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.1333333333333333,
+      "delta_mean_regret_eV_atom": -0.006258133333333323,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.005521882352941167,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "chgnet_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 0.0007695333333333386,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0003847666666666693,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "conservative_ood",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.1333333333333333,
+      "delta_mean_regret_eV_atom": -0.006258133333333323,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.005521882352941167,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "constant_interval",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.4,
+      "delta_mean_regret_eV_atom": -1.966666666660191e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 1.4047619047572796e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00032043333333334374,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": -0.006259233333333328,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": 0.003129616666666664,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -0.006260866666666668,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.009885578947368424,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.006261666666666662,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.006059677419354835,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00032043333333334374,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": -0.0059387999999999845,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": 0.0029693999999999923,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -0.006255666666666667,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.009877368421052633,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.006257633333333327,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.006055774193548382,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "diversity",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00032043333333334374,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "diversity",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": -0.0059387999999999845,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "diversity",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -0.006255299999999993,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0098767894736842,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "diversity",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.006261666666666662,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.006059677419354835,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "ensemble_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 0.00038016666666667795,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00019008333333333897,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00032043333333334374,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -1.4333333333265558e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 2.2631578947261407e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.006260666666666655,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.006058709677419344,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "full_ref",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.6666666666666665,
+      "delta_mean_regret_eV_atom": -0.0062621999999999955,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0037573199999999976,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "gap_threshold",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.3666666666666667,
+      "delta_mean_regret_eV_atom": -1.966666666660191e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 1.4390243902391643e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "m3gnet_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": -0.00569343333333332,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.00284671666666666,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "mlip_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00016021666666667187,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "random",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.03599879999999997,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.03599879999999997,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "random",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": -0.0007288333333333123,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": -0.0007288333333333123,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "random",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -0.0034057000000000154,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.005377421052631603,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "random",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.005070933333333335,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.004907354838709679,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.00032043333333334374,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.00032043333333334374,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": -0.0059387999999999845,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": 0.0029693999999999923,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.6333333333333333,
+      "delta_mean_regret_eV_atom": -0.006255666666666667,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.009877368421052633,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 1.0333333333333332,
+      "delta_mean_regret_eV_atom": -0.006255666666666667,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.006053870967741936,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "test"
+    },
+    {
+      "arm": "calibrated_interval",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -0.5,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "chgnet_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 4.789999999998962e-05,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 2.394999999999481e-05,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "conservative_ood",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -0.3999999999999999,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "constant_interval",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -0.19999999999999996,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 9.799999999993147e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": -0.0,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "decision_aware",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 9.799999999993147e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": -0.0,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "disagreement",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "diversity",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 9.799999999993147e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "diversity",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "diversity",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "diversity",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "ensemble_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 3.809999999999647e-05,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 1.9049999999998234e-05,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 9.799999999993147e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "fixed_top",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "full_ref",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "gap_threshold",
+      "budget": 999,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -0.19999999999999996,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "m3gnet_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 3.809999999999647e-05,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 1.9049999999998234e-05,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "mlip_only",
+      "budget": 0,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -2.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 0,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 4.8999999999965734e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "random",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 0.012864299999999985,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 0.012864299999999985,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "random",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.001784600000000003,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": 0.001784600000000003,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "random",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "random",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": -1,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 1,
+      "candidate_favored_when": "lambda_ref above threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": -1.0,
+      "delta_mean_regret_eV_atom": 9.799999999993147e-06,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": false,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": 9.799999999993147e-06,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 2,
+      "candidate_favored_when": "reference price cancels at equal label count",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.0,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": -0.0,
+      "lambda_break_even_at_zero_mlip_penalty": null,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 3,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    },
+    {
+      "arm": "uncertainty",
+      "budget": 4,
+      "candidate_favored_when": "lambda_ref below threshold",
+      "comparison_rule": "candidate favored iff delta_regret + lambda_ref*delta_calls + eta_mlip*delta_passes < 0",
+      "delta_mean_calls": 0.20000000000000018,
+      "delta_mean_regret_eV_atom": 0.0,
+      "delta_model_passes": 2,
+      "dominated_for_all_nonnegative_cost_weights": true,
+      "eta_break_even_at_equal_reference_count": null,
+      "lambda_break_even_at_zero_mlip_penalty": -0.0,
+      "reference_arm": "fixed_top",
+      "reference_budget": 2,
+      "split": "shift_li"
+    }
+  ],
+  "decision_aware_vs_frozen_m3gnet": [
+    {
+      "adaptive_successes": 30,
+      "condition": "EI favors the mean-regret objective only if lambda_ref*extra_labels + eta_mlip*2 < -delta_regret",
+      "delta_mean_regret_eV_atom": -0.0005658000000000089,
+      "extra_mean_reference_labels": 2.0,
+      "extra_model_passes": 2,
+      "frozen_m3gnet_successes": 30,
+      "lambda_break_even_at_zero_model_overhead": 0.00028290000000000444,
+      "n_pools": 30,
+      "qualification": "No extra threshold successes; sub-near-tie numerical differences do not establish physical or commercial value.",
+      "split": "test",
+      "tolerance_eV_atom": 0.02
+    },
+    {
+      "adaptive_successes": 10,
+      "condition": "EI favors the mean-regret objective only if lambda_ref*extra_labels + eta_mlip*2 < -delta_regret",
+      "delta_mean_regret_eV_atom": -3.809999999999647e-05,
+      "extra_mean_reference_labels": 2.0,
+      "extra_model_passes": 2,
+      "frozen_m3gnet_successes": 10,
+      "lambda_break_even_at_zero_model_overhead": 1.9049999999998234e-05,
+      "n_pools": 10,
+      "qualification": "No extra threshold successes; sub-near-tie numerical differences do not establish physical or commercial value.",
+      "split": "shift_li",
+      "tolerance_eV_atom": 0.02
+    }
+  ],
+  "eta_mlip_unit": "eV/atom regret-equivalent penalty per model inference pass per pool",
+  "evidence_kind": "hypothetical_cost_scenarios_on_executed_replay",
+  "grid": [
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 2.296666666666686e-05,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 2.966666666666858e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 2.596666666666686e-05,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 2.966666666666858e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 3.6666666666666666e-05,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 3.6666666666666666e-05,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 3.6666666666666666e-05,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00020296666666666687,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 2.966666666666858e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00020596666666666686,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 2.966666666666858e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00036666666666666667,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00036666666666666667,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00036666666666666667,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0005687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0005697666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0006687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0015687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0036666666666666666,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 3.6666666666666665,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.0005687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.0005697666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.0006687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.0015687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.010568766666666675,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.0005687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.0005697666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.0006687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.0015687666666666757,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.010568766666666675,
+      "split": "test",
+      "tied_winners": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 0.0005687666666666757
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "calibrated_interval",
+          "budget": 999,
+          "mean_calls": 1.5,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "conservative_ood",
+          "budget": 999,
+          "mean_calls": 1.6,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "constant_interval",
+          "budget": 999,
+          "mean_calls": 1.8,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "disagreement",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "disagreement",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "disagreement",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "diversity",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "diversity",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "diversity",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "gap_threshold",
+          "budget": 999,
+          "mean_calls": 1.8,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "uncertainty",
+          "budget": 2,
+          "mean_calls": 2.0,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "uncertainty",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "uncertainty",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.0,
+      "minimum_objective_eV_atom": 0.0,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 9.799999999993147e-06,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 1.0799999999993147e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 2.2000000000000003e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 2.2000000000000003e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 1e-05,
+      "minimum_objective_eV_atom": 2.2000000000000003e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 9.799999999993147e-06,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 1.0799999999993147e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00010979999999999316,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00022000000000000003,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.0001,
+      "minimum_objective_eV_atom": 0.00022000000000000003,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 9.799999999993147e-06,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 1.0799999999993147e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.00010979999999999316,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0010097999999999932,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.001,
+      "minimum_objective_eV_atom": 0.0022,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "full_ref",
+          "budget": 999,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 3,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        },
+        {
+          "arm": "random",
+          "budget": 4,
+          "mean_calls": 2.2,
+          "mean_regret_eV_atom": 0.0
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 9.799999999993147e-06,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 1.0799999999993147e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.00010979999999999316,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.0010097999999999932,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.01,
+      "minimum_objective_eV_atom": 0.010009799999999994,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 9.799999999993147e-06,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 1e-06,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 1.0799999999993147e-05,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.0001,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.00010979999999999316,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.001,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.0010097999999999932,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    },
+    {
+      "eta_mlip": 0.01,
+      "lambda_ref": 0.1,
+      "minimum_objective_eV_atom": 0.010009799999999994,
+      "split": "shift_li",
+      "tied_winners": [
+        {
+          "arm": "mlip_only",
+          "budget": 0,
+          "mean_calls": 0.0,
+          "mean_regret_eV_atom": 9.799999999993147e-06
+        }
+      ]
+    }
+  ],
+  "lambda_ref_unit": "eV/atom regret-equivalent penalty per reference-relaxation label attempt",
+  "limits": [
+    "No live DFT or MLIP runtime was measured; weights are not prices or demonstrated savings.",
+    "One model pass means producing predictions for a complete candidate pool, not one atom or structure.",
+    "Descriptor, calibration, integration, and batch scheduling costs are omitted from this scenario.",
+    "Abstaining arms are excluded from scalar risk comparison because no abstention penalty was specified.",
+    "Results use point estimates; uncertainty does not disappear at a scenario break-even."
+  ],
+  "model_pass_assumption": {
+    "calibrated_interval": 3,
+    "chgnet_only": 1,
+    "conservative_ood": 3,
+    "constant_interval": 1,
+    "decision_aware": 3,
+    "disagreement": 3,
+    "diversity": 1,
+    "ensemble_only": 3,
+    "fixed_top": 1,
+    "full_ref": 0,
+    "gap_threshold": 1,
+    "m3gnet_only": 1,
+    "mlip_only": 1,
+    "random": 0,
+    "uncertainty": 3
+  },
+  "objective": "mean_regret_eV_atom + lambda_ref*mean_reference_label_attempts + eta_mlip*model_passes"
+}

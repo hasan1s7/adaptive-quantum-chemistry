@@ -1,0 +1,23 @@
+{
+  "baseline_candidates": 5,
+  "candidate_records_file": "generation/candidate_records.jsonl",
+  "equal_cost_scope": "five geometry-validation attempts per arm; proposal overhead measured separately, no equal physical-cost superiority claim",
+  "evidence_class": "executed_geometry_only_prototype",
+  "generated_candidates": 5,
+  "generated_candidates_awaiting_physical_validation": 3,
+  "generated_duplicate_or_near_duplicate_rate": 0.4,
+  "generation_steps": 5,
+  "geometry_validation_attempts": 10,
+  "independent_DFT_validation": false,
+  "mlip_relaxations": 0,
+  "novel_materials_rate": null,
+  "old_proposed_status": "generation/history/generation_status.json",
+  "physical_improvement": null,
+  "reason": "Bounded initial-cell strain and fractional jitter executed; no model energies, forces, relaxations or DFT. Three geometric proposals pass this limited duplicate screen, which does not establish distinct relaxed basins or useful physical properties.",
+  "reference_jobs_attempted": 0,
+  "reference_jobs_completed": 0,
+  "reference_jobs_failed": 0,
+  "runtime_receipt": "generation/runtime_receipt.json",
+  "schema": "erkidu-generation-gate/v2",
+  "status": "geometry_prototype_executed_physical_validation_blocked"
+}

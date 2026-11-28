@@ -1,0 +1,5 @@
+# Python 3.12.14. No GPU, quantum code, or paid API is needed for labeled replay.
+numpy==2.3.5
+scipy==1.17.0
+pandas==2.2.3
+matplotlib==3.10.8

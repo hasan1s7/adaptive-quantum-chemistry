@@ -1,0 +1,26 @@
+{
+  "id": 12672038,
+  "title": "Revised MD17 dataset (rMD17)",
+  "version": 4,
+  "doi": "10.6084/m9.figshare.12672038.v4",
+  "citation": "Christensen, Anders S.; Von lilienfeld, Anatole (2020). Revised MD17 dataset (rMD17). figshare. Dataset. https://doi.org/10.6084/m9.figshare.12672038.v4",
+  "license": {
+    "value": 2,
+    "name": "CC0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "url_public_api": "https://api.figshare.com/v2/articles/12672038",
+  "url_public_html": "https://figshare.com/articles/dataset/Revised_MD17_dataset_rMD17_/12672038",
+  "published_date": "2026-02-28T16:12:06Z",
+  "authors": [
+    {
+      "full_name": "Anders S. Christensen",
+      "orcid_id": "0000-0002-7253-6897"
+    },
+    {
+      "full_name": "Anatole Von lilienfeld"
+    }
+  ],
+  "files": [],
+  "publication_scope": "Public article, licence and attribution fields; only files used by the oxide replay, geometry extraction or protocol audit are included. File names are normalized to basenames. Administrative fields and unrelated records are omitted."
+}

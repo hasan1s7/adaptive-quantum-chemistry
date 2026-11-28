@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "audited_tree_before_receipt": "03d320a61481e0c5c8c093830d969aa4be69ba6b",
+  "changed_text_and_gzip_files_scanned": 162,
+  "excluded_sensitive_strings_checked": 38,
+  "findings": [],
+  "sensitive_values_recorded_in_receipt": false
+}

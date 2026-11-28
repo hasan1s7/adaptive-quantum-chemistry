@@ -1,0 +1,37 @@
+{
+  "arms": {
+    "bounded_proposals": {
+      "awaiting_physical_validation": 3,
+      "duplicate_or_near_duplicate_rate": 0.4,
+      "exact_reference_duplicates": 0,
+      "geometry_invalid": 0,
+      "geometry_valid": 5,
+      "geometry_validation_attempts": 5,
+      "mlip_relaxations": 0,
+      "reference_jobs": 0,
+      "screened_near_reference_duplicates": 2
+    },
+    "non_generative_inputs": {
+      "awaiting_physical_validation": 0,
+      "duplicate_or_near_duplicate_rate": 1.0,
+      "exact_reference_duplicates": 5,
+      "geometry_invalid": 0,
+      "geometry_valid": 5,
+      "geometry_validation_attempts": 5,
+      "mlip_relaxations": 0,
+      "reference_jobs": 0,
+      "screened_near_reference_duplicates": 0
+    }
+  },
+  "dft_jobs_attempted": 0,
+  "dft_jobs_completed": 0,
+  "energies_or_forces_evaluated": 0,
+  "evidence_class": "executed_geometry_only_prototype",
+  "mlip_relaxations": 0,
+  "no_synthesis_or_application_performance_claim": true,
+  "novel_materials_discovered": null,
+  "physical_improvement": null,
+  "schema": "erkidu-bounded-oxide-generation/v1",
+  "status": "geometry_prototype_executed_physical_validation_blocked",
+  "undefined_reason": "geometry difference does not establish a distinct relaxed basin or a favorable physical property"
+}

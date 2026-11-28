@@ -1,0 +1,58 @@
+{
+  "adaptive_promoted": false,
+  "evidence_kind": "executed_development_replay",
+  "generation": "blocked pending trustworthy fixed-pool endpoint and compatible fresh reference validation",
+  "primary_endpoint": "regret at exactly two references per composition",
+  "primary_pairs": [
+    {
+      "arm": "decision_aware",
+      "baseline": "fixed_top",
+      "both_fail": 0,
+      "both_success": 29,
+      "budget": 2,
+      "harms": 0,
+      "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+      "mean_regret_delta_eV_atom": -0.006259233333333328,
+      "mean_success_delta": 0.03333333333333333,
+      "n_groups": 26,
+      "n_pools": 30,
+      "regret_delta_ci95_eV_atom": [
+        -0.02011896428571427,
+        0.0
+      ],
+      "rescues": 1,
+      "same_total_budget": true,
+      "split": "test",
+      "success_delta_ci95": [
+        0.0,
+        0.10714285714285714
+      ]
+    },
+    {
+      "arm": "decision_aware",
+      "baseline": "fixed_top",
+      "both_fail": 0,
+      "both_success": 10,
+      "budget": 2,
+      "harms": 0,
+      "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+      "mean_regret_delta_eV_atom": 0.0,
+      "mean_success_delta": 0.0,
+      "n_groups": 10,
+      "n_pools": 10,
+      "regret_delta_ci95_eV_atom": [
+        0.0,
+        0.0
+      ],
+      "rescues": 0,
+      "same_total_budget": true,
+      "split": "shift_li",
+      "success_delta_ci95": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "promotion_gate": "retain fixed top-two unless both test and shift show no higher mean regret, no extra threshold harms, and independent fresh validation succeeds",
+  "reason": "This experiment is a public benchmark replay with small chemistry-disjoint test groups, not independent customer validation."
+}

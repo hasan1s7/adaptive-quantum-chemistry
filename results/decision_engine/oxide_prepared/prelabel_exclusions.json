@@ -1,0 +1,1034 @@
+[
+  {
+    "candidate_id": "wbm-1-37049",
+    "key": [
+      "Hf1O2",
+      "AB2_tP6_136_a_f:Hf-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-37974",
+    "key": [
+      "O2Zr1",
+      "A2B_tP6_136_f_a:O-Zr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-39642",
+    "key": [
+      "Ba1O3Si1",
+      "AB3C_oI20_74_e_eg_a:Ba-O-Si"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-43817",
+    "key": [
+      "Ba1O1",
+      "AB_cF8_225_a_b:Ba-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-43902",
+    "key": [
+      "Ca1O1",
+      "AB_cF8_225_a_b:Ca-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-44405",
+    "key": [
+      "Mg1O1",
+      "AB_cF8_225_a_b:Mg-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-44696",
+    "key": [
+      "O1Sr1",
+      "AB_cF8_225_a_b:O-Sr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-2-34347",
+    "key": [
+      "Ba1O3Ti1",
+      "AB3C_oI20_74_e_eg_a:Ba-O-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-2-35217",
+    "key": [
+      "O5Rb2Ti2",
+      "A5B2C2_mC18_12_a2i_i_i:O-Rb-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-36314",
+    "key": [
+      "Ca1Ge1Li2O4",
+      "ABC2D4_oF32_42_a_a_b_cd:Ca-Ge-Li-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-36342",
+    "key": [
+      "Ge1Li2O4Sr1",
+      "AB2C4D_oF32_42_a_b_cd_a:Ge-Li-O-Sr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-37193",
+    "key": [
+      "K1Li1Mg1O2",
+      "ABCD2_mC20_12_i_i_i_2i:K-Li-Mg-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-50162",
+    "key": [
+      "Al1Cs1O2",
+      "ABC2_oC16_63_c_c_f:Al-Cs-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-50762",
+    "key": [
+      "Ba1Hf1O3",
+      "ABC3_cP5_221_a_b_c:Ba-Hf-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-50774",
+    "key": [
+      "Ca1Hf1O3",
+      "ABC3_oI20_74_e_a_eg:Ca-Hf-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51309",
+    "key": [
+      "Hf1O3Rb2",
+      "AB3C2_mC24_12_g_ij_adh:Hf-O-Rb"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51310",
+    "key": [
+      "Hf1O3Rb2",
+      "AB3C2_mC24_12_g_ij_adh:Hf-O-Rb"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51335",
+    "key": [
+      "O3Rb2Zr1",
+      "A3B2C_mC24_12_ij_adg_h:O-Rb-Zr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51336",
+    "key": [
+      "O3Rb2Zr1",
+      "A3B2C_mC24_12_ij_adg_h:O-Rb-Zr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51519",
+    "key": [
+      "Ba1O3Ti1",
+      "AB3C_cP5_221_a_c_b:Ba-O-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51521",
+    "key": [
+      "Cs2O3Ti1",
+      "A2B3C_oC24_36_b_ab_a:Cs-O-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51583",
+    "key": [
+      "O3Y2",
+      "A3B2_oI20_74_eg_ae:O-Y"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-51654",
+    "key": [
+      "Ba1O3Zr1",
+      "AB3C_tI20_140_b_ah_c:Ba-O-Zr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-52686",
+    "key": [
+      "Cs2Hf2O5",
+      "A2B2C5_mC18_12_i_i_a2i:Cs-Hf-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-52723",
+    "key": [
+      "K2O5Ti2",
+      "A2B5C2_mC18_12_i_a2i_i:K-O-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-52847",
+    "key": [
+      "O5Rb2Ti2",
+      "A5B2C2_mC18_12_a2i_i_i:O-Rb-Ti"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-3-52884",
+    "key": [
+      "Cs2O5Zr2",
+      "A2B5C2_mC18_12_i_a2i_i:Cs-O-Zr"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-4-18478",
+    "key": [
+      "Cs1Li1Mg1O2",
+      "ABCD2_mC20_12_i_i_i_2i:Cs-Li-Mg-O"
+    ],
+    "reason": "same_composition_initial_prototype"
+  },
+  {
+    "candidate_id": "wbm-1-23853",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-23873",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-23875",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-24337",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-24339",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-24341",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-24635",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-25718",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-25757",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-25777",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-25978",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37088",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37262",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37292",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37361",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37607",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37700",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-37906",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-38022",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-38044",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-38092",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-38815",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-38914",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39005",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39053",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39065",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39163",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39176",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39177",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39199",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39214",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39218",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39220",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39233",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39235",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39245",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39246",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39267",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39429",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39529",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39659",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39667",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39675",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-39712",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40357",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40360",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40361",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40362",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40402",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40680",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40692",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40710",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40723",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40802",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40809",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40828",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40839",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-40930",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41269",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41277",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41291",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41344",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41398",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41638",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41668",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41786",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41799",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41835",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41882",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41900",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-41905",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42165",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42167",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42283",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42422",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42532",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-42887",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43063",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43065",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43067",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43079",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43096",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43099",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43102",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43154",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43327",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43328",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43333",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43337",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43342",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43350",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43362",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43370",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43391",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43399",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43421",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43427",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43446",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43454",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43742",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43743",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43761",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43763",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4377",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4378",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4379",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4380",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43816",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4383",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4384",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-43901",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4395",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4397",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4402",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4406",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4410",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4413",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4414",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4422",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4424",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4425",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4426",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4430",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4433",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4438",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4439",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4440",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4444",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-44448",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-4445",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-44563",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-44695",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5205",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5206",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5230",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5236",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5243",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5244",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5249",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5264",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5297",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-1-5298",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-23805",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-23857",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-33634",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-34831",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-35130",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-35149",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-35151",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-35702",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36314",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36323",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36324",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36357",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36358",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36470",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36473",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36495",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36547",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-36549",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5140",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5147",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5156",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5204",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5215",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5240",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-5241",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-6337",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-6339",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-6340",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-2-6344",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-36313",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-36357",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-36358",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-37192",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-50573",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-51463",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-52188",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-52653",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-55348",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-55635",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-55704",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-55711",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-55999",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-56009",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-56052",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-56067",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7785",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7852",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7870",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7938",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7956",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-7971",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-8002",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-9578",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-3-9583",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-27690",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-27704",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-28079",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-28086",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-3772",
+    "reason": "singleton_after_prequery_dedup"
+  },
+  {
+    "candidate_id": "wbm-4-3904",
+    "reason": "singleton_after_prequery_dedup"
+  }
+]

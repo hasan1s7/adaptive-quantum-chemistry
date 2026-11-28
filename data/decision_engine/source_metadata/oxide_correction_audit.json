@@ -1,0 +1,33 @@
+{
+  "selection": "prequery_oxide_valence_rule",
+  "valences": {
+    "Li": 1,
+    "Na": 1,
+    "K": 1,
+    "Rb": 1,
+    "Cs": 1,
+    "Mg": 2,
+    "Ca": 2,
+    "Sr": 2,
+    "Ba": 2,
+    "Al": 3,
+    "Ga": 3,
+    "Sc": 3,
+    "Y": 3,
+    "B": 3,
+    "Si": 4,
+    "Ge": 4,
+    "Sn": 4,
+    "Ti": 4,
+    "Zr": 4,
+    "Hf": 4,
+    "O": -2
+  },
+  "n_rows": 597,
+  "n_compositions": 305,
+  "n_compositions_ge2": 110,
+  "n_corrections_changed": 0,
+  "n_variable_correction_compositions": 0,
+  "variable_compositions": {},
+  "changed_ids": []
+}

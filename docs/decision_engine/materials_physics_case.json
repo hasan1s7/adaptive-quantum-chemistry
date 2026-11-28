@@ -1,0 +1,684 @@
+{
+  "schema_version": "erkidu.materials-physics-case.v1",
+  "evidence_kind": "executed_labeled_replay",
+  "live_dft_jobs": 0,
+  "case_id": "sno2_relaxed_ranking_and_shared_blindspot",
+  "original_split": "test",
+  "status_after_this_review": "examined_development_failure_case",
+  "pool_id": "O2Sn1",
+  "chemical_system": "O-Sn",
+  "endpoint_tolerance_meV_atom": 20.0,
+  "geometry_note": "Predictions are separate model-relaxed endpoints; reference is whole DFT relaxation from each initial input",
+  "records": [
+    {
+      "candidate_id": "wbm-1-37760",
+      "initial_prototype": "A2B_hP9_152_c_a:O-Sn",
+      "final_dft_prototype_evaluation_only": "A2B_mC18_5_3c_ac:O-Sn",
+      "initial_n_atoms": 9,
+      "initial_lattice_angstrom": [
+        [
+          5.08836005,
+          0.0,
+          3.115721924e-16
+        ],
+        [
+          -2.5441800131,
+          4.4066490622,
+          3.115721918e-16
+        ],
+        [
+          0.0,
+          0.0,
+          5.75956692
+        ]
+      ],
+      "initial_volume_angstrom3": 129.1445633776295,
+      "initial_geometry_sha256": "a622a911b709e9b6313e4aa40e7d71186bcbccb6d8c4496709e72a1ad2485662",
+      "initial_source_record_sha256": "7acee3cb3882c4db30dc610a7645a2fbaf964430b632b4fa296a740ed823dfb4",
+      "raw_published_predictions_eV_atom": {
+        "mace_mp0": -1.7687,
+        "chgnet": -1.7277,
+        "m3gnet": -1.7566
+      },
+      "reference_eV_atom_evaluation_only": -1.784614,
+      "uncorrected_reference_eV_atom_evaluation_only": -1.326614,
+      "mp2020_correction_eV_atom_evaluation_only": -0.458,
+      "regret_meV_atom_evaluation_only": 264.6130000000002,
+      "prediction_errors_meV_atom_evaluation_only": {
+        "mace_mp0": 15.913999999999984,
+        "chgnet": 56.91399999999991,
+        "m3gnet": 28.01399999999998
+      },
+      "public_support_proxy_distance": 0.0034782608695652084,
+      "anchored_disagreement_eV_atom": 0.01625669093019856
+    },
+    {
+      "candidate_id": "wbm-1-37761",
+      "initial_prototype": "A2B_hP9_154_c_a:O-Sn",
+      "final_dft_prototype_evaluation_only": "A2B_mC18_5_3c_ac:O-Sn",
+      "initial_n_atoms": 9,
+      "initial_lattice_angstrom": [
+        [
+          5.08372319,
+          0.0,
+          3.112882666e-16
+        ],
+        [
+          -2.5418615973,
+          4.402633427,
+          3.112882666e-16
+        ],
+        [
+          0.0,
+          0.0,
+          5.75978398
+        ]
+      ],
+      "initial_volume_angstrom3": 128.91415827359648,
+      "initial_geometry_sha256": "5b603d658382adfb64f0ac6ad0a68f744c352bc2c8b5c117c881dd243bf5b0e3",
+      "initial_source_record_sha256": "6b9589a174cfe971e7d00915723d6c08bce016592b4c2fb42b831fc2613f9787",
+      "raw_published_predictions_eV_atom": {
+        "mace_mp0": -1.7686,
+        "chgnet": -1.7291,
+        "m3gnet": -1.7567
+      },
+      "reference_eV_atom_evaluation_only": -1.785227,
+      "uncorrected_reference_eV_atom_evaluation_only": -1.327227,
+      "mp2020_correction_eV_atom_evaluation_only": -0.458,
+      "regret_meV_atom_evaluation_only": 264.0000000000002,
+      "prediction_errors_meV_atom_evaluation_only": {
+        "mace_mp0": 16.626999999999946,
+        "chgnet": 56.12699999999982,
+        "m3gnet": 28.52699999999997
+      },
+      "public_support_proxy_distance": 0.0017391304347826042,
+      "anchored_disagreement_eV_atom": 0.015563525735942121
+    },
+    {
+      "candidate_id": "wbm-1-37762",
+      "initial_prototype": "A2B_tP12_92_b_a:O-Sn",
+      "final_dft_prototype_evaluation_only": "A2B_tI12_141_e_a:O-Sn",
+      "initial_n_atoms": 12,
+      "initial_lattice_angstrom": [
+        [
+          5.08727224,
+          0.0,
+          3.115055833e-16
+        ],
+        [
+          8.180957714e-16,
+          5.08727224,
+          3.115055833e-16
+        ],
+        [
+          0.0,
+          0.0,
+          7.29155021
+        ]
+      ],
+      "initial_volume_angstrom3": 188.70779013192515,
+      "initial_geometry_sha256": "f01ddcd5e5e90b1b14b7a45f6cf379af930b345a7f99c9b24ae8ac8276c7d055",
+      "initial_source_record_sha256": "bd55c457482401ddc068224540dacacca06a3e7bcfe2067387d1254ae5a87738",
+      "raw_published_predictions_eV_atom": {
+        "mace_mp0": -1.7505,
+        "chgnet": -1.7177,
+        "m3gnet": -2.0394
+      },
+      "reference_eV_atom_evaluation_only": -2.049197,
+      "uncorrected_reference_eV_atom_evaluation_only": -1.591197,
+      "mp2020_correction_eV_atom_evaluation_only": -0.458,
+      "regret_meV_atom_evaluation_only": 0.030000000000196536,
+      "prediction_errors_meV_atom_evaluation_only": {
+        "mace_mp0": 298.697,
+        "chgnet": 331.49699999999996,
+        "m3gnet": 9.796999999999834
+      },
+      "public_support_proxy_distance": 0.004347826086956524,
+      "anchored_disagreement_eV_atom": 0.16958871817822482
+    },
+    {
+      "candidate_id": "wbm-2-33797",
+      "initial_prototype": "A2B_tI12_122_d_a:O-Sn",
+      "final_dft_prototype_evaluation_only": "A2B_tI12_141_e_a:O-Sn",
+      "initial_n_atoms": 6,
+      "initial_lattice_angstrom": [
+        [
+          4.4804865461,
+          0.0,
+          -2.5119550263
+        ],
+        [
+          -1.408377103,
+          4.2522276355,
+          -2.5126253222
+        ],
+        [
+          0.0,
+          0.0,
+          5.2509379
+        ]
+      ],
+      "initial_volume_angstrom3": 100.0411246535017,
+      "initial_geometry_sha256": "c86bd9c5c75d683f6e64ad2c53b4f879a90d484deb1675e09f564881aed840b8",
+      "initial_source_record_sha256": "5d52fde7f412227b0e0abbc8ee83ea6a7731c4cfad63b53179ef10d6ca56d27f",
+      "raw_published_predictions_eV_atom": {
+        "mace_mp0": -1.7397,
+        "chgnet": -1.6955,
+        "m3gnet": -1.7112
+      },
+      "reference_eV_atom_evaluation_only": -2.049227,
+      "uncorrected_reference_eV_atom_evaluation_only": -1.591227,
+      "mp2020_correction_eV_atom_evaluation_only": -0.458,
+      "regret_meV_atom_evaluation_only": 0.0,
+      "prediction_errors_meV_atom_evaluation_only": {
+        "mace_mp0": 309.5270000000001,
+        "chgnet": 353.72700000000015,
+        "m3gnet": 338.0270000000001
+      },
+      "public_support_proxy_distance": 0.012173913043478271,
+      "anchored_disagreement_eV_atom": 0.020732904604356193
+    },
+    {
+      "candidate_id": "wbm-4-25075",
+      "initial_prototype": "A2B_cF12_225_c_a:O-Sn",
+      "final_dft_prototype_evaluation_only": "A2B_cF12_225_c_a:O-Sn",
+      "initial_n_atoms": 9,
+      "initial_lattice_angstrom": [
+        [
+          4.9821303507,
+          0.0,
+          -2.2278882876
+        ],
+        [
+          -4.4844515586,
+          3.6597773691,
+          -3.3437572843
+        ],
+        [
+          0.0,
+          0.0,
+          6.68469277
+        ]
+      ],
+      "initial_volume_angstrom3": 121.88526478646659,
+      "initial_geometry_sha256": "1ed27f98c1fc2cb4df639d9c82f2170cffa1828941e87b55f8eb09b5e7b0ee8d",
+      "initial_source_record_sha256": "5d2f13f0403dc3c32fca6ddfec3f1e7248e0531ec3b892ff5b3b49cebcdd1d7a",
+      "raw_published_predictions_eV_atom": {
+        "mace_mp0": -1.8567,
+        "chgnet": -1.8479,
+        "m3gnet": -1.8646
+      },
+      "reference_eV_atom_evaluation_only": -1.86142,
+      "uncorrected_reference_eV_atom_evaluation_only": -1.40342,
+      "mp2020_correction_eV_atom_evaluation_only": -0.458,
+      "regret_meV_atom_evaluation_only": 187.80700000000004,
+      "prediction_errors_meV_atom_evaluation_only": {
+        "mace_mp0": 4.7200000000000575,
+        "chgnet": 13.519999999999976,
+        "m3gnet": -3.1799999999999606
+      },
+      "public_support_proxy_distance": 0.0,
+      "anchored_disagreement_eV_atom": 0.0
+    }
+  ],
+  "policy_traces": [
+    {
+      "trace_id": "dbe40ff3b94dd89712f4",
+      "arm": "m3gnet_only",
+      "budget": 0,
+      "charged_calls": 0,
+      "selected_id": "wbm-1-37762",
+      "regret_meV_atom": 0.030000000000196536,
+      "reason": "frozen_mlip_minimum",
+      "certified_claim_in_original_trace": false,
+      "queries": [],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "fdf3ee241757c22a3821",
+      "arm": "fixed_top",
+      "budget": 2,
+      "charged_calls": 2,
+      "selected_id": "wbm-4-25075",
+      "regret_meV_atom": 187.80700000000004,
+      "reason": "fixed_attempt_budget_exhausted",
+      "certified_claim_in_original_trace": false,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 2,
+          "candidate_id": "wbm-1-37760",
+          "observed_reference_eV_atom": -1.784614,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {}
+        }
+      ],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "1f86d9bbb44173e0a677",
+      "arm": "diversity",
+      "budget": 2,
+      "charged_calls": 2,
+      "selected_id": "wbm-1-37762",
+      "regret_meV_atom": 0.030000000000196536,
+      "reason": "fixed_attempt_budget_exhausted",
+      "certified_claim_in_original_trace": false,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 2,
+          "candidate_id": "wbm-1-37762",
+          "observed_reference_eV_atom": -2.049197,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {
+            "wbm-1-37760": 0.28987840485801036,
+            "wbm-1-37761": 0.2895025392407519,
+            "wbm-1-37762": 0.3055739277667728,
+            "wbm-2-33797": 0.2966848970985069
+          }
+        }
+      ],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "06fb841a32f1457829ba",
+      "arm": "disagreement",
+      "budget": 2,
+      "charged_calls": 2,
+      "selected_id": "wbm-1-37762",
+      "regret_meV_atom": 0.030000000000196536,
+      "reason": "fixed_attempt_budget_exhausted",
+      "certified_claim_in_original_trace": false,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 2,
+          "candidate_id": "wbm-1-37762",
+          "observed_reference_eV_atom": -2.049197,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {
+            "wbm-1-37760": 0.01625669093019856,
+            "wbm-1-37761": 0.015563525735942121,
+            "wbm-1-37762": 0.16958871817822482,
+            "wbm-2-33797": 0.020732904604356193
+          }
+        }
+      ],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "ef59da4a5420dc256c84",
+      "arm": "decision_aware",
+      "budget": 2,
+      "charged_calls": 2,
+      "selected_id": "wbm-1-37762",
+      "regret_meV_atom": 0.030000000000196536,
+      "reason": "fixed_attempt_budget_exhausted",
+      "certified_claim_in_original_trace": false,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 2,
+          "candidate_id": "wbm-1-37762",
+          "observed_reference_eV_atom": -2.049197,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {
+            "wbm-1-37760": 6.603689500788087e-10,
+            "wbm-1-37761": 3.502230280519443e-10,
+            "wbm-1-37762": 0.014333445747293127,
+            "wbm-2-33797": 6.129037828261546e-12
+          }
+        }
+      ],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "85cd4170da1bd991f4d0",
+      "arm": "gap_threshold",
+      "budget": 999,
+      "charged_calls": 1,
+      "selected_id": "wbm-4-25075",
+      "regret_meV_atom": 187.80700000000004,
+      "reason": "uncalibrated_energy_gap_stop",
+      "certified_claim_in_original_trace": false,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        }
+      ],
+      "interval_checks": []
+    },
+    {
+      "trace_id": "f70336dc817b56d1e01c",
+      "arm": "calibrated_interval",
+      "budget": 999,
+      "charged_calls": 5,
+      "selected_id": "wbm-2-33797",
+      "regret_meV_atom": 0.0,
+      "reason": "full_reference_complete",
+      "certified_claim_in_original_trace": true,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 2,
+          "candidate_id": "wbm-1-37760",
+          "observed_reference_eV_atom": -1.784614,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 3,
+          "candidate_id": "wbm-1-37761",
+          "observed_reference_eV_atom": -1.785227,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-1-37760",
+              "energy_eV_atom": -1.784614
+            },
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 4,
+          "candidate_id": "wbm-1-37762",
+          "observed_reference_eV_atom": -2.049197,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-1-37760",
+              "energy_eV_atom": -1.784614
+            },
+            {
+              "candidate_id": "wbm-1-37761",
+              "energy_eV_atom": -1.785227
+            },
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {}
+        },
+        {
+          "order": 5,
+          "candidate_id": "wbm-2-33797",
+          "observed_reference_eV_atom": -2.049227,
+          "available_before_query": [
+            {
+              "candidate_id": "wbm-1-37760",
+              "energy_eV_atom": -1.784614
+            },
+            {
+              "candidate_id": "wbm-1-37761",
+              "energy_eV_atom": -1.785227
+            },
+            {
+              "candidate_id": "wbm-1-37762",
+              "energy_eV_atom": -2.049197
+            },
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "acquisition_scores_before_query": {}
+        }
+      ],
+      "interval_checks": [
+        {
+          "anchor_id": "wbm-4-25075",
+          "anchor_offset_eV_atom": -1.77342,
+          "attempted_candidate_ids": [
+            "wbm-4-25075"
+          ],
+          "available_observations": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "certificate": false,
+          "energy_unit": "eV/atom",
+          "event": "interval_check",
+          "lower_bounds_eV_atom": {
+            "wbm-1-37760": -1.825583959080503,
+            "wbm-1-37761": -1.8244124061328506,
+            "wbm-1-37762": -2.136587920713082,
+            "wbm-2-33797": -1.8040268213698918
+          },
+          "public_predictions": [
+            {
+              "candidate_id": "wbm-1-37760",
+              "disagreement_eV_atom": 0.01625669093019856,
+              "mean_eV_atom": 0.0,
+              "sigma_eV_atom": 0.017379849002242015,
+              "support_distance": 0.0034782608695652084
+            },
+            {
+              "candidate_id": "wbm-1-37761",
+              "disagreement_eV_atom": 0.015563525735942121,
+              "mean_eV_atom": 9.999999999998899e-05,
+              "sigma_eV_atom": 0.017022831844104813,
+              "support_distance": 0.0017391304347826042
+            },
+            {
+              "candidate_id": "wbm-1-37762",
+              "disagreement_eV_atom": 0.16958871817822482,
+              "mean_eV_atom": 0.018199999999999994,
+              "sigma_eV_atom": 0.12706314844821112,
+              "support_distance": 0.004347826086956524
+            },
+            {
+              "candidate_id": "wbm-2-33797",
+              "disagreement_eV_atom": 0.020732904604356193,
+              "mean_eV_atom": 0.028999999999999915,
+              "sigma_eV_atom": 0.019859642043533726,
+              "support_distance": 0.012173913043478271
+            },
+            {
+              "candidate_id": "wbm-4-25075",
+              "disagreement_eV_atom": 0.0,
+              "mean_eV_atom": -0.08800000000000008,
+              "sigma_eV_atom": 0.012453964777810743,
+              "support_distance": 0.0
+            }
+          ],
+          "regret_upper_bound_eV_atom": 0.2751679207130817,
+          "remaining_attempt_budget": 4,
+          "scores": {},
+          "simultaneous_quantile": 3.0014046194402404,
+          "signed_unqueried_margin_eV_atom": 0.2751679207130817
+        }
+      ]
+    },
+    {
+      "trace_id": "563466927a6b48ef4fb3",
+      "arm": "constant_interval",
+      "budget": 999,
+      "charged_calls": 1,
+      "selected_id": "wbm-4-25075",
+      "regret_meV_atom": 187.80700000000004,
+      "reason": "frozen_group_interval_certificate",
+      "certified_claim_in_original_trace": true,
+      "queries": [
+        {
+          "order": 1,
+          "candidate_id": "wbm-4-25075",
+          "observed_reference_eV_atom": -1.86142,
+          "available_before_query": [],
+          "acquisition_scores_before_query": {}
+        }
+      ],
+      "interval_checks": [
+        {
+          "anchor_id": "wbm-4-25075",
+          "anchor_offset_eV_atom": -1.77342,
+          "attempted_candidate_ids": [
+            "wbm-4-25075"
+          ],
+          "available_observations": [
+            {
+              "candidate_id": "wbm-4-25075",
+              "energy_eV_atom": -1.86142
+            }
+          ],
+          "certificate": true,
+          "energy_unit": "eV/atom",
+          "event": "interval_check",
+          "lower_bounds_eV_atom": {
+            "wbm-1-37760": -1.8504440000000002,
+            "wbm-1-37761": -1.8503440000000002,
+            "wbm-1-37762": -1.8322440000000002,
+            "wbm-2-33797": -1.8214440000000003
+          },
+          "public_predictions": [
+            {
+              "candidate_id": "wbm-1-37760",
+              "disagreement_eV_atom": 0.01625669093019856,
+              "mean_eV_atom": 0.0,
+              "sigma_eV_atom": 0.016144158618522066,
+              "support_distance": 0.0034782608695652084
+            },
+            {
+              "candidate_id": "wbm-1-37761",
+              "disagreement_eV_atom": 0.015563525735942121,
+              "mean_eV_atom": 9.999999999998899e-05,
+              "sigma_eV_atom": 0.016144158618522066,
+              "support_distance": 0.0017391304347826042
+            },
+            {
+              "candidate_id": "wbm-1-37762",
+              "disagreement_eV_atom": 0.16958871817822482,
+              "mean_eV_atom": 0.018199999999999994,
+              "sigma_eV_atom": 0.016144158618522066,
+              "support_distance": 0.004347826086956524
+            },
+            {
+              "candidate_id": "wbm-2-33797",
+              "disagreement_eV_atom": 0.020732904604356193,
+              "mean_eV_atom": 0.028999999999999915,
+              "sigma_eV_atom": 0.016144158618522066,
+              "support_distance": 0.012173913043478271
+            },
+            {
+              "candidate_id": "wbm-4-25075",
+              "disagreement_eV_atom": 0.0,
+              "mean_eV_atom": -0.08800000000000008,
+              "sigma_eV_atom": 0.016144158618522066,
+              "support_distance": 0.0
+            }
+          ],
+          "regret_upper_bound_eV_atom": 0,
+          "remaining_attempt_budget": 4,
+          "scores": {},
+          "simultaneous_quantile": 4.771013579588544,
+          "signed_unqueried_margin_eV_atom": -0.010975999999999875
+        }
+      ]
+    }
+  ],
+  "observed_conclusions": [
+    "Fixed MACE top-two misses by 187.807 meV/atom; EI reaches a label within 0.03 meV/atom of the recorded minimum at the same two-call budget.",
+    "M3GNet-only chooses the same near-tied endpoint with zero reference calls.",
+    "All three models overestimate the lowest-label input wbm-2-33797 by more than 300 meV/atom.",
+    "Two different initial prototypes share final DFT prototype 141 and differ by 0.03 meV/atom; endpoint degeneracy limits the physical significance of exact order."
+  ],
+  "hypotheses_not_established": [
+    "Different MLIP relaxations may enter or remain in different basins",
+    "Energy surface error or symmetry-constrained relaxation may contribute",
+    "One source/reference job could require numerical or convergence audit"
+  ],
+  "interpretation_limits": [
+    "No live MLIP trajectories or DFT output files were inspected; do not choose among the proposed mechanisms.",
+    "Source energy convergence better than 2 meV/atom does not resolve a 0.03 meV/atom order.",
+    "This is an examined case, not a fresh validation family.",
+    "Zero anchored disagreement at the first-choice anchor is a normalization identity, not an uncertainty guarantee."
+  ],
+  "fresh_batch_manifest": "proposed/fresh_sno2_batch/batch_manifest.json",
+  "source_files_sha256": {
+    "results/decision_engine/oxide_run/experiment_manifest.json": "5b50ed05731e60e1bcb202ccfd967f078395bea13ee2c3dcdadf5d8c65884586",
+    "results/decision_engine/oxide_run/decision_traces.jsonl.gz": "4058d5566369868dc4df05555bbc83793c97cd4adbb868dabc2159dcfe647fc5",
+    "results/decision_engine/oxide_prepared/pools.json": "5df42bcf47136e06760ef778b44fe23f0f4758588e118acfad8ba74b8216984d",
+    "results/decision_engine/oxide_prepared/references_private.json": "2be30b72c817e90f1c17456983aa99c7e4db6fdbf7d80cf9f334f4dc614f4e19",
+    "data/decision_engine/initial_geometries.json.gz": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b"
+  },
+  "trace_semantics_revision": "Risk bound is max(0,signed unqueried margin); unchanged decisions; complete replay rerun and compared after repair.",
+  "canonical_source_provenance_revision": {
+    "evidence_kind": "provenance_correction_no_scientific_change",
+    "reason": "The case values and trace semantics describe the canonical trace-bound-fix replay, but two stored source hashes still named the initial replay bytes.",
+    "canonical_source": "results/decision_engine/oxide_run",
+    "original_hashes": {
+      "results/decision_engine/oxide_run/experiment_manifest.json": "cbd4f49103b94bcb297da1e5da2daa651185bd932e2e649293f865d475422775",
+      "results/decision_engine/oxide_run/decision_traces.jsonl.gz": "785d214c80393e562589c5d54e8e822777827ffa418bec0c1b8e173e8619fb13"
+    },
+    "verification_receipt": "results/decision_engine/replay_fix_verification.json",
+    "verification_receipt_sha256": "3bff5e14e7a93a9e0e2d1a033853346881efdeb1475459381980823c9f74f7e3",
+    "verification_receipt_result": "All scientific and query fields were identical across the original and canonical replay for primary, additional-seed, and synthetic-stress records; only the signed-margin/risk-bound trace semantics and run receipts changed.",
+    "numerical_case_values_changed": false,
+    "new_policy_runs_for_this_correction": 0,
+    "new_reference_jobs_for_this_correction": 0
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "classification": "executed synthetic exact finite enumeration",
+  "highest_uncertainty_is_wrong": {
+    "baseline_risk": "1/2",
+    "candidate_variance": {
+      "B": "3",
+      "C": "36"
+    },
+    "post_query_risk": {
+      "B": "0",
+      "C": "1/2"
+    },
+    "cost_per_query": "1/10",
+    "net_query_value": {
+      "B": "2/5",
+      "C": "-1/10"
+    }
+  },
+  "best_queried_one_step_failure": {
+    "baseline_risk": "10",
+    "each_target_myopic_improvement": "5/2",
+    "probe_myopic_improvement": "0",
+    "greedy_two_target_risk": "5",
+    "probe_then_identified_target_risk": "0",
+    "same_additional_queries": 2,
+    "query_cost": "1/10",
+    "greedy_fixed_two_call_total_loss": "26/5",
+    "lookahead_total_loss": "1/5",
+    "greedy_early_stop_expected_calls": "7/4",
+    "greedy_early_stop_total_loss": "207/40",
+    "assumption": "known four-state joint prior; P=10+hidden target ID; terminal chooses best queried; A already observed at zero"
+  },
+  "one_step_failure": {
+    "baseline_risk": "1",
+    "post_query_risk": {
+      "P": "1",
+      "Q": "1",
+      "T00": "3/4"
+    },
+    "post_two_query_risk": {
+      "P then Q": "0",
+      "T00 then T01": "1/2",
+      "T00 then P": "1/2"
+    },
+    "query_cost": "1/10",
+    "greedy_two_step_total_loss": "7/10",
+    "two_probe_total_loss": "1/5",
+    "assumption": "exact known joint discrete prior; energy labels are deterministic conditional on latent bits; terminal may accept an unqueried candidate given posterior evidence"
+  }
+}

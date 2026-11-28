@@ -1,0 +1,23 @@
+{
+  "schema": "erkidu-historical-reproduction/v1",
+  "status": "passed",
+  "evidence_class": "executed_historical_development_replay",
+  "expected_sha256": {
+    "sealed_prelabel_plan.jsonl": "2e13675081a5305a8b43c94cd75ce04e7566ac81357dd412d74e5c2cf6bf323e",
+    "results.json": "aa8d1f4d7b5dd160003709eaef04a14d439a3089896b4093e4685b9d4d7d610e",
+    "per_pool.csv": "46679771aea9daebc93d50c72e7fb385128f0373f1fb5806a05835766f53228c",
+    "rank4_rescue_harm.json": "501bec2c1ebac068c9efd4f53967bedfdb844b49e2e2ec8681b3794dd07939c5"
+  },
+  "actual_sha256": {
+    "sealed_prelabel_plan.jsonl": "2e13675081a5305a8b43c94cd75ce04e7566ac81357dd412d74e5c2cf6bf323e",
+    "results.json": "aa8d1f4d7b5dd160003709eaef04a14d439a3089896b4093e4685b9d4d7d610e",
+    "per_pool.csv": "46679771aea9daebc93d50c72e7fb385128f0373f1fb5806a05835766f53228c",
+    "rank4_rescue_harm.json": "501bec2c1ebac068c9efd4f53967bedfdb844b49e2e2ec8681b3794dd07939c5"
+  },
+  "mismatches": [],
+  "wall_seconds_this_reproduction": 6.495804440999962,
+  "live_reference_jobs": 0,
+  "new_policy_fitting": false,
+  "reran_669_call_experiment": false,
+  "timing_note": "Local replay only; excludes original reference computations and queueing."
+}

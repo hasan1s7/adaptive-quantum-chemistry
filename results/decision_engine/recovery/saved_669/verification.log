@@ -1,0 +1,3 @@
+PASS: invariance to rotation and translation; changed shape not collapsed
+PASS: all 1,912 ledger rows enforce query exclusivity, exact paired budgets, and paired rescue accounting
+PASS: altered reference bytes rejected through the public CLI before any output

@@ -1,4 +1,5 @@
 .venv/
+.venv-decision/
 .cache/
 __pycache__/
 *.pyc
@@ -7,3 +8,15 @@ data/prepared/
 previews/
 # The original sealed log is reconstructed byte-for-byte from transport chunks.
 /results/lab/decision_ledger.jsonl.gz
+
+# Decision-engine source release: fetch verified public tables on demand.
+/data/decision_engine/raw/
+# Superseded runs and reproducible local fixtures remain outside Git history.
+/results/decision_engine/oxide_run_v1_before_risk_bound_fix/
+/results/decision_engine/failed_preparation_missing_mp_formula/*
+!/results/decision_engine/failed_preparation_missing_mp_formula/failure.json
+/results/decision_engine/synthetic_fixture/
+/results/decision_engine/*_stdout.log
+/results/decision_engine/*_stderr.log
+/results/decision_engine/fixture_stdout.log
+/results/decision_engine/fixture_stderr.log

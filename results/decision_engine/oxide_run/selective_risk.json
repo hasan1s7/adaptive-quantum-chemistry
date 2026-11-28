@@ -1,0 +1,178 @@
+[
+  {
+    "accepted_pools": 8,
+    "mean_regret_eV_atom": 7.374999999976151e-06,
+    "nominal_retained_fraction": 0.25,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "test",
+    "threshold": 0.0038086524301034833,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 15,
+    "mean_regret_eV_atom": 1.2066666666665781e-05,
+    "nominal_retained_fraction": 0.5,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "test",
+    "threshold": 0.005309058071671702,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 23,
+    "mean_regret_eV_atom": 8.260869565213586e-06,
+    "nominal_retained_fraction": 0.75,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "test",
+    "threshold": 0.007741138697832236,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 30,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "nominal_retained_fraction": 1.0,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.03333333333333333,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "test",
+    "threshold": 0.090824999821622,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 8,
+    "mean_regret_eV_atom": 0.023494125000000005,
+    "nominal_retained_fraction": 0.25,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.125,
+    "signal": "max_support_distance",
+    "split": "test",
+    "threshold": 0.11157846546489569,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 15,
+    "mean_regret_eV_atom": 0.012538333333333347,
+    "nominal_retained_fraction": 0.5,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.06666666666666667,
+    "signal": "max_support_distance",
+    "split": "test",
+    "threshold": 0.2152259336971149,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 23,
+    "mean_regret_eV_atom": 0.008179739130434783,
+    "nominal_retained_fraction": 0.75,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.043478260869565216,
+    "signal": "max_support_distance",
+    "split": "test",
+    "threshold": 0.2528134390333332,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 30,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "nominal_retained_fraction": 1.0,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.03333333333333333,
+    "signal": "max_support_distance",
+    "split": "test",
+    "threshold": 0.3105210063790457,
+    "total_pools": 30
+  },
+  {
+    "accepted_pools": 3,
+    "mean_regret_eV_atom": 3.266666666664383e-05,
+    "nominal_retained_fraction": 0.25,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "shift_li",
+    "threshold": 0.001979267541289014,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 5,
+    "mean_regret_eV_atom": 1.9599999999986294e-05,
+    "nominal_retained_fraction": 0.5,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "shift_li",
+    "threshold": 0.002456793302932391,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 8,
+    "mean_regret_eV_atom": 1.2249999999991434e-05,
+    "nominal_retained_fraction": 0.75,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "shift_li",
+    "threshold": 0.004762614828011947,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 10,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "nominal_retained_fraction": 1.0,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "mean_disagreement_eV_atom",
+    "split": "shift_li",
+    "threshold": 0.011414062963438266,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 3,
+    "mean_regret_eV_atom": 0.0,
+    "nominal_retained_fraction": 0.25,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "max_support_distance",
+    "split": "shift_li",
+    "threshold": 0.02695652173913042,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 5,
+    "mean_regret_eV_atom": 1.9599999999986294e-05,
+    "nominal_retained_fraction": 0.5,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "max_support_distance",
+    "split": "shift_li",
+    "threshold": 0.1767766952966369,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 8,
+    "mean_regret_eV_atom": 1.2249999999991434e-05,
+    "nominal_retained_fraction": 0.75,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "max_support_distance",
+    "split": "shift_li",
+    "threshold": 0.24639198381515912,
+    "total_pools": 10
+  },
+  {
+    "accepted_pools": 10,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "nominal_retained_fraction": 1.0,
+    "note": "retrospective risk-coverage curve, not a test-tuned deployment threshold",
+    "selective_failure_rate": 0.0,
+    "signal": "max_support_distance",
+    "split": "shift_li",
+    "threshold": 0.3045961719675999,
+    "total_pools": 10
+  }
+]

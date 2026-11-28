@@ -1,0 +1,293 @@
+{
+  "adaptive_promoted": false,
+  "baseline_selection_caveat": "M3GNet was not selected on test for deployment; its arm was prespecified. Choosing it now creates a new policy requiring fresh evaluation.",
+  "binary_loss_break_even": "both succeed30/30; any positive extra reference cost favors M3GNet-only on observed tolerance loss",
+  "business_decision": "retain reliability/provenance evaluation layer; do not sell demonstrated adaptive compute savings",
+  "comparison": "one SnO2 rescue versus fixed MACE top-two; all other primary paired regret differences exactly zero",
+  "error_correlation": {
+    "calibration": {
+      "error_correlation": [
+        [
+          1.0,
+          0.268810284279986,
+          0.542396074279931
+        ],
+        [
+          0.26881028427998593,
+          1.0,
+          0.25590600574853256
+        ],
+        [
+          0.542396074279931,
+          0.25590600574853256,
+          1.0
+        ]
+      ],
+      "models": [
+        "MACE-MP0",
+        "CHGNet",
+        "M3GNet"
+      ],
+      "n_nonanchor_contrasts": 60,
+      "scope": "post-run descriptive; contrasts within pools correlated; no independent-sample p-values",
+      "spearman_disagreement_abs_mace_error": 0.792908944705771,
+      "spearman_support_distance_abs_mace_error": -0.0264414431932111
+    },
+    "shift_li": {
+      "error_correlation": [
+        [
+          0.9999999999999998,
+          0.8970653961987297,
+          0.8312603701315181
+        ],
+        [
+          0.8970653961987297,
+          1.0,
+          0.9627981236849396
+        ],
+        [
+          0.831260370131518,
+          0.9627981236849396,
+          1.0
+        ]
+      ],
+      "models": [
+        "MACE-MP0",
+        "CHGNet",
+        "M3GNet"
+      ],
+      "n_nonanchor_contrasts": 12,
+      "scope": "post-run descriptive; contrasts within pools correlated; no independent-sample p-values",
+      "spearman_disagreement_abs_mace_error": 0.44055944055944063,
+      "spearman_support_distance_abs_mace_error": 0.031747266153871904
+    },
+    "test": {
+      "error_correlation": [
+        [
+          1.0,
+          0.5496296604006433,
+          0.7958651863321231
+        ],
+        [
+          0.5496296604006433,
+          1.0,
+          0.45768086679973113
+        ],
+        [
+          0.7958651863321231,
+          0.45768086679973113,
+          1.0
+        ]
+      ],
+      "models": [
+        "MACE-MP0",
+        "CHGNet",
+        "M3GNet"
+      ],
+      "n_nonanchor_contrasts": 80,
+      "scope": "post-run descriptive; contrasts within pools correlated; no independent-sample p-values",
+      "spearman_disagreement_abs_mace_error": 0.6170570619952537,
+      "spearman_support_distance_abs_mace_error": 0.0002227419592671345
+    },
+    "train": {
+      "error_correlation": [
+        [
+          0.9999999999999998,
+          0.5765072540084978,
+          0.5376756232125685
+        ],
+        [
+          0.5765072540084978,
+          0.9999999999999998,
+          0.568719275776243
+        ],
+        [
+          0.5376756232125685,
+          0.568719275776243,
+          1.0
+        ]
+      ],
+      "models": [
+        "MACE-MP0",
+        "CHGNet",
+        "M3GNet"
+      ],
+      "n_nonanchor_contrasts": 112,
+      "scope": "post-run descriptive; contrasts within pools correlated; no independent-sample p-values",
+      "spearman_disagreement_abs_mace_error": 0.6621151517746484,
+      "spearman_support_distance_abs_mace_error": -0.037709044115666154
+    }
+  },
+  "evidence_kind": "post_run_development_interpretation",
+  "exclusions": {
+    "same_composition_initial_prototype": 28,
+    "singleton_after_prequery_dedup": 202
+  },
+  "mean_loss_break_even_vs_m3_eV_atom_per_extra_reference": 0.00028290000000000444,
+  "mean_loss_break_even_vs_m3_meV_atom_per_extra_reference": 0.2829000000000044,
+  "near_ties": {
+    "shift_li": {
+      "all_pools": 10,
+      "near_tie_pools_at_2meV": 3,
+      "pool_sizes": {
+        "2": 8,
+        "3": 2
+      }
+    },
+    "test": {
+      "all_pools": 30,
+      "near_tie_pools_at_2meV": 9,
+      "pool_sizes": {
+        "2": 11,
+        "3": 7,
+        "4": 5,
+        "5": 3,
+        "6": 1,
+        "7": 2,
+        "12": 1
+      }
+    }
+  },
+  "nontrivial_pool_results": [
+    {
+      "arm": "fixed_top",
+      "mean_regret_eV_atom": 0.009887684210526309,
+      "n_pools_with_more_than_two_candidates": 19,
+      "split": "test",
+      "successes": 18
+    },
+    {
+      "arm": "decision_aware",
+      "mean_regret_eV_atom": 4.684210526316092e-06,
+      "n_pools_with_more_than_two_candidates": 19,
+      "split": "test",
+      "successes": 19
+    },
+    {
+      "arm": "random",
+      "mean_regret_eV_atom": 0.008736894736842133,
+      "n_pools_with_more_than_two_candidates": 19,
+      "split": "test",
+      "successes": 16
+    },
+    {
+      "arm": "diversity",
+      "mean_regret_eV_atom": 0.0005106315789473854,
+      "n_pools_with_more_than_two_candidates": 19,
+      "split": "test",
+      "successes": 19
+    },
+    {
+      "arm": "fixed_top",
+      "mean_regret_eV_atom": 0.0,
+      "n_pools_with_more_than_two_candidates": 2,
+      "split": "shift_li",
+      "successes": 2
+    },
+    {
+      "arm": "decision_aware",
+      "mean_regret_eV_atom": 0.0,
+      "n_pools_with_more_than_two_candidates": 2,
+      "split": "shift_li",
+      "successes": 2
+    },
+    {
+      "arm": "random",
+      "mean_regret_eV_atom": 0.008923000000000014,
+      "n_pools_with_more_than_two_candidates": 2,
+      "split": "shift_li",
+      "successes": 2
+    },
+    {
+      "arm": "diversity",
+      "mean_regret_eV_atom": 0.0,
+      "n_pools_with_more_than_two_candidates": 2,
+      "split": "shift_li",
+      "successes": 2
+    }
+  ],
+  "physical_precision_warning": "Sub-meV mean differences and0.03meV near ties are below source convergence scale; do not infer physical superiority.",
+  "promotion_limits": [
+    "one discordant primary chemical system",
+    "shared pretrained support",
+    "public retrospective labels",
+    "10 shifted groups,8 two-candidate pools",
+    "no live inference/DFT runtime",
+    "missing model convergence logs"
+  ],
+  "strongest_tolerance_baseline": "prespecified M3GNet-only arm has30/30 tolerance success at0 reference acquisitions",
+  "synthetic_failure_summary": [
+    {
+      "abstained": 0,
+      "accepted": 27,
+      "arm": "fixed_top",
+      "attempted_calls": 60,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 3,
+      "incomplete_reference": 3,
+      "pools": 30,
+      "split": "test",
+      "successful_final_decisions": 26
+    },
+    {
+      "abstained": 0,
+      "accepted": 27,
+      "arm": "decision_aware",
+      "attempted_calls": 60,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 3,
+      "incomplete_reference": 3,
+      "pools": 30,
+      "split": "test",
+      "successful_final_decisions": 27
+    },
+    {
+      "abstained": 5,
+      "accepted": 25,
+      "arm": "conservative",
+      "attempted_calls": 94,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 7,
+      "incomplete_reference": 0,
+      "pools": 30,
+      "split": "test",
+      "successful_final_decisions": 25
+    },
+    {
+      "abstained": 0,
+      "accepted": 9,
+      "arm": "fixed_top",
+      "attempted_calls": 20,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 1,
+      "incomplete_reference": 1,
+      "pools": 10,
+      "split": "shift_li",
+      "successful_final_decisions": 9
+    },
+    {
+      "abstained": 0,
+      "accepted": 9,
+      "arm": "decision_aware",
+      "attempted_calls": 20,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 1,
+      "incomplete_reference": 1,
+      "pools": 10,
+      "split": "shift_li",
+      "successful_final_decisions": 9
+    },
+    {
+      "abstained": 2,
+      "accepted": 8,
+      "arm": "conservative",
+      "attempted_calls": 15,
+      "evidence_kind": "synthetic_failure_on_real_replay",
+      "failed_attempts": 2,
+      "incomplete_reference": 0,
+      "pools": 10,
+      "split": "shift_li",
+      "successful_final_decisions": 8
+    }
+  ]
+}

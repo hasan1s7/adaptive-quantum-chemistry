@@ -1,0 +1,71 @@
+{
+  "schema_version": "erkidu.initial-geometry-audit.v1",
+  "source_url": "https://ndownloader.figshare.com/files/53161835",
+  "source_md5": "b809f101dd42a745ec2baabe7eb16f11",
+  "source_sha256": "98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58",
+  "source_size_bytes": 49537334,
+  "source_rows": 256963,
+  "selection_uses_reference_labels": false,
+  "eligible_rows": 597,
+  "eligible_compositions": 305,
+  "invalid_records": [],
+  "exact_duplicate_groups": [
+    [
+      "wbm-2-34348",
+      "wbm-3-51521"
+    ],
+    [
+      "wbm-2-35130",
+      "wbm-3-52723"
+    ],
+    [
+      "wbm-2-35217",
+      "wbm-3-52847"
+    ]
+  ],
+  "near_duplicate_candidate_pairs": [
+    {
+      "left": "wbm-1-37022",
+      "right": "wbm-1-37023",
+      "composition_key": "Ge1O2",
+      "pair_spectrum_rms_angstrom": 0.0001464395575858655,
+      "pair_spectrum_max_abs_angstrom": 0.00036289256613342147,
+      "relative_volume_difference": 0.00016708812959430802
+    },
+    {
+      "left": "wbm-1-39641",
+      "right": "wbm-1-39642",
+      "composition_key": "Ba1O3Si1",
+      "pair_spectrum_rms_angstrom": 0.007021364633590952,
+      "pair_spectrum_max_abs_angstrom": 0.025054686518279468,
+      "relative_volume_difference": 0.0005020609021632298
+    },
+    {
+      "left": "wbm-2-34348",
+      "right": "wbm-3-51521",
+      "composition_key": "Cs2O3Ti1",
+      "pair_spectrum_rms_angstrom": 0.0,
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "relative_volume_difference": 0.0
+    },
+    {
+      "left": "wbm-2-35217",
+      "right": "wbm-3-52847",
+      "composition_key": "O5Rb2Ti2",
+      "pair_spectrum_rms_angstrom": 0.0,
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "relative_volume_difference": 0.0
+    },
+    {
+      "left": "wbm-2-35130",
+      "right": "wbm-3-52723",
+      "composition_key": "K2O5Ti2",
+      "pair_spectrum_rms_angstrom": 0.0,
+      "pair_spectrum_max_abs_angstrom": 0.0,
+      "relative_volume_difference": 0.0
+    }
+  ],
+  "near_duplicate_method": "Species-pair periodic distance spectra; equal atom counts; relative volume<=0.001; RMS<=0.01A,max<=0.03A; images[-2,2]^3; screening diagnostic, not crystallographic identity proof",
+  "near_duplicate_policy": "Keep every same-composition candidate in one split; audit pair co-membership before execution",
+  "output_sha256": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b"
+}

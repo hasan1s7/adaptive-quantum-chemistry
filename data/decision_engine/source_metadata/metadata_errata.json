@@ -1,0 +1,11 @@
+{
+  "checkpoint_url": "https://github.com/materialsvirtuallab/m3gnet/tree/3a8b14dfd5/pretrained/MP-2021.2.8-EFS",
+  "correct_checkpoint_name": "MP-2021.2.8-EFS",
+  "correct_official_model_version": "v2022.9.20",
+  "evidence_kind": "metadata_correction_no_numerical_change",
+  "explanation": "The original descriptive checkpoint label used PES instead of EFS. The consumed prediction-file ID/checksum and source model card were correct and unchanged. Frozen inputs and decisions are preserved; no checkpoint was executed.",
+  "field": "preregistered_protocol.other_models M3GNet label",
+  "original_display_label": "M3GNet MP-2021.2.8-PES",
+  "prediction_file_id": "71653831",
+  "prediction_sha256": "e3dd233d3ea580a1c3de4a7f4ae6bd71c1dc01c3df47933324c826afd62748cb"
+}

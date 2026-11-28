@@ -1,0 +1,1982 @@
+[
+  {
+    "abstention_rate": 0.0,
+    "arm": "calibrated_interval",
+    "budget": 999,
+    "charged_calls": 15,
+    "failed_jobs": 0,
+    "fallback_rate": 0.4,
+    "mean_calls": 1.5,
+    "mean_calls_ci95": [
+      1.1,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.05321800830001848,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "chgnet_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.09089844059997176,
+    "mean_regret_eV_atom": 4.789999999998962e-05,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.00012541749999995594
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.00025364999999994943,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0003809999999999647
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "conservative_ood",
+    "budget": 999,
+    "charged_calls": 16,
+    "failed_jobs": 0,
+    "fallback_rate": 0.5,
+    "mean_calls": 1.6,
+    "mean_calls_ci95": [
+      1.2,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.0677444073000288,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "constant_interval",
+    "budget": 999,
+    "charged_calls": 18,
+    "failed_jobs": 0,
+    "fallback_rate": 0.6,
+    "mean_calls": 1.8,
+    "mean_calls_ci95": [
+      1.4,
+      2.3
+    ],
+    "mean_policy_wall_seconds": 0.06116476400004558,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.0625341631000083,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07179214810005305,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.0489546667000468,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.09016977180003778,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.0704696035999632,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07266382189995965,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.08168059409995294,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06233805299998494,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.08420381870005259,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.06246477420004339,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.07428415130002577,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.07521017170004143,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "ensemble_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.06506184800000483,
+    "mean_regret_eV_atom": 3.809999999999647e-05,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.00011429999999998942
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.00020954999999998018,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0003809999999999647
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.06062952130000667,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07554793079996217,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.05313006140002017,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.09054621969999062,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "full_ref",
+    "budget": 999,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06490828299997702,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "gap_threshold",
+    "budget": 999,
+    "charged_calls": 18,
+    "failed_jobs": 0,
+    "fallback_rate": 0.6,
+    "mean_calls": 1.8,
+    "mean_calls_ci95": [
+      1.4,
+      2.3
+    ],
+    "mean_policy_wall_seconds": 0.08955033609995552,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "m3gnet_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.0789971886999183,
+    "mean_regret_eV_atom": 3.809999999999647e-05,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.00011429999999998942
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.00020954999999998018,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0003809999999999647
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "mlip_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.08831111340000461,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.060010961299940394,
+    "mean_regret_eV_atom": 0.012864299999999985,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.032226999999999964
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.06725679999999987,
+    "split": "shift_li",
+    "success_rate": 0.8,
+    "success_rate_ci95": [
+      0.5,
+      1.0
+    ],
+    "successes": 8,
+    "worst_regret_eV_atom": 0.09538899999999995
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07628326389997256,
+    "mean_regret_eV_atom": 0.001784600000000003,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.005353800000000008
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.009815299999999997,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.01784600000000003
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06765626910005267,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06329273209998973,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 1,
+    "charged_calls": 10,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.07274380740007018,
+    "mean_regret_eV_atom": 9.799999999993147e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      2.9399999999979444e-05
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 5.3899999999962204e-05,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 9.799999999993148e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 2,
+    "charged_calls": 20,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.0646524660999603,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 3,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06867476109998734,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 4,
+    "charged_calls": 22,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.2,
+    "mean_calls_ci95": [
+      2.0,
+      2.5
+    ],
+    "mean_policy_wall_seconds": 0.06821072760003517,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 10,
+    "n_pools": 10,
+    "p95_regret_eV_atom": 0.0,
+    "split": "shift_li",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 10,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "calibrated_interval",
+    "budget": 999,
+    "charged_calls": 94,
+    "failed_jobs": 0,
+    "fallback_rate": 0.6666666666666666,
+    "mean_calls": 3.1333333333333333,
+    "mean_calls_ci95": [
+      2.3548387096774195,
+      4.074074074074074
+    ],
+    "mean_policy_wall_seconds": 0.06514472369998808,
+    "mean_regret_eV_atom": 4.066666666672584e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.3071428571447591e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00012200000000017752
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "chgnet_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.08117002316669944,
+    "mean_regret_eV_atom": 0.007031733333333334,
+    "mean_regret_eV_atom_ci95": [
+      8.476535714284814e-05,
+      0.02112993214285714
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.01052805000000016,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "conservative_ood",
+    "budget": 999,
+    "charged_calls": 94,
+    "failed_jobs": 0,
+    "fallback_rate": 0.6666666666666666,
+    "mean_calls": 3.1333333333333333,
+    "mean_calls_ci95": [
+      2.3548387096774195,
+      4.074074074074074
+    ],
+    "mean_policy_wall_seconds": 0.07272347116667485,
+    "mean_regret_eV_atom": 4.066666666672584e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.3071428571447591e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00012200000000017752
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "constant_interval",
+    "budget": 999,
+    "charged_calls": 102,
+    "failed_jobs": 0,
+    "fallback_rate": 0.8333333333333334,
+    "mean_calls": 3.4,
+    "mean_calls_ci95": [
+      2.689655172413793,
+      4.290471923536438
+    ],
+    "mean_policy_wall_seconds": 0.07236993080000502,
+    "mean_regret_eV_atom": 0.006260233333333335,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.02012217857142858
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.06603415060000467,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07598973953334583,
+    "mean_regret_eV_atom": 2.966666666666858e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      7.899999999994022e-06
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 1.6500000000108008e-05,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 5.8999999999809205e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.05493155953333068,
+    "mean_regret_eV_atom": 1.3333333333272653e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      4.285714285694782e-06
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 3.999999999981796e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "decision_aware",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.07865842336667962,
+    "mean_regret_eV_atom": 5.333333333338668e-07,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7142857142874287e-06
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 1.6000000000016e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.0624744277000218,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07677559233328186,
+    "mean_regret_eV_atom": 0.00032340000000001073,
+    "mean_regret_eV_atom_ci95": [
+      4.065000000005583e-06,
+      0.0010189678571428766
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0001302500000001094,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.009345000000000159
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.07323252956666693,
+    "mean_regret_eV_atom": 6.533333333328765e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7634435483863964e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 3.2449999999894896e-05,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00013700000000005375
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "disagreement",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.07649306889999631,
+    "mean_regret_eV_atom": 4.566666666668458e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.4678571428577187e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00013700000000005375
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.07465193066666416,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.06034138883333071,
+    "mean_regret_eV_atom": 0.00032340000000001073,
+    "mean_regret_eV_atom_ci95": [
+      4.065000000005583e-06,
+      0.0010189678571428766
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0001302500000001094,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.009345000000000159
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.08506569586667562,
+    "mean_regret_eV_atom": 6.900000000002274e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7965517241379093e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 3.549999999998829e-05,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00013700000000005375
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "diversity",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.05814515096665218,
+    "mean_regret_eV_atom": 5.333333333338668e-07,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7142857142874287e-06
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 1.6000000000016e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "ensemble_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.06381817473334195,
+    "mean_regret_eV_atom": 0.0066423666666666735,
+    "mean_regret_eV_atom_ci95": [
+      8.187500000006454e-06,
+      0.020600047321428568
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.006007800000000098,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.08029154236670213,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.06708881226667623,
+    "mean_regret_eV_atom": 0.0062621999999999955,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.020124285714285713
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 3.2449999999894896e-05,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.07353508679999171,
+    "mean_regret_eV_atom": 0.006260766666666669,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.020122750000000005
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 8.800000000008755e-06,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "fixed_top",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.06830378853333059,
+    "mean_regret_eV_atom": 1.533333333340418e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      4.07692307694637e-06
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 8.800000000008755e-06,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 3.0000000000196536e-05
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "full_ref",
+    "budget": 999,
+    "charged_calls": 110,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.6666666666666665,
+    "mean_calls_ci95": [
+      3.0,
+      4.535714285714286
+    ],
+    "mean_policy_wall_seconds": 0.07408594149998558,
+    "mean_regret_eV_atom": 0.0,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.0
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.0
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "gap_threshold",
+    "budget": 999,
+    "charged_calls": 101,
+    "failed_jobs": 0,
+    "fallback_rate": 0.8,
+    "mean_calls": 3.3666666666666667,
+    "mean_calls_ci95": [
+      2.642857142857143,
+      4.26681818181818
+    ],
+    "mean_policy_wall_seconds": 0.0798369354000215,
+    "mean_regret_eV_atom": 0.006260233333333335,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.02012217857142858
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "m3gnet_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.08244994096665627,
+    "mean_regret_eV_atom": 0.0005687666666666757,
+    "mean_regret_eV_atom_ci95": [
+      8.606619458141065e-06,
+      0.0014046642857142887
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.003930999999999985,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.009345000000000159
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "mlip_only",
+    "budget": 0,
+    "charged_calls": 0,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 0.0,
+    "mean_calls_ci95": [
+      0.0,
+      0.0
+    ],
+    "mean_policy_wall_seconds": 0.06776168413334745,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.08026716900001248,
+    "mean_regret_eV_atom": 0.042260999999999965,
+    "mean_regret_eV_atom_ci95": [
+      0.01842070133928571,
+      0.07102666796874987
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.23527209999999957,
+    "split": "test",
+    "success_rate": 0.6333333333333333,
+    "success_rate_ci95": [
+      0.48148148148148145,
+      0.7880094043887128
+    ],
+    "successes": 19,
+    "worst_regret_eV_atom": 0.2831410000000001
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.06085141253335375,
+    "mean_regret_eV_atom": 0.005533366666666683,
+    "mean_regret_eV_atom_ci95": [
+      0.0009750211494253156,
+      0.011899222348484836
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.03263099999999982,
+    "split": "test",
+    "success_rate": 0.9,
+    "success_rate_ci95": [
+      0.7857142857142857,
+      1.0
+    ],
+    "successes": 27,
+    "worst_regret_eV_atom": 0.07753100000000002
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.0709259171332936,
+    "mean_regret_eV_atom": 0.00285649999999998,
+    "mean_regret_eV_atom_ci95": [
+      0.00029724999999997906,
+      0.006100769999999953
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.018246299999999892,
+    "split": "test",
+    "success_rate": 0.9333333333333333,
+    "success_rate_ci95": [
+      0.8333333333333334,
+      1.0
+    ],
+    "successes": 28,
+    "worst_regret_eV_atom": 0.041621999999999826
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "random",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.06442526513335452,
+    "mean_regret_eV_atom": 0.0011912666666666607,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      0.00310393333333332
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0077527999999998974,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.02164199999999994
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 1,
+    "charged_calls": 30,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 1.0,
+    "mean_calls_ci95": [
+      1.0,
+      1.0
+    ],
+    "mean_policy_wall_seconds": 0.09357651820000683,
+    "mean_regret_eV_atom": 0.006582633333333339,
+    "mean_regret_eV_atom_ci95": [
+      6.033333333332891e-06,
+      0.02047390625000003
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.005201400000000085,
+    "split": "test",
+    "success_rate": 0.9666666666666667,
+    "success_rate_ci95": [
+      0.8928571428571429,
+      1.0
+    ],
+    "successes": 29,
+    "worst_regret_eV_atom": 0.18780700000000006
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 2,
+    "charged_calls": 60,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.0,
+    "mean_calls_ci95": [
+      2.0,
+      2.0
+    ],
+    "mean_policy_wall_seconds": 0.07085056749999694,
+    "mean_regret_eV_atom": 0.00032340000000001073,
+    "mean_regret_eV_atom_ci95": [
+      4.065000000005583e-06,
+      0.0010189678571428766
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 0.0001302500000001094,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.009345000000000159
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 3,
+    "charged_calls": 79,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 2.6333333333333333,
+    "mean_calls_ci95": [
+      2.46875,
+      2.793103448275862
+    ],
+    "mean_policy_wall_seconds": 0.0601879293333089,
+    "mean_regret_eV_atom": 6.533333333328765e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7634435483863964e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 3.2449999999894896e-05,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00013700000000005375
+  },
+  {
+    "abstention_rate": 0.0,
+    "arm": "uncertainty",
+    "budget": 4,
+    "charged_calls": 91,
+    "failed_jobs": 0,
+    "fallback_rate": 0.0,
+    "mean_calls": 3.033333333333333,
+    "mean_calls_ci95": [
+      2.75,
+      3.3333333333333335
+    ],
+    "mean_policy_wall_seconds": 0.07315131773331511,
+    "mean_regret_eV_atom": 6.533333333328765e-06,
+    "mean_regret_eV_atom_ci95": [
+      0.0,
+      1.7634435483863964e-05
+    ],
+    "n_groups": 26,
+    "n_pools": 30,
+    "p95_regret_eV_atom": 3.2449999999894896e-05,
+    "split": "test",
+    "success_rate": 1.0,
+    "success_rate_ci95": [
+      1.0,
+      1.0
+    ],
+    "successes": 30,
+    "worst_regret_eV_atom": 0.00013700000000005375
+  }
+]

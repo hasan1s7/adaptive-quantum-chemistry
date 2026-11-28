@@ -1,0 +1,476 @@
+[
+  {
+    "candidate_rank_1": "rmsd107-opt",
+    "candidate_rank_2": "rmsd212-opt",
+    "candidate_rank_4": "rmsd86-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 2.01,
+    "cheap_gap_rank4_minus_rank1_kcal": 4.7,
+    "family_id": "family_5099cb7747f52e7a",
+    "geometry_sha256": {
+      "rmsd107-opt": "f51cad193318e8daec984bf0b71a9065166de8c615aa8b934bba594641614ae9",
+      "rmsd212-opt": "e746ae6ae488e2f3cf4bd6d3558d04e426137294e266c230b39affb0468db9de",
+      "rmsd86-opt": "6328e1bbebf399f5c4d122fcd081c09e34bdf0e6ac9b75b5230007442592c513"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 3.645705178845674,
+    "pool_id": "omegapdb_1bhx",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.522484238716925
+    },
+    "pre_reference_feature_rank4": null,
+    "regret_rank4_kcal": 3.645705178845674,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd141-opt",
+    "candidate_rank_2": "rmsd120-opt",
+    "candidate_rank_4": "rmsd42-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.02,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.71,
+    "family_id": "family_6f14feb4ed40c5e0",
+    "geometry_sha256": {
+      "rmsd120-opt": "94516c78e4403c6e3a57781427dab83964c3d9a39f83b94bae1f53082a18ea75",
+      "rmsd141-opt": "49e192ac85b2d5419483ddfa56c58d47d62526a5a0c4f0a1a7aba31216d6d790",
+      "rmsd42-opt": "5f63de60b0131204f46df67898a88dd41dbfc683dbb2268d112daffce7938530"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 3.2876945672323927,
+    "pool_id": "omegapdb_1nqu",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.6675733990025345
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.8648365336786639
+    },
+    "regret_rank4_kcal": 3.2876945672323927,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd26-opt",
+    "candidate_rank_2": "rmsd229-opt",
+    "candidate_rank_4": "rmsd199-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.8,
+    "cheap_gap_rank4_minus_rank1_kcal": 4.73,
+    "family_id": "family_20fe808af17fab6f",
+    "geometry_sha256": {
+      "rmsd199-opt": "528d20aca05810dd2613bd486d9c07c62ff1793be106d71b6b25d22f37eb1eb2",
+      "rmsd229-opt": "c6ba513b827c1dfaebad15380a15b7c1c9d8c3c0cf53a482d0bd2773a5209469",
+      "rmsd26-opt": "a5124c0f54d08278ff2de480f1a604cc0e3279f28e053c9d99eb92b1b8c6c7e9"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 2.8062585074221715,
+    "pool_id": "omegacsd_VAMBOA",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.558933817384175
+    },
+    "pre_reference_feature_rank4": null,
+    "regret_rank4_kcal": 2.8062585074221715,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd218-opt",
+    "candidate_rank_2": "rmsd169-opt",
+    "candidate_rank_4": "rmsd115-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 1.04,
+    "cheap_gap_rank4_minus_rank1_kcal": 2.7,
+    "family_id": "family_f290ba3e24997229",
+    "geometry_sha256": {
+      "rmsd115-opt": "2422e523aee8989db22d1431520e910b07ff50a75c554027e6c3908b03728b9a",
+      "rmsd169-opt": "ef894d0deb21570635d847620a27a9611da4e26cf615f0945ea18be1845f94b7",
+      "rmsd218-opt": "f5b8e117bd8352d402a0dcb6bd69eced54196bf1331c42d1a399d663c1327899"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "rescue",
+    "paired_regret_difference_abs": 2.4339840741595253,
+    "pool_id": "omegapdb_1gse",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.7010179428527776
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.3832459488137538
+    },
+    "regret_rank4_kcal": 0.0,
+    "regret_top2_kcal": 2.4339840741595253
+  },
+  {
+    "candidate_rank_1": "rmsd1-opt",
+    "candidate_rank_2": "rmsd185-opt",
+    "candidate_rank_4": "rmsd124-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.88,
+    "cheap_gap_rank4_minus_rank1_kcal": 3.9,
+    "family_id": "family_f290ba3e24997229",
+    "geometry_sha256": {
+      "rmsd1-opt": "5fa24d0fe7ae236e911a1dffc957f90a6dd6c13b2384a1103abf5bf44800a833",
+      "rmsd124-opt": "3eb6669316a217270afa54d3945fd11dca30a952c7991362e7a2c0885662b574",
+      "rmsd185-opt": "f71dd665a4bb5cf837022487960535576190957a790b1517ded133f692fb3380"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.9117229217663407,
+    "pool_id": "omegapdb_2fqt",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.842910037497966
+    },
+    "pre_reference_feature_rank4": null,
+    "regret_rank4_kcal": 1.9117229217663407,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd1-opt",
+    "candidate_rank_2": "rmsd132-opt",
+    "candidate_rank_4": "rmsd119-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.02,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.2,
+    "family_id": "family_8c2e3ed84f9272bb",
+    "geometry_sha256": {
+      "rmsd1-opt": "3a4ada7bb14a9ff32de8c1e175cad6bf10923e80bfaec162222c2ac4b9d3a219",
+      "rmsd119-opt": "c9d77209f26a9355648371159fb5f98d0db6fd899107b6eabf1059bc0d1fa304",
+      "rmsd132-opt": "20fd262caa4cea3d2eaef4117a001fea5995e12a3dfb89e154ceae7c2d6c8dc6"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.6392916662152857,
+    "pool_id": "omegapdb_1g6c",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 2.3034039008789584
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.6679976524552889
+    },
+    "regret_rank4_kcal": 1.6392916662152857,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd131-opt",
+    "candidate_rank_2": "rmsd128-opt",
+    "candidate_rank_4": "rmsd43-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.01,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.41,
+    "family_id": "family_c8ea2a470a13161b",
+    "geometry_sha256": {
+      "rmsd128-opt": "87b9bde7498fdbf0fcb19351ee2404fb453d471b1bc0573d96f6f8ea47f84dab",
+      "rmsd131-opt": "24d7fd5fa3703890d7582ad59b1d38860afe234a393f4a578ffc7167fb51afcf",
+      "rmsd43-opt": "a75ac723546f990cf91d713a25509f58a9f4085e67af48dff7d2bbb73f897d75"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "rescue",
+    "paired_regret_difference_abs": 1.6046984535641968,
+    "pool_id": "omegacsd_FEMMAL",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.5423029760432885
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 3.0124485596065576
+    },
+    "regret_rank4_kcal": 0.5990361138246953,
+    "regret_top2_kcal": 2.203734567388892
+  },
+  {
+    "candidate_rank_1": "rmsd192-opt",
+    "candidate_rank_2": "rmsd66-opt",
+    "candidate_rank_4": "rmsd157-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.05,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.95,
+    "family_id": "family_949091c1482a24d4",
+    "geometry_sha256": {
+      "rmsd157-opt": "2614ee96886a7e39c1c54e0fa38444c274bba57949f94238788f75d3e515290d",
+      "rmsd192-opt": "ba5d91a2e1f153ae1e25abe37f6733e76532fb1ea31409d2a298f54ef5fcada6",
+      "rmsd66-opt": "edf6c6fb8a0a49a22f8dc7aaae39ef0a332e7484f981c9ccdc7e20aee70a5acc"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.4831162637565285,
+    "pool_id": "omegapdb_1zz2",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.8201302482640882
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.9814266692595262
+    },
+    "regret_rank4_kcal": 1.5369621948339045,
+    "regret_top2_kcal": 0.05384593107737601
+  },
+  {
+    "candidate_rank_1": "rmsd162-opt",
+    "candidate_rank_2": "rmsd103-opt",
+    "candidate_rank_4": "rmsd225-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.83,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.92,
+    "family_id": "family_d07897be28eef4fc",
+    "geometry_sha256": {
+      "rmsd103-opt": "e879c62b0d2f575d2d1242dc327f70f1ac88638b4ad1f73065e130c4290db4fb",
+      "rmsd162-opt": "0637d77a0a786bef2e55a9b3b4b999795c9a6267e52396b1d36ed4eb9a51d87d",
+      "rmsd225-opt": "e3a8447ca5ca14fab9323e0108401b462ecbb73f6f6e1c79dbf4ab0dfc05fcc4"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.4732955344952643,
+    "pool_id": "omegapdb_1b6l",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.3153204855362282
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.3393265274870814
+    },
+    "regret_rank4_kcal": 1.724799167830497,
+    "regret_top2_kcal": 0.25150363333523273
+  },
+  {
+    "candidate_rank_1": "rmsd41-opt",
+    "candidate_rank_2": "rmsd194-opt",
+    "candidate_rank_4": "rmsd232-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.29,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.45,
+    "family_id": "family_cca8902fc24975f5",
+    "geometry_sha256": {
+      "rmsd194-opt": "b655c35aef8a5100ad57d755cedd16b6dd3da05d19eef4ec1d2455ff35df5bc8",
+      "rmsd232-opt": "98a89576f4b0db32bf4670a3dd65d390c7bf38dbd1c85658ca92ad3433d50799",
+      "rmsd41-opt": "c406af4b513f4694f2f238762c3865256816d07cac68a19175f92e5a7c358cd0"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.4486206099390984,
+    "pool_id": "omegacsd_PYMSBZ",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 0.4059190669273775
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 0.48924471208734016
+    },
+    "regret_rank4_kcal": 1.4486206099390984,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd52-opt",
+    "candidate_rank_2": "rmsd82-opt",
+    "candidate_rank_4": "rmsd85-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 1.09,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.57,
+    "family_id": "family_f3fba29ae937c54f",
+    "geometry_sha256": {
+      "rmsd52-opt": "a7a945628574a9900570fe8698e4667cbdda20cb31f9d37db3ab003f14ffb3d2",
+      "rmsd82-opt": "dc305aca2b4911ec47645e5d12f4cd42c847a3d879e81d10c91c6520de49a52f",
+      "rmsd85-opt": "671abdedb033e2b22fbc48eee98557026d6a85ed413d12c6a9eefc4173a15f58"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "rescue",
+    "paired_regret_difference_abs": 1.3278296542121097,
+    "pool_id": "astex_1v48",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.6157361491182052
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.859794386754665
+    },
+    "regret_rank4_kcal": 0.0,
+    "regret_top2_kcal": 1.3278296542121097
+  },
+  {
+    "candidate_rank_1": "rmsd180-opt",
+    "candidate_rank_2": "rmsd141-opt",
+    "candidate_rank_4": "rmsd118-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.29,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.44,
+    "family_id": "family_f52b32ae9e4d1105",
+    "geometry_sha256": {
+      "rmsd118-opt": "74055357f63b26feab53f6bae698dea45615eddd053b07c0fd49f0f6d6a071a8",
+      "rmsd141-opt": "ae8a12eaef4f09bcb5764965dbcb9e55fbddd093390a6d459012d7f592934e7d",
+      "rmsd180-opt": "250af135ac296fe3bb4d01fe22d506d970ce35a311370605f9fe9a74a4202cf1"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.261274570482783,
+    "pool_id": "astex_1unl",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.522042180071623
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.2383290025707323
+    },
+    "regret_rank4_kcal": 1.9559877370484173,
+    "regret_top2_kcal": 0.6947131665656343
+  },
+  {
+    "candidate_rank_1": "rmsd184-opt",
+    "candidate_rank_2": "rmsd180-opt",
+    "candidate_rank_4": "rmsd204-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 1.21,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.78,
+    "family_id": "family_c9600e3c0ebb83e6",
+    "geometry_sha256": {
+      "rmsd180-opt": "9ee1ff6fe17d34a5188fed0992b697264d5842ded6950299b348fa9ff22544ce",
+      "rmsd184-opt": "5edffc8f5ee4b2502f3951150ee0cd815cbac609a95841f428559c6dae8d08a3",
+      "rmsd204-opt": "bd753c661462be5ee2ba2280d1083d9f0cd35cd6bdbec58c704abd322f566601"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.0767153520137072,
+    "pool_id": "omegapdb_1oiu",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.2933003149937208
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.3445900782265692
+    },
+    "regret_rank4_kcal": 1.0767153520137072,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd4-opt",
+    "candidate_rank_2": "rmsd8-opt",
+    "candidate_rank_4": "rmsd3-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.47,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.95,
+    "family_id": "family_a21c4f64dcc59dd2",
+    "geometry_sha256": {
+      "rmsd3-opt": "99fe17b884fb9996206f9ebee2aa307eb0cf59eb604f873c28fb1ba5261651c8",
+      "rmsd4-opt": "6fa968220ddea7ae02695e332f0594579b6d43df87de22ebeb1a47269c1681f3",
+      "rmsd8-opt": "41db0194a153d992315c446589ff4dbaed348517e628b23ae4a526ba49026e4b"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 1.0188315425766632,
+    "pool_id": "omegapdb_1oks",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.752686934736163
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.274267336728096
+    },
+    "regret_rank4_kcal": 1.0188315425766632,
+    "regret_top2_kcal": 0.0
+  },
+  {
+    "candidate_rank_1": "rmsd54-opt",
+    "candidate_rank_2": "rmsd65-opt",
+    "candidate_rank_4": "rmsd119-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.41,
+    "cheap_gap_rank4_minus_rank1_kcal": 2.88,
+    "family_id": "family_7796cb316aa67077",
+    "geometry_sha256": {
+      "rmsd119-opt": "c32c90fae41b2caf79704eb154b7b79207ce700523ce82eafbb8cd0653ab3eea",
+      "rmsd54-opt": "eed11805f63470bf7597f064497b4216be6195c7a484f5184a5bfc11196f9786",
+      "rmsd65-opt": "4c262d76946f42133b4cd6c032e4aabeb2ff53614cc89cf9d8032b6de17fc983"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 0.9805941720260307,
+    "pool_id": "omegacsd_SAVZEU",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.00018928212012212284,
+      "torsion_rms_rad": 1.2010593526306397
+    },
+    "pre_reference_feature_rank4": null,
+    "regret_rank4_kcal": 1.1869742578128353,
+    "regret_top2_kcal": 0.20638008578680456
+  },
+  {
+    "candidate_rank_1": "rmsd124-opt",
+    "candidate_rank_2": "rmsd211-opt",
+    "candidate_rank_4": "rmsd4-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.05,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.7,
+    "family_id": "family_eb05dc1d2849c789",
+    "geometry_sha256": {
+      "rmsd124-opt": "b60526a93c4a64cd77739a6229c5f2e1ff775576cf5f4f9c61b478fa67f9710f",
+      "rmsd211-opt": "c35faca5a66c0d6c0af7ed23b4f386b6e60d3b15e77e1acf6c4f3f25ee5e43a8",
+      "rmsd4-opt": "797f0c083d1f7b69f0ac4c495bbe27d274d7b5b16d5d451ee8590a14e748d346"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "rescue",
+    "paired_regret_difference_abs": 0.7607522405451164,
+    "pool_id": "omegacsd_COTXUE",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 0.05716028672008431
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 0.284045373031708
+    },
+    "regret_rank4_kcal": 0.3085056096315384,
+    "regret_top2_kcal": 1.0692578501766548
+  },
+  {
+    "candidate_rank_1": "rmsd226-opt",
+    "candidate_rank_2": "rmsd173-opt",
+    "candidate_rank_4": "rmsd215-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.9,
+    "cheap_gap_rank4_minus_rank1_kcal": 1.3,
+    "family_id": "family_f290ba3e24997229",
+    "geometry_sha256": {
+      "rmsd173-opt": "1d17d2b2d98058b00a69d4e5d4507d26865878507000b559d7f3a47960a87345",
+      "rmsd215-opt": "5128b0ae3596ad811fc9ff98e87c8b5252e8015ee6d38b2e02127b5db85f6afc",
+      "rmsd226-opt": "c34b7c24432ae8d886ed6440306b46376fad409c880e0e2a5119fc59e86d8a70"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 0.7092224902007729,
+    "pool_id": "omegapdb_1gs5",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 0.33188297822207546
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.0928012134107736
+    },
+    "regret_rank4_kcal": 1.3346479136380367,
+    "regret_top2_kcal": 0.6254254234372638
+  },
+  {
+    "candidate_rank_1": "rmsd246-opt",
+    "candidate_rank_2": "rmsd245-opt",
+    "candidate_rank_4": "rmsd239-opt",
+    "cheap_gap_rank2_minus_rank1_kcal": 0.05,
+    "cheap_gap_rank4_minus_rank1_kcal": 0.25,
+    "family_id": "family_f233c16ae057a27b",
+    "geometry_sha256": {
+      "rmsd239-opt": "8869a05b7e51a687a2c9966159b1bcdec7e3fc93090d460f8a000e5d2cdffd95",
+      "rmsd245-opt": "ae8b27d939a12365dc7c30bcbfee4eec73c83149bbd780e47a88099ea82490c1",
+      "rmsd246-opt": "218fa66f7d3056dd197c5c217ae69151ddf3a94105c659962b61f1f2bcdf86b0"
+    },
+    "hypothesis_status": "no qualified chemist review; retrospective development",
+    "kind": "harm",
+    "paired_regret_difference_abs": 0.5465542464517057,
+    "pool_id": "omegacsd_VOXHAR",
+    "pre_reference_feature_rank2": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.3727793473436738
+    },
+    "pre_reference_feature_rank4": {
+      "steric_overlap_per_heavy": 0.0,
+      "torsion_rms_rad": 1.002035555887768
+    },
+    "regret_rank4_kcal": 1.0436175314243883,
+    "regret_top2_kcal": 0.4970632849726826
+  }
+]

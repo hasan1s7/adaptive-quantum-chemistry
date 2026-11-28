@@ -1,0 +1,45 @@
+{
+  "actual_proposals": 5,
+  "available_same_composition_reference_set_size": 5,
+  "close_contact_floor_angstrom": 0.9,
+  "code_sha256": "582d6cb3203e4236453b4bc83690d8903af20480370cad470ad1ba299df4c71b",
+  "composition": "SiO2",
+  "cost_matching_scope": "same number of geometry-validation attempts only; generation overhead measured separately",
+  "dft_budget_executed": 0,
+  "evidence_class": "executed_geometry_only_prototype",
+  "matched_baseline_geometry_attempts": 5,
+  "maximum_cap": 12,
+  "maximum_entry_strain": 0.002,
+  "maximum_fractional_jitter": 0.002,
+  "mlip_relaxation_budget_executed": 0,
+  "near_duplicate_rule": {
+    "images_per_axis": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "relative_volume_max": 0.001,
+    "spectrum_max_abs_angstrom": 0.03,
+    "spectrum_rms_max_angstrom": 0.01
+  },
+  "novelty_scope": "exact and screened near duplicates relative only to available SiO2 initial inputs; no basin or materials novelty claim",
+  "parent_ids": [
+    "wbm-1-37739",
+    "wbm-1-37740",
+    "wbm-1-37741",
+    "wbm-1-37742",
+    "wbm-2-33790"
+  ],
+  "physical_improvement_comparison": "unsupported: no energy or relaxation model evaluated",
+  "proposal_method": "one seeded symmetric cell strain and independent fractional jitter per parent",
+  "requested_cap": 5,
+  "schema": "erkidu-bounded-oxide-generation/v1",
+  "seed": 20261127,
+  "source_path": "/workspace/scratch/2f84862b5fa6/erkidu/data/decision_engine/initial_geometries.json.gz",
+  "source_selection": "first lexicographic IDs among geometry-valid initial SiO2 inputs; no energies read",
+  "source_sha256": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b",
+  "upstream_source_sha256": "98d545172c1ea9060f03f40cace6f8173a4ac06f1ee875ccd963765211519b58",
+  "upstream_source_url": "https://ndownloader.figshare.com/files/53161835"
+}

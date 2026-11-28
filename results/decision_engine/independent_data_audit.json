@@ -1,0 +1,54 @@
+{
+  "calibration_checked": {
+    "combined": {
+      "groups": 24,
+      "q90": 3.0014046194402404,
+      "q95": 3.085848089480641
+    },
+    "constant": {
+      "groups": 24,
+      "q90": 4.771013579588544,
+      "q95": 5.539464899545607
+    },
+    "disagreement": {
+      "groups": 24,
+      "q90": 2.9779738634779593,
+      "q95": 4.478234912198448
+    },
+    "distance": {
+      "groups": 24,
+      "q90": 4.43841277638472,
+      "q95": 4.567567958688031
+    }
+  },
+  "candidates": 367,
+  "checks": [
+    "source and output seals",
+    "whole chemical-system partitions",
+    "composition uniqueness",
+    "same-composition initial-prototype deduplication",
+    "explicit public feature whitelist",
+    "each model normalized by first lexicographic candidate only",
+    "raw uncentered reference labels",
+    "cheap-anchor contrast disagreement",
+    "Li shift separation"
+  ],
+  "chemical_systems": 93,
+  "evidence_class": "executed_inspection",
+  "limitations": [
+    "No full-geometry near-duplicate or trajectory audit is possible from this metadata-only bundle",
+    "Different chemical systems can share abstract prototypes and are not proven independent",
+    "Public MP support is not an exact model-training-membership audit",
+    "Published labels remain retrospective and cannot validate generated structures"
+  ],
+  "policy_or_oracle_runs": 0,
+  "pool_split_counts": {
+    "calibration": 28,
+    "shift_li": 10,
+    "test": 30,
+    "train": 35
+  },
+  "pools": 103,
+  "schema": "erkidu-independent-data-audit/v1",
+  "status": "passed"
+}

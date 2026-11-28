@@ -1,0 +1,290 @@
+{
+  "case_query_ids": {
+    "constant_interval": [
+      "wbm-4-25075"
+    ],
+    "decision_aware": [
+      "wbm-4-25075",
+      "wbm-1-37762"
+    ],
+    "fixed_top": [
+      "wbm-4-25075",
+      "wbm-1-37760"
+    ],
+    "m3gnet_only": []
+  },
+  "comparisons": [
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 30,
+          "successes": 30
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 1,
+          "charged_calls": 30,
+          "mean_calls": 1.0,
+          "n_pools": 30,
+          "successes": 29
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 1,
+          "charged_calls": 30,
+          "mean_calls": 1.0,
+          "n_pools": 30,
+          "successes": 29
+        }
+      ],
+      "budget": 1,
+      "harms": 0,
+      "rescues": 0,
+      "split": "test"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 30,
+          "successes": 30
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 2,
+          "charged_calls": 60,
+          "mean_calls": 2.0,
+          "n_pools": 30,
+          "successes": 29
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "charged_calls": 60,
+          "mean_calls": 2.0,
+          "n_pools": 30,
+          "successes": 30
+        }
+      ],
+      "budget": 2,
+      "harms": 0,
+      "rescues": 1,
+      "split": "test"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 30,
+          "successes": 30
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 3,
+          "charged_calls": 79,
+          "mean_calls": 2.6333333333333333,
+          "n_pools": 30,
+          "successes": 29
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 3,
+          "charged_calls": 79,
+          "mean_calls": 2.6333333333333333,
+          "n_pools": 30,
+          "successes": 30
+        }
+      ],
+      "budget": 3,
+      "harms": 0,
+      "rescues": 1,
+      "split": "test"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 30,
+          "successes": 30
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 4,
+          "charged_calls": 91,
+          "mean_calls": 3.033333333333333,
+          "n_pools": 30,
+          "successes": 30
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 4,
+          "charged_calls": 91,
+          "mean_calls": 3.033333333333333,
+          "n_pools": 30,
+          "successes": 30
+        }
+      ],
+      "budget": 4,
+      "harms": 0,
+      "rescues": 0,
+      "split": "test"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 1,
+          "charged_calls": 10,
+          "mean_calls": 1.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 1,
+          "charged_calls": 10,
+          "mean_calls": 1.0,
+          "n_pools": 10,
+          "successes": 10
+        }
+      ],
+      "budget": 1,
+      "harms": 0,
+      "rescues": 0,
+      "split": "shift_li"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 2,
+          "charged_calls": 20,
+          "mean_calls": 2.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 2,
+          "charged_calls": 20,
+          "mean_calls": 2.0,
+          "n_pools": 10,
+          "successes": 10
+        }
+      ],
+      "budget": 2,
+      "harms": 0,
+      "rescues": 0,
+      "split": "shift_li"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 3,
+          "charged_calls": 22,
+          "mean_calls": 2.2,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 3,
+          "charged_calls": 22,
+          "mean_calls": 2.2,
+          "n_pools": 10,
+          "successes": 10
+        }
+      ],
+      "budget": 3,
+      "harms": 0,
+      "rescues": 0,
+      "split": "shift_li"
+    },
+    {
+      "arms": [
+        {
+          "arm": "m3gnet_only",
+          "budget": 0,
+          "charged_calls": 0,
+          "mean_calls": 0.0,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "fixed_top",
+          "budget": 4,
+          "charged_calls": 22,
+          "mean_calls": 2.2,
+          "n_pools": 10,
+          "successes": 10
+        },
+        {
+          "arm": "decision_aware",
+          "budget": 4,
+          "charged_calls": 22,
+          "mean_calls": 2.2,
+          "n_pools": 10,
+          "successes": 10
+        }
+      ],
+      "budget": 4,
+      "harms": 0,
+      "rescues": 0,
+      "split": "shift_li"
+    }
+  ],
+  "default_budget": 2,
+  "default_endpoint": "tolerance_miss_rate",
+  "default_split": "test",
+  "external_dependencies": [],
+  "generation_status": "geometry_prototype_executed_physical_validation_blocked",
+  "global_control_scope": "Split and paid-query cap update all three summary cards and the paired comparison.",
+  "reference_revelation_stages": [
+    "none",
+    "first queried reference",
+    "two separate queried histories",
+    "evaluator-only full labels after stopping"
+  ],
+  "relative_download_links": false,
+  "schema_version": "erkidu-ui-contract-2",
+  "tolerance_eV_atom": 0.02,
+  "walkthrough_scope": "The SnO2 walkthrough is explicitly a fixed two-query test case."
+}

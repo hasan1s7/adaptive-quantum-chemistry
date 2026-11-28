@@ -1,0 +1,45 @@
+{
+  "configuration": {
+    "bond_inference_factor": 1.25,
+    "budget": 2,
+    "cluster_bootstrap_draws": 2000,
+    "eligible_ranks": [
+      2,
+      3,
+      4,
+      5
+    ],
+    "energy_window_relative_to_rank2_kcal": 2.0,
+    "first_rank": 1,
+    "resampling_seed": 271828,
+    "severe_miss_kcal": 3.0,
+    "steric_radius_factor": 0.8,
+    "threshold_kcal": 1.0
+  },
+  "evidence_scope": "development_only_prelabel",
+  "families": 287,
+  "limitations": "XYZ connectivity inferred; no chemistry review, queue or reference-job timing",
+  "mean_candidate_count": 9.960251046025105,
+  "measured_local_prelabel_seconds": {
+    "feature_and_policy_joint_cpu_seconds": 2.525019958,
+    "feature_and_policy_wall_clock": 2.534958570000015,
+    "input_loading_wall_clock": 0.31946514599997045
+  },
+  "plan_sha256": "2e13675081a5305a8b43c94cd75ce04e7566ac81357dd412d74e5c2cf6bf323e",
+  "policies": [
+    "top2",
+    "torsion",
+    "steric",
+    "torsion_plus_steric"
+  ],
+  "policy_code_sha256": "e90e3f84606cc527aa9f251fbbb771ea9852f41b475f241c67ea15ec1f43f3a6",
+  "pools": 478,
+  "reference_file_opened_during_plan": false,
+  "repository_pin": "6d81701875b996426c07f383789767ea423a899a",
+  "schema": "erkidu-two-call/development-v1",
+  "source_input_hashes": {
+    "development_features.jsonl": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+    "development_geometry.json.gz": "05949303658ab98af392c79a6b9f63cfd8ca310f3faf1bfcf57d38106308df7a",
+    "folds.json": "969e74925d1d3c8144216590e3e5a968218360bc158f56a2df0e9b5a86e5fc7f"
+  }
+}

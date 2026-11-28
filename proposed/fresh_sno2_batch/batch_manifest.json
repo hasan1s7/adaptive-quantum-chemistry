@@ -1,0 +1,149 @@
+{
+  "schema_version": "erkidu.proposed-fresh-reference-batch.v1",
+  "status": "PROPOSED_NOT_RUN_REVIEW_REQUIRED",
+  "dft_jobs_executed": 0,
+  "compute_spend_authorized": false,
+  "scheduler_submission": null,
+  "purpose": "Forensic reproduction of one examined SnO2 failure; not an independent policy test",
+  "input_geometries_sha256": "b45bf562e6050a92f97a2939dcf168932363a41557ad12509080bced2581c09b",
+  "cases": [
+    {
+      "material_id": "wbm-4-25075",
+      "role": "MACE first choice; shared cubic high-energy endpoint",
+      "n_atoms": 9,
+      "initial_geometry_sha256": "1ed27f98c1fc2cb4df639d9c82f2170cffa1828941e87b55f8eb09b5e7b0ee8d",
+      "source_record_sha256": "5d2f13f0403dc3c32fca6ddfec3f1e7248e0531ec3b892ff5b3b49cebcdd1d7a",
+      "source_charge": null,
+      "intended_formal_charge": 0,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "files": {
+        "INCAR.relax.template": "b261a1ca8b118b440b4550d5c13df1fddfcd4fc8aab35a33269593dbe9bb8e62",
+        "INCAR.single_point.template": "312c2862f133816de757480931d171ec24c97f2022749a0806e1182f9c62406b",
+        "KPOINTS.template": "407217d5230c937e7f07491a0a8979644f96f5be99cb914f63817913f04025dc",
+        "POSCAR": "001bf972885f3099fe0716a1f7c6533f5e5bb2e73164d95d7f2c7bd04db1239c",
+        "POTCAR.spec.json": "4b5d9fdb99b9d1dd03cbf7f6f6c73c7df3a19fe45b003a52a05cbe4bc8be8207"
+      },
+      "ready_for_submission": false
+    },
+    {
+      "material_id": "wbm-1-37760",
+      "role": "MACE fixed-top-two second query",
+      "n_atoms": 9,
+      "initial_geometry_sha256": "a622a911b709e9b6313e4aa40e7d71186bcbccb6d8c4496709e72a1ad2485662",
+      "source_record_sha256": "7acee3cb3882c4db30dc610a7645a2fbaf964430b632b4fa296a740ed823dfb4",
+      "source_charge": null,
+      "intended_formal_charge": 0,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "files": {
+        "INCAR.relax.template": "1bda6536daa3d1dbf4f6687c905600562c1f983904fb05094a2d6de0ccb1bb17",
+        "INCAR.single_point.template": "ed5b044700cbfa8075e599dd648446dd909049d7a0f172f1d668fa4d3f8a1354",
+        "KPOINTS.template": "407217d5230c937e7f07491a0a8979644f96f5be99cb914f63817913f04025dc",
+        "POSCAR": "918c19e3d49ee8fd442b5c307703f643c7af6611636f2b2eebc044c322ee566b",
+        "POTCAR.spec.json": "4b5d9fdb99b9d1dd03cbf7f6f6c73c7df3a19fe45b003a52a05cbe4bc8be8207"
+      },
+      "ready_for_submission": false
+    },
+    {
+      "material_id": "wbm-1-37762",
+      "role": "Decision-aware second query; low reference endpoint",
+      "n_atoms": 12,
+      "initial_geometry_sha256": "f01ddcd5e5e90b1b14b7a45f6cf379af930b345a7f99c9b24ae8ac8276c7d055",
+      "source_record_sha256": "bd55c457482401ddc068224540dacacca06a3e7bcfe2067387d1254ae5a87738",
+      "source_charge": null,
+      "intended_formal_charge": 0,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "files": {
+        "INCAR.relax.template": "0cfd98edb983a34b2271a06620df85cca377e1ae306e5eb8ad749c43e73a02d9",
+        "INCAR.single_point.template": "69b2e36ba5151ab8f9087212a5858bac0c8dddf62a9c7d903593e80e7ad6fdb2",
+        "KPOINTS.template": "407217d5230c937e7f07491a0a8979644f96f5be99cb914f63817913f04025dc",
+        "POSCAR": "f80582bfe93f8f31edcfc583fc67d9c078dbf4e2d678f7554ac084e627f90c55",
+        "POTCAR.spec.json": "4b5d9fdb99b9d1dd03cbf7f6f6c73c7df3a19fe45b003a52a05cbe4bc8be8207"
+      },
+      "ready_for_submission": false
+    },
+    {
+      "material_id": "wbm-2-33797",
+      "role": "Reference minimum; same final prototype as decision-aware selection",
+      "n_atoms": 6,
+      "initial_geometry_sha256": "c86bd9c5c75d683f6e64ad2c53b4f879a90d484deb1675e09f564881aed840b8",
+      "source_record_sha256": "5d52fde7f412227b0e0abbc8ee83ea6a7731c4cfad63b53179ef10d6ca56d27f",
+      "source_charge": null,
+      "intended_formal_charge": 0,
+      "pbc": [
+        true,
+        true,
+        true
+      ],
+      "files": {
+        "INCAR.relax.template": "304c919d8ca418ba5f193dcb7f3d87c50ff0173030af60ee2dd67769f2b061a1",
+        "INCAR.single_point.template": "91ab9ed29d82a853435a3727f984934ef8c3ad8d464861492bf11b525ea5b6ec",
+        "KPOINTS.template": "407217d5230c937e7f07491a0a8979644f96f5be99cb914f63817913f04025dc",
+        "POSCAR": "3d2e1708a728bdece24313cce15bd446d828948f833078c92956bd57b53d45d5",
+        "POTCAR.spec.json": "4b5d9fdb99b9d1dd03cbf7f6f6c73c7df3a19fe45b003a52a05cbe4bc8be8207"
+      },
+      "ready_for_submission": false
+    }
+  ],
+  "reference_protocol": {
+    "functional": "PBE",
+    "u_correction": "none for SnO2",
+    "dispersion": "none proposed",
+    "periodic": [
+      true,
+      true,
+      true
+    ],
+    "energy_unit": "eV per full cell; divide by actual atom count for comparison",
+    "force_unit": "eV/angstrom",
+    "cutoff_eV": 520,
+    "spin": "spin-polarized; site initial magnetic moments require Ahmad review",
+    "charge": "neutral formal Sn4+/O2- intent; source JSON charge null; confirm before submitting",
+    "k_grid": "Gamma centered; choose and pin actual integer mesh, target1000 k-points per reciprocal atom, verify convergence",
+    "electronic_tolerance_proposed_eV": 1e-06,
+    "ionic_force_tolerance_eV_angstrom": 0.005,
+    "historical_reproduction_limit": "Exact original INCAR, VASP build, POTCAR hashes and initial moments are unavailable"
+  },
+  "budget": {
+    "initial_single_points": 4,
+    "variable_cell_relaxations": 4,
+    "final_static_checks": 4,
+    "total_max_reference_jobs_before_review": 12,
+    "optional_reruns_authorized": false,
+    "resource_planning_only": "Start assessment at8 CPU ranks,16GiB/job,60min wall cap/job; unmeasured estimate, site review required",
+    "planned_concurrency": 1,
+    "queue_seconds": null,
+    "runtime_seconds": null,
+    "actual_dollars": null,
+    "cpu_rank_hour_cap_if_all_jobs_hit_wall_cap": 96
+  },
+  "required_outputs": [
+    "exact VASP version",
+    "all input hashes including POTCAR",
+    "SCF and ionic convergence status",
+    "initial energy and forces",
+    "final geometry and energy",
+    "max force and stress",
+    "wall/CPU time",
+    "queue time",
+    "attempts and failures",
+    "symmetry and basin comparison"
+  ],
+  "stop_rules": [
+    "Stop a job at the declared wall or ionic-step cap and record failure; no automatic paid retries",
+    "Do not treat a nonconverged relaxation as a reference energy",
+    "Resolve any change of electronic protocol before comparing its energies with historic WBM labels",
+    "Differences below2meV/atom are ties for this forensic comparison unless a tighter convergence study supports more precision"
+  ]
+}

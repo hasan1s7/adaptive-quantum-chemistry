@@ -1,0 +1,231 @@
+{
+  "auditor_sha256": "0c5748afb984e370eef0a4db74b3a426a7b33cf0c856bb4d3bd06f1e7d24adad",
+  "captured_sources": {
+    "__init__.py": {
+      "current_source": true,
+      "expected_sha256": "c0afa11d993a666a056d2495f8b1aeb31c3be024d10569cee23a101c054dbfe2",
+      "matched": true,
+      "path": "erkidu_decision/__init__.py"
+    },
+    "__main__.py": {
+      "current_source": true,
+      "expected_sha256": "ced30249fb2b8a09ef1f76a6a98d2f2cf8c01cbe2e40f1ce33f48739ed430914",
+      "matched": true,
+      "path": "erkidu_decision/__main__.py"
+    },
+    "core.py": {
+      "current_source": true,
+      "expected_sha256": "cf18d12c99938a1075894f59fef7c0ac438159a7cbf0c481bcdfbfbd21367611",
+      "matched": true,
+      "path": "erkidu_decision/core.py"
+    },
+    "experiment.py": {
+      "current_source": true,
+      "expected_sha256": "1b417ed70cc4a46c22c730da9f11781fc6d8001789527a5a271d66104078ecc6",
+      "matched": true,
+      "path": "erkidu_decision/experiment.py"
+    },
+    "prepare.py": {
+      "current_source": true,
+      "expected_sha256": "4e54b7e6d26b549a88fe9de13830d3fba6cac13f29155fdf8d972cbcd727c67d",
+      "matched": true,
+      "path": "erkidu_decision/prepare.py"
+    },
+    "reporting.py": {
+      "current_source": false,
+      "expected_sha256": "4dba0dbf8d524e35415b29c85cde40110e9fe31d7af3a071125ec91d29580bd9",
+      "matched": true,
+      "path": "results/decision_engine/source_at_run/reporting.py"
+    }
+  },
+  "checks_by_name": {
+    "aggregate_bootstrap_interval": 198,
+    "aggregate_roster": 1,
+    "aggregate_value": 858,
+    "all_runs_expected": 1,
+    "availability_anchor": 5273,
+    "availability_anchor_offset": 5273,
+    "availability_attempted_prefix": 5273,
+    "availability_budget": 5273,
+    "availability_observed_prefix": 5273,
+    "availability_predictions": 5273,
+    "availability_unit": 5273,
+    "calibration_artifact_identity": 1720,
+    "calibration_coverage_value": 72,
+    "captured_source_hash": 6,
+    "complete_evaluator_truth": 1,
+    "cost_scenario_objective": 60,
+    "csv_columns": 1760,
+    "csv_trace_roster": 3,
+    "csv_value": 44000,
+    "dashboard_bundle_source_identity": 8,
+    "dashboard_embedded_bundle_identity": 1,
+    "dashboard_worst_cases_subset": 1,
+    "evaluation_accept_success": 1720,
+    "evaluation_failed_jobs": 1720,
+    "evaluation_ground_truth_complete": 1720,
+    "evaluation_label_kind": 1720,
+    "evaluation_regret": 1720,
+    "expected_trace_file_run_count": 3,
+    "failed_job_no_reference_revelation": 17,
+    "fit_input_identity": 1,
+    "fixed_budget_exact": 1320,
+    "frontier_value": 66,
+    "frozen_model_no_queries": 160,
+    "full_reference_all_candidates": 40,
+    "historical_cost_unit": 1720,
+    "interval_certificate_arithmetic": 156,
+    "interval_lower_bounds": 156,
+    "interval_nonnegative_risk_bound": 156,
+    "interval_signed_margin": 156,
+    "manifest_fit_identity": 1,
+    "no_live_compute_claim": 1,
+    "paired_bootstrap_regret": 40,
+    "paired_bootstrap_success": 40,
+    "paired_exact_reference_budget": 40,
+    "paired_value": 240,
+    "payload_row_budget_seed_policy": 1720,
+    "preparation_seal": 8,
+    "public_candidate_values": 5676,
+    "public_candidate_whitelist": 5676,
+    "public_payload_no_references": 1720,
+    "query_cache_accounting": 3423,
+    "query_candidate_valid": 3423,
+    "query_events_match_responses": 1720,
+    "query_order": 3423,
+    "query_prestate_identity": 3423,
+    "query_unit_protocol_kind": 3423,
+    "random_seed_roster": 1,
+    "random_seed_summary_value": 64,
+    "reference_protocol": 1,
+    "reference_unit": 1,
+    "reporting_additional_input_identity": 7,
+    "reporting_input_identity": 1,
+    "reporting_output_hash": 5,
+    "reporting_renderer_identity": 1,
+    "reporting_template_identity": 1,
+    "response_absolute_reference": 3406,
+    "response_fault_contract": 3423,
+    "result_seal": 19,
+    "row_result_identity": 1720,
+    "runtime_failed_count": 1,
+    "runtime_query_count": 3,
+    "runtime_run_count": 3,
+    "split_and_group_identity": 1720,
+    "support_threshold_identity": 1720,
+    "terminal_best_queried": 1553,
+    "trace_id_reconstructs": 1720,
+    "trace_id_row_identity": 1720,
+    "trace_id_unique": 1720,
+    "trace_ledger_total": 1720,
+    "trace_no_repeated_query": 1720,
+    "trace_observation_map": 1720,
+    "trace_roster_identity": 1720,
+    "trace_unit_protocol": 1720,
+    "variable_budget_respected": 200,
+    "visibility_boundary_record": 1720,
+    "worst_case_decision_identity": 30,
+    "worst_case_truth_identity": 30
+  },
+  "checks_total": 161539,
+  "evidence_kind": "executed_saved_trace_and_result_consistency_audit",
+  "exact_test_cost_arithmetic": {
+    "break_even": {
+      "EI_vs_M3GNet_lambda_plus_eta_threshold": "2829/10000000",
+      "EI_vs_fixed_top_two_extra_model_pass_eta": "187777/60000000",
+      "scope": "finite test cohort; no measured prices or physical precision guarantee",
+      "unit": "eV/atom regret-equivalent penalty"
+    },
+    "decision_aware": {
+      "mean_fraction": "89/30000000",
+      "n_pools": 30,
+      "total_regret_eV_atom": "0.000089"
+    },
+    "fixed_top": {
+      "mean_fraction": "31311/5000000",
+      "n_pools": 30,
+      "total_regret_eV_atom": "0.187866"
+    },
+    "m3gnet_only": {
+      "mean_fraction": "17063/30000000",
+      "n_pools": 30,
+      "total_regret_eV_atom": "0.017063"
+    }
+  },
+  "experiment_rerun": false,
+  "failure_count": 0,
+  "failures": [],
+  "interval_audit": {
+    "events": 156,
+    "negative_risk_bounds": 0,
+    "negative_signed_margins": 31,
+    "observed_certified_threshold_failures": [
+      {
+        "arm": "constant_interval",
+        "note": "Observed failure of the calibrated interval on this pool, not an arithmetic failure of the certificate test.",
+        "pool_id": "O2Sn1",
+        "regret_eV_atom": 0.18780700000000006,
+        "split": "test",
+        "trace_id": "563466927a6b48ef4fb3"
+      }
+    ],
+    "true_certificate_events": 56
+  },
+  "new_model_fits": 0,
+  "new_paid_compute": 0,
+  "new_reference_queries": 0,
+  "notes": [
+    "No policy, oracle, model fit, relaxation, or reference job was rerun. Bootstrap intervals were recomputed as an arithmetic consistency audit of existing rows.",
+    "All replay queries are unique; actual replay logs contain no cache hits. Cache success/failure behavior is covered by existing synthetic unit tests, not demonstrated by these unique-query traces.",
+    "Complete evaluator truth is required to score this real-data replay. Synthetic operational failures retain evaluator truth; they cannot estimate losses when reference truth itself is missing.",
+    "The chemistry split and bootstrap do not establish independent pretrained exposure or independent WBM parent lineage.",
+    "A recorded calibrated certificate can fail on a pool even when its arithmetic is correct; observed certificate failures are preserved below rather than reclassified as code failures."
+  ],
+  "query_status_counts": {
+    "failed": 17,
+    "succeeded": 3406
+  },
+  "status": "passed",
+  "test_coverage_review": {
+    "covered_by_existing_named_tests": [
+      "unit/protocol rejection",
+      "None/nonfinite references charged",
+      "cached successes/failures uncharged",
+      "unsupported forces",
+      "held-out reference perturbation",
+      "calibration-vs-training isolation",
+      "missing training label fails explicitly",
+      "duplicate/group split rejection",
+      "ties",
+      "fixed budgets and cost accounting",
+      "nonnegative interval-bound repair"
+    ],
+    "gaps": [
+      "No direct named test for bool/string malformed reference values (implementation rejects them).",
+      "Real missing evaluation labels lack an end-to-end successful reporting path; pilot importer must require complete truth or explicitly mark evaluation unsupported before paired aggregation.",
+      "Unit tags cannot detect numerically plausible values supplied under a false physical unit/protocol label; source and physics review remains necessary."
+    ],
+    "not_exercised_by_canonical_traces": [
+      "repeat requests/cache hits",
+      "unsupported force requests",
+      "actual missing evaluator ground truth",
+      "actual failed DFT calculations"
+    ]
+  },
+  "total_query_attempts": 3423,
+  "total_runs": 1720,
+  "trace_files": {
+    "decision_traces.jsonl.gz": {
+      "runs": 1320,
+      "sha256": "4058d5566369868dc4df05555bbc83793c97cd4adbb868dabc2159dcfe647fc5"
+    },
+    "random_seed_traces.jsonl.gz": {
+      "runs": 280,
+      "sha256": "3fc8e0cd3eda0b080d8da31c1c4be789c3c56f9517b791e9068cfb8a753b9b15"
+    },
+    "synthetic_failure_traces.jsonl.gz": {
+      "runs": 120,
+      "sha256": "0a54f4808dbe1347fb3fc53c96b4a4fabc890ce3e0c82002a7dfa1d8e21f287a"
+    }
+  }
+}

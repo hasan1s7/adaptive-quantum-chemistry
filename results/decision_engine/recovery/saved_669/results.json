@@ -1,0 +1,344 @@
+{
+  "by_fold": {
+    "1_gap_gate": {
+      "0": {
+        "calls": 135,
+        "mean_regret_kcal": 0.21509405913153992,
+        "molecules": 96,
+        "p95_regret_kcal": 0.707613672449952,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 3,
+        "risk": 0.04166666666666663,
+        "success": 92
+      },
+      "1": {
+        "calls": 129,
+        "mean_regret_kcal": 0.23161737775397184,
+        "molecules": 92,
+        "p95_regret_kcal": 0.7718508132093124,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 3,
+        "risk": 0.04347826086956519,
+        "success": 88
+      },
+      "2": {
+        "calls": 123,
+        "mean_regret_kcal": 0.32844601890048414,
+        "molecules": 88,
+        "p95_regret_kcal": 1.8782822670415042,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.06818181818181823,
+        "success": 82
+      },
+      "3": {
+        "calls": 134,
+        "mean_regret_kcal": 0.20808982957229696,
+        "molecules": 96,
+        "p95_regret_kcal": 0.8817459653073456,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.05208333333333337,
+        "success": 91
+      },
+      "4": {
+        "calls": 148,
+        "mean_regret_kcal": 0.26227206767828837,
+        "molecules": 106,
+        "p95_regret_kcal": 1.6532579070189968,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 4,
+        "risk": 0.06603773584905659,
+        "success": 99
+      }
+    },
+    "2_rmsd_rerank": {
+      "0": {
+        "calls": 135,
+        "mean_regret_kcal": 0.21455774175956321,
+        "molecules": 96,
+        "p95_regret_kcal": 0.7976423490908928,
+        "picks_second_rank_ge3": 23,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 3,
+        "risk": 0.04166666666666663,
+        "success": 92
+      },
+      "1": {
+        "calls": 129,
+        "mean_regret_kcal": 0.23329597871697447,
+        "molecules": 92,
+        "p95_regret_kcal": 0.916796004964272,
+        "picks_second_rank_ge3": 27,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.05434782608695654,
+        "success": 87
+      },
+      "2": {
+        "calls": 123,
+        "mean_regret_kcal": 0.3263458250631546,
+        "molecules": 88,
+        "p95_regret_kcal": 1.8782822670415042,
+        "picks_second_rank_ge3": 20,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.06818181818181823,
+        "success": 82
+      },
+      "3": {
+        "calls": 134,
+        "mean_regret_kcal": 0.18340696446587876,
+        "molecules": 96,
+        "p95_regret_kcal": 0.857671409699833,
+        "picks_second_rank_ge3": 27,
+        "rescued_first_hit_rank_ge3": 1,
+        "rescued_rank2": 1,
+        "risk": 0.05208333333333337,
+        "success": 91
+      },
+      "4": {
+        "calls": 148,
+        "mean_regret_kcal": 0.24456026148268478,
+        "molecules": 106,
+        "p95_regret_kcal": 1.184441786550451,
+        "picks_second_rank_ge3": 19,
+        "rescued_first_hit_rank_ge3": 1,
+        "rescued_rank2": 4,
+        "risk": 0.05660377358490565,
+        "success": 100
+      }
+    },
+    "3_gyration_probe": {
+      "0": {
+        "calls": 135,
+        "mean_regret_kcal": 0.19007858055374527,
+        "molecules": 96,
+        "p95_regret_kcal": 0.6684978816483635,
+        "picks_second_rank_ge3": 25,
+        "rescued_first_hit_rank_ge3": 1,
+        "rescued_rank2": 3,
+        "risk": 0.03125,
+        "success": 93
+      },
+      "1": {
+        "calls": 129,
+        "mean_regret_kcal": 0.23329597871697447,
+        "molecules": 92,
+        "p95_regret_kcal": 0.916796004964272,
+        "picks_second_rank_ge3": 28,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.05434782608695654,
+        "success": 87
+      },
+      "2": {
+        "calls": 123,
+        "mean_regret_kcal": 0.3263458250631546,
+        "molecules": 88,
+        "p95_regret_kcal": 1.8782822670415042,
+        "picks_second_rank_ge3": 21,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 2,
+        "risk": 0.06818181818181823,
+        "success": 82
+      },
+      "3": {
+        "calls": 134,
+        "mean_regret_kcal": 0.20956458459234759,
+        "molecules": 96,
+        "p95_regret_kcal": 1.0429060981841758,
+        "picks_second_rank_ge3": 27,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 1,
+        "risk": 0.0625,
+        "success": 90
+      },
+      "4": {
+        "calls": 148,
+        "mean_regret_kcal": 0.24456026148268478,
+        "molecules": 106,
+        "p95_regret_kcal": 1.184441786550451,
+        "picks_second_rank_ge3": 19,
+        "rescued_first_hit_rank_ge3": 1,
+        "rescued_rank2": 4,
+        "risk": 0.05660377358490565,
+        "success": 100
+      }
+    },
+    "fixed_top_two": {
+      "0": {
+        "calls": 192,
+        "mean_regret_kcal": 0.14461601302173221,
+        "molecules": 96,
+        "p95_regret_kcal": 0.532358630298404,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 4,
+        "risk": 0.03125,
+        "success": 93
+      },
+      "1": {
+        "calls": 184,
+        "mean_regret_kcal": 0.14586899978166912,
+        "molecules": 92,
+        "p95_regret_kcal": 0.6011023042025047,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 5,
+        "risk": 0.021739130434782594,
+        "success": 90
+      },
+      "2": {
+        "calls": 176,
+        "mean_regret_kcal": 0.22675610711237162,
+        "molecules": 88,
+        "p95_regret_kcal": 1.5370413510070566,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 3,
+        "risk": 0.05681818181818177,
+        "success": 83
+      },
+      "3": {
+        "calls": 192,
+        "mean_regret_kcal": 0.16079765594380055,
+        "molecules": 96,
+        "p95_regret_kcal": 0.7151610491564497,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 3,
+        "risk": 0.04166666666666663,
+        "success": 92
+      },
+      "4": {
+        "calls": 212,
+        "mean_regret_kcal": 0.23392956080255625,
+        "molecules": 106,
+        "p95_regret_kcal": 1.6532579070189968,
+        "picks_second_rank_ge3": 0,
+        "rescued_first_hit_rank_ge3": 0,
+        "rescued_rank2": 4,
+        "risk": 0.06603773584905659,
+        "success": 99
+      }
+    }
+  },
+  "fixed_comparator": "fixed_top_two",
+  "input_sha256": {
+    "development_features.jsonl": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+    "development_geometry.json.gz": "05949303658ab98af392c79a6b9f63cfd8ca310f3faf1bfcf57d38106308df7a",
+    "development_references.jsonl": "396365e0b1987f773beeff0b4daba75f9201af14a934de76deef51864c97296c",
+    "folds.json": "969e74925d1d3c8144216590e3e5a968218360bc158f56a2df0e9b5a86e5fc7f"
+  },
+  "offline_reference_replay": true,
+  "paired_changes": {
+    "1_gap_gate_vs_2_rmsd_rerank": {
+      "gains": 2,
+      "losses": 2
+    },
+    "1_gap_gate_vs_fixed_top_two": {
+      "gains": 0,
+      "losses": 5
+    },
+    "2_rmsd_rerank_vs_1_gap_gate": {
+      "gains": 2,
+      "losses": 2
+    },
+    "2_rmsd_rerank_vs_fixed_top_two": {
+      "gains": 2,
+      "losses": 7
+    },
+    "3_gyration_probe_vs_1_gap_gate": {
+      "gains": 2,
+      "losses": 2
+    },
+    "3_gyration_probe_vs_2_rmsd_rerank": {
+      "gains": 1,
+      "losses": 1
+    },
+    "3_gyration_probe_vs_fixed_top_two": {
+      "gains": 2,
+      "losses": 7
+    }
+  },
+  "per_fold_extra": {
+    "0": 39,
+    "1": 37,
+    "2": 35,
+    "3": 38,
+    "4": 42
+  },
+  "policies_run": 3,
+  "real_reference_jobs": 0,
+  "repo_pin": "6d81701875b996426c07f383789767ea423a899a",
+  "scope": "exploratory development; prior final evaluation not opened",
+  "summary": {
+    "1_gap_gate": {
+      "calls": 669,
+      "mean_regret_kcal": 0.24819778432233247,
+      "molecules": 478,
+      "p95_regret_kcal": 1.1380825192551094,
+      "picks_second_rank_ge3": 0,
+      "rescued_first_hit_rank_ge3": 0,
+      "rescued_rank2": 14,
+      "risk": 0.05439330543933052,
+      "success": 452
+    },
+    "2_rmsd_rerank": {
+      "calls": 669,
+      "mean_regret_kcal": 0.23914155264084996,
+      "molecules": 478,
+      "p95_regret_kcal": 1.035113577399168,
+      "picks_second_rank_ge3": 116,
+      "rescued_first_hit_rank_ge3": 2,
+      "rescued_rank2": 12,
+      "risk": 0.05439330543933052,
+      "success": 452
+    },
+    "3_gyration_probe": {
+      "calls": 669,
+      "mean_regret_kcal": 0.23947864899311455,
+      "molecules": 478,
+      "p95_regret_kcal": 1.035113577399168,
+      "picks_second_rank_ge3": 120,
+      "rescued_first_hit_rank_ge3": 2,
+      "rescued_rank2": 12,
+      "risk": 0.05439330543933052,
+      "success": 452
+    },
+    "fixed_top_two": {
+      "calls": 956,
+      "mean_regret_kcal": 0.18303500224176647,
+      "molecules": 478,
+      "p95_regret_kcal": 0.7781900652684256,
+      "picks_second_rank_ge3": 0,
+      "rescued_first_hit_rank_ge3": 0,
+      "rescued_rank2": 19,
+      "risk": 0.043933054393305415,
+      "success": 457
+    }
+  },
+  "timing": {
+    "batch_gap_ranking_ms": 2.131341,
+    "feature_only_local_cpu": {
+      "gyration": {
+        "median_pool_ms": 0.280074,
+        "p95_pool_ms": 0.5448805,
+        "total_ms": 79.806996
+      },
+      "rmsd": {
+        "median_pool_ms": 0.426862,
+        "p95_pool_ms": 0.7554675,
+        "total_ms": 83.6801
+      }
+    },
+    "geometry_load_validation_and_oracle_excluded": true,
+    "shortlisted_candidates": 1278
+  }
+}

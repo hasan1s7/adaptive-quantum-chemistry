@@ -1,0 +1,24 @@
+# Public subset of the pinned upstream index; see publication_manifest.json.
+mp_energies:
+  url: https://figshare.com/files/52080797
+  path: mp/2025-02-01-mp-energies.csv.gz
+  description: Materials Project formation energies and energies above convex hull
+    in eV/atom as a fast-to-load CSV file.
+  md5: 7eb0c49fc169ba92783f2f6d0d19d741
+wbm_initial_structures:
+  url: https://figshare.com/files/53161835
+  path: wbm/2022-10-19-wbm-init-structs.jsonl.gz
+  description: Unrelaxed WBM structures in `pymatgen` `Structure` format
+  md5: b809f101dd42a745ec2baabe7eb16f11
+wbm_summary:
+  url: https://figshare.com/files/71653870
+  path: wbm/2026-11-19-wbm-summary.csv.gz
+  description: Computed material properties only, no structures. Available properties
+    are VASP energy, formation energy, energy above the convex hull, volume, band
+    gap, number of sites per unit cell, and more. The MP2020-corrected formation energy
+    and hull-distance columns use the `MaterialsProject2020Compatibility` defaults
+    of current `pymatgen` (anion corrections require an oxidation state <= -1, see
+    https://github.com/materialsproject/pymatgen/pull/3803) for both the WBM entries
+    and the MP entries spanning the convex hull, matching the corrections applied
+    to model predictions.
+  md5: e63906af07b0408ee3eaa7028aa02d27

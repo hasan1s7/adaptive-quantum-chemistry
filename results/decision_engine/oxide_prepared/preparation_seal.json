@@ -1,0 +1,10 @@
+{
+  "cohort_summary.json": "4aa4ed6824f30b33c89352435a27142ec9cda261e560915909dfdc8c9e2b11f2",
+  "exclusions.json": "42c91c88425cca979ac3dadb3493a589479b4a2119492656a893a325d9be8d13",
+  "pools.json": "5df42bcf47136e06760ef778b44fe23f0f4758588e118acfad8ba74b8216984d",
+  "prelabel_cohort.json": "f53954fed5ec14d028da84891df543cedcc1c0845f1ee29db7100648f66fedbf",
+  "prelabel_exclusions.json": "42c91c88425cca979ac3dadb3493a589479b4a2119492656a893a325d9be8d13",
+  "preregistered_protocol.json": "87131d320f5ac184a30a73170ca7a8160c35b236df30550e11e387e23c42b273",
+  "references_private.json": "2be30b72c817e90f1c17456983aa99c7e4db6fdbf7d80cf9f334f4dc614f4e19",
+  "split_assignments.json": "f1a8c2a986ee9d9fdf9786a14005ef921439c8c6b34b00ff7c34fc9395297093"
+}

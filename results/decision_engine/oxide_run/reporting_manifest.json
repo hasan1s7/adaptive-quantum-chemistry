@@ -1,0 +1,41 @@
+{
+  "additional_input_sha256": {
+    "../generation/candidate_records.jsonl": "81d7bee4105244f9837eafe2fc4a016a60fde59f8d2957ad1eb763fa92e5522f",
+    "../generation/summary.json": "3fb49aae01e07bb3a08208f012fe00f9824a871058ae3201e5052d222310bf6a",
+    "dashboard_bundle.json": "fa306c3175cc92e962ca8bea655b6686ec890981522cea5f7159a04c6b21450c",
+    "decision_traces.jsonl.gz": "4058d5566369868dc4df05555bbc83793c97cd4adbb868dabc2159dcfe647fc5",
+    "per_pool.csv": "1c491b45895f49fcd627d0c73c5c9a08c1e91171d07d611282bdc72b2201c0e1",
+    "random_seed_traces.jsonl.gz": "3fc8e0cd3eda0b080d8da31c1c4be789c3c56f9517b791e9068cfb8a753b9b15",
+    "synthetic_failure_traces.jsonl.gz": "0a54f4808dbe1347fb3fc53c96b4a4fabc890ce3e0c82002a7dfa1d8e21f287a"
+  },
+  "evidence_kind": "renderer_of_executed_replay_plus_hypothetical_cost_scenarios",
+  "files": {
+    "cost_risk_frontier.png": {
+      "bytes": 301631,
+      "sha256": "73b49c0c4cc0a36473afc79a70c4e50903a6738a3a0ae7eceb45cbd03873d138"
+    },
+    "cost_risk_frontier.svg": {
+      "bytes": 52843,
+      "sha256": "d2eb93d70e66c1193d7fddccb258867ef24f2b678f58448a7615a72dee668701"
+    },
+    "cost_sensitivity.json": {
+      "bytes": 69810,
+      "sha256": "c0c7a3cc0985c89ad70cb58a6799047e1eb30e1c332f12fe769ba9a68efa01a1"
+    },
+    "dashboard.html": {
+      "bytes": 1602693,
+      "sha256": "5dab0bef58b82ec492ef180abf3eebc94292a550d04fd8f5a63949beee10c181"
+    },
+    "ui_contract.json": {
+      "bytes": 6446,
+      "sha256": "b66eff66f9813b44af782f15fb64e849f25ff4da8607a8a206e138e0dc6d77e9"
+    }
+  },
+  "input": "dashboard_bundle.json",
+  "input_sha256": "fa306c3175cc92e962ca8bea655b6686ec890981522cea5f7159a04c6b21450c",
+  "network_dependencies": [],
+  "renderer_sha256": "9ab4f6ccaa76ebb52d4c7efb388d66bae579e93d3341808c9bb85c89036520bc",
+  "scientific_results_modified": false,
+  "template": "dashboard_template.html",
+  "template_sha256": "3a7ee20f7bb75eaca630008c5433359724705b2bb1810a6312d637ea4dae19a1"
+}

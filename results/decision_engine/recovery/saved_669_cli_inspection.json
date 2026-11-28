@@ -1,0 +1,58 @@
+{
+  "schema": "erkidu-saved-669-ledger-inspection/v1",
+  "evidence_class": "executed_integrity_inspection_of_prior_replay",
+  "reran_669_policy": false,
+  "live_reference_jobs": 0,
+  "new_label_queries": 0,
+  "rows_inspected": 1912,
+  "summary": {
+    "1_gap_gate": {
+      "calls": 669,
+      "success": 452,
+      "molecules": 478
+    },
+    "2_rmsd_rerank": {
+      "calls": 669,
+      "success": 452,
+      "molecules": 478
+    },
+    "3_gyration_probe": {
+      "calls": 669,
+      "success": 452,
+      "molecules": 478
+    },
+    "fixed_top_two": {
+      "calls": 956,
+      "success": 457,
+      "molecules": 478
+    }
+  },
+  "paired_vs_top2": {
+    "1_gap_gate_vs_fixed_top_two": {
+      "gains": 0,
+      "losses": 5
+    },
+    "2_rmsd_rerank_vs_fixed_top_two": {
+      "gains": 2,
+      "losses": 7
+    },
+    "3_gyration_probe_vs_fixed_top_two": {
+      "gains": 2,
+      "losses": 7
+    }
+  },
+  "reference_regret_records_verified": 1912,
+  "original_input_hashes_verified": {
+    "development_features.jsonl": "9f59c48bd532f4abd0184fdfb2392bcb4e02b410cb8c526fec01a24a5c0b62a0",
+    "development_references.jsonl": "396365e0b1987f773beeff0b4daba75f9201af14a934de76deef51864c97296c",
+    "development_geometry.json.gz": "05949303658ab98af392c79a6b9f63cfd8ca310f3faf1bfcf57d38106308df7a",
+    "folds.json": "969e74925d1d3c8144216590e3e5a968218360bc158f56a2df0e9b5a86e5fc7f"
+  },
+  "files_sha256": {
+    "per_molecule.csv": "10b4600f6711442af464f5d481912db87f8fa329e5e6840be796d55884cf4152",
+    "verification.log": "43a13b9671f373ca6681c637268d9f1c76f774a74356b6fd7e975a1163e1ec77",
+    "results.json": "11343b39a8b2d1da9b04443d318f526d891c391e2008f0a869faa8b293f55886",
+    "README.md": "346db99b45960561b738ec9d835d1ef33b353f335cfecafed4eb4943a6f9c07b"
+  },
+  "limitations": "Checks saved query identities, accounting, outcomes and source bytes. No policy execution, new labels, or independent scientific validation."
+}

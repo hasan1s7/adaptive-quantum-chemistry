@@ -1,0 +1,91 @@
+{
+  "dollars": null,
+  "measured_cost_unit": "local_CPU_and_wall_seconds",
+  "note": "Actual local proposal/copy and geometry-screening time; no physical-cost or superiority inference.",
+  "per_candidate": [
+    {
+      "arm": "non_generative_inputs",
+      "candidate_id": "non_generative_inputs-000",
+      "geometry_validation_cpu_seconds": 0.0009071569999998808,
+      "geometry_validation_wall_seconds": 0.0009053780000840561,
+      "proposal_or_input_copy_cpu_seconds": 4.0572000000071995e-05,
+      "proposal_or_input_copy_wall_seconds": 4.223200005526451e-05
+    },
+    {
+      "arm": "non_generative_inputs",
+      "candidate_id": "non_generative_inputs-001",
+      "geometry_validation_cpu_seconds": 0.00032704400000005407,
+      "geometry_validation_wall_seconds": 0.00032654400001774775,
+      "proposal_or_input_copy_cpu_seconds": 2.920700000008658e-05,
+      "proposal_or_input_copy_wall_seconds": 2.9139999924154836e-05
+    },
+    {
+      "arm": "non_generative_inputs",
+      "candidate_id": "non_generative_inputs-002",
+      "geometry_validation_cpu_seconds": 0.00029023500000002755,
+      "geometry_validation_wall_seconds": 0.0002900319999525891,
+      "proposal_or_input_copy_cpu_seconds": 6.332700000011293e-05,
+      "proposal_or_input_copy_wall_seconds": 6.317399993349682e-05
+    },
+    {
+      "arm": "non_generative_inputs",
+      "candidate_id": "non_generative_inputs-003",
+      "geometry_validation_cpu_seconds": 0.0007668789999999426,
+      "geometry_validation_wall_seconds": 0.000766171000009308,
+      "proposal_or_input_copy_cpu_seconds": 6.743099999995117e-05,
+      "proposal_or_input_copy_wall_seconds": 6.734900000537891e-05
+    },
+    {
+      "arm": "non_generative_inputs",
+      "candidate_id": "non_generative_inputs-004",
+      "geometry_validation_cpu_seconds": 0.0002863920000000242,
+      "geometry_validation_wall_seconds": 0.0002860699999018834,
+      "proposal_or_input_copy_cpu_seconds": 2.4473999999941043e-05,
+      "proposal_or_input_copy_wall_seconds": 2.444799997647351e-05
+    },
+    {
+      "arm": "bounded_proposals",
+      "candidate_id": "bounded_proposals-000",
+      "geometry_validation_cpu_seconds": 0.0019038820000001344,
+      "geometry_validation_wall_seconds": 0.001902745000052164,
+      "proposal_or_input_copy_cpu_seconds": 9.882700000019007e-05,
+      "proposal_or_input_copy_wall_seconds": 9.8611999987952e-05
+    },
+    {
+      "arm": "bounded_proposals",
+      "candidate_id": "bounded_proposals-001",
+      "geometry_validation_cpu_seconds": 0.0003367679999999318,
+      "geometry_validation_wall_seconds": 0.00033635700003742386,
+      "proposal_or_input_copy_cpu_seconds": 6.70199999999177e-05,
+      "proposal_or_input_copy_wall_seconds": 6.671100004496111e-05
+    },
+    {
+      "arm": "bounded_proposals",
+      "candidate_id": "bounded_proposals-002",
+      "geometry_validation_cpu_seconds": 0.00033913600000001765,
+      "geometry_validation_wall_seconds": 0.0003388169999425372,
+      "proposal_or_input_copy_cpu_seconds": 2.7039999999978193e-05,
+      "proposal_or_input_copy_wall_seconds": 2.6833999982045498e-05
+    },
+    {
+      "arm": "bounded_proposals",
+      "candidate_id": "bounded_proposals-003",
+      "geometry_validation_cpu_seconds": 0.00427570300000002,
+      "geometry_validation_wall_seconds": 0.004273992999969778,
+      "proposal_or_input_copy_cpu_seconds": 5.3961999999962984e-05,
+      "proposal_or_input_copy_wall_seconds": 5.3805999982614594e-05
+    },
+    {
+      "arm": "bounded_proposals",
+      "candidate_id": "bounded_proposals-004",
+      "geometry_validation_cpu_seconds": 0.0006813540000001339,
+      "geometry_validation_wall_seconds": 0.0006806320000123378,
+      "proposal_or_input_copy_cpu_seconds": 5.590799999999341e-05,
+      "proposal_or_input_copy_wall_seconds": 5.577000001721899e-05
+    }
+  ],
+  "queue_seconds": null,
+  "reference_job_seconds": null,
+  "total_cpu_seconds": 0.13285620200000015,
+  "total_wall_seconds": 0.13286952299995392
+}

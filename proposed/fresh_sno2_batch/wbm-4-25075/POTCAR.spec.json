@@ -1,0 +1,11 @@
+{
+  "element_order": [
+    "O",
+    "Sn"
+  ],
+  "historical_paw_family": "PBE PAW version 5.2 as stated in WBM paper",
+  "selected_potcar_symbols": null,
+  "potcar_sha256": null,
+  "required_review": "Resolve O and Sn PAW symbols/valence and exact licensed POTCAR versions; do not substitute silently",
+  "supplied": false
+}

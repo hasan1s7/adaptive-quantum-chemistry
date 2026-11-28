@@ -1,0 +1,21 @@
+{
+  "aggregates.csv": "a789ee64244db4f33d25f00676cf665a3fa9ffd046a7def1641586b60acc0540",
+  "aggregates.json": "db977515d02e82b85bd7624d81cb6f69305234f2d67d3d51257c001fb4c9ebdd",
+  "calibration_coverage.json": "87da0ab3080af7e7bf0b7c81fa41f004592e264a1f6af44d92c8c94bfd6053a7",
+  "calibration_residuals.csv": "d401227b1c7426bebfbe62db7830f03ced745e7b3238c7a96b6ddbd4cbfa03e4",
+  "cost_risk_frontier.json": "3a4efe79c1dc7133892979acdb1ac80c64401120e3198edfae670ce358b09991",
+  "dashboard_bundle.json": "fa306c3175cc92e962ca8bea655b6686ec890981522cea5f7159a04c6b21450c",
+  "decision.json": "c40a38bfde34e5ee678d8b95d92cdc7273d426c7fabef7c7a66d4693170902b7",
+  "decision_traces.jsonl.gz": "4058d5566369868dc4df05555bbc83793c97cd4adbb868dabc2159dcfe647fc5",
+  "execution_accounting.json": "d7cf8f050556bbab683936325efbe8731951f62920497430961605688b549056",
+  "experiment_manifest.json": "5b50ed05731e60e1bcb202ccfd967f078395bea13ee2c3dcdadf5d8c65884586",
+  "paired_results.json": "f619ef9525550e77c6d5f0913fb3559de321feb129f03fef7a43ff64e0fb830d",
+  "per_pool.csv": "1c491b45895f49fcd627d0c73c5c9a08c1e91171d07d611282bdc72b2201c0e1",
+  "random_seed_repeats.csv": "257db2a2854312724083209a4ab2ea9c84a063ee3e4d4b776663ba3e7de1a5b7",
+  "random_seed_summary.json": "50c7ceb67a6e8ebbba27c19bf99a1923d3774373f284a6f9be1fb42246451adf",
+  "random_seed_traces.jsonl.gz": "3fc8e0cd3eda0b080d8da31c1c4be789c3c56f9517b791e9068cfb8a753b9b15",
+  "selective_risk.json": "f1d9ae33c104f0a501dafcf091c209f82eeb6ae8e405999da5532fcffd01d4e3",
+  "synthetic_failure_stress.csv": "c2b3a33d168fea13f2e490338ca70b7c23ff9e62280c5174326b704fa411366c",
+  "synthetic_failure_traces.jsonl.gz": "0a54f4808dbe1347fb3fc53c96b4a4fabc890ce3e0c82002a7dfa1d8e21f287a",
+  "worst_cases.json": "313b7a29cc6a4fb68ef2db0cbbe7fb7f613135dcb6ff54a96f75b0bc7f4ab77e"
+}

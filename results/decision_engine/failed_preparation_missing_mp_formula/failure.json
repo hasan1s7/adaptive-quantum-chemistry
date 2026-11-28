@@ -1,0 +1,6 @@
+{
+  "reason": "missing formula in MP support metadata; parse_formula now rejects nonstrings explicitly and support scan skips invalid formulas",
+  "reference_jobs": 0,
+  "status": "failed_before_reference_access",
+  "test_results_seen": false
+}

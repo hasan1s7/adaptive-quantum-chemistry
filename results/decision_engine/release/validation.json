@@ -1,0 +1,64 @@
+{
+  "release_date": "2026-11-28",
+  "evidence_kind": "executed_source_publication_validation",
+  "status": "passed",
+  "scientific_snapshot_date": "2026-11-27",
+  "scientific_experiment_rerun": false,
+  "fresh_reference_jobs": 0,
+  "fresh_mlip_inference_jobs": 0,
+  "target_branch": "erkidu/decision-engine-essentials",
+  "deployment_in_scope": false,
+  "clean_checkout": {
+    "tested_tree_sha_before_release_receipts": "2b7e5dd06fa88661d0c82ce8e4eefc065cf052f2",
+    "raw_data_cache_present": false,
+    "canonical_verifier": {
+      "verified": true,
+      "sealed_files": 19,
+      "traces": 1320,
+      "offline_reference_attempts": 2594,
+      "visibility_snapshots_verified": true
+    },
+    "scientific_python_tests": 51,
+    "historical_python_tests": 10,
+    "dashboard_assertions": 103,
+    "all_passed": true
+  },
+  "full_trace_audit": {
+    "runs": 1720,
+    "query_attempts": 3423,
+    "checks": 161539,
+    "failures": 0
+  },
+  "privacy_review": {
+    "initial_pattern_review_was_insufficient": true,
+    "automatic_review_blocked_initial_metadata_payload": true,
+    "safer_publication_scope": "Four ancillary source dumps replaced by public allowlist extracts; unrelated administrative/private-source records and uploader-local listings removed.",
+    "public_metadata_manifest": "data/decision_engine/source_metadata/publication_manifest.json",
+    "exact_tree_audit_receipt": "metadata_publication_audit.json",
+    "limitations": "A focused publication audit, not a certification of the pre-existing repository.",
+    "exact_tree_audit_passed": true,
+    "audited_changed_blobs": 165,
+    "scientific_sealed_files_reverified": 32
+  },
+  "packaging": {
+    "raw_download_bytes_excluded": 25087721,
+    "superseded_runs_excluded": true,
+    "sealed_evidence_preserved": true,
+    "csv_line_endings_and_generated_svg_preserved": true
+  },
+  "visual_browser_qa": {
+    "performed": false,
+    "reason": "Browser executable unavailable; DOM/state/accessibility contracts tested with the 103-assertion Node harness."
+  },
+  "receipt_sha256": {
+    "full_trace_audit.json": "d29b6f583a28b56809cd8015f6ba6106053dc52a110eb4d090a81fec51cf42fe",
+    "publication_audit.json": "3eec3e02dd5ef5fffcd15c55f1c4cca503bb76cb13a6380c5994aa1fff9c48a8",
+    "clean_checkout_verify.json": "d30e712c691b7242799ad9bf6df3d193b09af6a59df7685a890f6e79725d40e2",
+    "clean_checkout_tests.log": "327239145922f0e3462a82db12cf04fff54285dc9ff42c31943a5f7c61d5a5aa",
+    "clean_checkout_history_tests.log": "e595ecf22f5c3a7ef31e939650eb6fab9c322c32b2ff1dbdd55dcfd2023f959f",
+    "clean_checkout_dashboard_tests.json": "dd86300861659fe0ca85519b2c6488d8a7f618243d58589b0c642517aa26639a",
+    "metadata_publication_audit.json": "67cf1c0176222f6fa10e24a79656b90accb547ca1098d0e835cb6df410b89695",
+    "excluded_metadata_values_audit.json": "d355e710b79c64dee0693b1f082f2e22cf38212c3c0e5e469e7506ef34858d82"
+  },
+  "reporting_manifest_sha256": "1ae5e15fd5cde14f1f3b1f47426cee6c2ea949b654dd5d47023343036524b490"
+}

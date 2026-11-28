@@ -1,0 +1,201 @@
+{
+  "as_of_utc": "2026-11-28 07:03:34 UTC",
+  "authorized_correction": {
+    "fields": [
+      "source_files_sha256.results/decision_engine/oxide_run/experiment_manifest.json",
+      "source_files_sha256.results/decision_engine/oxide_run/decision_traces.jsonl.gz",
+      "canonical_source_provenance_revision"
+    ],
+    "numerical_case_values_unchanged_verified": true,
+    "path": "docs/decision_engine/materials_physics_case.json",
+    "reason": "Two hashes retained original-run bytes after case trace semantics were updated to the canonical bound-fix replay. Original hashes are preserved in the new provenance note.",
+    "sha256_after": "17643097d585d7c6256d278ada5c9b471d15c90b1c5e5a4872f189ad854d8fde"
+  },
+  "deployments_by_auditor": 0,
+  "distribution": {
+    "fetch_command": "python -m erkidu_decision fetch",
+    "initial_geometry_subset_bytes": 323739,
+    "omit_from_essential_git_commit": [
+      "data/decision_engine/raw downloads",
+      "environment/cache/compiled bytecode",
+      "duplicate large delivery ZIP/PDF unless intentionally distributed",
+      "redundant full pre-fix replay copy when compact provenance receipt and source snapshot suffice"
+    ],
+    "raw_free_commands": [
+      "frozen run with oxide_prepared/oxide_fit",
+      "canonical verify",
+      "fixture and unit tests",
+      "initial geometry audit",
+      "static dashboard viewing",
+      "bounded geometry-only prototype"
+    ],
+    "raw_tables_bytes_omittable": 25087721,
+    "reference_file_privacy": "references_private.json contains public licensed labels withheld from policy observations, not confidential customer data.",
+    "requires_source_fetch": [
+      "real reconstruction",
+      "prepare",
+      "scripts/audit_decision_data.py"
+    ],
+    "retain": [
+      "erkidu_decision source",
+      "pinned dependency inventories",
+      "scoped tests and audit scripts",
+      "frozen oxide_prepared and oxide_fit",
+      "canonical oxide_run scientific outputs and traces",
+      "initial_geometries.json.gz and audit",
+      "dataset attribution and pinned source metadata",
+      "review sheets and technical memo",
+      "executed geometry-only records",
+      "historical replay source and already tracked historical dependencies"
+    ]
+  },
+  "evidence_kind": "executed_read_only_publication_audit_with_authorized_provenance_correction",
+  "findings": [
+    {
+      "finding": "README, memo and integrated-bundle workspace flags describe no push and unchanged tracked files from original 2026-11-27 run. Publication changes make unscoped present-tense wording stale.",
+      "fix": "Label those fields as original experiment provenance and add separate publication revision/commit status; do not rewrite frozen scientific artifacts.",
+      "id": "historical_scope",
+      "severity": "required_documentation",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "Sealed decision.json/dashboard_bundle.decision.generation predates executed geometry-only generation.",
+      "fix": "Preserve sealed field, overlay current release context from generation summary/status; call it executed geometry-only with zero energy/force/MLIP/DFT evaluation.",
+      "id": "generation_status",
+      "severity": "required_presentation",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "Source-verification audit reads raw CSVs, although ordinary frozen replay does not.",
+      "fix": "Prepend explicit fetch before audit_decision_data.py for public checkout; distinguish public essentials from raw-inclusive local ZIP.",
+      "id": "raw_free_audit_command",
+      "severity": "required_documentation",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "Paired interval uses 26 chemical-system clusters conditional on frozen policies; success criterion was 20 meV/atom.",
+      "fix": "Keep primary tolerance visible; label any tolerance slider post-hoc rescoring; show conditional paired-bootstrap uncertainty and the zero-query M3GNet comparator; do not call sub-meV differences physically resolved.",
+      "id": "statistical_labels",
+      "severity": "required_presentation",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "Only offline reference counts and replay runtime were measured; inference/reference runtime, queue and dollar savings were not.",
+      "fix": "Use zero reference acquisitions rather than zero total cost; retain hypothetical regret-equivalent units for sliders and separate binary-tolerance success from continuous-regret objectives.",
+      "id": "cost_labels",
+      "severity": "required_presentation",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "Sealed promotion_gate names fixed top-two even though the current conclusion highlights a stronger zero-query comparator.",
+      "fix": "Describe as frozen original gate and show current scientific conclusion separately; do not overwrite sealed decisions.",
+      "id": "frozen_promotion_gate",
+      "severity": "clarification",
+      "status": "reported_to_owner"
+    },
+    {
+      "finding": "M3GNet model-card checkpoint MIT label links to a BSD-3-Clause upstream license.",
+      "fix": "Keep discrepancy explicit; this release distributes CC BY 4.0 prediction data and no checkpoint weights.",
+      "id": "m3gnet_weight_license",
+      "severity": "clarification",
+      "status": "documented_in_attribution"
+    },
+    {
+      "finding": "README creates .venv-decision but existing ignore rule covers .venv only.",
+      "fix": "Add .venv-decision/ and raw-download cache exclusions before future broad staging, or use explicit staging paths.",
+      "id": "venv_ignore",
+      "severity": "maintenance",
+      "status": "reported_to_owner"
+    }
+  ],
+  "local_visual_qa": {
+    "browser_installed_by_auditor": false,
+    "chromium_wrapper": "/usr/bin/chromium",
+    "cloud_browser_used": false,
+    "conclusion": "No working local browser was available from installed paths; do not label static/JavaScript validation as browser screenshot QA.",
+    "explicit_headless_launch": "failed before opening about:blank",
+    "missing_playwright_default": "/home/agent/.cache/ms-playwright/chromium-1234/chrome-linux64/chrome",
+    "missing_wrapper_target": "/usr/lib/chromium/chromium",
+    "python_playwright_importable": true,
+    "version_exit_code": 127
+  },
+  "metadata_publication_followup": {
+    "date": "2026-11-28",
+    "exact_tree_metadata_audit": "results/decision_engine/release/metadata_publication_audit.json",
+    "finding": "An automatic publication review identified account-linked and unrelated private-source records in ancillary upstream metadata dumps.",
+    "initial_pattern_review_was_insufficient": true,
+    "metadata_transform_manifest": "data/decision_engine/source_metadata/publication_manifest.json",
+    "remediation": "Publish only explicit public-field extracts; omit unrelated records and source-cache paths from the ancillary registry.",
+    "scientific_seal_checks_still_applicable": true
+  },
+  "new_policy_runs": 0,
+  "publication_safety": {
+    "local_deployment_config_found": false,
+    "local_github_workflows_found": false,
+    "package_scripts": "private local workbench dev/test scripts only",
+    "recommendation": "Push a focused new branch without merging to main, changing Pages configuration or adding deployment triggers. Local absence of workflows does not prove absence of external branch/webhook automation.",
+    "repository_has_pages_reported_by_parent": true,
+    "searched_configs": [
+      ".github/workflows",
+      "render.yaml",
+      "vercel.json",
+      "netlify.toml",
+      "Procfile",
+      "Dockerfile",
+      "fly.toml"
+    ]
+  },
+  "pushes_by_auditor": 0,
+  "recomputed_test_results": [
+    {
+      "charged_reference_attempts": 60,
+      "max_regret_meV_atom": 0.058999999999809205,
+      "mean_regret_meV_atom": 0.002966666666666858,
+      "policy": "decision_aware",
+      "pools": 30,
+      "successes_at_20_meV_atom": 30
+    },
+    {
+      "charged_reference_attempts": 60,
+      "max_regret_meV_atom": 187.80700000000004,
+      "mean_regret_meV_atom": 6.2621999999999955,
+      "policy": "fixed_top",
+      "pools": 30,
+      "successes_at_20_meV_atom": 29
+    },
+    {
+      "charged_reference_attempts": 0,
+      "max_regret_meV_atom": 9.345000000000159,
+      "mean_regret_meV_atom": 0.5687666666666757,
+      "policy": "m3gnet_only",
+      "pools": 30,
+      "successes_at_20_meV_atom": 30
+    }
+  ],
+  "reference_jobs": 0,
+  "refits": 0,
+  "schema": "erkidu-publication-science-audit/v1",
+  "scope": "Local snapshot during dashboard/publication revision; downstream edited presentation must be checked after it is finalized.",
+  "seal_checks": [
+    {
+      "mismatches": [],
+      "path": "results/decision_engine/oxide_prepared/preparation_seal.json",
+      "sealed_files": 8
+    },
+    {
+      "mismatches": [],
+      "path": "results/decision_engine/oxide_fit/fit_seal.json",
+      "sealed_files": 1
+    },
+    {
+      "mismatches": [],
+      "path": "results/decision_engine/oxide_run/result_seal.json",
+      "sealed_files": 19
+    },
+    {
+      "mismatches": [],
+      "path": "results/decision_engine/generation/seal.json",
+      "sealed_files": 4
+    }
+  ]
+}

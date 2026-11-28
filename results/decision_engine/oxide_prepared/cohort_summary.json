@@ -1,0 +1,42 @@
+{
+  "candidates": 367,
+  "chemical_systems": 93,
+  "correction_constancy_gate_passed": true,
+  "evidence_kind": "replay",
+  "initial_prototype_in_mp_proxy": 34,
+  "measured_preparation_wall_seconds": 5.219475828999975,
+  "missing_reference_ids": [],
+  "missing_surrogate_pools": 0,
+  "mp_proxy_structures": 2440,
+  "pools": 103,
+  "python": "3.12.14",
+  "split_check": {
+    "candidates": 367,
+    "chemical_systems": 93,
+    "limits": "Different compositions can share abstract prototypes; chemical-system independence is not established.",
+    "passed": true,
+    "same_composition_initial_prototype_duplicates": 0
+  },
+  "split_counts": {
+    "calibration": {
+      "candidates": 88,
+      "groups": 24,
+      "pools": 28
+    },
+    "shift_li": {
+      "candidates": 22,
+      "groups": 10,
+      "pools": 10
+    },
+    "test": {
+      "candidates": 110,
+      "groups": 26,
+      "pools": 30
+    },
+    "train": {
+      "candidates": 147,
+      "groups": 33,
+      "pools": 35
+    }
+  }
+}

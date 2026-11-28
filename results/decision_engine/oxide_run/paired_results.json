@@ -1,0 +1,962 @@
+[
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 1,
+    "both_success": 29,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 18,
+    "budget": 1,
+    "harms": 11,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.03567836666666662,
+    "mean_success_delta": -0.3333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      0.006224086607142857,
+      0.06704117052556809
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      -0.5161290322580645,
+      -0.14814814814814814
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 1,
+    "both_success": 29,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 1,
+    "both_success": 29,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 1,
+    "both_success": 29,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.006259233333333328,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02011896428571427,
+      0.0
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 26,
+    "budget": 2,
+    "harms": 3,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.0007288333333333119,
+    "mean_success_delta": -0.06666666666666667,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.01678485551108373,
+      0.010333665172413797
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      -0.2,
+      0.06666666666666667
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.0059387999999999845,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02010482678571426,
+      0.0009345000000000158
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.0059387999999999845,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02010482678571426,
+      0.0009345000000000158
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.0059387999999999845,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02010482678571426,
+      0.0009345000000000158
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.006259433333333342,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02012217857142858,
+      2.322580645142125e-06
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 27,
+    "budget": 3,
+    "harms": 2,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.003404266666666689,
+    "mean_success_delta": -0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.018342906681034513,
+      0.005370955651105623
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      -0.14285714285714285,
+      0.07142857142857142
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.006253866666666667,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.020118107142857135,
+      1.3266456653230727e-05
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.006254233333333341,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02012064285714287,
+      1.393749999997751e-05
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -0.006254233333333341,
+    "mean_success_delta": 0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -0.02012064285714287,
+      1.393749999997751e-05
+    ],
+    "rescues": 1,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.10714285714285714
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 30,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -1.0000000000065511e-06,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -3.2142857143067715e-06,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 29,
+    "budget": 4,
+    "harms": 1,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0011897333333333205,
+    "mean_success_delta": -0.03333333333333333,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -2.516129032265953e-06,
+      0.003100424999999966
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      -0.10714285714285714,
+      0.0
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 30,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": -1.0000000000065511e-06,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -3.2142857143067715e-06,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 30,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 4.999999999988347e-06,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -2.0000000000131022e-06,
+      1.610344827584659e-05
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 30,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 3.03333333332804e-06,
+    "mean_success_delta": 0.0,
+    "n_groups": 26,
+    "n_pools": 30,
+    "regret_delta_ci95_eV_atom": [
+      -3.407407407423151e-06,
+      1.3622672413798091e-05
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "test",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 8,
+    "budget": 1,
+    "harms": 2,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.012854499999999991,
+    "mean_success_delta": -0.2,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.03221744499999996
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      -0.5,
+      0.0
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 1,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.001784600000000003,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.005353800000000008
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 2,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 3,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "decision_aware",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "random",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "diversity",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "uncertainty",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  },
+  {
+    "arm": "disagreement",
+    "baseline": "fixed_top",
+    "both_fail": 0,
+    "both_success": 10,
+    "budget": 4,
+    "harms": 0,
+    "interval_scope": "paired chemical-system bootstrap conditional on frozen fit, split and policies",
+    "mean_regret_delta_eV_atom": 0.0,
+    "mean_success_delta": 0.0,
+    "n_groups": 10,
+    "n_pools": 10,
+    "regret_delta_ci95_eV_atom": [
+      0.0,
+      0.0
+    ],
+    "rescues": 0,
+    "same_total_budget": true,
+    "split": "shift_li",
+    "success_delta_ci95": [
+      0.0,
+      0.0
+    ]
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-28",
+  "scope": "Ancillary public metadata extraction for source publication",
+  "scientific_labels_or_seals_modified": false,
+  "records": [
+    {
+      "path": "data/decision_engine/source_metadata/12672038_metadata.json",
+      "source_capture_sha256": "13086e67ff301801014b58bba838ea5026baba61c0af63bd0b7586aab9a01337",
+      "source_capture_size_bytes": 14224,
+      "published_sha256": "d478577cd2033dd32aa51d840a07c0b0718b1f48dcdfb41fb8e7957aa4e3df65",
+      "published_size_bytes": 1073,
+      "retained_public_file_ids": [],
+      "transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/22715158_metadata.json",
+      "source_capture_sha256": "b86c926ace712e0ddbc86cb39ecb52b79481c2410d274fade8413e694b2e7737",
+      "source_capture_size_bytes": 17599,
+      "published_sha256": "4d1af8f81f8b731450db07c2a6e6935f56ad56a5f55f01d17af8a02644d7c696",
+      "published_size_bytes": 2324,
+      "retained_public_file_ids": [
+        "44225498",
+        "52080797",
+        "53161835",
+        "71653870"
+      ],
+      "transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/28187990_metadata.json",
+      "source_capture_sha256": "5086d30b60f58e6bd0ae12e510b59b26debe004943d31b2fb87dc968254fff24",
+      "source_capture_size_bytes": 86594,
+      "published_sha256": "de179db93623be2777d262db984b3f7f305e90b09ac3e4d028bf19abc66edb4f",
+      "published_size_bytes": 2046,
+      "retained_public_file_ids": [
+        "71653786",
+        "71653801",
+        "71653831"
+      ],
+      "transformation": "Allowlist public article/licence/author fields and consumed-file metadata; normalize filenames to basenames; omit administrative and unrelated file records."
+    },
+    {
+      "path": "data/decision_engine/source_metadata/data-files.yml",
+      "source_capture_sha256": "7df3ba90dae368757a93132da0c2c271216a648c32ae32824ae1cd1bdc44d55a",
+      "source_capture_size_bytes": 9513,
+      "published_sha256": "19aa11d02de6bb1569ed84be5694641cca2b1eb580ba576145f0087f79178e96",
+      "published_size_bytes": 1322,
+      "retained_public_entries": [
+        "mp_energies",
+        "wbm_initial_structures",
+        "wbm_summary"
+      ],
+      "transformation": "Keep only three consumed public-source entries. Omit unrelated entries and the complete private-reference subtree."
+    }
+  ],
+  "reason": "Automatic publication review identified unrelated administrative/private-source metadata in upstream dumps. These public extracts retain only information needed for attribution and source reconstruction."
+}
